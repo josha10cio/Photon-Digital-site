@@ -38,10 +38,10 @@ export function ResponsiveHeaderGraphic() {
   // Determine which dot should be glowing for desktop
   const getGlowPosition = (sectionIndex: number) => {
     if (sectionIndex === 0) {
-      // First section (Idea to Photon) - steps 0, 1, 2
+      // First section (Idea to Echo) - steps 0, 1, 2
       return currentStep < totalDots ? currentStep : -1
     } else {
-      // Second section (Photon to Product) - steps 3, 4, 5
+      // Second section (Echo to Product) - steps 3, 4, 5
       return currentStep >= totalDots ? currentStep - totalDots : -1
     }
   }
@@ -50,10 +50,10 @@ export function ResponsiveHeaderGraphic() {
   const getMobileGlowPosition = (sectionIndex: number) => {
     const mobileStep = currentStep % mobileSteps
     if (sectionIndex === 0) {
-      // First section (Idea to Photon) - steps 0, 1
+      // First section (Idea to Echo) - steps 0, 1
       return mobileStep < mobileDots ? mobileStep : -1
     } else {
-      // Second section (Photon to Product) - steps 2, 3 (mapped to 0, 1)
+      // Second section (Echo to Product) - steps 2, 3 (mapped to 0, 1)
       return mobileStep >= mobileDots ? mobileStep - mobileDots : -1
     }
   }
@@ -114,14 +114,14 @@ export function ResponsiveHeaderGraphic() {
         />
       </div>
 
-      {/* First Rest Dots Section - Idea to Photon */}
+      {/* First Rest Dots Section - Idea to Echo */}
       <RestDotsSection sectionIndex={0} />
 
-      {/* Main Photon Logo - loads immediately with fetchPriority */}
+      {/* Main Echo Logo - loads immediately with fetchPriority */}
       <div className="flex-shrink-0">
         <Image
-          src="/images/Photon Button V2@2x.png"
-          alt="Photon Logo"
+          src="/Echo button fold@2x.png"
+          alt="Echo Logo"
           width={200}
           height={200}
           className="w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40"
@@ -131,7 +131,7 @@ export function ResponsiveHeaderGraphic() {
         />
       </div>
 
-      {/* Second Rest Dots Section - Photon to Product */}
+      {/* Second Rest Dots Section - Echo to Product */}
       <RestDotsSection sectionIndex={1} />
 
       {/* Product Icon - loads immediately with fetchPriority */}

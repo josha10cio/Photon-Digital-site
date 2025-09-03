@@ -16,8 +16,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Photon Design & Engineering: Professional Design, Visualization & Engineering Services",
-    template: "%s - Photon Design & Engineering",
+    default: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
+    template: "%s - Echo Design & Engineering",
+  },
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   description:
     "Professional design, visualization, and engineering services for commercial and government clients. Concept design, 3D modeling, technical documentation, and manufacturing support.",
@@ -46,17 +51,17 @@ export const metadata: Metadata = {
     "proposal support",
   ],
   openGraph: {
-    title: "Photon Design & Engineering: Professional Design, Visualization & Engineering Services",
+    title: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
     description:
       "Professional design, visualization, and engineering services for commercial and government clients. Concept design, 3D modeling, technical documentation, and manufacturing support.",
-    url: "https://photon.com",
-    siteName: "Photon Design & Engineering",
+    url: "https://echo.com",
+    siteName: "Echo Design & Engineering",
     images: [
       {
         url: "/placeholder.svg?height=630&width=1200",
         width: 1200,
         height: 630,
-        alt: "Photon Design & Engineering: Professional Design, Visualization & Engineering Services",
+        alt: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
       },
     ],
     locale: "en_US",
@@ -64,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Photon Design & Engineering: Professional Design, Visualization & Engineering Services",
+    title: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
     description:
       "Professional design, visualization, and engineering services for commercial and government clients. Concept design, 3D modeling, technical documentation, and manufacturing support.",
     images: ["/placeholder.svg?height=630&width=1200"],
