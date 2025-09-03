@@ -17,8 +17,8 @@ export function Footer() {
     >
       <div className="container flex flex-col items-center justify-between gap-6 px-4 md:flex-row md:px-6">
         <div className="flex items-center gap-2">
-          <Image src="/photon-logo.png" alt="Photon Logo" width={100} height={24} />
-          <span className="sr-only">Photon Design & Engineering</span>
+          <Image src="/echo3_Logo.png" alt="Echo3 Logo" width={100} height={24} />
+          <span className="sr-only">Echo3 Design & Engineering</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-4 text-sm md:gap-6">
           <Link

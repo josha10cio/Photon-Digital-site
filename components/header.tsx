@@ -42,15 +42,15 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2 font-bold text-lg group">
           <div className="relative">
             <Image
-              src="/photon-logo.png"
-              alt="Photon Logo"
+              src="/echo3_Logo.png"
+              alt="Echo3 Logo"
               width={120}
               height={28}
               priority
               className="transition-transform duration-300 group-hover:scale-105"
             />
           </div>
-          <span className="sr-only">Photon Design & Engineering</span>
+          <span className="sr-only">Echo3 Design & Engineering</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
