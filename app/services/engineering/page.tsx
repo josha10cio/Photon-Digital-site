@@ -262,7 +262,7 @@ export default function EngineeringServicesPage() {
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircleIcon className="h-4 w-4 text-photon-600" />
-                    Industry Compliance (FDA, CE, FCC)
+                    Compliance-Ready Documentation
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircleIcon className="h-4 w-4 text-photon-600" />

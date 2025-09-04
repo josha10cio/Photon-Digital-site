@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { PenToolIcon, MonitorIcon, CogIcon, ArrowRightIcon, PlayIcon, SparklesIcon, CheckCircleIcon } from "lucide-react"
 
-import { TestimonialsCarousel } from "@/components/testimonials-carousel"
 import { ResponsiveHeaderGraphic } from "@/components/responsive-header-graphic"
 import type { Metadata } from "next"
 
@@ -34,7 +33,7 @@ export default function HomePage() {
         <div className="container relative z-10 px-4 md:px-6 text-center">
           <div className="max-w-5xl mx-auto">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-center mb-8 animate-fadeIn">
-              Professional Design & Engineering Solutions
+              Fresh Perspectives on Complex Challenges
             </h1>
 
             {/* Enhanced Responsive Header Graphic */}
@@ -49,7 +48,7 @@ export default function HomePage() {
               className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light text-center mb-8 animate-fadeIn"
               style={{ animationDelay: "0.6s" }}
             >
-              From concept design to manufacturing support, we deliver comprehensive design, visualization, and engineering services for commercial and government clients worldwide.
+              We bring cutting-edge design, visualization, and engineering capabilities to transform your innovative ideas into reality.
             </p>
 
             {/* Enhanced CTA Section */}
@@ -64,12 +63,12 @@ export default function HomePage() {
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/government">
+              <Link href="/services">
                 <Button
                   variant="outline"
                   className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  Government Services
+                  Our Services
                 </Button>
               </Link>
             </div>
@@ -198,8 +197,110 @@ export default function HomePage() {
 
 
 
-      {/* Testimonials Section */}
-      <TestimonialsCarousel />
+      {/* Why Choose Photon Echo Section */}
+      <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-12 animate-fadeIn">
+            <h2 className="section-title">Why Choose Photon Echo</h2>
+            <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">
+              New company advantages that deliver exceptional value for your projects.
+            </p>
+          </div>
+          
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
+                  <h3 className="text-xl font-semibold">Competitive Pricing</h3>
+                </div>
+                <p className="text-photon-200">New company rates with established quality - get premium services without the premium price tag.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
+                  <h3 className="text-xl font-semibold">Rapid Response</h3>
+                </div>
+                <p className="text-photon-200">Small team means quick decisions and faster turnaround times on your critical projects.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
+                  <h3 className="text-xl font-semibold">Latest Tools & Methods</h3>
+                </div>
+                <p className="text-photon-200">Starting fresh with current software and industry best practices - no legacy limitations.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
+                  <h3 className="text-xl font-semibold">Focused Attention</h3>
+                </div>
+                <p className="text-photon-200">Every project gets our full dedication and focus - you're not just another client in a large portfolio.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
+                  <h3 className="text-xl font-semibold">Fresh Perspectives</h3>
+                </div>
+                <p className="text-photon-200">New eyes on old problems reveal innovative solutions and breakthrough approaches.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
+                  <h3 className="text-xl font-semibold">Growth Partnership</h3>
+                </div>
+                <p className="text-photon-200">We're invested in your success as we build our reputation - your wins are our wins.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Story Section */}
+      <section className="w-full py-16 md:py-24 bg-photon-900 text-white relative z-10">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="section-title mb-8">Our Story</h2>
+            <div className="glassmorphism p-8 md:p-12 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-6 text-photon-100">Why We Started Photon Echo</h3>
+              <p className="text-lg text-photon-200 leading-relaxed mb-6">
+                We saw a gap for agile, technology-forward design and engineering services that could move at the speed of innovation. 
+                Traditional firms were weighed down by legacy processes and outdated tools.
+              </p>
+              <p className="text-lg text-photon-200 leading-relaxed mb-6">
+                We're building our reputation one project at a time, focused on quality, innovation, and client success. 
+                Our approach combines cutting-edge technology with proven methodologies to deliver exceptional results.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4 mt-8">
+                <span className="bg-photon-500/20 text-photon-300 px-4 py-2 rounded-full text-sm border border-photon-500/30">
+                  Building the future, one project at a time
+                </span>
+                <span className="bg-photon-500/20 text-photon-300 px-4 py-2 rounded-full text-sm border border-photon-500/30">
+                  Ready to tackle tomorrow's challenges
+                </span>
+                <span className="bg-photon-500/20 text-photon-300 px-4 py-2 rounded-full text-sm border border-photon-500/30">
+                  New & Competitive
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Enhanced CTA Section */}
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center relative z-10 overflow-hidden animate-fadeIn">
@@ -212,10 +313,10 @@ export default function HomePage() {
               <SparklesIcon className="h-6 w-6 text-photon-400" />
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
-              Start Your Design Project Today
+              Let's Discuss Your Project
             </h2>
             <p className="text-lg md:text-xl text-photon-100 max-w-2xl mx-auto mb-8">
-              Partner with experienced professionals who deliver exceptional design, visualization, and engineering solutions for commercial and government clients.
+              Ready to transform your innovative ideas with fresh design and engineering expertise? Let's explore how we can help bring your vision to life.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -230,7 +331,7 @@ export default function HomePage() {
                   variant="outline"
                   className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  View Our Work
+                  Learn More
                 </Button>
               </Link>
             </div>

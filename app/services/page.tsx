@@ -44,15 +44,15 @@ export default function ServicesPage() {
           <div className="max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-500/20 text-photon-100 border-photon-500/30 px-4 py-2 text-sm font-medium">
-                Professional Services • Commercial & Government
+                Professional Services • Fresh Approach
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
               Design, Visualization & Engineering Services
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              From initial concept to final production, we deliver comprehensive design and engineering solutions 
-              for complex projects across commercial and government sectors.
+              From initial concept to final production, we provide comprehensive design and engineering solutions 
+              for complex projects with fresh perspectives and cutting-edge tools.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
@@ -62,9 +62,9 @@ export default function ServicesPage() {
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/portfolio">
+              <Link href="/about">
                 <Button variant="outline" className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent">
-                  View Our Work
+                  Learn More
                 </Button>
               </Link>
             </div>

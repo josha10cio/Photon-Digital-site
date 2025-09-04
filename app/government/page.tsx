@@ -6,9 +6,9 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Government Services",
+  title: "Our Capabilities",
   description:
-    "Professional design, visualization, and engineering services for government agencies. Security clearance capabilities, compliance certifications, and proven past performance.",
+    "Professional design, visualization, and engineering capabilities for complex projects. Fresh approach with cutting-edge tools and methodologies.",
 }
 
 export default function GovernmentPage() {
@@ -28,26 +28,26 @@ export default function GovernmentPage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-500/20 text-photon-100 border-photon-500/30 px-4 py-2 text-sm font-medium">
-                Security Cleared • Government Trusted
+                Fresh Approach • Modern Tools
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8 animate-fadeIn">
-              Government Design & Engineering Services
+              Our Design & Engineering Capabilities
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Trusted by government agencies for secure, compliant design, visualization, and engineering solutions. 
-              Security clearance capabilities and proven past performance.
+              Ready to tackle complex design, visualization, and engineering challenges with innovative methodologies 
+              and cutting-edge technology capabilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
                 <Button className="btn-primary px-10 py-4 text-lg font-medium">
                   <ShieldCheckIcon className="mr-2 w-5 h-5" />
-                  Request Capability Statement
+                  Discuss Your Project
                 </Button>
               </Link>
-              <Link href="/portfolio">
+              <Link href="/services">
                 <Button variant="outline" className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent">
-                  View Past Performance
+                  Our Services
                 </Button>
               </Link>
             </div>
