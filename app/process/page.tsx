@@ -5,7 +5,6 @@ import { Badge } from "@/components/ui/badge"
 import {
   ArrowRightIcon,
   CheckCircleIcon,
-  SparklesIcon,
   PlayIcon,
   EyeIcon,
   MessageSquareIcon,
@@ -420,9 +419,7 @@ export default function ProcessPage() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
               <span className="text-photon-200 font-medium">Ready to Experience Our Process?</span>
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
               Start Your Project Today

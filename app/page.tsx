@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { PenToolIcon, MonitorIcon, CogIcon, ArrowRightIcon, PlayIcon, SparklesIcon, CheckCircleIcon } from "lucide-react"
+import { PenToolIcon, MonitorIcon, CogIcon, ArrowRightIcon, PlayIcon, CheckCircleIcon } from "lucide-react"
 
 import { ResponsiveHeaderGraphic } from "@/components/responsive-header-graphic"
 import type { Metadata } from "next"
@@ -308,9 +308,7 @@ export default function HomePage() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
               <span className="text-photon-200 font-medium">Ready to Bring Your Project to Life?</span>
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
               Let's Discuss Your Project

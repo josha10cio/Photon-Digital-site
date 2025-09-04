@@ -10,7 +10,6 @@ import {
   PaletteIcon,
   ArrowRightIcon,
   CheckCircleIcon,
-  SparklesIcon,
   PlayIcon,
   EyeIcon,
   LayersIcon,
@@ -216,7 +215,6 @@ export default function DesignServicesPage() {
 
             <div className="text-center group">
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
-                <SparklesIcon className="h-8 w-8 text-photon-500" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">Delivery</h3>
               <p className="text-sm text-photon-300">Final assets with documentation and guidelines</p>
@@ -231,9 +229,7 @@ export default function DesignServicesPage() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
               <span className="text-photon-200 font-medium">Ready to Start Your Design Project?</span>
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
               Transform Your Vision into Reality

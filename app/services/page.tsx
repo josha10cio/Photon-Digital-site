@@ -8,7 +8,6 @@ import {
   CogIcon,
   ArrowRightIcon,
   CheckCircleIcon,
-  SparklesIcon,
   BrushIcon,
   BoxIcon,
   CodeIcon,
@@ -182,7 +181,6 @@ export default function ServicesPage() {
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <SparklesIcon className="h-5 w-5 text-photon-700 flex-shrink-0 mt-1" />
                     <div>
                       <h4 className="font-semibold text-white mb-1">Real-time Demos</h4>
                       <p className="text-sm text-photon-300">Interactive presentations using Unreal Engine</p>
@@ -315,9 +313,7 @@ export default function ServicesPage() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
               <span className="text-photon-200 font-medium">Ready to Start Your Project?</span>
-              <SparklesIcon className="h-6 w-6 text-photon-400" />
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
               Let's Bring Your Vision to Life
