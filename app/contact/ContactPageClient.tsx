@@ -45,28 +45,28 @@ export default function ContactPageClient() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
-            <div className="glassmorphism p-6 text-center group card-lift-on-hover">
+            <div className="glassmorphism p-6 text-center border border-photon-800/50">
               <MessageSquareIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-white mb-3">Quick Quote</h3>
               <p className="text-sm text-photon-300 mb-4">Get a rapid project estimate for standard design and engineering services.</p>
               <p className="text-xs text-photon-400">Response within 24 hours</p>
             </div>
 
-            <div className="glassmorphism p-6 text-center group card-lift-on-hover">
+            <div className="glassmorphism p-6 text-center border border-photon-800/50">
               <FileTextIcon className="h-12 w-12 text-photon-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-white mb-3">Detailed Brief</h3>
               <p className="text-sm text-photon-300 mb-4">Submit comprehensive project requirements for complex or custom solutions.</p>
               <p className="text-xs text-photon-400">Full proposal within 3-5 days</p>
             </div>
 
-            <div className="glassmorphism p-6 text-center group card-lift-on-hover">
+            <div className="glassmorphism p-6 text-center border border-photon-800/50">
               <CalendarIcon className="h-12 w-12 text-photon-700 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-white mb-3">Schedule Consultation</h3>
               <p className="text-sm text-photon-300 mb-4">Book a free 30-minute strategy session with our technical experts.</p>
               <p className="text-xs text-photon-400">Available within 48 hours</p>
             </div>
 
-            <div className="glassmorphism p-6 text-center group card-lift-on-hover">
+            <div className="glassmorphism p-6 text-center border border-photon-800/50">
               <ClockIcon className="h-12 w-12 text-photon-800 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-white mb-3">Urgent Projects</h3>
               <p className="text-sm text-photon-300 mb-4">Fast-track inquiry for time-sensitive government or commercial projects.</p>
@@ -121,6 +121,9 @@ export default function ContactPageClient() {
                     <SelectValue placeholder="Select service category" />
                   </SelectTrigger>
                   <SelectContent className="bg-photon-900 border-photon-800 text-white glassmorphism shadow-outer-shadow">
+                    <SelectItem value="digital-twin">Digital Twin Development</SelectItem>
+                    <SelectItem value="physical-ai">Physical AI Development</SelectItem>
+                    <SelectItem value="artificial-data">Artificial Data Development</SelectItem>
                     <SelectItem value="design-services">Design Services</SelectItem>
                     <SelectItem value="visualization-services">Visualization Services</SelectItem>
                     <SelectItem value="engineering-services">Engineering & Industrial Design</SelectItem>
