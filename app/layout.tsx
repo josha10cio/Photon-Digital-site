@@ -107,8 +107,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-photon-600 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
           </div>
 
-          {/* Google Analytics Script Placeholder */}
-          <Script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID"></Script>
+          {/* Google Analytics */}
+          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NNM54G5BCN"></Script>
           <Script
             id="google-analytics"
             dangerouslySetInnerHTML={{
@@ -116,7 +116,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'YOUR_GA_MEASUREMENT_ID');
+                gtag('config', 'G-NNM54G5BCN');
               `,
             }}
           />
