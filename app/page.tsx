@@ -9,7 +9,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Photon Echo: Imagination Ignites Innovation. Forging bold ideas into unmatched products and systems through expert design, visualization, and engineering services.",
+    "Photon Echo: Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems through expert design, visualization, and engineering services.",
 }
 
 export default function HomePage() {
@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="container relative z-10 px-4 md:px-6 text-center">
           <div className="max-w-5xl mx-auto">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-center mb-8 animate-fadeIn">
-              Imagination Ignites Innovation
+              Converting Imagination into Innovation
             </h1>
 
             {/* Enhanced Responsive Header Graphic */}
@@ -284,7 +284,7 @@ export default function HomePage() {
               </p>
               <p className="text-lg text-photon-200 leading-relaxed mb-6">
                 We're building our reputation one project at a time, focused on quality, innovation, and client success. 
-                Our approach combines cutting-edge technology with proven methodologies to deliver exceptional results.
+                Our approach combines cutting edge technology with proven methodologies to deliver exceptional results.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mt-8">
                 <span className="bg-photon-500/20 text-photon-300 px-4 py-2 rounded-full text-sm border border-photon-500/30">

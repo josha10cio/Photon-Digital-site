@@ -20,7 +20,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Visualization Services",
   description:
-    "Transform complex ideas into clear visuals. Technical drawings, photorealistic renderings, 3D animations, and interactive demos using cutting-edge visualization tools.",
+    "Transform complex ideas into clear visuals. Technical drawings, photorealistic renderings, 3D animations, and interactive demos using cutting edge visualization tools.",
 }
 
 export default function VisualizationServicesPage() {
@@ -229,7 +229,7 @@ export default function VisualizationServicesPage() {
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Advanced Visualization Technology</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Leveraging cutting-edge tools and techniques for superior visual communication results.
+              Leveraging cutting edge tools and techniques for superior visual communication results.
             </p>
           </div>
 

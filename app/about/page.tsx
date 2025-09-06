@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Photon Echo - Imagination Ignites Innovation. Forging bold ideas into unmatched products and systems with cutting-edge design and engineering.",
+  description: "Learn about Photon Echo - Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems with cutting edge design and engineering.",
 }
 
 export default function AboutPage() {
@@ -199,7 +199,7 @@ export default function AboutPage() {
                 What industries do you serve?
               </AccordionTrigger>
               <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                We serve commercial enterprises and government agencies across multiple industries including aerospace, defense, medical devices, consumer electronics, automotive, and emerging technologies. Our expertise spans both traditional industries and cutting-edge innovation sectors.
+                We serve commercial enterprises and government agencies across multiple industries including aerospace, defense, medical devices, consumer electronics, automotive, and emerging technologies. Our expertise spans both traditional industries and cutting edge innovation sectors.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className="border-b border-photon-800">

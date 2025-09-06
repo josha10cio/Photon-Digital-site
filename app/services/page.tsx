@@ -51,7 +51,7 @@ export default function ServicesPage() {
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               From initial concept to final production, we provide comprehensive design and engineering solutions 
-              for complex projects with fresh perspectives and cutting-edge tools.
+              for complex projects with fresh perspectives and cutting edge tools.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">

@@ -20,7 +20,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Design Services",
   description:
-    "Expert design services: concept design, 3D modeling, CAD drawings, UI/UX design, and branding. Fresh creative solutions with cutting-edge tools and methodologies.",
+    "Expert design services: concept design, 3D modeling, CAD drawings, UI/UX design, and branding. Fresh creative solutions with cutting edge tools and methodologies.",
 }
 
 export default function DesignServicesPage() {
