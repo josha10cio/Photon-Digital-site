@@ -8,7 +8,6 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Label } from "@/components/ui/label"
-import { MessageSquareIcon, CalendarIcon, FileTextIcon, ClockIcon } from "lucide-react"
 
 export default function ContactPageClient() {
   const [serviceInterested, setServiceInterested] = useState("")
@@ -34,43 +33,29 @@ export default function ContactPageClient() {
         </div>
       </section>
 
-      {/* Contact Options Section */}
+      {/* Contact Information Section */}
       <section className="w-full py-16 md:py-24 bg-photon-900/30 text-white relative z-10">
         <div className="container px-4 md:px-6">
-          <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Multiple Ways to Connect</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Choose the engagement option that works best for your project needs and timeline.
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="section-title mb-6">Get In Touch</h2>
+            <p className="text-lg text-photon-200 mb-12 max-w-2xl mx-auto">
+              Ready to start your project? Send us your inquiry and we'll respond within 24-48 hours.
             </p>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
-            <div className="glassmorphism p-6 text-center border border-photon-800/50">
-              <MessageSquareIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-white mb-3">Quick Quote</h3>
-              <p className="text-sm text-photon-300 mb-4">Get a rapid project estimate for standard design and engineering services.</p>
-              <p className="text-xs text-photon-400">Response within 24 hours</p>
-            </div>
-
-            <div className="glassmorphism p-6 text-center border border-photon-800/50">
-              <FileTextIcon className="h-12 w-12 text-photon-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-white mb-3">Detailed Brief</h3>
-              <p className="text-sm text-photon-300 mb-4">Submit comprehensive project requirements for complex or custom solutions.</p>
-              <p className="text-xs text-photon-400">Full proposal within 3-5 days</p>
-            </div>
-
-            <div className="glassmorphism p-6 text-center border border-photon-800/50">
-              <CalendarIcon className="h-12 w-12 text-photon-700 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-white mb-3">Schedule Consultation</h3>
-              <p className="text-sm text-photon-300 mb-4">Book a free 30-minute strategy session with our technical experts.</p>
-              <p className="text-xs text-photon-400">Available within 48 hours</p>
-            </div>
-
-            <div className="glassmorphism p-6 text-center border border-photon-800/50">
-              <ClockIcon className="h-12 w-12 text-photon-800 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-white mb-3">Urgent Projects</h3>
-              <p className="text-sm text-photon-300 mb-4">Fast-track inquiry for time-sensitive government or commercial projects.</p>
-              <p className="text-xs text-photon-400">Same-day response</p>
+            
+            <div className="glassmorphism p-8 max-w-2xl mx-auto">
+              <div className="space-y-6">
+                <div className="border-b border-photon-800/50 pb-6">
+                  <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
+                  <a href="mailto:contact@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
+                    contact@photonecho.dev
+                  </a>
+                </div>
+                
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">Response Time</h3>
+                  <p className="text-photon-300">We typically respond to all inquiries within 24-48 hours</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
