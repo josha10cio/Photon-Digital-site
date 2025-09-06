@@ -3,7 +3,7 @@ import ContactPageClient from "./ContactPageClient"
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Get in touch with Echo Design & Engineering for project inquiries, quotes, and consultations. Fresh perspectives on complex challenges with cutting-edge capabilities.",
+  description: "Get in touch with Photon Echo for project inquiries, quotes, and consultations. Imagination Ignites Innovation - forging bold ideas into unmatched products.",
 }
 
 export default function ContactPage() {

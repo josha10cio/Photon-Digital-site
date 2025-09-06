@@ -26,7 +26,7 @@ export default function ContactPageClient() {
       <section className="w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white text-center animate-fadeIn">
         <div className="container px-4 md:px-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
-            Contact Photon Design & Engineering
+            Contact Photon Echo
           </h1>
           <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">
             Ready to start your project? Get in touch for consultations, quotes, and expert guidance on your design and engineering needs.

@@ -117,11 +117,11 @@ export function ResponsiveHeaderGraphic() {
       {/* First Rest Dots Section - Idea to Echo */}
       <RestDotsSection sectionIndex={0} />
 
-      {/* Main Echo Logo - loads immediately with fetchPriority */}
+      {/* Main Photon Echo Logo - loads immediately with fetchPriority */}
       <div className="flex-shrink-0">
         <Image
           src="/Echo button fold@2x.png"
-          alt="Echo Logo"
+          alt="Photon Echo Logo"
           width={200}
           height={200}
           className="w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40"

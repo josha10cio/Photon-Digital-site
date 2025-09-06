@@ -16,8 +16,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
-    template: "%s - Echo Design & Engineering",
+    default: "Photon Echo: Imagination Ignites Innovation",
+    template: "%s - Photon Echo",
   },
   icons: {
     icon: "/favicon.png",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   description:
-    "Professional design, visualization, and engineering services for commercial and government clients. Concept design, 3D modeling, technical documentation, and manufacturing support.",
+    "Photon Echo: Imagination Ignites Innovation. Forging bold ideas into unmatched products and systems through cutting-edge design, visualization, and engineering services.",
   keywords: [
     "design services",
     "engineering services",
@@ -51,17 +51,17 @@ export const metadata: Metadata = {
     "proposal support",
   ],
   openGraph: {
-    title: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
+    title: "Photon Echo: Imagination Ignites Innovation",
     description:
-      "Professional design, visualization, and engineering services for commercial and government clients. Concept design, 3D modeling, technical documentation, and manufacturing support.",
+      "Forging bold ideas into unmatched products and systems through cutting-edge design, visualization, and engineering services.",
     url: "https://www.photonecho.dev",
-    siteName: "Echo Design & Engineering",
+    siteName: "Photon Echo",
     images: [
       {
         url: "/placeholder.svg?height=630&width=1200",
         width: 1200,
         height: 630,
-        alt: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
+        alt: "Photon Echo: Imagination Ignites Innovation",
       },
     ],
     locale: "en_US",
@@ -69,9 +69,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
+    title: "Photon Echo: Imagination Ignites Innovation",
     description:
-      "Professional design, visualization, and engineering services for commercial and government clients. Concept design, 3D modeling, technical documentation, and manufacturing support.",
+      "Forging bold ideas into unmatched products and systems through cutting-edge design, visualization, and engineering services.",
     images: ["/placeholder.svg?height=630&width=1200"],
   },
     generator: 'v0.app'
@@ -115,10 +115,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Organization",
-                "name": "Echo Design & Engineering",
+                "name": "Photon Echo",
                 "url": "https://www.photonecho.dev",
                 "logo": "https://www.photonecho.dev/echo_Logo.png",
-                "description": "Professional design, visualization, and engineering services with fresh perspectives on complex challenges using cutting-edge tools and innovative methodologies.",
+                "description": "Photon Echo: Imagination Ignites Innovation. Forging bold ideas into unmatched products and systems through cutting-edge design, visualization, and engineering services.",
                 "address": {
                   "@type": "PostalAddress",
                   "addressCountry": "US"

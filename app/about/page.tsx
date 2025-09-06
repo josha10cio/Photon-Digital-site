@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Echo Design & Engineering - a fresh approach to complex design and engineering challenges with cutting-edge tools and innovative methodologies.",
+  description: "Learn about Photon Echo - Imagination Ignites Innovation. Forging bold ideas into unmatched products and systems with cutting-edge design and engineering.",
 }
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
       <section className="w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white text-center animate-fadeIn">
         <div className="container px-4 md:px-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
-            About Photon Design & Engineering
+            About Photon Echo
           </h1>
           <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">
             A professional design and engineering firm dedicated to transforming innovative concepts into exceptional products through expert design, visualization, and engineering solutions.
@@ -34,7 +34,7 @@ export default function AboutPage() {
             <div className="space-y-8">
               <h2 className="section-title">Why We Started Photon</h2>
               <p className="text-lg text-photon-200 leading-relaxed">
-                Photon Design & Engineering was founded to address a critical gap in the market: the disconnect between innovative concepts and professional execution. Too many brilliant ideas fail to reach their potential due to lack of access to experienced design and engineering expertise.
+                Photon Echo was founded to address a critical gap in the market: the disconnect between innovative concepts and professional execution. Too many brilliant ideas fail to reach their potential due to lack of access to experienced design and engineering expertise.
               </p>
               <p className="text-lg text-photon-200 leading-relaxed">
                 Our founders recognized that both commercial enterprises and government agencies needed a partner who could deliver comprehensive design, visualization, and engineering services with the highest standards of quality and security. This vision drives everything we do.

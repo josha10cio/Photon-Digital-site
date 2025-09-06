@@ -40,14 +40,14 @@ export function Header() {
           <div className="relative">
             <Image
               src="/echo_Logo.png"
-              alt="Echo Logo"
+              alt="Photon Echo Logo"
               width={120}
               height={28}
               priority
               className="transition-transform duration-300 group-hover:scale-105"
             />
           </div>
-          <span className="sr-only">Echo Design & Engineering</span>
+          <span className="sr-only">Photon Echo</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
