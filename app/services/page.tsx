@@ -297,8 +297,8 @@ export default function ServicesPage() {
             </div>
 
             <div className="text-center group">
-              <div className="w-16 h-16 rounded-full bg-photon-800/20 flex items-center justify-center mb-4 mx-auto border border-photon-800/30 group-hover:border-photon-800 transition-all duration-300">
-                <span className="text-2xl font-bold text-photon-800">4</span>
+              <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
+                <span className="text-2xl font-bold text-photon-400">4</span>
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">Delivery</h3>
               <p className="text-sm text-photon-300">Final deliverables with ongoing support and documentation</p>
