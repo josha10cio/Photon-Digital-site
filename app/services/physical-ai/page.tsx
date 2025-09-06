@@ -11,7 +11,7 @@ import {
   ZapIcon,
   PlayIcon,
   CameraIcon,
-  RobotIcon,
+  BotIcon,
   ScanIcon,
   CarIcon,
   FactoryIcon,
@@ -112,7 +112,7 @@ export default function PhysicalAIPage() {
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-photon-600/20 flex items-center justify-center">
-                      <RobotIcon className="h-6 w-6 text-photon-600" />
+                      <BotIcon className="h-6 w-6 text-photon-600" />
                     </div>
                     <CardTitle className="text-xl">Physical Interaction</CardTitle>
                   </div>
@@ -154,7 +154,7 @@ export default function PhysicalAIPage() {
             <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
-                  <RobotIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
+                  <BotIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
                 </div>
                 <CardTitle>Robotics Integration</CardTitle>
               </CardHeader>
@@ -298,7 +298,7 @@ export default function PhysicalAIPage() {
             <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
-                  <RobotIcon className="h-6 w-6 text-photon-500" />
+                  <BotIcon className="h-6 w-6 text-photon-500" />
                   Service Robotics
                 </CardTitle>
               </CardHeader>

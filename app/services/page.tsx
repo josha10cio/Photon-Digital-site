@@ -17,7 +17,6 @@ import {
   Settings2Icon,
   WrenchIcon,
   ClipboardListIcon,
-  CubeIcon,
   BrainIcon,
   DatabaseIcon,
   NetworkIcon,
@@ -96,7 +95,7 @@ export default function ServicesPage() {
               <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
                 <CardHeader className="text-center pb-6">
                   <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 group-hover:animate-pulse-glow mx-auto">
-                    <CubeIcon className="h-10 w-10 text-photon-400 group-hover:text-photon-300" />
+                    <BoxIcon className="h-10 w-10 text-photon-400 group-hover:text-photon-300" />
                   </div>
                   <CardTitle className="text-2xl font-bold mb-2">Digital Twin Development</CardTitle>
                   <div className="w-16 h-1 bg-photon-400 rounded-full mx-auto"></div>

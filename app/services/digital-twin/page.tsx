@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import {
-  CubeIcon,
+  BoxIcon,
   ArrowRightIcon,
   CheckCircleIcon,
   NetworkIcon,
@@ -136,7 +136,7 @@ export default function DigitalTwinPage() {
             <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 mx-auto group-hover:border-photon-300 transition-colors">
-                  <CubeIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
+                  <BoxIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
                 </div>
                 <CardTitle>3D System Modeling</CardTitle>
               </CardHeader>
@@ -366,7 +366,7 @@ export default function DigitalTwinPage() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <CubeIcon className="w-6 h-6 text-photon-400" />
+              <BoxIcon className="w-6 h-6 text-photon-400" />
               <span className="text-photon-200 font-medium">Ready to Build Your Digital Twin?</span>
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
