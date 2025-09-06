@@ -195,7 +195,7 @@ export default function PhysicalAIPage() {
 
             <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
               <CardHeader className="text-center pb-6">
-                <div className="w-16 h-16 rounded-full flex items-centerối 2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <ZapIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
                 </div>
                 <CardTitle>Edge Computing</CardTitle>
