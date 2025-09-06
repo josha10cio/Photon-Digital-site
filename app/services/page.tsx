@@ -17,13 +17,19 @@ import {
   Settings2Icon,
   WrenchIcon,
   ClipboardListIcon,
+  CubeIcon,
+  BrainIcon,
+  DatabaseIcon,
+  NetworkIcon,
+  ZapIcon,
+  CpuIcon,
 } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Professional Services",
   description:
-    "Comprehensive design, visualization, and engineering services for commercial and government clients. Expert concept design, 3D modeling, technical documentation, and manufacturing support.",
+    "Advanced AI-driven services including Digital Twin Development, Physical AI, and Artificial Data Development alongside comprehensive design, visualization, and engineering solutions.",
 }
 
 export default function ServicesPage() {
@@ -43,15 +49,15 @@ export default function ServicesPage() {
           <div className="max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-500/20 text-photon-100 border-photon-500/30 px-4 py-2 text-sm font-medium">
-                Professional Services • Fresh Approach
+                AI-Driven Services • Next Generation Solutions
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Design, Visualization & Engineering Services
+              Advanced AI & Engineering Services
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              From initial concept to final production, we provide comprehensive design and engineering solutions 
-              for complex projects with fresh perspectives and cutting edge tools.
+              From digital twins to physical AI systems, we deliver cutting edge AI-driven solutions alongside 
+              comprehensive design and engineering services for complex projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
@@ -77,13 +83,176 @@ export default function ServicesPage() {
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Core Service Categories</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Three specialized service areas covering the complete product development lifecycle from concept to production.
+              Six specialized service areas spanning AI-driven innovation and traditional engineering excellence.
             </p>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-3 max-w-7xl mx-auto">
+          {/* AI-Driven Services */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-white text-center mb-8">AI-Driven Innovation Services</h3>
+            <div className="grid gap-8 lg:grid-cols-3 max-w-7xl mx-auto">
+              
+              {/* Digital Twin Development */}
+              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
+                <CardHeader className="text-center pb-6">
+                  <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 group-hover:animate-pulse-glow mx-auto">
+                    <CubeIcon className="h-10 w-10 text-photon-400 group-hover:text-photon-300" />
+                  </div>
+                  <CardTitle className="text-2xl font-bold mb-2">Digital Twin Development</CardTitle>
+                  <div className="w-16 h-1 bg-photon-400 rounded-full mx-auto"></div>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <CardDescription className="text-photon-200 text-base leading-relaxed text-center">
+                    Create virtual replicas of physical systems for simulation, testing, and optimization using AI-powered digital twin technology.
+                  </CardDescription>
+                  
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <NetworkIcon className="h-5 w-5 text-photon-400 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">System Modeling</h4>
+                        <p className="text-sm text-photon-300">Real-time virtual replicas of physical systems</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <ZapIcon className="h-5 w-5 text-photon-400 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">Predictive Analytics</h4>
+                        <p className="text-sm text-photon-300">AI-driven performance prediction and optimization</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CpuIcon className="h-5 w-5 text-photon-400 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">IoT Integration</h4>
+                        <p className="text-sm text-photon-300">Connect physical sensors to digital models</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="pt-4">
+                    <Link href="/services/digital-twin">
+                      <Button className="w-full btn-primary group">
+                        Explore Digital Twins
+                        <ArrowRightIcon className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Physical AI Development */}
+              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
+                <CardHeader className="text-center pb-6">
+                  <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 group-hover:animate-pulse-glow mx-auto">
+                    <BrainIcon className="h-10 w-10 text-photon-500 group-hover:text-photon-400" />
+                  </div>
+                  <CardTitle className="text-2xl font-bold mb-2">Physical AI Development</CardTitle>
+                  <div className="w-16 h-1 bg-photon-500 rounded-full mx-auto"></div>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <CardDescription className="text-photon-200 text-base leading-relaxed text-center">
+                    Develop AI systems that understand and interact with the physical world through robotics, computer vision, and autonomous systems.
+                  </CardDescription>
+                  
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <BrainIcon className="h-5 w-5 text-photon-500 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">Computer Vision</h4>
+                        <p className="text-sm text-photon-300">AI-powered visual perception and analysis</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CogIcon className="h-5 w-5 text-photon-500 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">Robotics Integration</h4>
+                        <p className="text-sm text-photon-300">Intelligent robotic systems and automation</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <ZapIcon className="h-5 w-5 text-photon-500 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">Autonomous Systems</h4>
+                        <p className="text-sm text-photon-300">Self-operating intelligent machines</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="pt-4">
+                    <Link href="/services/physical-ai">
+                      <Button className="w-full btn-primary group">
+                        Explore Physical AI
+                        <ArrowRightIcon className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Artificial Data Development */}
+              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
+                <CardHeader className="text-center pb-6">
+                  <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 group-hover:animate-pulse-glow mx-auto">
+                    <DatabaseIcon className="h-10 w-10 text-photon-600 group-hover:text-photon-500" />
+                  </div>
+                  <CardTitle className="text-2xl font-bold mb-2">Artificial Data Development</CardTitle>
+                  <div className="w-16 h-1 bg-photon-600 rounded-full mx-auto"></div>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <CardDescription className="text-photon-200 text-base leading-relaxed text-center">
+                    Generate high-quality synthetic datasets for AI training, testing, and validation when real-world data is limited or sensitive.
+                  </CardDescription>
+                  
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <DatabaseIcon className="h-5 w-5 text-photon-600 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">Synthetic Data Generation</h4>
+                        <p className="text-sm text-photon-300">AI-generated datasets for training and testing</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CpuIcon className="h-5 w-5 text-photon-600 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">Data Augmentation</h4>
+                        <p className="text-sm text-photon-300">Expand existing datasets with synthetic variations</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <ZapIcon className="h-5 w-5 text-photon-600 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-white mb-1">Privacy-Safe Training</h4>
+                        <p className="text-sm text-photon-300">Train AI models without sensitive real data</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="pt-4">
+                    <Link href="/services/artificial-data">
+                      <Button className="w-full btn-primary group">
+                        Explore Artificial Data
+                        <ArrowRightIcon className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          {/* Traditional Services */}
+          <div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Traditional Engineering Excellence</h3>
+            <div className="grid gap-8 lg:grid-cols-3 max-w-7xl mx-auto">
             {/* Design Services */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
+            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.4s" }}>
               <CardHeader className="text-center pb-6">
                 <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 group-hover:animate-pulse-glow mx-auto">
                   <PenToolIcon className="h-10 w-10 text-photon-500 group-hover:text-photon-400" />
@@ -142,7 +311,7 @@ export default function ServicesPage() {
             </Card>
 
             {/* Visualization Services */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.4s" }}>
+            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover relative z-10 animate-fadeIn" style={{ animationDelay: "0.5s" }}>
               <CardHeader className="text-center pb-6">
                 <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 group-hover:animate-pulse-glow mx-auto">
                   <MonitorIcon className="h-10 w-10 text-photon-700 group-hover:text-photon-600" />
@@ -257,6 +426,7 @@ export default function ServicesPage() {
                 </div>
               </CardContent>
             </Card>
+            </div>
           </div>
         </div>
       </section>
