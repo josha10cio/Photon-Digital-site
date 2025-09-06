@@ -32,8 +32,13 @@ export default function HomePage() {
 
         <div className="container relative z-10 px-4 md:px-6 text-center">
           <div className="max-w-5xl mx-auto">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-center mb-8 animate-fadeIn">
-              Converting Imagination into Innovation
+            <h1 className="text-center mb-8 animate-fadeIn">
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extralight tracking-wide leading-none mb-2 font-inter">
+                CONVERTING
+              </div>
+              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
+                Imagination <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium opacity-75">into</span> Innovation
+              </div>
             </h1>
 
             {/* Enhanced Responsive Header Graphic */}

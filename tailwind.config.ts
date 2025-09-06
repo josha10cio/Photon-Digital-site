@@ -141,6 +141,7 @@ const config = {
           "sans-serif",
         ],
         inter: ["var(--font-inter)", "sans-serif"],
+        raleway: ["var(--font-raleway)", "sans-serif"],
       },
       fontSize: {
         xs: ["0.75rem", { lineHeight: "1rem" }],
