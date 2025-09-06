@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "Echo Design & Engineering: Professional Design, Visualization & Engineering Services",
     description:
       "Professional design, visualization, and engineering services for commercial and government clients. Concept design, 3D modeling, technical documentation, and manufacturing support.",
-    url: "https://echo.com",
+    url: "https://www.photonecho.dev",
     siteName: "Echo Design & Engineering",
     images: [
       {

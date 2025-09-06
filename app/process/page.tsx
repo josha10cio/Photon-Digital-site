@@ -22,7 +22,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Our Process",
   description:
-    "Learn about Photon's comprehensive design and engineering process from discovery to delivery, ensuring quality and client satisfaction at every step.",
+    "Discover Echo's proven 4-step design and engineering process: Discovery, Concept Development, Refinement, and Delivery. Fresh approach ensuring quality results.",
 }
 
 export default function ProcessPage() {

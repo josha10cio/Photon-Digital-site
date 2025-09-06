@@ -20,7 +20,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Visualization Services",
   description:
-    "Professional visualization services including technical drawings, mockups, animations, and real-time demos for effective communication of complex concepts.",
+    "Transform complex ideas into clear visuals. Technical drawings, photorealistic renderings, 3D animations, and interactive demos using cutting-edge visualization tools.",
 }
 
 export default function VisualizationServicesPage() {

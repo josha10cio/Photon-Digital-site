@@ -22,7 +22,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Engineering & Industrial Design Services",
   description:
-    "Professional engineering and industrial design services including product engineering, technical documentation, and manufacturing consultation for complex projects.",
+    "Expert engineering and industrial design: product engineering, compliance-ready documentation, manufacturing support, and technical solutions for complex challenges.",
 }
 
 export default function EngineeringServicesPage() {

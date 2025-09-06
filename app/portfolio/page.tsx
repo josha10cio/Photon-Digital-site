@@ -4,7 +4,7 @@ import PortfolioClientPage from "./PortfolioClientPage"
 export const metadata: Metadata = {
   title: "Portfolio & Capabilities",
   description:
-    "Explore Photon's design and engineering capabilities through our portfolio of successful projects across commercial and government sectors.",
+    "Explore Echo's design and engineering capabilities showcasing our fresh approach to complex challenges with cutting-edge tools and innovative solutions.",
 }
 
 export default function PortfolioPage() {
