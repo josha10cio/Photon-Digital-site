@@ -107,6 +107,49 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-photon-600 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
           </div>
 
+          {/* Structured Data */}
+          <Script
+            id="structured-data"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Echo Design & Engineering",
+                "url": "https://www.photonecho.dev",
+                "logo": "https://www.photonecho.dev/echo_Logo.png",
+                "description": "Professional design, visualization, and engineering services with fresh perspectives on complex challenges using cutting-edge tools and innovative methodologies.",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "US"
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "contactType": "Business",
+                  "url": "https://www.photonecho.dev/contact"
+                },
+                "sameAs": [],
+                "service": [
+                  {
+                    "@type": "Service",
+                    "name": "Design Services",
+                    "description": "Concept design, 3D modeling, CAD drawings, UI/UX design, and branding solutions"
+                  },
+                  {
+                    "@type": "Service", 
+                    "name": "Visualization Services",
+                    "description": "Technical drawings, photorealistic renderings, 3D animations, and interactive demos"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Engineering Services", 
+                    "description": "Product engineering, compliance-ready documentation, and manufacturing support"
+                  }
+                ]
+              })
+            }}
+          />
+
           {/* Google Analytics */}
           <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NNM54G5BCN"></Script>
           <Script
