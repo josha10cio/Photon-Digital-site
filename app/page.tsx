@@ -25,10 +25,10 @@ export default function HomePage() {
           <div className="max-w-5xl mx-auto">
             <h1 className="text-center mb-8 animate-fadeIn">
               <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wide leading-none mb-2 font-inter">
-                CONVERTING
+                CONCEPTS
               </div>
               <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
-                Imagination <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium opacity-75">into</span> Innovation
+                Visualized <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium opacity-75">and</span> Validated
               </div>
             </h1>
 
