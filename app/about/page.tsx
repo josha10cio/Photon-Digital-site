@@ -40,7 +40,7 @@ export default function AboutPage() {
                 Our founders recognized that both commercial enterprises and government agencies needed a partner who could deliver comprehensive design, visualization, and engineering services with the highest standards of quality and security. This vision drives everything we do.
               </p>
               <p className="text-lg text-photon-200 leading-relaxed">
-                We believe that exceptional design and engineering should be accessible to organizations working on the most important challenges of our time—from breakthrough technologies to critical infrastructure projects.
+                We believe that exceptional design and engineering should be accessible to organizations working on the most important challenges of our time, from breakthrough technologies to critical infrastructure projects.
               </p>
             </div>
             <div className="relative">
