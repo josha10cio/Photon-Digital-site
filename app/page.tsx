@@ -15,20 +15,10 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <div>
-      {/* Hero Section - Preserving Original Design */}
+    <div className="flex flex-col min-h-screen">
       <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white overflow-hidden">
-        {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-photon-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
-          <div
-            className="absolute top-1/3 right-1/4 w-96 h-96 bg-photon-700 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"
-            style={{ animationDelay: "2s" }}
-          ></div>
-          <div
-            className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-photon-600 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"
-            style={{ animationDelay: "4s" }}
-          ></div>
         </div>
 
         <div className="container relative z-10 px-4 md:px-6 text-center">
@@ -42,26 +32,15 @@ export default function HomePage() {
               </div>
             </h1>
 
-            {/* Enhanced Responsive Header Graphic */}
-            <div
-              className="flex justify-center floating-graphic mb-16 mt-12 animate-fadeIn"
-              style={{ animationDelay: "0.3s" }}
-            >
+            <div className="flex justify-center floating-graphic mb-16 mt-12 animate-fadeIn">
               <ResponsiveHeaderGraphic />
             </div>
 
-            <p
-              className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light text-center mb-8 animate-fadeIn"
-              style={{ animationDelay: "0.6s" }}
-            >
+            <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light text-center mb-8 animate-fadeIn">
               Forging bold ideas into unmatched products and systems
             </p>
 
-            {/* Enhanced CTA Section */}
-            <div
-              className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fadeIn"
-              style={{ animationDelay: "0.9s" }}
-            >
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fadeIn">
               <Link href="/contact">
                 <Button className="btn-primary px-10 py-4 text-lg font-medium group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
@@ -74,7 +53,7 @@ export default function HomePage() {
                   variant="outline"
                   className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  Our Services
+                  Explore Services
                 </Button>
               </Link>
             </div>
@@ -82,22 +61,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Core Services Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950 relative z-10">
+      <section className="w-full py-16 md:py-24 bg-photon-900 text-white relative z-10">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16 animate-fadeIn">
-            <h2 className="section-title mb-4">Our Core Services</h2>
+            <h2 className="section-title mb-4">Core Services</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
               Advanced AI driven solutions and traditional engineering excellence for transforming ideas into reality.
             </p>
           </div>
 
-          {/* AI Driven Services */
-          <div className="mb-16">
+          <div className="max-w-6xl mx-auto">
             <h3 className="text-2xl font-bold text-white text-center mb-8">AI Driven Innovation</h3>
-          <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+            <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-16">
               <Link href="/services/digital-twin">
-                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-400/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
+                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-400/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
                   <CardHeader className="flex flex-col items-center text-center pb-4">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300">
                       <BoxIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
@@ -114,47 +91,44 @@ export default function HomePage() {
               </Link>
 
               <Link href="/services/physical-ai">
-                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
-              <CardHeader className="flex flex-col items-center text-center pb-4">
+                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
+                  <CardHeader className="flex flex-col items-center text-center pb-4">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400">
                       <BrainIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
-                </div>
+                    </div>
                     <CardTitle className="text-xl font-bold">Physical AI Development</CardTitle>
-                <div className="w-12 h-1 bg-photon-500 rounded-full mt-2"></div>
-              </CardHeader>
-              <CardContent className="text-center">
+                    <div className="w-12 h-1 bg-photon-500 rounded-full mt-2"></div>
+                  </CardHeader>
+                  <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
-                      AI systems that understand and interact with the physical world through robotics and computer vision.
-                </CardDescription>
+                      AI systems that interact with the physical world through sensors and robotics.
+                    </CardDescription>
                   </CardContent>
                 </Card>
               </Link>
 
               <Link href="/services/artificial-data">
-                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
+                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
                   <CardHeader className="flex flex-col items-center text-center pb-4">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500">
                       <DatabaseIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
-                  </div>
+                    </div>
                     <CardTitle className="text-xl font-bold">Artificial Data Development</CardTitle>
                     <div className="w-12 h-1 bg-photon-600 rounded-full mt-2"></div>
                   </CardHeader>
                   <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
-                      High-quality synthetic datasets for AI training when real-world data is limited or sensitive.
+                      Synthetic datasets for training, testing, and validation of AI models.
                     </CardDescription>
                   </CardContent>
                 </Card>
               </Link>
-                  </div>
-                </div>
+            </div>
 
-          {/* Traditional Services */}
-          <div>
             <h3 className="text-2xl font-bold text-white text-center mb-8">Traditional Engineering Excellence</h3>
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
               <Link href="/services/design">
-                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn" style={{ animationDelay: "0.4s" }}>
+                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
                   <CardHeader className="flex flex-col items-center text-center pb-4">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400">
                       <PenToolIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -164,49 +138,49 @@ export default function HomePage() {
                   </CardHeader>
                   <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
-                      Concept design, 3D modeling, UI/UX design, and comprehensive branding solutions.
+                      Concept design, 3D modeling, CAD drawings, UI/UX design, and branding solutions.
                     </CardDescription>
-              </CardContent>
-            </Card>
+                  </CardContent>
+                </Card>
               </Link>
 
               <Link href="/services/visualization">
-                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-700/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn" style={{ animationDelay: "0.5s" }}>
-              <CardHeader className="flex flex-col items-center text-center pb-4">
-                    <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600">
-                      <MonitorIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
-                </div>
+                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
+                  <CardHeader className="flex flex-col items-center text-center pb-4">
+                    <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500">
+                      <MonitorIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
+                    </div>
                     <CardTitle className="text-xl font-bold">Visualization Services</CardTitle>
-                <div className="w-12 h-1 bg-photon-700 rounded-full mt-2"></div>
-              </CardHeader>
-              <CardContent className="text-center">
+                    <div className="w-12 h-1 bg-photon-600 rounded-full mt-2"></div>
+                  </CardHeader>
+                  <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
                       Technical drawings, animations, real time demos, and interactive presentations.
-                </CardDescription>
-              </CardContent>
-            </Card>
+                    </CardDescription>
+                  </CardContent>
+                </Card>
               </Link>
 
               <Link href="/services/engineering">
-                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn" style={{ animationDelay: "0.6s" }}>
-              <CardHeader className="flex flex-col items-center text-center pb-4">
+                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
+                  <CardHeader className="flex flex-col items-center text-center pb-4">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500">
                       <CogIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
-                </div>
-                    <CardTitle className="text-xl font-bold">Engineering & Industrial Design</CardTitle>
-                <div className="w-12 h-1 bg-photon-600 rounded-full mt-2"></div>
-              </CardHeader>
-              <CardContent className="text-center">
+                    </div>
+                    <CardTitle className="text-xl font-bold">Engineering &amp; Industrial Design</CardTitle>
+                    <div className="w-12 h-1 bg-photon-600 rounded-full mt-2"></div>
+                  </CardHeader>
+                  <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
                       Product engineering, technical documentation, and manufacturing consultation.
-                </CardDescription>
-              </CardContent>
-            </Card>
+                    </CardDescription>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>
 
-          <div className="text-center mt-16 animate-fadeIn" style={{ animationDelay: "0.8s" }}>
+          <div className="text-center mt-16 animate-fadeIn">
             <Link href="/services">
               <Button className="btn-primary px-10 py-4 text-lg font-semibold group animate-pulse-glow">
                 Explore All Services
@@ -217,9 +191,6 @@ export default function HomePage() {
         </div>
       </section>
 
-
-
-      {/* Our Mission Section */}
       <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center animate-fadeIn">
@@ -234,38 +205,22 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Our Story Section */}
       <section className="w-full py-16 md:py-24 bg-photon-900 text-white relative z-10">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="section-title mb-8">Our Story</h2>
-            <div className="glassmorphism p-8 md:p-12 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-6 text-photon-100">Why We Started Photon Echo</h3>
-              <p className="text-lg text-photon-200 leading-relaxed mb-6">
-                We saw a gap for agile, technology-forward design and engineering services that could move at the speed of innovation. 
-                Traditional firms were weighed down by legacy processes and outdated tools.
+            <h2 className="section-title mb-6">Our Story</h2>
+            <div className="glassmorphism p-8 max-w-3xl mx-auto animate-fadeIn">
+              <p className="text-lg text-photon-200 mb-6 leading-relaxed">
+                Why We Started Photon Echo: We saw a gap for agile, technology forward design and engineering services that could move at the speed of innovation.
               </p>
-              <p className="text-lg text-photon-200 leading-relaxed mb-6">
-                We're building our reputation one project at a time, focused on quality, innovation, and client success. 
+              <p className="text-lg text-photon-200 leading-relaxed">
                 Our approach combines advanced technology with proven methodologies to deliver exceptional results.
               </p>
-              <div className="flex flex-wrap justify-center gap-4 mt-8">
-                <span className="bg-photon-500/20 text-photon-300 px-4 py-2 rounded-full text-sm border border-photon-500/30">
-                  Building the future, one project at a time
-                </span>
-                <span className="bg-photon-500/20 text-photon-300 px-4 py-2 rounded-full text-sm border border-photon-500/30">
-                  Ready to tackle tomorrow's challenges
-                </span>
-                <span className="bg-photon-500/20 text-photon-300 px-4 py-2 rounded-full text-sm border border-photon-500/30">
-                  New & Competitive
-                </span>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Enhanced CTA Section */}
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center relative z-10 overflow-hidden animate-fadeIn">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container px-4 md:px-6 relative z-10">
