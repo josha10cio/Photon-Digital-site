@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div>
       {/* Hero Section - Preserving Original Design */}
       <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white overflow-hidden">
         {/* Animated Background Elements */}
