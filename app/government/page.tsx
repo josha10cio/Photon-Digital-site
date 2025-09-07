@@ -251,7 +251,7 @@ export default function GovernmentPage() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
-              Ready to Work with Government?
+              Ready to Work with Photon Echo?
             </h2>
             <p className="text-lg md:text-xl text-photon-100 max-w-2xl mx-auto mb-8">
               Contact us for capability statements, past performance references, or to discuss your government project requirements.
