@@ -20,7 +20,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Digital Twin Development Services",
-  description: "Advanced digital twin development services using AI-powered virtual replicas for simulation, testing, and optimization. Real-time system modeling and predictive analytics.",
+  description: "Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real-time system modeling and predictive analytics.",
 }
 
 export default function DigitalTwinPage() {
@@ -47,8 +47,8 @@ export default function DigitalTwinPage() {
               Digital Twin Development
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Create intelligent virtual replicas of physical systems for real-time simulation, testing, and optimization. 
-              Bridge the gap between digital and physical worlds with AI-powered digital twin technology.
+              Create intelligent virtual replicas of physical systems for real time simulation, testing, and optimization. 
+              Bridge the gap between digital and physical worlds with AI powered digital twin technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
@@ -76,8 +76,8 @@ export default function DigitalTwinPage() {
               <h2 className="section-title">What are Digital Twins?</h2>
               <div className="space-y-4 text-photon-200">
                 <p className="text-lg leading-relaxed">
-                  Digital twins are virtual replicas of physical systems that mirror their real-world counterparts in real-time. 
-                  These AI-powered models enable unprecedented insights into system behavior, performance optimization, and predictive maintenance.
+                  Digital twins are virtual replicas of physical systems that mirror their real-world counterparts in real time. 
+                  These AI powered models enable unprecedented insights into system behavior, performance optimization, and predictive maintenance.
                 </p>
                 <p className="text-lg leading-relaxed">
                   By connecting IoT sensors, AI algorithms, and simulation technologies, digital twins provide a safe sandbox 
@@ -85,9 +85,9 @@ export default function DigitalTwinPage() {
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">
-                <Badge className="bg-photon-400/20 text-photon-400 border-photon-400/30">Real-Time Monitoring</Badge>
+                <Badge className="bg-photon-400/20 text-photon-400 border-photon-400/30">Real Time Monitoring</Badge>
                 <Badge className="bg-photon-500/20 text-photon-500 border-photon-500/30">Predictive Analytics</Badge>
-                <Badge className="bg-photon-600/20 text-photon-600 border-photon-600/30">AI-Driven Insights</Badge>
+                <Badge className="bg-photon-600/20 text-photon-600 border-photon-600/30">AI Driven Insights</Badge>
               </div>
             </div>
             <div className="grid gap-6">
@@ -128,7 +128,7 @@ export default function DigitalTwinPage() {
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Digital Twin Capabilities</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Comprehensive digital twin services spanning modeling, simulation, and real-time analytics.
+              Comprehensive digital twin services spanning modeling, simulation, and real time analytics.
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export default function DigitalTwinPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-photon-300">
-                  Create detailed 3D virtual replicas of physical systems, facilities, and processes with real-time data integration.
+                  Create detailed 3D virtual replicas of physical systems, facilities, and processes with real time data integration.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -180,7 +180,7 @@ export default function DigitalTwinPage() {
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <MonitorIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
                 </div>
-                <CardTitle>Real-Time Monitoring</CardTitle>
+                <CardTitle>Real Time Monitoring</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-photon-300">

@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Our Capabilities",
   description:
-    "Professional design, visualization, and engineering capabilities for complex projects. Fresh approach with cutting edge tools and methodologies.",
+    "Professional design, visualization, and engineering capabilities for complex projects. Fresh approach with advanced tools and methodologies.",
 }
 
 export default function GovernmentPage() {
@@ -36,7 +36,7 @@ export default function GovernmentPage() {
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               Ready to tackle complex design, visualization, and engineering challenges with innovative methodologies 
-              and cutting edge technology capabilities.
+              and advanced technology capabilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">

@@ -28,7 +28,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Professional Services",
   description:
-    "Advanced AI-driven services including Digital Twin Development, Physical AI, and Artificial Data Development alongside comprehensive design, visualization, and engineering solutions.",
+    "Advanced AI driven services including Digital Twin Development, Physical AI, and Artificial Data Development alongside comprehensive design, visualization, and engineering solutions.",
 }
 
 export default function ServicesPage() {
@@ -55,7 +55,7 @@ export default function ServicesPage() {
               Advanced AI & Engineering Services
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              From digital twins to physical AI systems, we deliver cutting edge AI-driven solutions alongside 
+              From digital twins to physical AI systems, we deliver advanced AI driven solutions alongside 
               comprehensive design and engineering services for complex projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
@@ -82,7 +82,7 @@ export default function ServicesPage() {
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Core Service Categories</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Six specialized service areas spanning AI-driven innovation and traditional engineering excellence.
+              Six specialized service areas spanning AI driven innovation and traditional engineering excellence.
             </p>
           </div>
 
@@ -102,7 +102,7 @@ export default function ServicesPage() {
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <CardDescription className="text-photon-200 text-base leading-relaxed text-center">
-                    Create virtual replicas of physical systems for simulation, testing, and optimization using AI-powered digital twin technology.
+                    Create virtual replicas of physical systems for simulation, testing, and optimization using AI powered digital twin technology.
                   </CardDescription>
                   
                   <div className="space-y-4">
@@ -110,7 +110,7 @@ export default function ServicesPage() {
                       <NetworkIcon className="h-5 w-5 text-photon-400 flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-white mb-1">System Modeling</h4>
-                        <p className="text-sm text-photon-300">Real-time virtual replicas of physical systems</p>
+                        <p className="text-sm text-photon-300">Real time virtual replicas of physical systems</p>
                       </div>
                     </div>
                     
@@ -118,7 +118,7 @@ export default function ServicesPage() {
                       <ZapIcon className="h-5 w-5 text-photon-400 flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-white mb-1">Predictive Analytics</h4>
-                        <p className="text-sm text-photon-300">AI-driven performance prediction and optimization</p>
+                        <p className="text-sm text-photon-300">AI driven performance prediction and optimization</p>
                       </div>
                     </div>
                     
@@ -161,7 +161,7 @@ export default function ServicesPage() {
                       <BrainIcon className="h-5 w-5 text-photon-500 flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-white mb-1">Computer Vision</h4>
-                        <p className="text-sm text-photon-300">AI-powered visual perception and analysis</p>
+                        <p className="text-sm text-photon-300">AI powered visual perception and analysis</p>
                       </div>
                     </div>
                     
@@ -350,7 +350,7 @@ export default function ServicesPage() {
                   
                   <div className="flex items-start gap-3">
                     <div>
-                      <h4 className="font-semibold text-white mb-1">Real-time Demos</h4>
+                      <h4 className="font-semibold text-white mb-1">Real time Demos</h4>
                       <p className="text-sm text-photon-300">Interactive presentations using Unreal Engine</p>
                     </div>
                   </div>

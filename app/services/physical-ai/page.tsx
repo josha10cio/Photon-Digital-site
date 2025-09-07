@@ -79,7 +79,7 @@ export default function PhysicalAIPage() {
               <div className="space-y-4 text-photon-200">
                 <p className="text-lg leading-relaxed">
                   Physical AI represents the next frontier in artificial intelligence, where AI systems can perceive, 
-                  understand, and interact with the physical world in real-time. Unlike traditional AI that operates 
+                  understand, and interact with the physical world in real time. Unlike traditional AI that operates 
                   on digital data, Physical AI bridges the gap between digital intelligence and physical reality.
                 </p>
                 <p className="text-lg leading-relaxed">
@@ -146,7 +146,7 @@ export default function PhysicalAIPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-photon-300">
-                  Advanced visual processing for object detection, recognition, tracking, and scene understanding in real-time environments.
+                  Advanced visual processing for object detection, recognition, tracking, and scene understanding in real time environments.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -174,7 +174,7 @@ export default function PhysicalAIPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-photon-300">
-                  Multi-sensor integration combining cameras, LIDAR, radar, and other sensors for comprehensive environmental awareness.
+                  Multi sensor integration combining cameras, LIDAR, radar, and other sensors for comprehensive environmental awareness.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -188,7 +188,7 @@ export default function PhysicalAIPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-photon-300">
-                  Real-time AI decision systems that process sensory input and execute appropriate actions autonomously.
+                  Real time AI decision systems that process sensory input and execute appropriate actions autonomously.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -202,7 +202,7 @@ export default function PhysicalAIPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-photon-300">
-                  Local AI processing for real-time responses without cloud dependencies, ensuring low latency and privacy.
+                  Local AI processing for real time responses without cloud dependencies, ensuring low latency and privacy.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -244,7 +244,7 @@ export default function PhysicalAIPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-photon-200">
-                  Self-driving cars and autonomous vehicles that perceive their environment, make real-time decisions, 
+                  Self-driving cars and autonomous vehicles that perceive their environment, make real time decisions, 
                   and navigate safely through complex traffic scenarios.
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -379,7 +379,7 @@ export default function PhysicalAIPage() {
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mx-auto border border-photon-500/30">
                 <ZapIcon className="h-8 w-8 text-photon-500" />
               </div>
-              <h3 className="text-lg font-semibold text-white">Real-Time Intelligence</h3>
+              <h3 className="text-lg font-semibold text-white">Real Time Intelligence</h3>
               <p className="text-sm text-photon-300">Instant AI decisions and responses to physical world changes</p>
             </div>
 

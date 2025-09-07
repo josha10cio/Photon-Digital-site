@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   description:
-    "Photon Echo: Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems through cutting edge design, visualization, and engineering services.",
+    "Photon Echo: Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
   keywords: [
     "design services",
     "engineering services",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     "mockups",
     "renderings",
     "animations",
-    "real-time demos",
+    "real time demos",
     "unreal engine",
     "interactive presentations",
     "proposal support",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Photon Echo: Converting Imagination into Innovation",
     description:
-      "Forging bold ideas into unmatched products and systems through cutting edge design, visualization, and engineering services.",
+      "Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
     url: "https://www.photonecho.dev",
     siteName: "Photon Echo",
     images: [
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Photon Echo: Converting Imagination into Innovation",
     description:
-      "Forging bold ideas into unmatched products and systems through cutting edge design, visualization, and engineering services.",
+      "Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
     images: ["/placeholder.svg?height=630&width=1200"],
   },
     generator: 'v0.app'
@@ -126,7 +126,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "name": "Photon Echo",
                 "url": "https://www.photonecho.dev",
                 "logo": "https://www.photonecho.dev/echo_Logo.png",
-                "description": "Photon Echo: Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems through cutting edge design, visualization, and engineering services.",
+                "description": "Photon Echo: Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
                 "address": {
                   "@type": "PostalAddress",
                   "addressCountry": "US"

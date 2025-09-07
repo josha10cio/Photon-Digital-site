@@ -20,7 +20,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Visualization Services",
   description:
-    "Transform complex ideas into clear visuals. Technical drawings, photorealistic renderings, 3D animations, and interactive demos using cutting edge visualization tools.",
+    "Transform complex ideas into clear visuals. Technical drawings, photorealistic renderings, 3D animations, and interactive demos using advanced visualization tools.",
 }
 
 export default function VisualizationServicesPage() {
@@ -151,18 +151,18 @@ export default function VisualizationServicesPage() {
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <PresentationIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
                 </div>
-                <CardTitle className="text-xl font-bold">Real-time Demos</CardTitle>
+                <CardTitle className="text-xl font-bold">Real time Demos</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto mt-2"></div>
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-photon-200 text-sm mb-4">
-                  Interactive presentations and real-time demonstrations using Unreal Engine and modern visualization tools.
+                  Interactive presentations and real time demonstrations using Unreal Engine and modern visualization tools.
                 </CardDescription>
                 <ul className="text-xs text-photon-300 space-y-1">
                   <li>• Unreal Engine demos</li>
                   <li>• Interactive models</li>
                   <li>• VR experiences</li>
-                  <li>• Real-time rendering</li>
+                  <li>• Real time rendering</li>
                 </ul>
               </CardContent>
             </Card>
@@ -229,7 +229,7 @@ export default function VisualizationServicesPage() {
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Advanced Visualization Technology</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Leveraging cutting edge tools and techniques for superior visual communication results.
+              Leveraging advanced tools and techniques for superior visual communication results.
             </p>
           </div>
 
@@ -263,7 +263,7 @@ export default function VisualizationServicesPage() {
 
             <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
               <CardHeader>
-                <CardTitle className="text-xl text-center">Real-time Visualization</CardTitle>
+                <CardTitle className="text-xl text-center">Real time Visualization</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto"></div>
               </CardHeader>
               <CardContent>

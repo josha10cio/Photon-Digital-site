@@ -113,7 +113,7 @@ export default function ContactPageClient() {
                     <SelectItem value="visualization-services">Visualization Services</SelectItem>
                     <SelectItem value="engineering-services">Engineering & Industrial Design</SelectItem>
                     <SelectItem value="government-contract">Government Contract Inquiry</SelectItem>
-                    <SelectItem value="multi-service">Multiple Services</SelectItem>
+                    <SelectItem value="multi service">Multiple Services</SelectItem>
                     <SelectItem value="consultation">Strategic Consultation</SelectItem>
                     <SelectItem value="general-inquiry">General Inquiry</SelectItem>
                   </SelectContent>

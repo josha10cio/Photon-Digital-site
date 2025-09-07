@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Photon Echo - Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems with cutting edge design and engineering.",
+  description: "Learn about Photon Echo - Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems with advanced design and engineering.",
 }
 
 export default function AboutPage() {
@@ -92,7 +92,7 @@ export default function AboutPage() {
               <div className="w-16 h-16 rounded-full bg-photon-600/20 flex items-center justify-center mb-4 mx-auto border border-photon-600/30 group-hover:border-photon-600 transition-all duration-300">
                 <span className="text-2xl font-bold text-photon-600">2</span>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Cutting-Edge Technology</h3>
+              <h3 className="text-xl font-semibold text-white mb-3">Advanced Technology</h3>
               <p className="text-photon-200">Latest design tools, simulation software, and visualization technologies to deliver superior results.</p>
             </div>
 
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 What industries do you serve?
               </AccordionTrigger>
               <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                We serve commercial enterprises and government agencies across multiple industries including aerospace, defense, medical devices, consumer electronics, automotive, and emerging technologies. Our expertise spans both traditional industries and cutting edge innovation sectors.
+                We serve commercial enterprises and government agencies across multiple industries including aerospace, defense, medical devices, consumer electronics, automotive, and emerging technologies. Our expertise spans both traditional industries and advanced innovation sectors.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className="border-b border-photon-800">

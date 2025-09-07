@@ -52,10 +52,10 @@ export default function PortfolioClientPage() {
       id: 5,
       category: "Visualization",
       industry: "Architecture",
-      service: "Real-time Demos",
+      service: "Real time Demos",
       title: "Smart Building Visualization",
       description: "Interactive Unreal Engine demonstration of smart building systems and environmental controls.",
-      capabilities: "Real-time rendering, interactive interfaces, system integration visualization",
+      capabilities: "Real time rendering, interactive interfaces, system integration visualization",
       image: "/placeholder.svg?height=300&width=400",
     },
     {
