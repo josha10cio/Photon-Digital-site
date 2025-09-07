@@ -211,10 +211,10 @@ export default function HomePage() {
             <h2 className="section-title mb-6">Our Story</h2>
             <div className="glassmorphism p-8 max-w-3xl mx-auto animate-fadeIn">
               <p className="text-lg text-photon-200 mb-6 leading-relaxed">
-                Why We Started Photon Echo: We saw a gap for agile, technology forward design and engineering services that could move at the speed of innovation.
+                We founded Photon Echo to bridge the gap between innovative ideas and real world implementation. We saw the need for agile design and engineering services that could keep pace with rapid technological advancement.
               </p>
               <p className="text-lg text-photon-200 leading-relaxed">
-                Our approach combines advanced technology with proven methodologies to deliver exceptional results.
+                Our approach combines advanced technology with proven methodologies to deliver exceptional results for every project.
               </p>
             </div>
           </div>
