@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="container relative z-10 px-4 md:px-6 text-center">
           <div className="max-w-5xl mx-auto">
             <h1 className="text-center mb-8 animate-fadeIn">
-              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extralight tracking-wide leading-none mb-2 font-inter">
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wide leading-none mb-2 font-inter">
                 CONVERTING
               </div>
               <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
@@ -218,76 +218,17 @@ export default function HomePage() {
 
 
 
-      {/* Why Choose Photon Echo Section */}
+      {/* Our Mission Section */}
       <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
         <div className="container px-4 md:px-6">
-          <div className="text-center mb-12 animate-fadeIn">
-            <h2 className="section-title">Why Choose Photon Echo</h2>
-            <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">
-              New company advantages that deliver exceptional value for your projects.
+          <div className="max-w-4xl mx-auto text-center animate-fadeIn">
+            <h2 className="section-title mb-6">Our Mission</h2>
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-8">
+              Converting Imagination into Innovation
+            </h3>
+            <p className="text-lg md:text-xl text-photon-200 max-w-3xl mx-auto leading-relaxed">
+              We transform bold ideas into breakthrough products and systems. Through cutting-edge design, visualization, and engineering services, we bridge the gap between what's imagined and what's possible. Our focus on AI-driven innovation and traditional engineering excellence ensures your vision becomes reality.
             </p>
-          </div>
-          
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
-                  <h3 className="text-xl font-semibold">Competitive Pricing</h3>
-                </div>
-                <p className="text-photon-200">New company rates with established quality - get premium services without the premium price tag.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
-                  <h3 className="text-xl font-semibold">Rapid Response</h3>
-                </div>
-                <p className="text-photon-200">Small team means quick decisions and faster turnaround times on your critical projects.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
-                  <h3 className="text-xl font-semibold">Latest Tools & Methods</h3>
-                </div>
-                <p className="text-photon-200">Starting fresh with current software and industry best practices - no legacy limitations.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
-                  <h3 className="text-xl font-semibold">Focused Attention</h3>
-                </div>
-                <p className="text-photon-200">Every project gets our full dedication and focus - you're not just another client in a large portfolio.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
-                  <h3 className="text-xl font-semibold">Fresh Perspectives</h3>
-                </div>
-                <p className="text-photon-200">New eyes on old problems reveal innovative solutions and breakthrough approaches.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism card-lift-on-hover">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <CheckCircleIcon className="h-6 w-6 text-photon-500 flex-shrink-0" />
-                  <h3 className="text-xl font-semibold">Growth Partnership</h3>
-                </div>
-                <p className="text-photon-200">We're invested in your success as we build our reputation - your wins are our wins.</p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
