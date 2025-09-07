@@ -24,7 +24,7 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Photon Echo: CONCEPTS Visualized and Validated",
+    default: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
     template: "%s - Photon Echo",
   },
   icons: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   description:
-    "Photon Echo: CONCEPTS Visualized and Validated. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
+    "Photon Echo: CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
   keywords: [
     "design services",
     "engineering services",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     "proposal support",
   ],
   openGraph: {
-    title: "Photon Echo: CONCEPTS Visualized and Validated",
+    title: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
     description:
       "Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
     url: "https://www.photonecho.dev",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
         url: "/placeholder.svg?height=630&width=1200",
         width: 1200,
         height: 630,
-        alt: "Photon Echo: CONCEPTS Visualized and Validated",
+        alt: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
       },
     ],
     locale: "en_US",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Photon Echo: CONCEPTS Visualized and Validated",
+    title: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
     description:
       "Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
     images: ["/placeholder.svg?height=630&width=1200"],
@@ -126,7 +126,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "name": "Photon Echo",
                 "url": "https://www.photonecho.dev",
                 "logo": "https://www.photonecho.dev/echo_Logo.png",
-                "description": "Photon Echo: CONCEPTS Visualized and Validated. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
+                "description": "Photon Echo: CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
                 "address": {
                   "@type": "PostalAddress",
                   "addressCountry": "US"
