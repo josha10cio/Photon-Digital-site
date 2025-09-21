@@ -142,7 +142,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   "email": "info@photonecho.dev",
                   "url": "https://www.photonecho.dev/contact"
                 },
-                "sameAs": [],
+                "sameAs": [
+                  "https://www.linkedin.com/company/photon-echo",
+                  "https://twitter.com/photonecho",
+                  "https://github.com/photon-echo"
+                ],
                 "service": [
                   {
                     "@type": "Service",

@@ -1,12 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
 import {
-  YoutubeIcon,
+  LinkedinIcon,
   XIcon,
-  FacebookIcon,
-  InstagramIcon as TiktokIcon,
-  DiscIcon as DiscordIcon,
-  InstagramIcon,
+  GithubIcon,
   MailIcon,
 } from "lucide-react"
 
@@ -47,46 +44,31 @@ export function Footer() {
         </nav>
         <div className="flex items-center gap-4">
           <Link
-            href="#"
-            aria-label="YouTube"
+            href="https://www.linkedin.com/company/photon-echo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
             className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
           >
-            <YoutubeIcon className="h-5 w-5" />
+            <LinkedinIcon className="h-5 w-5" />
           </Link>
           <Link
-            href="#"
+            href="https://twitter.com/photonecho"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="X (Twitter)"
             className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
           >
             <XIcon className="h-5 w-5" />
           </Link>
           <Link
-            href="#"
-            aria-label="Facebook"
+            href="https://github.com/photon-echo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
             className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
           >
-            <FacebookIcon className="h-5 w-5" />
-          </Link>
-          <Link
-            href="#"
-            aria-label="TikTok"
-            className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
-          >
-            <TiktokIcon className="h-5 w-5" />
-          </Link>
-          <Link
-            href="#"
-            aria-label="Discord"
-            className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
-          >
-            <DiscordIcon className="h-5 w-5" />
-          </Link>
-          <Link
-            href="#"
-            aria-label="Instagram"
-            className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
-          >
-            <InstagramIcon className="h-5 w-5" />
+            <GithubIcon className="h-5 w-5" />
           </Link>
         </div>
       </div>
