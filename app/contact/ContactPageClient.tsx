@@ -14,9 +14,28 @@ export default function ContactPageClient() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission logic here
-    console.log("Contact form submitted!")
-    alert("Your message has been sent! We will get back to you soon.")
+    const form = e.target as HTMLFormElement
+    const formData = new FormData(form)
+    
+    // Create mailto URL with form data
+    const name = formData.get('name')
+    const email = formData.get('email')
+    const service = serviceInterested
+    const message = formData.get('message')
+    
+    const subject = `Project Inquiry from ${name} - ${service || 'General Inquiry'}`
+    const body = `Name: ${name}
+Email: ${email}
+Service Category: ${service || 'Not specified'}
+
+Message:
+${message}
+
+---
+This message was sent from the Photon Echo contact form.`
+    
+    const mailtoURL = `mailto:info@photonecho.dev?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    window.location.href = mailtoURL
   }
 
   return (
@@ -46,8 +65,8 @@ export default function ContactPageClient() {
               <div className="space-y-6">
                 <div className="border-b border-photon-800/50 pb-6">
                   <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
-                  <a href="mailto:contact@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
-                    contact@photonecho.dev
+                  <a href="mailto:info@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
+                    info@photonecho.dev
                   </a>
                 </div>
                 
@@ -78,6 +97,7 @@ export default function ContactPageClient() {
                   </Label>
                   <Input
                     id="name"
+                    name="name"
                     type="text"
                     placeholder="Your Name"
                     required
@@ -90,6 +110,7 @@ export default function ContactPageClient() {
                   </Label>
                   <Input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="your@example.com"
                     required
@@ -125,6 +146,7 @@ export default function ContactPageClient() {
                 </Label>
                 <Textarea
                   id="message"
+                  name="message"
                   placeholder="Describe your project goals, technical requirements, timeline, and any specific challenges you're facing..."
                   required
                   rows={6}

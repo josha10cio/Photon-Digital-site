@@ -7,6 +7,7 @@ import {
   InstagramIcon as TiktokIcon,
   DiscIcon as DiscordIcon,
   InstagramIcon,
+  MailIcon,
 } from "lucide-react"
 
 export function Footer() {
@@ -35,6 +36,13 @@ export function Footer() {
             className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103"
           >
             Contact Us
+          </Link>
+          <Link
+            href="mailto:info@photonecho.dev"
+            className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103 flex items-center gap-1"
+          >
+            <MailIcon className="h-4 w-4" />
+            info@photonecho.dev
           </Link>
         </nav>
         <div className="flex items-center gap-4">
