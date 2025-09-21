@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     'robots': 'index, follow',
     'googlebot': 'index, follow',
     'last-modified': '2025-09-21',
+    'cache-control': 'no-cache, no-store, must-revalidate',
+    'pragma': 'no-cache',
+    'expires': '0',
   },
   description:
     "Photon Echo: CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
