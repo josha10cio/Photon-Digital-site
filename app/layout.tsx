@@ -134,6 +134,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "contactPoint": {
                   "@type": "ContactPoint",
                   "contactType": "Business",
+                  "email": "info@photonecho.dev",
                   "url": "https://www.photonecho.dev/contact"
                 },
                 "sameAs": [],
