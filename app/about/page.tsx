@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Photon Echo - Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems with advanced design and engineering.",
+  description: "Learn about Photon Echo - CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems with advanced design and engineering.",
 }
 
 export default function AboutPage() {

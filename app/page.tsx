@@ -10,7 +10,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Photon Echo: Converting Imagination into Innovation. Forging bold ideas into unmatched products and systems through expert design, visualization, and engineering services.",
+    "Photon Echo: CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
 }
 
 export default function HomePage() {
@@ -196,7 +196,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center animate-fadeIn">
             <h2 className="section-title mb-6">Our Mission</h2>
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-8">
-              Converting Imagination into Innovation
+              CONCEPTS VISUALIZED and VALIDATED
             </h3>
             <p className="text-lg md:text-xl text-photon-200 max-w-3xl mx-auto leading-relaxed">
               We transform bold ideas into breakthrough products and systems. Through advanced design, visualization, and engineering services, we bridge the gap between what's imagined and what's possible. Our focus on AI driven innovation and traditional engineering excellence ensures your vision becomes reality.
