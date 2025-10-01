@@ -12,30 +12,28 @@ import { Label } from "@/components/ui/label"
 export default function ContactPageClient() {
   const [serviceInterested, setServiceInterested] = useState("")
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     const form = e.target as HTMLFormElement
     const formData = new FormData(form)
-    
-    // Create mailto URL with form data
-    const name = formData.get('name')
-    const email = formData.get('email')
+    const name = String(formData.get('name') || '')
+    const email = String(formData.get('email') || '')
     const service = serviceInterested
-    const message = formData.get('message')
-    
-    const subject = `Project Inquiry from ${name} - ${service || 'General Inquiry'}`
-    const body = `Name: ${name}
-Email: ${email}
-Service Category: ${service || 'Not specified'}
+    const message = String(formData.get('message') || '')
 
-Message:
-${message}
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, service, message }),
+    })
 
----
-This message was sent from the Photon Echo contact form.`
-    
-    const mailtoURL = `mailto:info@photonecho.dev?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-    window.location.href = mailtoURL
+    if (res.ok) {
+      form.reset()
+      setServiceInterested('')
+      alert('Thanks! Your inquiry has been sent.')
+    } else {
+      alert('Sorry, something went wrong sending your message. Please email info@photonecho.dev directly.')
+    }
   }
 
   return (
