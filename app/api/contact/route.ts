@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     const smtpUser = process.env.SMTP_USER
     const smtpPass = process.env.SMTP_PASS
     const toAddress = process.env.CONTACT_TO || "info@photonecho.dev"
-    const fromAddress = process.env.CONTACT_FROM || `Photon Echo <info@photonecho.dev>`
+    const configuredFrom = process.env.CONTACT_FROM || "Photon Echo <info@photonecho.dev>"
 
     if (!smtpHost || !smtpUser || !smtpPass) {
       return NextResponse.json({ error: "Email not configured" }, { status: 500 })
@@ -45,16 +45,23 @@ export async function POST(request: Request) {
     const subject = `Project Inquiry from ${name}${service ? ` - ${service}` : ""}`
     const text = `Name: ${name}\nEmail: ${email}\nService: ${service || "Not specified"}\n\nMessage:\n${message}`
 
-    await transporter.sendMail({
-      to: toAddress,
-      from: fromAddress,
-      replyTo: email,
-      subject,
-      text,
-    })
+    // Build a safe "from" field compatible with providers that require the
+    // authenticated user as the envelope sender.
+    const fromField = configuredFrom.includes("<")
+      ? configuredFrom
+      : `${configuredFrom} <${smtpUser}>`
+
+    try {
+      await transporter.verify()
+    } catch (e) {
+      console.error("SMTP verify failed", e)
+    }
+
+    await transporter.sendMail({ to: toAddress, from: fromField, replyTo: email, subject, text })
 
     return NextResponse.json({ ok: true })
   } catch (error) {
+    console.error("/api/contact error", error)
     return NextResponse.json({ error: "Failed to send" }, { status: 500 })
   }
 }
