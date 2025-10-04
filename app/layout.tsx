@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     siteName: "Photon Echo",
     images: [
       {
-        url: "/placeholder.svg?height=630&width=1200",
+        url: "/echo_Logo.png",
         width: 1200,
         height: 630,
         alt: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     title: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
     description:
       "Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
-    images: ["/placeholder.svg?height=630&width=1200"],
+    images: ["/echo_Logo.png"],
   },
     generator: 'v0.app'
 }

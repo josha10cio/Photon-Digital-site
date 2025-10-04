@@ -27,10 +27,9 @@ export function Header() {
   }, [])
 
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/government", label: "Government" },
     { href: "/portfolio", label: "Portfolio" },
-    { href: "/about", label: "About" },
+    { href: "/insights", label: "Insights" },
+    { href: "/mission", label: "Mission" },
     { href: "/contact", label: "Contact" },
   ]
 

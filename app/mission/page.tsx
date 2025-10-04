@@ -5,26 +5,26 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "Learn about Photon Echo - CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems with advanced design and engineering.",
+  title: "Mission",
+  description: "Our mission at Photon Echo - CONCEPTS VISUALIZED and VALIDATED. Transforming innovative ideas into exceptional products through expert design and engineering solutions.",
 }
 
-export default function AboutPage() {
+export default function MissionPage() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
       <section className="w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white text-center animate-fadeIn">
         <div className="container px-4 md:px-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
-            About Photon Echo
+            Our Mission
           </h1>
           <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">
-            A professional design and engineering firm dedicated to transforming innovative concepts into exceptional products through expert design, visualization, and engineering solutions.
+            To transform innovative concepts into exceptional products through expert design, visualization, and engineering solutions that exceed expectations and drive success.
           </p>
         </div>
       </section>
 
-      {/* Founder Vision Section */}
+      {/* Mission Statement Section */}
       <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
         <div
           className="container px-4 md:px-6 max-w-6xl mx-auto glassmorphism p-8 shadow-outer-shadow animate-fadeIn"
@@ -32,7 +32,7 @@ export default function AboutPage() {
         >
           <div className="grid gap-12 lg:grid-cols-2 items-center">
             <div className="space-y-8">
-              <h2 className="section-title">Why We Started Photon</h2>
+              <h2 className="section-title">Why We Started Photon Echo</h2>
               <p className="text-lg text-photon-200 leading-relaxed">
                 Photon Echo was founded to address a critical gap in the market: the disconnect between innovative concepts and professional execution. Too many brilliant ideas fail to reach their potential due to lack of access to experienced design and engineering expertise.
               </p>
@@ -45,7 +45,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <div className="glassmorphism p-8 border border-photon-800">
-                <h3 className="text-2xl font-bold text-photon-100 mb-6">Our Mission</h3>
+                <h3 className="text-2xl font-bold text-photon-100 mb-6">Our Core Mission</h3>
                 <blockquote className="text-lg text-photon-200 italic leading-relaxed border-l-4 border-photon-500 pl-6">
                   "To transform innovative concepts into exceptional products through expert design, visualization, and engineering solutions that exceed expectations and drive success."
                 </blockquote>
@@ -106,7 +106,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
 
       {/* FAQ Section */}
       <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
