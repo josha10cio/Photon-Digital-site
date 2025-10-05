@@ -435,12 +435,12 @@ export default function ProcessPage() {
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/portfolio">
+              <Link href="/services">
                 <Button
                   variant="outline"
                   className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  View Our Work
+                  Our Services
                 </Button>
               </Link>
             </div>

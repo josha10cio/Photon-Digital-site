@@ -263,9 +263,9 @@ export default function GovernmentPage() {
                   Request Capability Statement
                 </Button>
               </Link>
-              <Link href="/portfolio">
+              <Link href="/services">
                 <Button variant="outline" className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent">
-                  View Government Portfolio
+                  Our Services
                 </Button>
               </Link>
             </div>

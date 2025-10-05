@@ -498,12 +498,12 @@ export default function ServicesPage() {
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/portfolio">
+              <Link href="/contact">
                 <Button
                   variant="outline"
                   className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  View Portfolio
+                  Get Started
                 </Button>
               </Link>
             </div>

@@ -2,7 +2,10 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRightIcon, CalendarIcon, UserIcon, EyeIcon } from "lucide-react"
+import { ArrowRightIcon, CalendarIcon, UserIcon, EyeIcon, TagIcon } from "lucide-react"
+import fs from "fs"
+import path from "path"
+import matter from "gray-matter"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -10,7 +13,39 @@ export const metadata: Metadata = {
   description: "Expert insights on design, visualization, and engineering. Stay informed with the latest trends, case studies, and technical knowledge from Photon Echo.",
 }
 
-export default function InsightsPage() {
+// Get all articles
+async function getAllArticles() {
+  const articlesDirectory = path.join(process.cwd(), "content", "insights")
+  
+  if (!fs.existsSync(articlesDirectory)) {
+    return []
+  }
+
+  const filenames = fs.readdirSync(articlesDirectory)
+  const articles = filenames
+    .filter((name) => name.endsWith(".md"))
+    .map((filename) => {
+      const filePath = path.join(articlesDirectory, filename)
+      const fileContents = fs.readFileSync(filePath, "utf8")
+      const { data } = matter(fileContents)
+      return {
+        slug: data.slug || filename.replace(".md", ""),
+        title: data.title,
+        excerpt: data.excerpt,
+        date: data.date,
+        author: data.author,
+        category: data.category,
+        featured: data.featured,
+        tags: data.tags,
+      }
+    })
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+
+  return articles
+}
+
+export default async function InsightsPage() {
+  const articles = await getAllArticles()
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
@@ -40,77 +75,193 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Coming Soon Section */}
+      {/* Articles Section */}
       <section className="w-full py-20 md:py-32 bg-photon-950">
         <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-white mb-6">
-                Insights Coming Soon
-              </h2>
-              <p className="text-lg text-photon-200 max-w-2xl mx-auto mb-8">
-                We're preparing valuable content including case studies, technical guides, industry trends, and expert analysis.
-              </p>
-            </div>
+          <div className="max-w-6xl mx-auto">
+            {articles.length > 0 ? (
+              <>
+                <div className="mb-12">
+                  <h2 className="text-3xl font-bold text-white mb-6">
+                    Latest Insights
+                  </h2>
+                  <p className="text-lg text-photon-200 max-w-2xl">
+                    Expert analysis, case studies, and technical knowledge from our team.
+                  </p>
+                </div>
 
-            {/* Preview Cards */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
-                <CardHeader className="text-center">
-                  <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <EyeIcon className="h-6 w-6 text-photon-300" />
+                {/* Featured Articles */}
+                {articles.filter(article => article.featured).length > 0 && (
+                  <div className="mb-16">
+                    <h3 className="text-2xl font-semibold text-white mb-8">Featured Articles</h3>
+                    <div className="grid gap-8 md:grid-cols-2">
+                      {articles
+                        .filter(article => article.featured)
+                        .slice(0, 2)
+                        .map((article) => (
+                          <Card key={article.slug} className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 hover:scale-105">
+                            <CardHeader>
+                              <div className="flex items-center gap-2 mb-2">
+                                <Badge className="bg-photon-700/20 text-photon-300 border-photon-700/30 text-xs">
+                                  {article.category}
+                                </Badge>
+                                {article.featured && (
+                                  <Badge className="bg-photon-500/20 text-photon-200 border-photon-500/30 text-xs">
+                                    Featured
+                                  </Badge>
+                                )}
+                              </div>
+                              <CardTitle className="text-xl group-hover:text-photon-300 transition-colors">
+                                <Link href={`/insights/${article.slug}`}>
+                                  {article.title}
+                                </Link>
+                              </CardTitle>
+                              <CardDescription className="text-photon-200 text-base leading-relaxed">
+                                {article.excerpt}
+                              </CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                              <div className="flex items-center justify-between text-sm text-photon-400">
+                                <div className="flex items-center gap-4">
+                                  <div className="flex items-center gap-1">
+                                    <UserIcon className="w-3 h-3" />
+                                    <span>{article.author}</span>
+                                  </div>
+                                  <div className="flex items-center gap-1">
+                                    <CalendarIcon className="w-3 h-3" />
+                                    <span>{new Date(article.date).toLocaleDateString()}</span>
+                                  </div>
+                                </div>
+                                <Link href={`/insights/${article.slug}`}>
+                                  <ArrowRightIcon className="w-4 h-4 hover:text-photon-300 transition-colors" />
+                                </Link>
+                              </div>
+                            </CardContent>
+                          </Card>
+                        ))}
+                    </div>
                   </div>
-                  <CardTitle className="text-xl">Case Studies</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-photon-200">
-                    Real-world examples of how we've solved complex design and engineering challenges.
-                  </CardDescription>
-                </CardContent>
-              </Card>
+                )}
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
-                <CardHeader className="text-center">
-                  <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <UserIcon className="h-6 w-6 text-photon-300" />
+                {/* All Articles */}
+                <div>
+                  <h3 className="text-2xl font-semibold text-white mb-8">All Articles</h3>
+                  <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    {articles.map((article) => (
+                      <Card key={article.slug} className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+                        <CardHeader>
+                          <div className="flex items-center gap-2 mb-2">
+                            <Badge className="bg-photon-700/20 text-photon-300 border-photon-700/30 text-xs">
+                              {article.category}
+                            </Badge>
+                            {article.featured && (
+                              <Badge className="bg-photon-500/20 text-photon-200 border-photon-500/30 text-xs">
+                                Featured
+                              </Badge>
+                            )}
+                          </div>
+                          <CardTitle className="text-lg group-hover:text-photon-300 transition-colors">
+                            <Link href={`/insights/${article.slug}`}>
+                              {article.title}
+                            </Link>
+                          </CardTitle>
+                          <CardDescription className="text-photon-200 text-sm leading-relaxed">
+                            {article.excerpt}
+                          </CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                          <div className="flex items-center justify-between text-xs text-photon-400">
+                            <div className="flex items-center gap-3">
+                              <div className="flex items-center gap-1">
+                                <UserIcon className="w-3 h-3" />
+                                <span>{article.author}</span>
+                              </div>
+                              <div className="flex items-center gap-1">
+                                <CalendarIcon className="w-3 h-3" />
+                                <span>{new Date(article.date).toLocaleDateString()}</span>
+                              </div>
+                            </div>
+                            <Link href={`/insights/${article.slug}`}>
+                              <ArrowRightIcon className="w-3 h-3 hover:text-photon-300 transition-colors" />
+                            </Link>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    ))}
                   </div>
-                  <CardTitle className="text-xl">Industry Trends</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-photon-200">
-                    Analysis of emerging technologies and trends in design, visualization, and engineering.
-                  </CardDescription>
-                </CardContent>
-              </Card>
+                </div>
+              </>
+            ) : (
+              <div className="max-w-4xl mx-auto text-center">
+                <div className="mb-12">
+                  <h2 className="text-3xl font-bold text-white mb-6">
+                    Insights Coming Soon
+                  </h2>
+                  <p className="text-lg text-photon-200 max-w-2xl mx-auto mb-8">
+                    We're preparing valuable content including case studies, technical guides, industry trends, and expert analysis.
+                  </p>
+                </div>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 md:col-span-2 lg:col-span-1">
-                <CardHeader className="text-center">
-                  <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <CalendarIcon className="h-6 w-6 text-photon-300" />
-                  </div>
-                  <CardTitle className="text-xl">Technical Guides</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-photon-200">
-                    Step-by-step guides and best practices for design and engineering processes.
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            </div>
+                {/* Preview Cards */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                  <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+                    <CardHeader className="text-center">
+                      <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <EyeIcon className="h-6 w-6 text-photon-300" />
+                      </div>
+                      <CardTitle className="text-xl">Case Studies</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <CardDescription className="text-photon-200">
+                        Real-world examples of how we've solved complex design and engineering challenges.
+                      </CardDescription>
+                    </CardContent>
+                  </Card>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact">
-                <Button className="px-8 py-3 text-lg bg-photon-700 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-purple">
-                  Get Notified
-                  <ArrowRightIcon className="ml-2 w-5 h-5" />
-                </Button>
-              </Link>
-              <Link href="/services">
-                <Button variant="outline" className="px-8 py-3 text-lg border-photon-600 text-white hover:bg-photon-600/10 transition-all duration-300">
-                  Explore Services
-                </Button>
-              </Link>
-            </div>
+                  <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+                    <CardHeader className="text-center">
+                      <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <UserIcon className="h-6 w-6 text-photon-300" />
+                      </div>
+                      <CardTitle className="text-xl">Industry Trends</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <CardDescription className="text-photon-200">
+                        Analysis of emerging technologies and trends in design, visualization, and engineering.
+                      </CardDescription>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 md:col-span-2 lg:col-span-1">
+                    <CardHeader className="text-center">
+                      <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <CalendarIcon className="h-6 w-6 text-photon-300" />
+                      </div>
+                      <CardTitle className="text-xl">Technical Guides</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <CardDescription className="text-photon-200">
+                        Step-by-step guides and best practices for design and engineering processes.
+                      </CardDescription>
+                    </CardContent>
+                  </Card>
+                </div>
+
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link href="/contact">
+                    <Button className="px-8 py-3 text-lg bg-photon-700 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-purple">
+                      Get Notified
+                      <ArrowRightIcon className="ml-2 w-5 h-5" />
+                    </Button>
+                  </Link>
+                  <Link href="/services">
+                    <Button variant="outline" className="px-8 py-3 text-lg border-photon-600 text-white hover:bg-photon-600/10 transition-all duration-300">
+                      Explore Services
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>

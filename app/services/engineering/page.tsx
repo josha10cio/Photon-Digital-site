@@ -60,9 +60,9 @@ export default function EngineeringServicesPage() {
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/portfolio">
+              <Link href="/contact">
                 <Button variant="outline" className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent">
-                  View Engineering Portfolio
+                  Get Started
                 </Button>
               </Link>
             </div>
