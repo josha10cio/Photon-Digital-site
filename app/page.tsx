@@ -24,11 +24,14 @@ export default function HomePage() {
         <div className="container relative z-10 px-4 md:px-6 text-center">
           <div className="max-w-5xl mx-auto">
             <h1 className="text-center mb-8 animate-fadeIn">
-              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wide leading-none mb-2 font-inter">
-                CONCEPTS
+              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium tracking-wide leading-none mb-2 font-inter">
+                ADVANCED
               </div>
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-tight">
-                <span className="uppercase">VISUALIZED</span> <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium opacity-75">and</span> <span className="uppercase">VALIDATED</span>
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-2">
+                PHYSICAL AI
+              </div>
+              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium tracking-wide leading-none">
+                TRAINING
               </div>
             </h1>
 
@@ -37,7 +40,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light text-center mb-8 animate-fadeIn">
-              Leading the future with Physical AI Training and Digital Twin technology
+              Specialized AI training for physical world applications and comprehensive Digital Twin solutions
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fadeIn">
