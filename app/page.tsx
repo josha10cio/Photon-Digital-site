@@ -10,7 +10,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Photon Echo: CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
+    "Photon Echo: Leading Physical AI Training and Digital Twin Development. Specialized AI solutions with comprehensive supporting services for transforming ideas into reality.",
 }
 
 export default function HomePage() {
@@ -37,7 +37,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light text-center mb-8 animate-fadeIn">
-              Forging bold ideas into unmatched products and systems
+              Leading the future with Physical AI Training and Digital Twin technology
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fadeIn">
@@ -64,15 +64,15 @@ export default function HomePage() {
       <section className="w-full py-16 md:py-24 bg-photon-900 text-white relative z-10">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16 animate-fadeIn">
-            <h2 className="section-title mb-4">Core Services</h2>
+            <h2 className="section-title mb-4">Our Primary Services</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Advanced AI driven solutions and traditional engineering excellence for transforming ideas into reality.
+              Specialized in Physical AI Training and Digital Twin development, with comprehensive supporting services.
             </p>
           </div>
 
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-2xl font-bold text-white text-center mb-8">AI Driven Innovation</h3>
-            <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-16">
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Primary Services</h3>
+            <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto mb-16">
               <Link href="/services/digital-twin">
                 <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-400/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
                   <CardHeader className="flex flex-col items-center text-center pb-4">
@@ -96,37 +96,21 @@ export default function HomePage() {
                     <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400">
                       <BrainIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
                     </div>
-                    <CardTitle className="text-xl font-bold">Physical AI Development</CardTitle>
+                    <CardTitle className="text-xl font-bold">Physical AI Training</CardTitle>
                     <div className="w-12 h-1 bg-photon-500 rounded-full mt-2"></div>
                   </CardHeader>
                   <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
-                      AI systems that interact with the physical world through sensors and robotics.
+                      Advanced AI training for systems that interact with the physical world through sensors, robotics, and real-world applications.
                     </CardDescription>
                   </CardContent>
                 </Card>
               </Link>
 
-              <Link href="/services/artificial-data">
-                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
-                  <CardHeader className="flex flex-col items-center text-center pb-4">
-                    <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500">
-                      <DatabaseIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
-                    </div>
-                    <CardTitle className="text-xl font-bold">Artificial Data Development</CardTitle>
-                    <div className="w-12 h-1 bg-photon-600 rounded-full mt-2"></div>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <CardDescription className="text-photon-200 text-base leading-relaxed">
-                      Synthetic datasets for training, testing, and validation of AI models.
-                    </CardDescription>
-                  </CardContent>
-                </Card>
-              </Link>
             </div>
 
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Traditional Engineering Excellence</h3>
-            <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Supporting Services</h3>
+            <div className="grid gap-8 md:grid-cols-4 max-w-7xl mx-auto">
               <Link href="/services/design">
                 <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
                   <CardHeader className="flex flex-col items-center text-center pb-4">
@@ -173,6 +157,23 @@ export default function HomePage() {
                   <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
                       Product engineering, technical documentation, and manufacturing consultation.
+                    </CardDescription>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/services/artificial-data">
+                <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 cursor-pointer relative z-10 animate-fadeIn">
+                  <CardHeader className="flex flex-col items-center text-center pb-4">
+                    <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500">
+                      <DatabaseIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
+                    </div>
+                    <CardTitle className="text-xl font-bold">Artificial Data Development</CardTitle>
+                    <div className="w-12 h-1 bg-photon-600 rounded-full mt-2"></div>
+                  </CardHeader>
+                  <CardContent className="text-center">
+                    <CardDescription className="text-photon-200 text-base leading-relaxed">
+                      Synthetic datasets for AI training and model validation.
                     </CardDescription>
                   </CardContent>
                 </Card>
