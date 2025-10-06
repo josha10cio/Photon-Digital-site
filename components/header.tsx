@@ -36,10 +36,10 @@ export function Header() {
     { href: "/services", label: "All Services" },
     { href: "/services/physical-ai", label: "Physical AI Training" },
     { href: "/services/digital-twin", label: "Digital Twin Development" },
-    { href: "/services/design", label: "Design Services" },
-    { href: "/services/visualization", label: "Visualization Services" },
-    { href: "/services/engineering", label: "Engineering Services" },
-    { href: "/services/artificial-data", label: "Artificial Data Development" },
+    { href: "/services/supporting#design", label: "Design Services" },
+    { href: "/services/supporting#visualization", label: "Visualization Services" },
+    { href: "/services/supporting#engineering", label: "Engineering Services" },
+    { href: "/services/supporting#artificial-data", label: "Artificial Data Development" },
   ]
 
   return (
