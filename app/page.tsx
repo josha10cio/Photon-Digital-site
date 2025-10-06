@@ -238,7 +238,7 @@ export default function HomePage() {
               <Link href="/contact">
                 <Button className="btn-primary px-12 py-4 text-lg font-semibold group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Get Quote
+                  Get Started
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
