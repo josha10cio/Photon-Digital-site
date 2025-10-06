@@ -28,7 +28,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Professional Services",
   description:
-    "Advanced AI driven services including Digital Twin Development, Physical AI, and Artificial Data Development alongside comprehensive design, visualization, and engineering solutions.",
+    "Specialized Physical AI Training and Digital Twin Development services, supported by comprehensive design, visualization, engineering, and artificial data solutions.",
 }
 
 export default function ServicesPage() {
@@ -48,15 +48,15 @@ export default function ServicesPage() {
           <div className="max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-500/20 text-photon-100 border-photon-500/30 px-4 py-2 text-sm font-medium">
-                AI-Driven Services • Next Generation Solutions
+                Physical AI Training • Digital Twin Development
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Advanced AI & Engineering Services
+              Physical AI Training & Digital Twins
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              From digital twins to physical AI systems, we deliver advanced AI driven solutions alongside 
-              comprehensive design and engineering services for complex projects.
+              Specialized in Physical AI Training and Digital Twin Development, supported by comprehensive design, 
+              visualization, and engineering services for advanced AI solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
