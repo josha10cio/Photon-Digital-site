@@ -215,7 +215,7 @@ export default function SupportingServicesPage() {
               <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
-                    <CodeIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
+                    <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
                   </div>
                   <CardTitle className="text-xl font-bold">Interface Design</CardTitle>
                   <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
