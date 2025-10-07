@@ -88,7 +88,7 @@ export default function SupportingServicesPage() {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto mb-16">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard card-hover">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 rounded-full bg-photon-500/20 flex items-center justify-center">
@@ -119,7 +119,7 @@ export default function SupportingServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard card-hover">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 rounded-full bg-photon-400/20 flex items-center justify-center">
@@ -168,7 +168,7 @@ export default function SupportingServicesPage() {
                   </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -189,7 +189,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <PaletteIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -210,7 +210,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-500/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -261,7 +261,7 @@ export default function SupportingServicesPage() {
                   </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-700/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <FileTextIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -282,7 +282,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-700/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <PlayIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -303,7 +303,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-700/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -352,7 +352,7 @@ export default function SupportingServicesPage() {
                   </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <Settings2Icon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -373,7 +373,7 @@ export default function SupportingServicesPage() {
               </CardContent>
             </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <WrenchIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -394,7 +394,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ClipboardListIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />

@@ -79,7 +79,7 @@ export default function VisualizationServicesPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
             {/* Technical Drawings */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <FileTextIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -101,7 +101,7 @@ export default function VisualizationServicesPage() {
             </Card>
 
             {/* Mockups & Renderings */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <ImageIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -123,7 +123,7 @@ export default function VisualizationServicesPage() {
             </Card>
 
             {/* Animations */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <VideoIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -145,7 +145,7 @@ export default function VisualizationServicesPage() {
             </Card>
 
             {/* Interactive Presentations */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <PresentationIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -233,7 +233,7 @@ export default function VisualizationServicesPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl text-center">3D Rendering & Animation</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto"></div>
@@ -260,7 +260,7 @@ export default function VisualizationServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl text-center">Real time Visualization</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto"></div>
@@ -287,7 +287,7 @@ export default function VisualizationServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl text-center">Technical Documentation</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto"></div>

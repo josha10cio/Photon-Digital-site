@@ -27,7 +27,6 @@ export function Header() {
   }, [])
 
   const navLinks = [
-    { href: "/", label: "Home" },
     { href: "/physical_ai", label: "Physical AI" },
     { href: "/digital_twin", label: "Digital Twin" },
     { href: "/workflow", label: "Workflow" },
