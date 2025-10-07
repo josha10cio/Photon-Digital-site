@@ -18,25 +18,16 @@ export function Footer() {
           <span className="sr-only">Photon Echo</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-4 text-sm md:gap-6">
-          <Link
-            href="/privacy-policy"
-            className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103"
-          >
+          <Link href="/privacy-policy" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103">
             Privacy Policy
           </Link>
           <Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103">
-            Terms & Conditions
+            Terms
           </Link>
-          <Link
-            href="/contact"
-            className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103"
-          >
-            Contact Us
+          <Link href="/contact" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103">
+            Contact
           </Link>
-          <Link
-            href="mailto:info@photonecho.dev"
-            className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103 flex items-center gap-1"
-          >
+          <Link href="mailto:info@photonecho.dev" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103 flex items-center gap-1">
             <MailIcon className="h-4 w-4" />
             info@photonecho.dev
           </Link>

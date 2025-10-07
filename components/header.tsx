@@ -27,22 +27,16 @@ export function Header() {
   }, [])
 
   const navLinks = [
-    { href: "/services/physical-ai", label: "Physical AI" },
-    { href: "/services/digital-twin", label: "Digital Twins" },
-    { href: "/insights", label: "Insights" },
+    { href: "/", label: "Home" },
+    { href: "/physical_ai", label: "Physical AI" },
+    { href: "/digital_twin", label: "Digital Twin" },
+    { href: "/workflow", label: "Workflow" },
     { href: "/mission", label: "Mission" },
+    { href: "/insights", label: "Insights" },
     { href: "/contact", label: "Contact" },
   ]
 
-  const serviceLinks = [
-    { href: "/services", label: "All Services" },
-    { href: "/services/physical-ai", label: "Physical AI Training" },
-    { href: "/services/digital-twin", label: "Digital Twin Development" },
-    { href: "/services#design", label: "Design Services" },
-    { href: "/services#visualization", label: "Visualization Services" },
-    { href: "/services#engineering", label: "Engineering Services" },
-    { href: "/services#artificial-data", label: "Artificial Data Development" },
-  ]
+  const serviceLinks: never[] = []
 
   return (
     <header
@@ -77,26 +71,7 @@ export function Header() {
             </Link>
           ))}
           
-          {/* Services Dropdown */}
-          <DropdownMenu>
-            <DropdownMenuTrigger className="text-sm font-medium text-white hover:text-photon-500 transition-all duration-300 hover:scale-105 relative group tracking-wide flex items-center gap-1">
-              Services
-              <ChevronDownIcon className="h-4 w-4" />
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-photon-500 to-photon-700 transition-all duration-300 group-hover:w-full rounded-full"></span>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-photon-950/95 backdrop-blur-xl border border-photon-800/50 shadow-2xl">
-              {serviceLinks.map((link) => (
-                <DropdownMenuItem key={link.href} asChild>
-                  <Link
-                    href={link.href}
-                    className="text-white hover:text-photon-500 transition-colors cursor-pointer"
-                  >
-                    {link.label}
-                  </Link>
-                </DropdownMenuItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
+          {/* Services dropdown removed per new IA */}
         </nav>
 
         <div className="flex items-center gap-4">
@@ -137,22 +112,7 @@ export function Header() {
               </Link>
             ))}
             
-            {/* Services Section */}
-            <div className="py-2">
-              <h3 className="text-sm font-semibold text-photon-400 mb-2">Services</h3>
-              <div className="flex flex-col gap-2 ml-4">
-                {serviceLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="text-sm font-medium text-white hover:text-photon-500 transition-colors py-1"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
+            {/* Services subsection removed per new IA */}
             
             <div className="relative mt-2">
               <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
