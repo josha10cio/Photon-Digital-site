@@ -10,7 +10,6 @@ import {
   CheckCircleIcon,
   BrushIcon,
   BoxIcon,
-  CodeIcon,
   PaletteIcon,
   PlayIcon,
   FileTextIcon,
@@ -218,18 +217,18 @@ export default function SupportingServicesPage() {
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <CodeIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
                   </div>
-                  <CardTitle className="text-xl font-bold">UI/UX Design</CardTitle>
+                  <CardTitle className="text-xl font-bold">Interface Design</CardTitle>
                   <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
                   <CardDescription className="text-photon-200 text-sm mb-4">
-                    User interface and experience design for AI training platforms and digital twin interfaces.
+                    Interface design for AI training platforms and digital twin controls.
                   </CardDescription>
                   <ul className="text-xs text-photon-300 space-y-1">
                     <li>• AI training dashboards</li>
                     <li>• Digital twin controls</li>
                     <li>• Data visualization interfaces</li>
-                    <li>• User workflow optimization</li>
+                    <li>• Operator workflow optimization</li>
                   </ul>
                 </CardContent>
               </Card>

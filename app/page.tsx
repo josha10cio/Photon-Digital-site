@@ -125,7 +125,7 @@ export default function HomePage() {
                   </CardHeader>
                   <CardContent className="text-center">
                     <CardDescription className="text-photon-200 text-base leading-relaxed">
-                      Concept design, 3D modeling, CAD drawings, UI/UX design, and branding solutions.
+                      Concept design, 3D modeling, CAD drawings, and branding solutions.
                     </CardDescription>
                   </CardContent>
                 </Card>

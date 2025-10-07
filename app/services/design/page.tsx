@@ -20,7 +20,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Design Services",
   description:
-    "Expert design services: concept design, 3D modeling, CAD drawings, UI/UX design, and branding. Fresh creative solutions with advanced tools and methodologies.",
+    "Expert design services: concept design, 3D modeling, CAD drawings, and branding. Fresh creative solutions with advanced tools and methodologies.",
 }
 
 export default function DesignServicesPage() {
@@ -123,27 +123,7 @@ export default function DesignServicesPage() {
               </CardContent>
             </Card>
 
-            {/* UI/UX Design */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
-                  <MousePointerIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
-                </div>
-                <CardTitle className="text-xl font-bold">UI/UX Design</CardTitle>
-                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
-              </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-photon-200 text-sm mb-4">
-                  User interface and experience design for digital products and applications.
-                </CardDescription>
-                <ul className="text-xs text-photon-300 space-y-1">
-                  <li>• User research</li>
-                  <li>• Wireframing</li>
-                  <li>• Prototyping</li>
-                  <li>• Usability testing</li>
-                </ul>
-              </CardContent>
-            </Card>
+            {/* Removed UI/UX Design card per request */}
 
             {/* Branding & Graphics */}
             <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">

@@ -154,7 +154,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   {
                     "@type": "Service",
                     "name": "Design Services",
-                    "description": "Concept design, 3D modeling, CAD drawings, UI/UX design, and branding solutions"
+            "description": "Concept design, 3D modeling, CAD drawings, and branding solutions"
                   },
                   {
                     "@type": "Service", 
