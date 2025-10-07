@@ -3,7 +3,6 @@ import Image from "next/image"
 import {
   LinkedinIcon,
   XIcon,
-  GithubIcon,
   MailIcon,
 } from "lucide-react"
 
@@ -44,7 +43,7 @@ export function Footer() {
         </nav>
         <div className="flex items-center gap-4">
           <Link
-            href="https://www.linkedin.com/company/photon-echo"
+            href="https://www.linkedin.com/company/photonecho/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -61,15 +60,7 @@ export function Footer() {
           >
             <XIcon className="h-5 w-5" />
           </Link>
-          <Link
-            href="https://github.com/photon-echo"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
-          >
-            <GithubIcon className="h-5 w-5" />
-          </Link>
+          {/* GitHub removed per request */}
         </div>
       </div>
       <div className="mt-8 text-center text-sm text-muted-foreground">
