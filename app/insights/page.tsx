@@ -8,10 +8,10 @@ import path from "path"
 import matter from "gray-matter"
 import type { Metadata } from "next"
 
-export const metadata: Metadata = {
-  title: "Insights",
-  description: "Expert insights on design, visualization, and engineering. Stay informed with the latest trends, case studies, and technical knowledge from Photon Echo.",
-}
+        export const metadata: Metadata = {
+          title: "R and D Journal",
+          description: "Notes on simulation, sensors, and data for physical AI.",
+        }
 
 // Get all articles
 async function getAllArticles() {

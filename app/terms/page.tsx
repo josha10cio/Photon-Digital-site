@@ -2,9 +2,8 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions",
-  description:
-    "Terms & Conditions for Photon Digital LLC. Website use, intellectual property, disclaimers, limitations of liability, and governing law.",
+  title: "Terms",
+  description: "Basic terms for Photon Digital LLC. Contact info@photonecho.dev. © 2025.",
 }
 
 export default function TermsPage() {
@@ -12,7 +11,7 @@ export default function TermsPage() {
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       <section className="w-full py-20 md:py-28 bg-photon-gradient-hero text-white text-center">
         <div className="container px-4 md:px-6">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl leading-tight">Terms & Conditions</h1>
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl leading-tight">Terms</h1>
           <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">
             Please read these Terms carefully before using this Site.
           </p>

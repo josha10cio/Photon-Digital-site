@@ -5,8 +5,8 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Mission",
-  description: "Our mission at Photon Echo - CONCEPTS VISUALIZED and VALIDATED. Transforming innovative ideas into exceptional products through expert design and engineering solutions.",
+  title: "Mission Photon Echo",
+  description: "We build virtual worlds and sensor simulations to power synthetic data for physical AI.",
 }
 
 export default function MissionPage() {
@@ -15,12 +15,8 @@ export default function MissionPage() {
       {/* Hero Section */}
       <section className="w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white text-center animate-fadeIn">
         <div className="container px-4 md:px-6">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
-            Our Mission
-          </h1>
-          <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">
-            To transform innovative concepts into exceptional products through expert design, visualization, and engineering solutions that exceed expectations and drive success.
-          </p>
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-tight">Our Mission</h1>
+          <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">Building synthetic data for real world intelligence</p>
         </div>
       </section>
 
@@ -32,23 +28,21 @@ export default function MissionPage() {
         >
           <div className="grid gap-12 lg:grid-cols-2 items-center">
             <div className="space-y-8">
-              <h2 className="section-title">Why We Started Photon Echo</h2>
-              <p className="text-lg text-photon-200 leading-relaxed">
-                Photon Echo was founded to address a critical gap in the market: the disconnect between innovative concepts and professional execution. Too many brilliant ideas fail to reach their potential due to lack of access to experienced design and engineering expertise.
-              </p>
-              <p className="text-lg text-photon-200 leading-relaxed">
-                Our founders recognized that both commercial enterprises and government agencies needed a partner who could deliver comprehensive design, visualization, and engineering services with the highest standards of quality and security. This vision drives everything we do.
-              </p>
-              <p className="text-lg text-photon-200 leading-relaxed">
-                We believe that exceptional design and engineering should be accessible to organizations working on the most important challenges of our time. From breakthrough technologies to critical infrastructure projects, we provide the expertise needed for success.
-              </p>
+              <h2 className="section-title">Why we exist</h2>
+              <p className="text-lg text-photon-200 leading-relaxed">Collecting high quality real world data can be slow, costly, and limited by safety or privacy. Synthetic data provides scale and control without field risk.</p>
+              <h2 className="section-title mt-8">How we work</h2>
+              <p className="text-lg text-photon-200 leading-relaxed">We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built to serve the task.</p>
             </div>
             <div className="relative">
               <div className="glassmorphism p-8 border border-photon-800">
-                <h3 className="text-2xl font-bold text-photon-100 mb-6">Our Core Mission</h3>
-                <blockquote className="text-lg text-photon-200 italic leading-relaxed border-l-4 border-photon-500 pl-6">
-                  "To transform innovative concepts into exceptional products through expert design, visualization, and engineering solutions that exceed expectations and drive success."
-                </blockquote>
+                <h3 className="text-2xl font-bold text-photon-100 mb-6">Focus areas</h3>
+                <ul className="text-lg text-photon-200 leading-relaxed list-disc pl-6">
+                  <li>World building</li>
+                  <li>Sensor simulation</li>
+                  <li>Scenario authoring</li>
+                  <li>Dataset production</li>
+                  <li>Validation</li>
+                </ul>
                 <div className="mt-6 space-y-4">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-photon-500 rounded-full"></div>
@@ -73,10 +67,8 @@ export default function MissionPage() {
       <section className="w-full py-16 md:py-24 bg-photon-900/30 text-white relative z-10">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fadeIn">
-            <h2 className="section-title">What We Do Differently</h2>
-            <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">
-              Our approach combines technical expertise with strategic thinking to deliver solutions that drive real business outcomes.
-            </p>
+                    <h2 className="section-title">Vision</h2>
+                    <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">Better digital worlds create better real systems. That is the path we are building.</p>
           </div>
           
           <div className="grid gap-8 md:grid-cols-3">
