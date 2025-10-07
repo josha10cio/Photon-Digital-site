@@ -6,7 +6,6 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Script from "next/script"
-import { MessageSquareTextIcon } from "lucide-react"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -105,16 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Footer />
           </div>
 
-          {/* Enhanced Chatbot */}
-          <div className="fixed bottom-6 right-6 z-50">
-            <button
-              className="bg-gradient-to-r from-photon-500 to-photon-700 text-white rounded-full p-4 shadow-lg hover:scale-110 transition-all duration-300 flex items-center justify-center glassmorphism animate-pulse-glow group"
-              aria-label="Open Chatbot"
-            >
-              <MessageSquareTextIcon className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
-              <span className="sr-only">Open Chatbot</span>
-            </button>
-          </div>
+          {/* Chatbot removed per request */}
 
           {/* Static Background - No Animation */}
           <div className="fixed inset-0 z-0 pointer-events-none">
