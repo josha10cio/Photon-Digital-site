@@ -24,7 +24,7 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.photonecho.dev"),
   title: {
-    default: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
+    default: "Photon Echo Physical AI and Synthetic Data",
     template: "%s - Photon Echo",
   },
   icons: {
@@ -40,8 +40,7 @@ export const metadata: Metadata = {
     'pragma': 'no-cache',
     'expires': '0',
   },
-  description:
-    "Photon Echo: CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
+  description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
   keywords: [
     "design services",
     "engineering services",
@@ -67,9 +66,8 @@ export const metadata: Metadata = {
     "proposal support",
   ],
   openGraph: {
-    title: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
-    description:
-      "Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
+    title: "Photon Echo Physical AI and Synthetic Data",
+    description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
     url: "https://www.photonecho.dev",
     siteName: "Photon Echo",
     images: [
@@ -77,7 +75,7 @@ export const metadata: Metadata = {
         url: "/echo_Logo.png",
         width: 1200,
         height: 630,
-        alt: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
+        alt: "Photon Echo Physical AI and Synthetic Data",
       },
     ],
     locale: "en_US",
@@ -85,9 +83,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
-    description:
-      "Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
+    title: "Photon Echo Physical AI and Synthetic Data",
+    description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
     images: ["/echo_Logo.png"],
   },
     generator: 'v0.app'
@@ -125,7 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "name": "Photon Echo",
                 "url": "https://www.photonecho.dev",
                 "logo": "https://www.photonecho.dev/echo_Logo.png",
-                "description": "Photon Echo: CONCEPTS VISUALIZED and VALIDATED. Forging bold ideas into unmatched products and systems through advanced design, visualization, and engineering services.",
+                "description": "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
                 "address": {
                   "@type": "PostalAddress",
                   "addressCountry": "US"

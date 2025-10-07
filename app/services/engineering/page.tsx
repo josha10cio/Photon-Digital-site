@@ -20,9 +20,8 @@ import {
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Engineering & Industrial Design Services",
-  description:
-    "Expert engineering and industrial design: product engineering, compliance-ready documentation, manufacturing support, and technical solutions for complex challenges.",
+  title: "Engineering & Industrial Design",
+  description: "Product engineering, documentation, and manufacturing support.",
 }
 
 export default function EngineeringServicesPage() {
@@ -49,20 +48,19 @@ export default function EngineeringServicesPage() {
               Engineering & Industrial Design
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Comprehensive engineering solutions from product design to manufacturing support, delivering technical excellence 
-              and innovative solutions for complex challenges.
+              Engineering and industrial design for product development, documentation, and manufacturing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
                 <Button className="btn-primary px-10 py-4 text-lg font-medium group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Engineering Project
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
               <Link href="/contact">
                 <Button variant="outline" className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent">
-                  Get Started
+                  Start Your Project
                 </Button>
               </Link>
             </div>
@@ -75,9 +73,7 @@ export default function EngineeringServicesPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Engineering Service Categories</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Full-spectrum engineering and industrial design services for product development and manufacturing excellence.
-            </p>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Engineering and industrial design services for product development and manufacturing.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
@@ -135,9 +131,7 @@ export default function EngineeringServicesPage() {
                 <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
               </CardHeader>
               <CardContent className="text-center">
-                <CardDescription className="text-photon-200 text-sm mb-4">
-                  Comprehensive technical specifications, documentation, and compliance materials for engineering projects.
-                </CardDescription>
+                <CardDescription className="text-photon-200 text-sm mb-4">Technical specifications, documentation, and compliance materials.</CardDescription>
                 <ul className="text-xs text-photon-300 space-y-1">
                   <li>• Engineering specifications</li>
                   <li>• Compliance documentation</li>
@@ -177,9 +171,7 @@ export default function EngineeringServicesPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Engineering Process</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Systematic engineering methodology ensuring technical rigor and innovative solutions.
-            </p>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">A clear method for engineering work from requirements to production.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-6 max-w-7xl mx-auto">
@@ -239,9 +231,7 @@ export default function EngineeringServicesPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Engineering Capabilities & Expertise</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Advanced engineering capabilities across multiple disciplines and industries.
-            </p>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Capabilities across analysis, documentation, and production support.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
@@ -344,30 +334,23 @@ export default function EngineeringServicesPage() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <span className="text-photon-200 font-medium">Ready to Engineer Excellence?</span>
+              <span className="text-photon-200 font-medium">Ready to get started</span>
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
-              Transform Ideas into Products
+              Start Your Project
             </h2>
             <p className="text-lg md:text-xl text-photon-100 max-w-2xl mx-auto mb-8">
-              Partner with our engineering experts to turn complex challenges into innovative solutions ready for production.
+              Share your goals and we will propose a practical plan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button className="btn-primary px-12 py-4 text-lg font-semibold group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Engineering Project
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/services">
-                <Button
-                  variant="outline"
-                  className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
-                >
-                  Explore All Services
-                </Button>
-              </Link>
+              
             </div>
           </div>
         </div>

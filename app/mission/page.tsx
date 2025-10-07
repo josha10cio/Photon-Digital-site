@@ -76,8 +76,8 @@ export default function MissionPage() {
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
                 <span className="text-2xl font-bold text-photon-500">1</span>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Deep Technical Expertise</h3>
-              <p className="text-photon-200">Combined decades of experience across multiple engineering disciplines and design specialties.</p>
+              <h3 className="text-xl font-semibold text-white mb-3">Technical Expertise</h3>
+              <p className="text-photon-200">Experience across engineering disciplines and design specialties.</p>
             </div>
 
             <div className="glassmorphism p-6 text-center group card-lift-on-hover">
@@ -93,7 +93,7 @@ export default function MissionPage() {
                 <span className="text-2xl font-bold text-photon-700">3</span>
               </div>
               <h3 className="text-xl font-semibold text-white mb-3">Security & Compliance</h3>
-              <p className="text-photon-200">Government-grade security protocols and compliance capabilities for the most sensitive projects.</p>
+              <p className="text-photon-200">Security and compliance practices for sensitive projects.</p>
             </div>
           </div>
         </div>

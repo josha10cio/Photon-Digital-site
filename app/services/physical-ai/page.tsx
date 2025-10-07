@@ -115,7 +115,7 @@ export default function PhysicalAIPage() {
               </div>
               <div>
                 <h3 className="text-white font-semibold mb-2">Can this run at the edge without cloud?</h3>
-                <p className="text-photon-300">Yes. We optimize models and pipelines for on-device or on‑prem inference with low latency.</p>
+              <p className="text-photon-300">Yes. We optimize models and pipelines for on device or on prem inference with low latency.</p>
               </div>
             </div>
           </div>

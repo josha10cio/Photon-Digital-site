@@ -19,8 +19,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Design Services",
-  description:
-    "Expert design services: concept design, 3D modeling, CAD drawings, and branding. Fresh creative solutions with advanced tools and methodologies.",
+  description: "Concept design, 3D modeling, CAD drawings, and branding.",
 }
 
 export default function DesignServicesPage() {
@@ -73,9 +72,7 @@ export default function DesignServicesPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Design Service Categories</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Comprehensive design solutions covering every aspect of visual communication and product development.
-            </p>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Design for visual communication and product development.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
