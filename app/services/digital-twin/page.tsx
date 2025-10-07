@@ -20,7 +20,28 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Digital Twin Development Services",
-  description: "Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real-time system modeling and predictive analytics.",
+  description:
+    "Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real-time system modeling and predictive analytics.",
+  keywords: [
+    "digital twin",
+    "real-time simulation",
+    "predictive analytics",
+    "IoT integration",
+    "system modeling",
+  ],
+  openGraph: {
+    title: "Digital Twin Development Services",
+    description:
+      "Create intelligent virtual replicas for simulation, testing, and optimization with AI-powered analytics.",
+    url: "https://www.photonecho.dev/services/digital-twin",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Twin Development Services",
+    description:
+      "AI-powered virtual replicas for simulation, testing, optimization, and real-time insights.",
+  },
 }
 
 export default function DigitalTwinPage() {
@@ -63,6 +84,36 @@ export default function DigitalTwinPage() {
                   Learn More
                 </Button>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+        <div className="container px-4 md:px-6 max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="section-title mb-4">Digital Twin FAQs</h2>
+            <p className="text-lg text-photon-200">Key questions about scope, integrations, and ROI.</p>
+          </div>
+          <div className="glassmorphism p-6 md:p-8 border border-photon-800/50">
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-white font-semibold mb-2">What data sources do you need?</h3>
+                <p className="text-photon-300">Sensor streams, operational datasets, and system specs. We support phased integrations.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">How do you measure ROI?</h3>
+                <p className="text-photon-300">Uptime, throughput, defect rate, energy use, and cycle time improvements tracked pre/post deployment.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Can it run in real time?</h3>
+                <p className="text-photon-300">Yes. We design for real-time dashboards and alerting with streaming pipelines.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Deployment options?</h3>
+                <p className="text-photon-300">Cloud, on‑prem, or hybrid with secure connectivity and role‑based access.</p>
+              </div>
             </div>
           </div>
         </div>

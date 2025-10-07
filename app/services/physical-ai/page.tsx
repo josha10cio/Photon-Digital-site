@@ -22,7 +22,29 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Physical AI Development Services",
-  description: "Advanced Physical AI development services including computer vision, robotics integration, and autonomous systems. AI that understands and interacts with the physical world.",
+  description:
+    "Advanced Physical AI development services including computer vision, robotics integration, and autonomous systems. AI that understands and interacts with the physical world.",
+  keywords: [
+    "Physical AI",
+    "robotics integration",
+    "computer vision",
+    "sensor fusion",
+    "autonomous systems",
+    "edge computing",
+  ],
+  openGraph: {
+    title: "Physical AI Development Services",
+    description:
+      "Build AI systems that perceive, understand, and interact with the physical world through advanced perception, robotics, and autonomy.",
+    url: "https://www.photonecho.dev/services/physical-ai",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Physical AI Development Services",
+    description:
+      "AI that bridges digital intelligence and physical reality: perception, robotics, autonomy.",
+  },
 }
 
 export default function PhysicalAIPage() {
@@ -65,6 +87,36 @@ export default function PhysicalAIPage() {
                   Learn More
                 </Button>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+        <div className="container px-4 md:px-6 max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="section-title mb-4">Physical AI FAQs</h2>
+            <p className="text-lg text-photon-200">Common questions about scope, timelines, and requirements.</p>
+          </div>
+          <div className="glassmorphism p-6 md:p-8 border border-photon-800/50">
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-white font-semibold mb-2">What inputs do you need to start?</h3>
+                <p className="text-photon-300">A problem statement, target environment, sensor/hardware constraints, and success criteria.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Typical project duration?</h3>
+                <p className="text-photon-300">Pilot prototypes: 4–8 weeks. Full integrated systems: 3–6 months depending on scope.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Do you work with existing hardware?</h3>
+                <p className="text-photon-300">Yes. We integrate with your platforms or recommend COTS hardware when appropriate.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Can this run at the edge without cloud?</h3>
+                <p className="text-photon-300">Yes. We optimize models and pipelines for on-device or on‑prem inference with low latency.</p>
+              </div>
             </div>
           </div>
         </div>
