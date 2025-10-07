@@ -155,7 +155,7 @@ export default function ContactPageClient() {
                 type="submit"
                 className="w-full px-8 py-3 text-lg bg-photon-500 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-blue animate-pulse-glow"
               >
-                Submit Project Inquiry
+                Start Your Project
               </Button>
             </form>
           </div>

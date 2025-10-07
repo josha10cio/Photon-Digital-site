@@ -8,10 +8,10 @@ import path from "path"
 import matter from "gray-matter"
 import type { Metadata } from "next"
 
-export const metadata: Metadata = {
-  title: "Insights",
-  description: "Expert insights on design, visualization, and engineering. Stay informed with the latest trends, case studies, and technical knowledge from Photon Echo.",
-}
+        export const metadata: Metadata = {
+          title: "R and D Journal",
+          description: "Notes on simulation, sensors, and data for physical AI.",
+        }
 
 // Get all articles
 async function getAllArticles() {
@@ -31,7 +31,7 @@ async function getAllArticles() {
       return {
         slug: data.slug || filename.replace(".md", ""),
         title: data.title,
-        excerpt: data.excerpt,
+        excerpt: data.excerpt || data.summary,
         date: data.date,
         author: data.author,
         category: data.category,
@@ -62,14 +62,14 @@ export default async function InsightsPage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-700/20 text-photon-100 border-photon-700/30 px-4 py-2 text-sm font-medium">
-                Industry Insights • Technical Knowledge
+                R and D Journal
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Expert Insights
+              R and D Journal
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Stay ahead with the latest trends, case studies, and technical knowledge in design, visualization, and engineering.
+              Notes on simulation, sensors, and data for physical AI.
             </p>
           </div>
         </div>
@@ -254,11 +254,11 @@ export default async function InsightsPage() {
                       <ArrowRightIcon className="ml-2 w-5 h-5" />
                     </Button>
                   </Link>
-                  <Link href="/services">
-                    <Button variant="outline" className="px-8 py-3 text-lg border-photon-600 text-white hover:bg-photon-600/10 transition-all duration-300">
-                      Explore Services
-                    </Button>
-                  </Link>
+                          <Link href="/contact">
+                            <Button variant="outline" className="px-8 py-3 text-lg border-photon-600 text-white hover:bg-photon-600/10 transition-all duration-300">
+                              Start Your Project
+                            </Button>
+                          </Link>
                 </div>
               </div>
             )}

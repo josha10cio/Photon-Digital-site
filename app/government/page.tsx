@@ -6,9 +6,8 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Our Capabilities",
-  description:
-    "Professional design, visualization, and engineering capabilities for complex projects. Fresh approach with advanced tools and methodologies.",
+  title: "Government",
+  description: "Preparing for secure synthetic data and digital twin systems.",
 }
 
 export default function GovernmentPage() {
@@ -26,28 +25,15 @@ export default function GovernmentPage() {
 
         <div className="container relative z-10 px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="flex justify-center mb-6">
-              <Badge className="bg-photon-500/20 text-photon-100 border-photon-500/30 px-4 py-2 text-sm font-medium">
-                Fresh Approach • Modern Tools
-              </Badge>
-            </div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8 animate-fadeIn">
-              Our Design & Engineering Capabilities
-            </h1>
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8 animate-fadeIn">Government</h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Ready to tackle complex design, visualization, and engineering challenges with innovative methodologies 
-              and advanced technology capabilities.
+              Photon Echo is preparing for future collaboration that requires secure synthetic data and digital twin systems. Certifications and registrations are in progress. We will publish details as they are finalized.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
                 <Button className="btn-primary px-10 py-4 text-lg font-medium">
                   <ShieldCheckIcon className="mr-2 w-5 h-5" />
-                  Discuss Your Project
-                </Button>
-              </Link>
-              <Link href="/services">
-                <Button variant="outline" className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent">
-                  Our Services
+                  Start Your Project
                 </Button>
               </Link>
             </div>
@@ -201,49 +187,7 @@ export default function GovernmentPage() {
         </div>
       </section>
 
-      {/* Past Performance Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
-        <div className="container px-4 md:px-6">
-          <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Proven Past Performance</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Successful project delivery for major government agencies and defense contractors.
-            </p>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
-            <div className="glassmorphism p-8 border border-photon-800">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 bg-photon-500/20 rounded-lg flex items-center justify-center">
-                  <ClockIcon className="h-6 w-6 text-photon-500" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-white">Project Timeline Excellence</h3>
-                  <p className="text-sm text-photon-300">98% on-time delivery rate</p>
-                </div>
-              </div>
-              <p className="text-photon-200">
-                Consistent delivery of critical design and engineering projects within government timelines and budget constraints.
-              </p>
-            </div>
-
-            <div className="glassmorphism p-8 border border-photon-800">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 bg-photon-500/20 rounded-lg flex items-center justify-center">
-                  <AwardIcon className="h-6 w-6 text-photon-500" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-white">Quality Assurance</h3>
-                  <p className="text-sm text-photon-300">Zero security incidents</p>
-                </div>
-              </div>
-              <p className="text-photon-200">
-                Maintained perfect security record across all classified and sensitive government projects.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Past Performance removed to avoid implying past client results */}
 
       {/* CTA Section */}
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center overflow-hidden">

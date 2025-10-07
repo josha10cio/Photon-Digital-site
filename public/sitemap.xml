@@ -8,13 +8,13 @@
   </url>
   <url>
     <loc>https://www.photonecho.dev/insights</loc>
-    <lastmod>2025-10-04</lastmod>
+    <lastmod>2025-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.photonecho.dev/mission</loc>
-    <lastmod>2025-10-04</lastmod>
+    <lastmod>2025-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -49,19 +49,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.photonecho.dev/services/digital-twin</loc>
+    <loc>https://www.photonecho.dev/digital_twin</loc>
     <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.photonecho.dev/services/physical-ai</loc>
+    <loc>https://www.photonecho.dev/physical_ai</loc>
     <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.photonecho.dev/process</loc>
+    <loc>https://www.photonecho.dev/workflow</loc>
     <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -79,7 +79,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.photonecho.dev/privacy-policy</loc>
+    <loc>https://www.photonecho.dev/privacy</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

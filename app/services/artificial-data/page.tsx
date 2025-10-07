@@ -22,7 +22,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Artificial Data Development Services",
-  description: "Advanced synthetic data generation services for AI training, testing, and validation. Privacy-safe artificial datasets when real-world data is limited or sensitive.",
+  description: "Synthetic data for AI training, testing, and validation. Privacy safe when real data is limited or sensitive.",
 }
 
 export default function ArtificialDataPage() {
@@ -463,7 +463,7 @@ export default function ArtificialDataPage() {
               <Link href="/contact">
                 <Button className="btn-primary px-12 py-4 text-lg font-semibold group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Generating Data
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -472,7 +472,7 @@ export default function ArtificialDataPage() {
                   variant="outline"
                   className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  Explore All Services
+                  Start Your Project
                 </Button>
               </Link>
             </div>

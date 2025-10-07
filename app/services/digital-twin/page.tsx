@@ -75,7 +75,7 @@ export default function DigitalTwinPage() {
               <Link href="/contact">
                 <Button className="btn-primary px-10 py-4 text-lg font-medium group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Your Digital Twin
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -108,11 +108,11 @@ export default function DigitalTwinPage() {
               </div>
               <div>
                 <h3 className="text-white font-semibold mb-2">Can it run in real time?</h3>
-                <p className="text-photon-300">Yes. We design for real-time dashboards and alerting with streaming pipelines.</p>
+              <p className="text-photon-300">Yes. We design for real time dashboards and alerting with streaming pipelines.</p>
               </div>
               <div>
                 <h3 className="text-white font-semibold mb-2">Deployment options?</h3>
-                <p className="text-photon-300">Cloud, on‑prem, or hybrid with secure connectivity and role‑based access.</p>
+              <p className="text-photon-300">Cloud, on prem, or hybrid with secure connectivity and role based access.</p>
               </div>
             </div>
           </div>
@@ -371,7 +371,7 @@ export default function DigitalTwinPage() {
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Digital Twin Benefits</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Transform your operations with data-driven insights and predictive capabilities.
+              Transform your operations with data driven insights and predictive capabilities.
             </p>
           </div>
 
@@ -381,7 +381,7 @@ export default function DigitalTwinPage() {
                 <TrendingUpIcon className="h-8 w-8 text-photon-400" />
               </div>
               <h3 className="text-lg font-semibold text-white">Increased Efficiency</h3>
-              <p className="text-sm text-photon-300">Optimize operations and reduce waste through data-driven insights</p>
+              <p className="text-sm text-photon-300">Optimize operations and reduce waste through data driven insights</p>
             </div>
 
             <div className="text-center space-y-4">
@@ -430,7 +430,7 @@ export default function DigitalTwinPage() {
               <Link href="/contact">
                 <Button className="btn-primary px-12 py-4 text-lg font-semibold group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Your Digital Twin Project
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -439,7 +439,7 @@ export default function DigitalTwinPage() {
                   variant="outline"
                   className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  Explore All Services
+                  Start Your Project
                 </Button>
               </Link>
             </div>

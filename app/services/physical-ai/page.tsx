@@ -78,7 +78,7 @@ export default function PhysicalAIPage() {
               <Link href="/contact">
                 <Button className="btn-primary px-10 py-4 text-lg font-medium group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Your Physical AI Project
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -115,7 +115,7 @@ export default function PhysicalAIPage() {
               </div>
               <div>
                 <h3 className="text-white font-semibold mb-2">Can this run at the edge without cloud?</h3>
-                <p className="text-photon-300">Yes. We optimize models and pipelines for on-device or on‑prem inference with low latency.</p>
+              <p className="text-photon-300">Yes. We optimize models and pipelines for on device or on prem inference with low latency.</p>
               </div>
             </div>
           </div>
@@ -183,9 +183,7 @@ export default function PhysicalAIPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Physical AI Technologies</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Comprehensive Physical AI capabilities spanning perception, cognition, and action.
-            </p>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Physical AI capabilities spanning perception, cognition, and action.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
@@ -481,7 +479,7 @@ export default function PhysicalAIPage() {
               <Link href="/contact">
                 <Button className="btn-primary px-12 py-4 text-lg font-semibold group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Your Physical AI Project
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -490,7 +488,7 @@ export default function PhysicalAIPage() {
                   variant="outline"
                   className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  Explore All Services
+                  Start Your Project
                 </Button>
               </Link>
             </div>
