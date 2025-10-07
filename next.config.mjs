@@ -9,6 +9,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      { source: '/about', destination: '/mission', permanent: true },
+      { source: '/portfolio', destination: '/services', permanent: true },
+      { source: '/services/supporting', destination: '/services', permanent: true },
+      { source: '/blog', destination: '/insights', permanent: true },
+      { source: '/privacy', destination: '/privacy-policy', permanent: true },
+    ]
+  },
   async headers() {
     return [
       {
