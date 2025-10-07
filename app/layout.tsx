@@ -23,6 +23,7 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.photonecho.dev"),
   title: {
     default: "Photon Echo: CONCEPTS VISUALIZED and VALIDATED",
     template: "%s - Photon Echo",

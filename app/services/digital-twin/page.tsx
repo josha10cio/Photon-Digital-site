@@ -58,7 +58,7 @@ export default function DigitalTwinPage() {
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/about">
+              <Link href="/mission">
                 <Button variant="outline" className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent">
                   Learn More
                 </Button>
