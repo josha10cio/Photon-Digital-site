@@ -53,7 +53,7 @@ export function Footer() {
             <LinkedinIcon className="h-5 w-5" />
           </Link>
           <Link
-            href="https://twitter.com/photonecho"
+            href="https://x.com/photon_digital"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X (Twitter)"

@@ -138,7 +138,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 },
                 "sameAs": [
                   "https://www.linkedin.com/company/photon-echo",
-                  "https://twitter.com/photonecho",
+                  "https://x.com/photon_digital",
                   "https://github.com/photon-echo"
                 ],
                 "service": [
