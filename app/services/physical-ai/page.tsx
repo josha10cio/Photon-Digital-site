@@ -183,9 +183,7 @@ export default function PhysicalAIPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Physical AI Technologies</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Comprehensive Physical AI capabilities spanning perception, cognition, and action.
-            </p>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Physical AI capabilities spanning perception, cognition, and action.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">

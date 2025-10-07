@@ -125,7 +125,7 @@ export default function MissionPage() {
                 How long do projects typically take?
               </AccordionTrigger>
               <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                Project timelines vary based on scope and complexity. Simple design projects may take 2-4 weeks, while comprehensive engineering solutions can span 3-6 months. We provide detailed project timelines during our initial consultation and maintain clear milestones throughout the engagement.
+                Project timelines vary by scope and complexity. We provide a timeline during our initial consultation and maintain clear milestones.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="border-b border-photon-800">
@@ -141,7 +141,7 @@ export default function MissionPage() {
                 What deliverables can we expect?
               </AccordionTrigger>
               <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                Deliverables depend on project scope but typically include CAD files, technical drawings, design documentation, renderings, animations, interactive demos, and comprehensive technical specifications. All deliverables include proper documentation and are optimized for your intended use case.
+                Deliverables depend on scope. They may include CAD files, technical drawings, design documentation, renderings, animations, interactive demos, and technical specifications. All deliverables are documented and prepared for the intended use.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5" className="border-b border-photon-800">

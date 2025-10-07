@@ -22,7 +22,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Artificial Data Development Services",
-  description: "Advanced synthetic data generation services for AI training, testing, and validation. Privacy-safe artificial datasets when real-world data is limited or sensitive.",
+  description: "Synthetic data for AI training, testing, and validation. Privacy safe when real data is limited or sensitive.",
 }
 
 export default function ArtificialDataPage() {
