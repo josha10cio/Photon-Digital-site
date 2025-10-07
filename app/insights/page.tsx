@@ -254,11 +254,11 @@ export default async function InsightsPage() {
                       <ArrowRightIcon className="ml-2 w-5 h-5" />
                     </Button>
                   </Link>
-                  <Link href="/services">
-                    <Button variant="outline" className="px-8 py-3 text-lg border-photon-600 text-white hover:bg-photon-600/10 transition-all duration-300">
-                      Explore Services
-                    </Button>
-                  </Link>
+                          <Link href="/contact">
+                            <Button variant="outline" className="px-8 py-3 text-lg border-photon-600 text-white hover:bg-photon-600/10 transition-all duration-300">
+                              Start Your Project
+                            </Button>
+                          </Link>
                 </div>
               </div>
             )}

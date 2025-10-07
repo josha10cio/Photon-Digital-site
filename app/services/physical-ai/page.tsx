@@ -78,7 +78,7 @@ export default function PhysicalAIPage() {
               <Link href="/contact">
                 <Button className="btn-primary px-10 py-4 text-lg font-medium group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Your Physical AI Project
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -481,7 +481,7 @@ export default function PhysicalAIPage() {
               <Link href="/contact">
                 <Button className="btn-primary px-12 py-4 text-lg font-semibold group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
-                  Start Your Physical AI Project
+                  Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -490,7 +490,7 @@ export default function PhysicalAIPage() {
                   variant="outline"
                   className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent"
                 >
-                  Explore All Services
+                  Start Your Project
                 </Button>
               </Link>
             </div>
