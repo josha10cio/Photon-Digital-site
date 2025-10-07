@@ -142,7 +142,7 @@ export default function DigitalTwinPage() {
               </div>
             </div>
             <div className="grid gap-6">
-              <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+              <Card className="card-standard card-hover">
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-photon-400/20 flex items-center justify-center">
@@ -155,7 +155,7 @@ export default function DigitalTwinPage() {
                   <p className="text-photon-300">Connect physical sensors and systems to create comprehensive virtual models</p>
                 </CardContent>
               </Card>
-              <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+              <Card className="card-standard card-hover">
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-photon-500/20 flex items-center justify-center">
@@ -184,7 +184,7 @@ export default function DigitalTwinPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 mx-auto group-hover:border-photon-300 transition-colors">
                   <BoxIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
@@ -198,7 +198,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <TrendingUpIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -212,7 +212,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <CpuIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -226,7 +226,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <MonitorIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -240,7 +240,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <SettingsIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -254,7 +254,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <ShieldIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -282,7 +282,7 @@ export default function DigitalTwinPage() {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <ClockIcon className="h-6 w-6 text-photon-400" />
@@ -302,7 +302,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <NetworkIcon className="h-6 w-6 text-photon-500" />
@@ -322,7 +322,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <ShieldIcon className="h-6 w-6 text-photon-600" />
@@ -342,7 +342,7 @@ export default function DigitalTwinPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <ZapIcon className="h-6 w-6 text-photon-700" />

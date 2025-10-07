@@ -95,7 +95,7 @@ export default function ArtificialDataPage() {
               </div>
             </div>
             <div className="grid gap-6">
-              <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+              <Card className="card-standard card-hover">
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-photon-600/20 flex items-center justify-center">
@@ -108,7 +108,7 @@ export default function ArtificialDataPage() {
                   <p className="text-photon-300">Train AI models without exposing sensitive real-world data</p>
                 </CardContent>
               </Card>
-              <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+              <Card className="card-standard card-hover">
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-photon-700/20 flex items-center justify-center">
@@ -137,7 +137,7 @@ export default function ArtificialDataPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <DatabaseIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -151,7 +151,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <LayersIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -165,7 +165,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <SparklesIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -179,7 +179,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <BarChartIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -193,7 +193,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <LockIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -207,7 +207,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <RefreshCwIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -235,7 +235,7 @@ export default function ArtificialDataPage() {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <BarChartIcon className="h-6 w-6 text-photon-600" />
@@ -255,7 +255,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <CpuIcon className="h-6 w-6 text-photon-700" />
@@ -275,7 +275,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <ZapIcon className="h-6 w-6 text-photon-500" />
@@ -295,7 +295,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <TrendingUpIcon className="h-6 w-6 text-photon-600" />
@@ -329,7 +329,7 @@ export default function ArtificialDataPage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-lg">Healthcare AI Training</CardTitle>
               </CardHeader>
@@ -340,7 +340,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-lg">Financial Model Testing</CardTitle>
               </CardHeader>
@@ -351,7 +351,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-lg">Autonomous Vehicle Testing</CardTitle>
               </CardHeader>

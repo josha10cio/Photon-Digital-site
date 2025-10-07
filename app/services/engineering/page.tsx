@@ -78,7 +78,7 @@ export default function EngineeringServicesPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
             {/* Product Engineering */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                   <Settings2Icon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -100,7 +100,7 @@ export default function EngineeringServicesPage() {
             </Card>
 
             {/* Industrial Design */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                   <CogIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -122,7 +122,7 @@ export default function EngineeringServicesPage() {
             </Card>
 
             {/* Technical Documentation */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                   <ClipboardListIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -142,7 +142,7 @@ export default function EngineeringServicesPage() {
             </Card>
 
             {/* Manufacturing Support */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                   <WrenchIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -235,7 +235,7 @@ export default function EngineeringServicesPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <ShieldCheckIcon className="h-8 w-8 text-photon-600" />
@@ -265,7 +265,7 @@ export default function EngineeringServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <CalculatorIcon className="h-8 w-8 text-photon-600" />
@@ -295,7 +295,7 @@ export default function EngineeringServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <FactoryIcon className="h-8 w-8 text-photon-600" />

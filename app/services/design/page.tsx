@@ -77,7 +77,7 @@ export default function DesignServicesPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
             {/* Concept Design */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -99,7 +99,7 @@ export default function DesignServicesPage() {
             </Card>
 
             {/* 3D Modeling & CAD */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BoxIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -123,7 +123,7 @@ export default function DesignServicesPage() {
             {/* Removed UI/UX Design card per request */}
 
             {/* Branding & Graphics */}
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism card-lift-on-hover">
+            <Card className="card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <PaletteIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />

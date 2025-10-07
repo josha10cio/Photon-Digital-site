@@ -39,7 +39,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white">
+            <Card className="card-standard card-hover">
               <CardHeader>
                 <CardTitle>Physical AI Development</CardTitle>
               </CardHeader>
@@ -49,7 +49,7 @@ export default function HomePage() {
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card className="bg-photon-900/50 border border-photon-800 text-white">
+            <Card className="card-standard card-hover">
               <CardHeader>
                 <CardTitle>Digital Twin Systems</CardTitle>
               </CardHeader>

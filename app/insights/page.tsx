@@ -204,7 +204,7 @@ export default async function InsightsPage() {
 
                 {/* Preview Cards */}
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                  <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+                  <Card className="card-standard card-hover">
                     <CardHeader className="text-center">
                       <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
                         <EyeIcon className="h-6 w-6 text-photon-300" />
@@ -218,7 +218,7 @@ export default async function InsightsPage() {
                     </CardContent>
                   </Card>
 
-                  <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+                  <Card className="card-standard card-hover">
                     <CardHeader className="text-center">
                       <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
                         <UserIcon className="h-6 w-6 text-photon-300" />
@@ -232,7 +232,7 @@ export default async function InsightsPage() {
                     </CardContent>
                   </Card>
 
-                  <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 md:col-span-2 lg:col-span-1">
+                  <Card className="card-standard card-hover md:col-span-2 lg:col-span-1">
                     <CardHeader className="text-center">
                       <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
                         <CalendarIcon className="h-6 w-6 text-photon-300" />

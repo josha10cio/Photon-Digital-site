@@ -52,7 +52,7 @@ export default function GovernmentPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center">
                 <ShieldCheckIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
                 <CardTitle className="text-lg">Security Clearance</CardTitle>
@@ -62,7 +62,7 @@ export default function GovernmentPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center">
                 <FileTextIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
                 <CardTitle className="text-lg">GSA Schedule</CardTitle>
@@ -72,7 +72,7 @@ export default function GovernmentPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center">
                 <AwardIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
                 <CardTitle className="text-lg">Small Business</CardTitle>
@@ -82,7 +82,7 @@ export default function GovernmentPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center">
                 <UsersIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
                 <CardTitle className="text-lg">CAGE Code</CardTitle>
@@ -106,7 +106,7 @@ export default function GovernmentPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl">Defense & Security Design</CardTitle>
                 <div className="w-12 h-1 bg-photon-500 rounded-full"></div>
@@ -132,7 +132,7 @@ export default function GovernmentPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl">Proposal Support</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full"></div>
@@ -158,7 +158,7 @@ export default function GovernmentPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-photon-900/50 border border-photon-800 text-white glassmorphism">
+            <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl">Compliance Documentation</CardTitle>
                 <div className="w-12 h-1 bg-photon-600 rounded-full"></div>
