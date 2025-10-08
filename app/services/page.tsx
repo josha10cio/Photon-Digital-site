@@ -52,10 +52,10 @@ export default function SupportingServicesPage() {
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Physical AI Development & Digital Twins
+              Physical AI and Digital Twins
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Physical AI development and digital twins built on simulation, sensors, and data.
+              We build virtual worlds and sensor simulations that produce synthetic training data. Digital twins use the same pipeline for testing and monitoring.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/physical_ai">
@@ -87,64 +87,25 @@ export default function SupportingServicesPage() {
             </p>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <Card className="card-standard card-hover">
-              <CardHeader>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 rounded-full bg-photon-500/20 flex items-center justify-center">
-                    <BrainIcon className="w-6 h-6 text-photon-500" />
-                  </div>
-                  <CardTitle className="text-xl">Physical AI Development Support</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3 text-photon-200">
+              <CardContent className="p-8">
+                <ul className="space-y-4 text-photon-200">
                   <li className="flex items-start gap-3">
                     <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
-                    <span><strong>Design Services:</strong> Build simple operator interfaces and review tools</span>
+                    <span><strong>Design Services:</strong> 3D assets, interfaces, and review tools for simulation</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
-                    <span><strong>Visualization Services:</strong> Create review visualizations and interactive demos</span>
+                    <span><strong>Visualization Services:</strong> previews, interactive demos, and dataset inspection</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
-                    <span><strong>Engineering Services:</strong> Build robust hardware integration and system architecture</span>
+                    <span><strong>Engineering Services:</strong> mechanical accuracy, sensor specs, and integration</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
-                    <span><strong>Artificial Data:</strong> Generate synthetic datasets for training and validation</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 rounded-full bg-photon-400/20 flex items-center justify-center">
-                    <BoxIcon className="w-6 h-6 text-photon-400" />
-                  </div>
-                  <CardTitle className="text-xl">Digital Twin Support</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3 text-photon-200">
-                  <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
-                    <span><strong>Design Services:</strong> Model physical systems and create realistic 3D representations</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
-                    <span><strong>Visualization Services:</strong> Build immersive 3D environments and real time visualizations</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
-                    <span><strong>Engineering Services:</strong> Ensure accurate system modeling and performance optimization</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
-                    <span><strong>Artificial Data:</strong> Create realistic simulation data for twin validation</span>
+                    <span><strong>Artificial Data:</strong> targeted generation and data refinement for training and validation</span>
                   </li>
                 </ul>
               </CardContent>
