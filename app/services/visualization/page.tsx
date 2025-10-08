@@ -209,6 +209,7 @@ export default function VisualizationServicesPage() {
 
             <div className="text-center group">
               <div className="w-16 h-16 rounded-full bg-photon-700/20 flex items-center justify-center mb-4 mx-auto border border-photon-700/30 group-hover:border-photon-700 transition-all duration-300">
+                <CheckCircleIcon className="h-8 w-8 text-photon-700" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">Delivery</h3>
               <p className="text-sm text-photon-300">Final assets optimized for intended use and platform</p>

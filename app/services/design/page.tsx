@@ -187,6 +187,7 @@ export default function DesignServicesPage() {
 
             <div className="text-center group">
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
+                <CheckCircleIcon className="h-8 w-8 text-photon-500" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">Delivery</h3>
               <p className="text-sm text-photon-300">Final assets with documentation and guidelines</p>
