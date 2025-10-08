@@ -1,0 +1,244 @@
+PHOTON ECHO WEBSITE - METADATA DOCUMENT
+Generated: October 8, 2025
+========================================
+
+================================================================================
+GLOBAL METADATA (app/layout.tsx)
+================================================================================
+
+Site-wide Metadata Configuration:
+----------------------------------
+Metadata Base: https://www.photonecho.dev
+
+Title Configuration:
+- Default: "Photon Echo Physical AI and Synthetic Data"
+- Template: "%s - Photon Echo"
+
+Icons:
+- Icon: /favicon.png
+- Shortcut: /favicon.png
+- Apple Touch Icon: /favicon.png
+
+Other Meta Tags:
+- robots: index, follow
+- googlebot: index, follow
+- last-modified: 2025-09-21
+- cache-control: no-cache, no-store, must-revalidate
+- pragma: no-cache
+- expires: 0
+
+Description:
+"We build virtual worlds and simulated sensors to create synthetic training data for physical AI."
+
+Keywords:
+- Physical AI
+- Digital Twin
+- Synthetic Data
+- Artificial Data
+- Sensor Simulation
+- 3D Simulation
+- AI Training Data
+- Computer Vision
+- Robotics
+- Autonomous Systems
+- Virtual Environments
+- Real-time Simulation
+- Predictive Analytics
+- IoT Integration
+- Machine Learning Data
+- Perception AI
+- Edge Computing
+- Digital Twin Technology
+- Synthetic Sensors
+- Physical AI Development
+
+Open Graph Tags:
+- title: "Photon Echo Physical AI and Synthetic Data"
+- description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI."
+- url: https://www.photonecho.dev
+- siteName: "Photon Echo"
+- images: 
+  * url: /echo_Logo.png
+  * width: 1200
+  * height: 630
+  * alt: "Photon Echo Physical AI and Synthetic Data"
+- locale: en_US
+- type: website
+
+Twitter Card Tags:
+- card: summary_large_image
+- title: "Photon Echo Physical AI and Synthetic Data"
+- description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI."
+- images: [/echo_Logo.png]
+
+Generator:
+- v0.app
+
+================================================================================
+HOME PAGE METADATA (app/page.tsx)
+================================================================================
+
+Title: "Photon Echo Physical AI and Synthetic Data"
+Description: "We build virtual worlds and simulated sensors that produce synthetic training data for physical AI systems."
+
+================================================================================
+PHYSICAL AI PAGE METADATA (app/physical_ai/page.tsx)
+================================================================================
+
+Title: "Physical AI Development Services"
+
+Description: "Advanced Physical AI development services including computer vision, robotics integration, and autonomous systems. AI that understands and interacts with the physical world."
+
+Keywords:
+- Physical AI
+- robotics integration
+- computer vision
+- sensor fusion
+- autonomous systems
+- edge computing
+
+Open Graph:
+- title: "Physical AI Development Services"
+- description: "Build AI systems that perceive, understand, and interact with the physical world through advanced perception, robotics, and autonomy."
+- url: https://www.photonecho.dev/physical_ai
+- type: article
+
+Twitter Card:
+- card: summary_large_image
+- title: "Physical AI Development Services"
+- description: "AI that bridges digital intelligence and physical reality: perception, robotics, autonomy."
+
+================================================================================
+DIGITAL TWIN PAGE METADATA (app/digital_twin/page.tsx)
+================================================================================
+
+Title: "Digital Twin Development Services"
+
+Description: "Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real-time system modeling and predictive analytics."
+
+Keywords:
+- digital twin
+- real-time simulation
+- predictive analytics
+- IoT integration
+- system modeling
+
+Open Graph:
+- title: "Digital Twin Development Services"
+- description: "Create intelligent virtual replicas for simulation, testing, and optimization with AI-powered analytics."
+- url: https://www.photonecho.dev/digital_twin
+- type: article
+
+Twitter Card:
+- card: summary_large_image
+- title: "Digital Twin Development Services"
+- description: "AI-powered virtual replicas for simulation, testing, optimization, and real-time insights."
+
+================================================================================
+SERVICES PAGE METADATA (app/services/page.tsx)
+================================================================================
+
+Title: "Physical AI Development & Digital Twins"
+
+Description: "Physical AI development and digital twins with simulation, sensors, and data."
+
+================================================================================
+DESIGN SERVICES PAGE METADATA (app/services/design/page.tsx)
+================================================================================
+
+Title: "Design Services"
+
+Description: "Concept design, 3D modeling, CAD drawings, and branding."
+
+================================================================================
+VISUALIZATION SERVICES PAGE METADATA (app/services/visualization/page.tsx)
+================================================================================
+
+Title: "Visualization Services"
+
+Description: "Technical drawings, renderings, animations, and interactive demos for clear communication."
+
+================================================================================
+ENGINEERING SERVICES PAGE METADATA (app/services/engineering/page.tsx)
+================================================================================
+
+Title: "Engineering & Industrial Design"
+
+Description: "Product engineering, documentation, and manufacturing support."
+
+================================================================================
+ARTIFICIAL DATA PAGE METADATA (app/services/artificial-data/page.tsx)
+================================================================================
+
+Title: "Artificial Data Development Services"
+
+Description: "Synthetic data for AI training, testing, and validation. Privacy safe when real data is limited or sensitive."
+
+================================================================================
+MISSION PAGE METADATA (app/mission/page.tsx)
+================================================================================
+
+Title: "Mission Photon Echo"
+
+Description: "We build virtual worlds and sensor simulations to power synthetic data for physical AI."
+
+================================================================================
+INSIGHTS PAGE METADATA (app/insights/page.tsx)
+================================================================================
+
+Title: "R and D Journal"
+
+Description: "Notes on simulation, sensors, and data for physical AI."
+
+================================================================================
+GOVERNMENT PAGE METADATA (app/government/page.tsx)
+================================================================================
+
+Title: "Government"
+
+Description: "Preparing for secure synthetic data and digital twin systems."
+
+================================================================================
+INVESTORS PAGE METADATA (app/investors/page.tsx)
+================================================================================
+
+Title: "Investors"
+
+Description: "Building the future of Physical AI and Digital Twin technology."
+
+================================================================================
+CONTACT PAGE METADATA (app/contact/page.tsx)
+================================================================================
+
+Title: "Contact Us"
+
+Description: "Get in touch with Photon Echo for consultations, quotes, and expert guidance on your Physical AI and synthetic data needs."
+
+================================================================================
+PRIVACY POLICY PAGE METADATA (app/privacy-policy/page.tsx)
+================================================================================
+
+Title: "Privacy Policy"
+
+Description: "Read Photon Echo's Privacy Policy. Updated to reflect how we collect, use, and protect your data."
+
+================================================================================
+FONT CONFIGURATION
+================================================================================
+
+Primary Font: Inter
+- Subsets: ["latin"]
+- Variable: --font-inter
+- Display: swap
+- Weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
+
+Secondary Font: Raleway
+- Subsets: ["latin"]
+- Variable: --font-raleway
+- Display: swap
+- Weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
+
+================================================================================
+END OF METADATA DOCUMENT
+================================================================================
+
