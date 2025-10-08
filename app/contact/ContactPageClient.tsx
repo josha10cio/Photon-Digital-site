@@ -46,7 +46,7 @@ export default function ContactPageClient() {
             Contact Photon Echo
           </h1>
           <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">
-            Ready to start your project? Get in touch for consultations, quotes, and expert guidance on your design and engineering needs.
+            If you are building perception models, robotics systems, or AI tools that need realistic training data, we can help.
           </p>
         </div>
       </section>
@@ -88,7 +88,7 @@ export default function ContactPageClient() {
           <Card className="card-standard card-hover max-w-2xl mx-auto animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <CardHeader className="text-center">
               <CardTitle className="section-title">Project Inquiry Form</CardTitle>
-              <p className="mt-2 text-lg text-photon-200">Tell us about your design or engineering project.</p>
+              <p className="mt-2 text-lg text-photon-200">Tell us about your perception models, robotics systems, or AI training data needs.</p>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
