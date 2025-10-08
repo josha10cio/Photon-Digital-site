@@ -89,6 +89,140 @@ export default function DigitalTwinPage() {
         </div>
       </section>
 
+      {/* Digital Twin Services Overview */}
+      <section className="w-full py-20 md:py-32 bg-photon-950">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Digital Twin Service Categories</h2>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+              Intelligent virtual replicas for simulation, testing, and optimization.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+            {/* Real-time Simulation */}
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 mx-auto">
+                  <ZapIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
+                </div>
+                <CardTitle className="text-xl font-bold">Real-time Simulation</CardTitle>
+                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm mb-4">
+                  Live virtual replicas that mirror physical systems in real-time for continuous monitoring and analysis.
+                </CardDescription>
+                <ul className="text-xs text-photon-300 space-y-1">
+                  <li>• Live data synchronization</li>
+                  <li>• Real-time modeling</li>
+                  <li>• Continuous monitoring</li>
+                  <li>• Instant feedback loops</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Predictive Analytics */}
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 mx-auto">
+                  <TrendingUpIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
+                </div>
+                <CardTitle className="text-xl font-bold">Predictive Analytics</CardTitle>
+                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm mb-4">
+                  AI-powered forecasting that predicts system behavior and identifies optimization opportunities.
+                </CardDescription>
+                <ul className="text-xs text-photon-300 space-y-1">
+                  <li>• Performance forecasting</li>
+                  <li>• Failure prediction</li>
+                  <li>• Optimization insights</li>
+                  <li>• Maintenance scheduling</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* IoT Integration */}
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 mx-auto">
+                  <NetworkIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
+                </div>
+                <CardTitle className="text-xl font-bold">IoT Integration</CardTitle>
+                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm mb-4">
+                  Seamless connectivity between physical systems and digital twins through IoT sensors and data streams.
+                </CardDescription>
+                <ul className="text-xs text-photon-300 space-y-1">
+                  <li>• Sensor integration</li>
+                  <li>• Data streaming</li>
+                  <li>• Device management</li>
+                  <li>• Edge computing</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Digital Twin Process */}
+      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Our Digital Twin Process</h2>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+              A systematic approach to creating intelligent virtual replicas of physical systems.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5 max-w-7xl mx-auto">
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
+                <SettingsIcon className="h-8 w-8 text-photon-400" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Assessment</h3>
+              <p className="text-sm text-photon-300">Analyzing system requirements and data sources</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
+                <MonitorIcon className="h-8 w-8 text-photon-400" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Modeling</h3>
+              <p className="text-sm text-photon-300">Creating accurate virtual representations</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
+                <NetworkIcon className="h-8 w-8 text-photon-400" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Integration</h3>
+              <p className="text-sm text-photon-300">Connecting with IoT sensors and data streams</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
+                <CpuIcon className="h-8 w-8 text-photon-400" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Analytics</h3>
+              <p className="text-sm text-photon-300">Implementing AI-powered insights and predictions</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
+                <CheckCircleIcon className="h-8 w-8 text-photon-400" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Optimization</h3>
+              <p className="text-sm text-photon-300">Continuous improvement and system enhancement</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="w-full py-20 md:py-32 bg-photon-900/30">
         <div className="container px-4 md:px-6 max-w-3xl mx-auto">

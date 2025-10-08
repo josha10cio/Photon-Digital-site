@@ -92,6 +92,140 @@ export default function PhysicalAIPage() {
         </div>
       </section>
 
+      {/* Physical AI Services Overview */}
+      <section className="w-full py-20 md:py-32 bg-photon-950">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Physical AI Service Categories</h2>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+              Advanced AI systems that perceive, understand, and interact with the physical world.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+            {/* Computer Vision */}
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
+                  <EyeIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
+                </div>
+                <CardTitle className="text-xl font-bold">Computer Vision</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm mb-4">
+                  Advanced perception systems that enable AI to see, recognize, and understand visual information in real-time.
+                </CardDescription>
+                <ul className="text-xs text-photon-300 space-y-1">
+                  <li>• Object detection & tracking</li>
+                  <li>• Scene understanding</li>
+                  <li>• Real-time processing</li>
+                  <li>• Edge deployment</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Robotics Integration */}
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
+                  <BotIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
+                </div>
+                <CardTitle className="text-xl font-bold">Robotics Integration</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm mb-4">
+                  Intelligent control systems that enable robots to navigate, manipulate objects, and perform complex tasks autonomously.
+                </CardDescription>
+                <ul className="text-xs text-photon-300 space-y-1">
+                  <li>• Autonomous navigation</li>
+                  <li>• Manipulation control</li>
+                  <li>• Sensor fusion</li>
+                  <li>• Safety systems</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Autonomous Systems */}
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
+                  <CogIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
+                </div>
+                <CardTitle className="text-xl font-bold">Autonomous Systems</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm mb-4">
+                  Self-directed AI systems that make intelligent decisions and adapt to changing environments without human intervention.
+                </CardDescription>
+                <ul className="text-xs text-photon-300 space-y-1">
+                  <li>• Decision making</li>
+                  <li>• Adaptive learning</li>
+                  <li>• Real-time control</li>
+                  <li>• Multi-agent coordination</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Physical AI Process */}
+      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Our Physical AI Process</h2>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+              A systematic approach to building AI systems that interact with the physical world.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5 max-w-7xl mx-auto">
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
+                <EyeIcon className="h-8 w-8 text-photon-500" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Analysis</h3>
+              <p className="text-sm text-photon-300">Understanding requirements, environment, and constraints</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
+                <CogIcon className="h-8 w-8 text-photon-500" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Design</h3>
+              <p className="text-sm text-photon-300">Architecting AI systems and integration strategies</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
+                <ZapIcon className="h-8 w-8 text-photon-500" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Development</h3>
+              <p className="text-sm text-photon-300">Building and training AI models for physical interaction</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
+                <CheckCircleIcon className="h-8 w-8 text-photon-500" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Testing</h3>
+              <p className="text-sm text-photon-300">Validating performance in real-world conditions</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
+                <TrendingUpIcon className="h-8 w-8 text-photon-500" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Deployment</h3>
+              <p className="text-sm text-photon-300">Launching and optimizing in production environments</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="w-full py-20 md:py-32 bg-photon-900/30">
         <div className="container px-4 md:px-6 max-w-3xl mx-auto">
