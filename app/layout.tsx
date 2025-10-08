@@ -36,32 +36,19 @@ export const metadata: Metadata = {
     'robots': 'index, follow',
     'googlebot': 'index, follow',
     'last-modified': '2025-09-21',
-    'cache-control': 'no-cache, no-store, must-revalidate',
-    'pragma': 'no-cache',
-    'expires': '0',
   },
   description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
   keywords: [
     "Physical AI",
-    "Digital Twin",
     "Synthetic Data",
-    "Artificial Data",
+    "Digital Twin",
     "Sensor Simulation",
-    "3D Simulation",
     "AI Training Data",
-    "Computer Vision",
+    "3D Simulation",
     "Robotics",
-    "Autonomous Systems",
-    "Virtual Environments",
-    "Real-time Simulation",
-    "Predictive Analytics",
-    "IoT Integration",
     "Machine Learning Data",
-    "Perception AI",
     "Edge Computing",
-    "Digital Twin Technology",
-    "Synthetic Sensors",
-    "Physical AI Development",
+    "Computer Vision",
   ],
   openGraph: {
     title: "Photon Echo Physical AI and Synthetic Data",
@@ -121,6 +108,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "url": "https://www.photonecho.dev",
                 "logo": "https://www.photonecho.dev/echo_Logo.png",
                 "description": "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
+                "foundingDate": "2025",
+                "brand": "Photon Echo",
+                "areaServed": "US",
                 "address": {
                   "@type": "PostalAddress",
                   "addressCountry": "US"
@@ -165,7 +155,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-NNM54G5BCN');
+                gtag('config', 'G-NNM54G5BCN', { 'anonymize_ip': true });
               `,
             }}
           />

@@ -19,18 +19,18 @@ import {
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Digital Twin Development Services",
+  title: "Digital Twin Systems",
   description:
-    "Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real-time system modeling and predictive analytics.",
+    "Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real time system modeling and predictive analytics.",
   keywords: [
     "digital twin",
-    "real-time simulation",
+    "real time simulation",
     "predictive analytics",
     "IoT integration",
     "system modeling",
   ],
   openGraph: {
-    title: "Digital Twin Development Services",
+    title: "Digital Twin Systems – Photon Echo",
     description:
       "Create intelligent virtual replicas for simulation, testing, and optimization with AI-powered analytics.",
     url: "https://www.photonecho.dev/digital_twin",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Twin Development Services",
+    title: "Digital Twin Systems – Photon Echo",
     description:
-      "AI-powered virtual replicas for simulation, testing, optimization, and real-time insights.",
+      "AI-powered virtual replicas for simulation, testing, optimization, and real time insights.",
   },
 }
 
@@ -240,7 +240,7 @@ export default function DigitalTwinPage() {
                     <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
                     <span>Feedback loops that guide the next round of dataset generation</span>
                   </li>
-                </ul>
+          </ul>
               </CardContent>
             </Card>
           </div>
