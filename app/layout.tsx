@@ -42,28 +42,26 @@ export const metadata: Metadata = {
   },
   description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
   keywords: [
-    "design services",
-    "engineering services",
-    "visualization services",
-    "3D modeling",
-    "CAD design",
-    "technical documentation",
-    "product engineering",
-    "industrial design",
-    "concept design",
-    "prototyping",
-    "manufacturing consultation",
-    "government contracting",
-    "commercial design",
-    "technical drawings",
-    "schematics",
-    "mockups",
-    "renderings",
-    "animations",
-    "real time demos",
-    "unreal engine",
-    "interactive presentations",
-    "proposal support",
+    "Physical AI",
+    "Digital Twin",
+    "Synthetic Data",
+    "Artificial Data",
+    "Sensor Simulation",
+    "3D Simulation",
+    "AI Training Data",
+    "Computer Vision",
+    "Robotics",
+    "Autonomous Systems",
+    "Virtual Environments",
+    "Real-time Simulation",
+    "Predictive Analytics",
+    "IoT Integration",
+    "Machine Learning Data",
+    "Perception AI",
+    "Edge Computing",
+    "Digital Twin Technology",
+    "Synthetic Sensors",
+    "Physical AI Development",
   ],
   openGraph: {
     title: "Photon Echo Physical AI and Synthetic Data",
@@ -140,18 +138,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "service": [
                   {
                     "@type": "Service",
-                    "name": "Design Services",
-            "description": "Concept design, 3D modeling, CAD drawings, and branding solutions"
+                    "name": "Physical AI Development",
+                    "description": "Build AI systems that perceive, understand, and interact with the physical world through synthetic data and simulation"
                   },
                   {
                     "@type": "Service", 
-                    "name": "Visualization Services",
-                    "description": "Technical drawings, photorealistic renderings, 3D animations, and interactive demos"
+                    "name": "Digital Twin Development",
+                    "description": "Create intelligent virtual replicas for real-time simulation, testing, and optimization"
                   },
                   {
                     "@type": "Service",
-                    "name": "Engineering Services", 
-                    "description": "Product engineering, compliance-ready documentation, and manufacturing support"
+                    "name": "Synthetic Data Generation", 
+                    "description": "Generate high-quality artificial training data for AI models through advanced simulation and sensor modeling"
                   }
                 ]
               })
