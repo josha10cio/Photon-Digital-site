@@ -54,7 +54,7 @@ export default function ArtificialDataPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
-                <Button variant="primary" size="xl" className=" px-10 py-4 text-lg font-medium group animate-pulse-glow">
+                <Button variant="primary" size="xl">
                   <PlayIcon className="mr-2 w-5 h-5" />
                   Generate Your Data
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

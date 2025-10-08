@@ -50,17 +50,12 @@ export default function EngineeringServicesPage() {
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               Engineering and industrial design for product development, documentation, and manufacturing.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
+            <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
-                <Button variant="primary" size="xl" className=" px-10 py-4 text-lg font-medium group animate-pulse-glow">
+                <Button variant="primary" size="xl">
                   <PlayIcon className="mr-2 w-5 h-5" />
                   Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
-              <Link href="/contact">
-                <Button variant="outline" size="xl">
-                  Start Your Project
                 </Button>
               </Link>
             </div>

@@ -168,11 +168,6 @@ export default function MissionPage() {
           </Accordion>
           <div className="text-center mt-12 animate-fadeIn" style={{ animationDelay: "1s" }}>
             <Link href="/contact">
-              <Button variant="secondary" size="lg">
-                Start Your Project
-              </Button>
-            </Link>
-            <Link href="/contact">
               <Button variant="primary" size="lg">
                 Start Your Project
               </Button>

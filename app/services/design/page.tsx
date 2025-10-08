@@ -49,17 +49,12 @@ export default function DesignServicesPage() {
               From initial concept sketches to complete visual identity systems, we deliver creative design solutions 
               that combine aesthetic excellence with functional innovation.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
+            <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
                 <Button variant="primary" size="xl">
                   <PlayIcon className="mr-2 w-5 h-5" />
                   Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
-              <Link href="/contact">
-                <Button variant="outline" size="xl">
-                  Start Your Project
                 </Button>
               </Link>
             </div>
