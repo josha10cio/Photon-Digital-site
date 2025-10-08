@@ -226,62 +226,174 @@ export default function PhysicalAIPage() {
         </div>
       </section>
 
-      <section className="w-full py-16 md:py-24 bg-photon-950">
-        <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-          <h2 className="section-title mb-6">From simulation to dataset</h2>
-          <ol className="space-y-6 text-photon-200">
-            <li>
-              <h3 className="text-white font-semibold">Step 1: Build the world</h3>
-              <p>Create accurate 3D spaces with correct geometry, materials, and lighting.</p>
-            </li>
-            <li>
-              <h3 className="text-white font-semibold">Step 2: Simulate sensors</h3>
-              <p>Configure cameras, depth sensors, lidar, and radar to match real devices.</p>
-            </li>
-            <li>
-              <h3 className="text-white font-semibold">Step 3: Generate scenarios</h3>
-              <p>Vary lighting, viewpoints, objects, and motion to improve model robustness.</p>
-            </li>
-            <li>
-              <h3 className="text-white font-semibold">Step 4: Create labeled data</h3>
-              <p>Export ground truth including boxes, masks, depth, normals, and tracks.</p>
-            </li>
-            <li>
-              <h3 className="text-white font-semibold">Step 5: Validate and refine</h3>
-              <p>Compare to small real sets, analyze error modes, regenerate targeted scenes.</p>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <section className="w-full py-16 md:py-24 bg-photon-900">
-        <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-          <h2 className="section-title mb-6">Why it matters</h2>
-          <ul className="list-disc pl-6 space-y-2 text-photon-200">
-            <li>High coverage without field risk</li>
-            <li>Faster iteration with full ground truth</li>
-            <li>Better transfer through diverse scenarios</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="w-full py-16 md:py-24 bg-photon-950">
-        <div className="container px-4 md:px-6 max-w-3xl mx-auto">
-          <h2 className="section-title mb-6">FAQ</h2>
-          <div className="space-y-6 text-photon-200">
-            <div>
-              <h3 className="text-white font-semibold">What inputs do you need to start</h3>
-              <p>A problem statement, target environment, sensor constraints, and success criteria.</p>
-            </div>
-            <div>
-              <h3 className="text-white font-semibold">Can this run on the edge</h3>
-              <p>Yes. We design pipelines that support on device and on prem inference.</p>
-            </div>
-            <div>
-              <h3 className="text-white font-semibold">Do you work with existing hardware</h3>
-              <p>Yes. We mirror your sensor specs in sim and align datasets with your target rigs.</p>
-            </div>
+      <section className="w-full py-20 md:py-32 bg-photon-950">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">From Simulation to Dataset</h2>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+              A systematic approach to generating high-quality training data through simulation.
+            </p>
           </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5 max-w-7xl mx-auto">
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <span className="text-2xl font-bold text-photon-500">1</span>
+                </div>
+                <CardTitle className="text-xl font-bold">Build the World</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Create accurate 3D spaces with correct geometry, materials, and lighting.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <span className="text-2xl font-bold text-photon-500">2</span>
+                </div>
+                <CardTitle className="text-xl font-bold">Simulate Sensors</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Configure cameras, depth sensors, lidar, and radar to match real devices.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <span className="text-2xl font-bold text-photon-500">3</span>
+                </div>
+                <CardTitle className="text-xl font-bold">Generate Scenarios</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Vary lighting, viewpoints, objects, and motion to improve model robustness.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <span className="text-2xl font-bold text-photon-500">4</span>
+                </div>
+                <CardTitle className="text-xl font-bold">Create Labeled Data</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Export ground truth including boxes, masks, depth, normals, and tracks.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <span className="text-2xl font-bold text-photon-500">5</span>
+                </div>
+                <CardTitle className="text-xl font-bold">Validate & Refine</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Compare to small real sets, analyze error modes, regenerate targeted scenes.
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Why It Matters</h2>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+              Key advantages of synthetic data generation for Physical AI development.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <ShieldIcon className="h-8 w-8 text-photon-500" />
+                </div>
+                <CardTitle className="text-xl font-bold">High Coverage</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Comprehensive scenario coverage without field risk or data collection constraints.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <ZapIcon className="h-8 w-8 text-photon-500" />
+                </div>
+                <CardTitle className="text-xl font-bold">Faster Iteration</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Rapid development cycles with complete ground truth and instant feedback loops.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <TrendingUpIcon className="h-8 w-8 text-photon-500" />
+                </div>
+                <CardTitle className="text-xl font-bold">Better Transfer</CardTitle>
+                <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Enhanced model robustness through diverse scenarios and edge case simulation.
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full py-20 md:py-32 bg-photon-950">
+        <div className="container px-4 md:px-6 max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Physical AI FAQs</h2>
+            <p className="text-lg text-photon-200">Common questions about scope, timelines, and requirements.</p>
+          </div>
+          <Card className="card-standard card-hover p-6 md:p-8">
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-white font-semibold mb-3 text-lg">What inputs do you need to start?</h3>
+                <p className="text-photon-300">A problem statement, target environment, sensor/hardware constraints, and success criteria.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-3 text-lg">Can this run at the edge without cloud?</h3>
+                <p className="text-photon-300">Yes. We optimize models and pipelines for on device or on prem inference with low latency.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-3 text-lg">Do you work with existing hardware?</h3>
+                <p className="text-photon-300">Yes. We integrate with your platforms or recommend COTS hardware when appropriate.</p>
+              </div>
+            </div>
+          </Card>
         </div>
       </section>
 

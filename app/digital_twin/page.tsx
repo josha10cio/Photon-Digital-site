@@ -223,14 +223,61 @@ export default function DigitalTwinPage() {
         </div>
       </section>
 
-      <section className="w-full py-16 md:py-24 bg-photon-950">
-        <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-          <h2 className="section-title mb-6">What a twin provides</h2>
-          <ul className="list-disc pl-6 space-y-2 text-photon-200">
-            <li>Real time simulation and dashboards</li>
-            <li>Safe testing for changes and updates</li>
-            <li>Feedback loops to improve training data</li>
-          </ul>
+      <section className="w-full py-20 md:py-32 bg-photon-950">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">What a Twin Provides</h2>
+            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+              Key capabilities and benefits of digital twin technology for system optimization.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30">
+                  <MonitorIcon className="h-8 w-8 text-photon-400" />
+                </div>
+                <CardTitle className="text-xl font-bold">Real-time Simulation</CardTitle>
+                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Live virtual replicas with real-time dashboards and continuous system monitoring.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30">
+                  <ShieldIcon className="h-8 w-8 text-photon-400" />
+                </div>
+                <CardTitle className="text-xl font-bold">Safe Testing</CardTitle>
+                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Risk-free testing environment for changes and updates without impacting live systems.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30">
+                  <TrendingUpIcon className="h-8 w-8 text-photon-400" />
+                </div>
+                <CardTitle className="text-xl font-bold">Feedback Loops</CardTitle>
+                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-photon-200 text-sm">
+                  Continuous improvement through data-driven insights and training data enhancement.
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
@@ -243,19 +290,28 @@ export default function DigitalTwinPage() {
         </div>
       </section>
 
-      <section className="w-full py-16 md:py-24 bg-photon-950">
-        <div className="container px-4 md:px-6 max-w-3xl mx-auto">
-          <h2 className="section-title mb-6">FAQ</h2>
-          <div className="space-y-6 text-photon-200">
-            <div>
-              <h3 className="text-white font-semibold">Can it run in real time</h3>
-              <p>Yes. We design for streaming data and responsive views.</p>
-            </div>
-            <div>
-              <h3 className="text-white font-semibold">How do you measure results</h3>
-              <p>We focus on goals like uptime, quality, and throughput. Exact metrics are defined per project.</p>
-            </div>
+      <section className="w-full py-20 md:py-32 bg-photon-950">
+        <div className="container px-4 md:px-6 max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Digital Twin FAQs</h2>
+            <p className="text-lg text-photon-200">Key questions about scope, integrations, and ROI.</p>
           </div>
+          <Card className="card-standard card-hover p-6 md:p-8">
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-white font-semibold mb-3 text-lg">Can it run in real time?</h3>
+                <p className="text-photon-300">Yes. We design for streaming data and responsive views with low-latency processing.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-3 text-lg">How do you measure results?</h3>
+                <p className="text-photon-300">We focus on goals like uptime, quality, and throughput. Exact metrics are defined per project.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-3 text-lg">What integrations are supported?</h3>
+                <p className="text-photon-300">IoT platforms, cloud services, databases, and custom APIs. We adapt to your existing infrastructure.</p>
+              </div>
+            </div>
+          </Card>
         </div>
       </section>
 
