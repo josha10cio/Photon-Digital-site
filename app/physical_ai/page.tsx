@@ -71,8 +71,7 @@ export default function PhysicalAIPage() {
               Physical AI Development
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Build AI systems that perceive, understand, and interact with the physical world through advanced computer vision, 
-              robotics, and autonomous technologies. Bridge the digital-physical divide with intelligent systems.
+              We develop simulation environments, sensors, and datasets that train AI to perceive and act in the physical world.
             </p>
             <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
@@ -296,7 +295,7 @@ export default function PhysicalAIPage() {
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">5</span>
                 </div>
-                <CardTitle className="text-xl font-bold">Validate & Refine</CardTitle>
+                <CardTitle className="text-xl font-bold">Validate and Refine</CardTitle>
                 <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
               </CardHeader>
               <CardContent className="text-center">

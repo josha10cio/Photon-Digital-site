@@ -65,11 +65,11 @@ export default function DigitalTwinPage() {
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Digital Twin Development
+              Digital Twin Systems
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Create intelligent virtual replicas of physical systems for real time simulation, testing, and optimization. 
-              Bridge the gap between digital and physical worlds with AI powered digital twin technology.
+              Digital twins extend the same simulation pipeline used for training into live testing and monitoring. 
+              They help teams validate models and track performance in realistic conditions.
             </p>
             <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
@@ -297,11 +297,11 @@ export default function DigitalTwinPage() {
                 <h3 className="text-white font-semibold mb-3 text-lg">Can it run in real time?</h3>
                 <p className="text-photon-300">Yes. We design for streaming data and responsive views with low-latency processing.</p>
               </div>
-              <div>
+            <div>
                 <h3 className="text-white font-semibold mb-3 text-lg">How do you measure results?</h3>
                 <p className="text-photon-300">We focus on goals like uptime, quality, and throughput. Exact metrics are defined per project.</p>
-              </div>
-              <div>
+            </div>
+            <div>
                 <h3 className="text-white font-semibold mb-3 text-lg">What integrations are supported?</h3>
                 <p className="text-photon-300">IoT platforms, cloud services, databases, and custom APIs. We adapt to your existing infrastructure.</p>
               </div>
