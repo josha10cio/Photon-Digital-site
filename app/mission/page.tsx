@@ -168,12 +168,12 @@ export default function MissionPage() {
           </Accordion>
           <div className="text-center mt-12 animate-fadeIn" style={{ animationDelay: "1s" }}>
             <Link href="/contact">
-              <Button className="px-8 py-3 text-lg bg-photon-700 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-purple mr-4">
+              <Button variant="secondary" size="lg">
                 Start Your Project
               </Button>
             </Link>
             <Link href="/contact">
-              <Button className="px-8 py-3 text-lg bg-photon-500 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-blue animate-pulse-glow">
+              <Button variant="primary" size="lg">
                 Start Your Project
               </Button>
             </Link>

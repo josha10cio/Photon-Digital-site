@@ -249,13 +249,13 @@ export default async function InsightsPage() {
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link href="/contact">
-                    <Button className="px-8 py-3 text-lg bg-photon-700 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-purple">
+                    <Button variant="secondary" size="lg">
                       Get Notified
                       <ArrowRightIcon className="ml-2 w-5 h-5" />
                     </Button>
                   </Link>
                           <Link href="/contact">
-                            <Button variant="outline" className="px-8 py-3 text-lg border-photon-600 text-white hover:bg-photon-600/10 transition-all duration-300">
+                            <Button variant="outline" size="lg">
                               Start Your Project
                             </Button>
                           </Link>

@@ -31,7 +31,7 @@ export default function GovernmentPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
-                <Button className="btn-primary px-10 py-4 text-lg font-medium">
+                <Button variant="primary" size="xl">
                   <ShieldCheckIcon className="mr-2 w-5 h-5" />
                   Start Your Project
                 </Button>
@@ -202,13 +202,13 @@ export default function GovernmentPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button className="btn-primary px-12 py-4 text-lg font-semibold">
+                <Button variant="primary" size="xl">
                   <FileTextIcon className="mr-2 w-5 h-5" />
                   Request Capability Statement
                 </Button>
               </Link>
               <Link href="/services">
-                <Button variant="outline" className="px-12 py-4 text-lg font-semibold border-white/30 text-white hover:bg-white/10 bg-transparent">
+                <Button variant="outline" size="xl">
                   Our Services
                 </Button>
               </Link>

@@ -51,14 +51,14 @@ export default function VisualizationServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
-                <Button className="btn-primary px-10 py-4 text-lg font-medium group animate-pulse-glow">
+                <Button variant="primary" size="xl" className=" px-10 py-4 text-lg font-medium group animate-pulse-glow">
                   <PlayIcon className="mr-2 w-5 h-5" />
                   Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button variant="outline" className="px-10 py-4 text-lg font-medium border-white/30 text-white hover:bg-white/10 bg-transparent">
+                <Button variant="outline" size="xl">
                   Start Your Project
                 </Button>
               </Link>
@@ -333,7 +333,7 @@ export default function VisualizationServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button className="btn-primary px-12 py-4 text-lg font-semibold group animate-pulse-glow">
+                <Button variant="primary" size="xl">
                   <PlayIcon className="mr-2 w-5 h-5" />
                   Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

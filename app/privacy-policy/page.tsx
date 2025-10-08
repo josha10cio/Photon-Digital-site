@@ -137,7 +137,7 @@ export default function PrivacyPolicyPage() {
 
           <div className="mt-8">
             <Link href="/contact">
-              <Button className="btn-primary">Contact Us</Button>
+              <Button variant="primary">Contact Us</Button>
             </Link>
           </div>
         </div>

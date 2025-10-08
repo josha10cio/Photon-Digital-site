@@ -157,7 +157,9 @@ export default function ContactPageClient() {
               </div>
                 <Button
                   type="submit"
-                  className="w-full px-8 py-3 text-lg bg-photon-500 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-blue animate-pulse-glow"
+                  variant="primary"
+                  size="lg"
+                  className="w-full"
                 >
                   Start Your Project
                 </Button>

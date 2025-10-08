@@ -80,7 +80,7 @@ export default function PhysicalAIDevelopmentPage() {
 
       <section className="w-full py-16 md:py-24 bg-photon-gradient-hero text-center">
         <div className="container px-4 md:px-6">
-          <Link href="/contact"><Button className="btn-primary px-10 py-4 text-lg font-semibold">Start Your Project</Button></Link>
+          <Link href="/contact"><Button variant="primary" size="xl">Start Your Project</Button></Link>
         </div>
       </section>
     </div>
