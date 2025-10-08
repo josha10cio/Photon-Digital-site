@@ -32,8 +32,7 @@ export default function InvestorsPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
                 <Button variant="primary" size="xl">
-                  <FileTextIcon className="mr-2 w-5 h-5" />
-                  Request Information
+                  Start Your Project
                 </Button>
               </Link>
             </div>
@@ -59,7 +58,7 @@ export default function InvestorsPage() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
-                <span>Digital twins as a natural extension for testing and monitoring</span>
+                <span>Digital twins as a key extension for testing and monitoring</span>
               </li>
             </ul>
           </Card>
@@ -100,13 +99,12 @@ export default function InvestorsPage() {
               Call to action
             </h2>
             <p className="text-lg md:text-xl text-photon-100 max-w-2xl mx-auto mb-8">
-              We welcome conversations with partners who share this focus on practical physical AI.
+              We welcome conversations with partners interested in advancing Physical AI development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="primary" size="xl">
-                  <FileTextIcon className="mr-2 w-5 h-5" />
-                  Request Information
+                  Start Your Project
                 </Button>
               </Link>
             </div>

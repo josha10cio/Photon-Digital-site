@@ -41,11 +41,11 @@ export default function EngineeringServicesPage() {
           <div className="max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-600/20 text-photon-100 border-photon-600/30 px-4 py-2 text-sm font-medium">
-                Engineering Services • Technical Excellence
+                Engineering Services
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Engineering & Industrial Design
+              Engineering for Simulation and Integration
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               Engineering ensures mechanical accuracy, sensor specifications, and reliable integration across the training and twin stack.

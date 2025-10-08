@@ -64,7 +64,7 @@ export default function PhysicalAIPage() {
           <div className="max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-500/20 text-photon-100 border-photon-500/30 px-4 py-2 text-sm font-medium">
-                Physical AI • Real-World Intelligence
+                Physical AI Development
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">

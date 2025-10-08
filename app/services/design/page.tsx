@@ -39,11 +39,11 @@ export default function DesignServicesPage() {
           <div className="max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
               <Badge className="bg-photon-500/20 text-photon-100 border-photon-500/30 px-4 py-2 text-sm font-medium">
-                Design Services • Creative Solutions
+                Design Services
               </Badge>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Professional Design Services
+              Design for Simulation and Visualization
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               Design supports simulation by creating 3D assets, interfaces, and review tools that make training and validation clear.

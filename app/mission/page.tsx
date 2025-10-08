@@ -64,50 +64,12 @@ export default function MissionPage() {
         </Card>
       </section>
 
-      {/* Our Approach Section */}
+      {/* Vision Section */}
       <section className="w-full py-16 md:py-24 bg-photon-900/30 text-white relative z-10">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-          <div className="text-center mb-12 animate-fadeIn">
-                    <h2 className="section-title">Vision</h2>
-                    <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">Better digital worlds create better real systems. That is the path we are building.</p>
-          </div>
-          
-          <div className="grid gap-8 md:grid-cols-3">
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
-                  <span className="text-2xl font-bold text-photon-500">1</span>
-                </div>
-                <CardTitle className="text-xl">Technical Expertise</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-photon-200">Experience across engineering disciplines and design specialties.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 rounded-full bg-photon-600/20 flex items-center justify-center mb-4 mx-auto border border-photon-600/30">
-                  <span className="text-2xl font-bold text-photon-600">2</span>
-                </div>
-                <CardTitle className="text-xl">Advanced Technology</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-photon-200">Latest design tools, simulation software, and visualization technologies to deliver superior results.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 rounded-full bg-photon-700/20 flex items-center justify-center mb-4 mx-auto border border-photon-700/30">
-                  <span className="text-2xl font-bold text-photon-700">3</span>
-                </div>
-                <CardTitle className="text-xl">Security & Compliance</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-photon-200">Security and compliance practices for sensitive projects.</p>
-              </CardContent>
-            </Card>
+          <div className="text-center animate-fadeIn">
+            <h2 className="section-title">Vision</h2>
+            <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">Better digital worlds create better real systems. That is the path we are building.</p>
           </div>
         </div>
       </section>

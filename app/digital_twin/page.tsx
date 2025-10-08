@@ -101,7 +101,7 @@ export default function DigitalTwinPage() {
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 mx-auto">
                   <ZapIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
                 </div>
-                <CardTitle className="text-xl font-bold">Real-time Simulation</CardTitle>
+                <CardTitle className="text-xl font-bold">Real Time Simulation</CardTitle>
                 <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
               </CardHeader>
               <CardContent className="text-center">

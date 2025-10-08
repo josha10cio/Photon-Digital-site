@@ -57,7 +57,7 @@ export default function ContactPageClient() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="section-title mb-6">Get In Touch</h2>
             <p className="text-lg text-photon-200 mb-12 max-w-2xl mx-auto">
-              Ready to start your project? Send us your inquiry and we'll respond within 24-48 hours.
+              Ready to start your project? Send us your inquiry and we'll respond within one to two business days.
             </p>
             
             <Card className="card-standard card-hover max-w-2xl mx-auto">
@@ -72,7 +72,7 @@ export default function ContactPageClient() {
                   
                   <div>
                     <h3 className="text-xl font-semibold text-white mb-2">Response Time</h3>
-                    <p className="text-photon-300">We typically respond to all inquiries within 24-48 hours</p>
+                    <p className="text-photon-300">We typically respond to all inquiries within one to two business days</p>
                   </div>
                 </div>
               </CardContent>
