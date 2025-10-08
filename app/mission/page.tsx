@@ -112,69 +112,6 @@ export default function MissionPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
-        <Card
-          className="card-standard card-hover container px-4 md:px-6 max-w-3xl mx-auto p-8 animate-fadeIn"
-          style={{ animationDelay: "0.9s" }}
-        >
-          <div className="text-center mb-12">
-            <h2 className="section-title">Frequently Asked Questions</h2>
-            <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">
-              Find answers to common questions about our services and process.
-            </p>
-          </div>
-          <Accordion type="single" collapsible className="w-full">
-            <AccordionItem value="item-1" className="border-b border-photon-800">
-              <AccordionTrigger className="text-lg font-semibold text-photon-100 hover:text-photon-500 transition-colors hover:scale-103 icon-glow-blue">
-                What industries do you serve?
-              </AccordionTrigger>
-              <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                We serve commercial enterprises and government agencies across multiple industries including aerospace, defense, medical devices, consumer electronics, automotive, and emerging technologies. Our expertise spans both traditional industries and advanced innovation sectors.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2" className="border-b border-photon-800">
-              <AccordionTrigger className="text-lg font-semibold text-photon-100 hover:text-photon-500 transition-colors hover:scale-103 icon-glow-blue">
-                How long do projects typically take?
-              </AccordionTrigger>
-              <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                Project timelines vary by scope and complexity. We provide a timeline during our initial consultation and maintain clear milestones.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-3" className="border-b border-photon-800">
-              <AccordionTrigger className="text-lg font-semibold text-photon-100 hover:text-photon-500 transition-colors hover:scale-103 icon-glow-blue">
-                Do you work with government contracts?
-              </AccordionTrigger>
-              <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                Yes, we have extensive experience with government contracting including GSA schedules, CAGE codes, and security clearance capabilities. We maintain compliance with ITAR, FedRAMP, and other regulatory requirements for sensitive government projects.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-4" className="border-b border-photon-800">
-              <AccordionTrigger className="text-lg font-semibold text-photon-100 hover:text-photon-500 transition-colors hover:scale-103 icon-glow-blue">
-                What deliverables can we expect?
-              </AccordionTrigger>
-              <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                Deliverables depend on scope. They may include CAD files, technical drawings, design documentation, renderings, animations, interactive demos, and technical specifications. All deliverables are documented and prepared for the intended use.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-5" className="border-b border-photon-800">
-              <AccordionTrigger className="text-lg font-semibold text-photon-100 hover:text-photon-500 transition-colors hover:scale-103 icon-glow-blue">
-                How do you ensure project confidentiality?
-              </AccordionTrigger>
-              <AccordionContent className="text-photon-200 text-base leading-relaxed glassmorphism shadow-inner-bevel p-4 rounded-md mt-2">
-                We maintain strict confidentiality protocols including robust NDAs, secure file handling systems, and compartmentalized project access. Our team includes security-cleared personnel for sensitive government projects, and we follow industry best practices for intellectual property protection.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-          <div className="text-center mt-12 animate-fadeIn" style={{ animationDelay: "1s" }}>
-            <Link href="/contact">
-              <Button variant="primary" size="lg">
-                Start Your Project
-              </Button>
-            </Link>
-          </div>
-        </Card>
-      </section>
     </div>
   )
 }

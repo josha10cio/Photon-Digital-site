@@ -366,30 +366,6 @@ export default function PhysicalAIPage() {
         </div>
       </section>
 
-      <section className="w-full py-20 md:py-32 bg-photon-950">
-        <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Physical AI FAQs</h2>
-            <p className="text-lg text-photon-200">Common questions about scope, timelines, and requirements.</p>
-          </div>
-          <Card className="card-standard card-hover p-6 md:p-8">
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-white font-semibold mb-3 text-lg">What inputs do you need to start?</h3>
-                <p className="text-photon-300">A problem statement, target environment, sensor/hardware constraints, and success criteria.</p>
-              </div>
-              <div>
-                <h3 className="text-white font-semibold mb-3 text-lg">Can this run at the edge without cloud?</h3>
-                <p className="text-photon-300">Yes. We optimize models and pipelines for on device or on prem inference with low latency.</p>
-              </div>
-              <div>
-                <h3 className="text-white font-semibold mb-3 text-lg">Do you work with existing hardware?</h3>
-                <p className="text-photon-300">Yes. We integrate with your platforms or recommend COTS hardware when appropriate.</p>
-              </div>
-            </div>
-          </Card>
-        </div>
-      </section>
 
       <section className="w-full py-16 md:py-24 bg-photon-gradient-hero text-center">
         <div className="container px-4 md:px-6">

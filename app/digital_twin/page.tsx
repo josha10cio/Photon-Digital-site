@@ -285,30 +285,6 @@ export default function DigitalTwinPage() {
         </div>
       </section>
 
-      <section className="w-full py-20 md:py-32 bg-photon-950">
-        <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Digital Twin FAQs</h2>
-            <p className="text-lg text-photon-200">Key questions about scope, integrations, and ROI.</p>
-          </div>
-          <Card className="card-standard card-hover p-6 md:p-8">
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-white font-semibold mb-3 text-lg">Can it run in real time?</h3>
-                <p className="text-photon-300">Yes. We design for streaming data and responsive views with low-latency processing.</p>
-              </div>
-            <div>
-                <h3 className="text-white font-semibold mb-3 text-lg">How do you measure results?</h3>
-                <p className="text-photon-300">We focus on goals like uptime, quality, and throughput. Exact metrics are defined per project.</p>
-            </div>
-            <div>
-                <h3 className="text-white font-semibold mb-3 text-lg">What integrations are supported?</h3>
-                <p className="text-photon-300">IoT platforms, cloud services, databases, and custom APIs. We adapt to your existing infrastructure.</p>
-              </div>
-            </div>
-          </Card>
-        </div>
-      </section>
 
       <section className="w-full py-16 md:py-24 bg-photon-gradient-hero text-center">
         <div className="container px-4 md:px-6">
