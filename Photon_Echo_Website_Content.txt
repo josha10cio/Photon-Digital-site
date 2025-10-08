@@ -1,0 +1,391 @@
+PHOTON ECHO WEBSITE - COMPLETE CONTENT DOCUMENT
+Generated: October 8, 2025
+===============================================
+
+================================================================================
+HOME PAGE (/)
+================================================================================
+
+HERO SECTION:
+Title: Synthetic Data for Real World Intelligence
+Description: We build virtual worlds and sensor simulations that train AI to understand the physical world.
+CTA: Start Your Project
+
+WHAT WE DO SECTION:
+Heading: What We Do
+Description: Photon Echo creates accurate 3D environments and simulates sensors to produce high quality synthetic training data. This data helps physical AI systems see, decide, and act with confidence.
+
+Card 1: Physical AI Development
+We build scenes, sensors, and scenarios that generate labeled data for perception and control tasks.
+
+Card 2: Digital Twin Systems
+We design live simulation and feedback loops that validate models and monitor performance after deployment.
+
+WHY SYNTHETIC DATA SECTION:
+Heading: Why Synthetic Data
+Content: Real world data can be limited, expensive, or sensitive. Synthetic data provides scale, coverage, and safety. By matching real conditions in simulation, teams can train models faster and reduce risk before field testing.
+
+CTA SECTION:
+Heading: Ready to get started
+Description: Share your goals and we will propose a practical data plan.
+CTA: Start Your Project
+
+================================================================================
+PHYSICAL AI PAGE (/physical_ai)
+================================================================================
+
+HERO SECTION:
+Badge: Physical AI Development
+Title: Physical AI Development
+Intro: We develop simulation environments, sensors, and datasets that train AI to perceive and act in the physical world.
+CTA: Start Your Project
+
+PHYSICAL AI SERVICE CATEGORIES:
+Heading: Physical AI Service Categories
+Description: Advanced AI systems that perceive, understand, and interact with the physical world.
+
+Card 1: Computer Vision
+Object detection, segmentation, and 3D scene understanding for visual perception systems.
+• Object detection & tracking
+• Image segmentation
+• 3D reconstruction
+• Visual odometry
+
+Card 2: Robotics Integration
+Intelligent control systems that enable robots to navigate, manipulate objects, and perform complex tasks autonomously.
+• Autonomous navigation
+• Manipulation control
+• Sensor fusion
+• Safety systems
+
+Card 3: Autonomous Systems
+Self-directed AI systems that make intelligent decisions and adapt to changing environments without human intervention.
+• Decision making
+• Adaptive learning
+• Real-time control
+• Multi-agent coordination
+
+FROM SIMULATION TO DATASET:
+Heading: From Simulation to Dataset
+Description: A systematic approach to generating high-quality training data through simulation.
+
+Step 1: Build the World
+Create accurate 3D spaces with correct geometry, materials, and lighting.
+
+Step 2: Simulate Sensors
+Configure cameras, depth sensors, lidar, and radar to match real devices.
+
+Step 3: Generate Scenarios
+Vary lighting, viewpoints, objects, and motion to improve model robustness.
+
+Step 4: Create Labeled Data
+Export ground truth including boxes, masks, depth, normals, and tracks.
+
+Step 5: Validate and Refine
+Test transfer to real samples and iterate simulation parameters as needed.
+
+================================================================================
+DIGITAL TWIN PAGE (/digital_twin)
+================================================================================
+
+HERO SECTION:
+Badge: AI-Powered • Digital Twin Technology
+Title: Digital Twin Systems
+Intro: Digital twins extend the same simulation pipeline used for training into live testing and monitoring. They help teams validate models and track performance in realistic conditions.
+CTA: Start Your Project
+
+DIGITAL TWIN SERVICE CATEGORIES:
+Heading: Digital Twin Service Categories
+Description: Intelligent virtual replicas for simulation, testing, and optimization.
+
+Card 1: Real Time Simulation
+Live virtual replicas that mirror physical systems in real-time for continuous monitoring and analysis.
+• Real-time sync
+• System monitoring
+• Performance tracking
+• Anomaly detection
+
+Card 2: Predictive Analytics
+AI-powered forecasting that predicts system behavior and identifies optimization opportunities.
+• Performance forecasting
+• Failure prediction
+• Optimization insights
+• Maintenance scheduling
+
+Card 3: IoT Integration
+Seamless connectivity between physical systems and digital twins through IoT sensors and data streams.
+• Sensor integration
+• Data streaming
+• Device management
+• Edge computing
+
+WHAT A TWIN PROVIDES:
+Heading: What a Twin Provides
+
+• Real time simulation and dashboards
+• Safe testing for changes and updates
+• Feedback loops that guide the next round of dataset generation
+
+================================================================================
+SERVICES PAGE (/services)
+================================================================================
+
+HERO SECTION:
+Badge: Physical AI Development • Digital Twin
+Title: Physical AI and Digital Twins
+Intro: We build virtual worlds and sensor simulations that produce synthetic training data. Digital twins use the same pipeline for testing and monitoring.
+CTA Buttons: Physical AI Development | Digital Twin Development
+
+HOW WE SUPPORT YOUR DATA LOOP:
+Heading: How we support your data loop
+Description: Our supporting services help your Physical AI Development and Digital Twin projects with practical work at each stage.
+
+• Design Services: 3D assets, interfaces, and review tools for simulation
+• Visualization Services: previews, interactive demos, and dataset inspection
+• Engineering Services: mechanical accuracy, sensor specs, and integration
+• Artificial Data: targeted generation and data refinement for training and validation
+
+DESIGN SERVICES (SECTION):
+Heading: Design Services
+Description: From concept sketches to complete 3D assets, we deliver creative design solutions for simulation and visualization needs.
+
+VISUALIZATION SERVICES (SECTION):
+Heading: Visualization Services
+Description: Transform complex technical data into clear, compelling visual communications through renderings, animations, and interactive demos.
+
+ENGINEERING SERVICES (SECTION):
+Heading: Engineering & Industrial Design
+Description: Comprehensive engineering services for accurate simulation and product development.
+
+================================================================================
+DESIGN SERVICES PAGE (/services/design)
+================================================================================
+
+HERO SECTION:
+Badge: Design Services
+Title: Design for Simulation and Visualization
+Intro: Design supports simulation by creating 3D assets, interfaces, and review tools that make training and validation clear.
+CTA: Start Your Project
+
+DESIGN SERVICE CATEGORIES:
+Heading: Design Service Categories
+Description: Design for visual communication and product development.
+
+Card 1: Concept Design
+Initial design exploration, ideation sketches, mood boards, and visual direction for projects.
+
+Card 2: 3D Modeling & CAD
+Precise 3D models and technical CAD drawings for manufacturing and visualization.
+
+Card 3: Branding & Graphics
+Visual identity systems, brand guidelines, and graphic design for marketing and communication.
+
+================================================================================
+VISUALIZATION SERVICES PAGE (/services/visualization)
+================================================================================
+
+HERO SECTION:
+Badge: Visualization Services
+Title: Visualization for AI and Digital Twins
+Intro: Visualization turns complex training and twin activity into clear frames, previews, and interactive demos for inspection and communication.
+CTA: Start Your Project
+
+VISUALIZATION SERVICE CATEGORIES:
+Heading: Visualization Service Categories
+Description: Comprehensive visualization solutions for technical communication, marketing, and presentation needs.
+
+Card 1: Technical Drawings
+Precise technical illustrations, assembly diagrams, and exploded views for documentation and manufacturing.
+
+Card 2: Photorealistic Renderings
+High-quality 3D renders that showcase products, environments, and concepts with stunning realism.
+
+Card 3: Animations & Motion Graphics
+Dynamic animations that demonstrate functionality, processes, and product features in motion.
+
+Card 4: Interactive Presentations
+Engaging interactive experiences, configurators, and virtual showrooms for immersive product exploration.
+
+================================================================================
+ENGINEERING SERVICES PAGE (/services/engineering)
+================================================================================
+
+HERO SECTION:
+Badge: Engineering Services
+Title: Engineering for Simulation and Integration
+Intro: Engineering ensures mechanical accuracy, sensor specifications, and reliable integration across the training and twin stack.
+CTA: Start Your Project
+
+ENGINEERING SERVICE CATEGORIES:
+Heading: Engineering Service Categories
+Description: Engineering and industrial design services for product development and manufacturing.
+
+Card 1: Product Engineering
+Complete product development from concept through manufacturing, including mechanical design and system integration.
+
+Card 2: Technical Documentation
+Comprehensive technical documentation, specifications, and manufacturing drawings for production.
+
+Card 3: Manufacturing Support
+DFM analysis, supplier coordination, and production oversight to ensure quality manufacturing.
+
+Card 4: Industrial Design
+User-centered industrial design that balances aesthetics, ergonomics, and functionality.
+
+================================================================================
+ARTIFICIAL DATA PAGE (/services/artificial-data)
+================================================================================
+
+HERO SECTION:
+Badge: Synthetic Data • AI Training Revolution
+Title: Artificial Data Development
+Intro: Generate high-quality synthetic datasets for AI training, testing, and validation. Overcome data limitations with privacy-safe artificial data that maintains statistical properties of real-world information.
+CTA: Generate Your Data | Learn More
+
+ARTIFICIAL DATA SERVICE CATEGORIES:
+Heading: Artificial Data Service Categories
+Description: Comprehensive synthetic data solutions for AI and machine learning applications.
+
+Card 1: Synthetic Data Generation
+Create unlimited, labeled training data for AI models without privacy concerns or data collection costs.
+
+Card 2: Data Augmentation
+Enhance existing datasets with variations, edge cases, and diverse scenarios to improve model robustness.
+
+Card 3: Privacy-Preserving AI
+Train AI models on synthetic data that maintains statistical properties without exposing sensitive information.
+
+================================================================================
+MISSION PAGE (/mission)
+================================================================================
+
+HERO SECTION:
+Title: Our Mission
+Subheading: Building synthetic data for real world intelligence
+
+MISSION STATEMENT:
+Why we exist:
+Collecting high quality real world data can be slow, costly, and limited by safety or privacy. Synthetic data provides scale and control without field risk.
+
+How we work:
+We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built for a clear learning objective.
+
+Focus areas:
+• World building
+• Sensor simulation
+• Scenario authoring
+• Dataset production
+• Validation
+
+VISION:
+Heading: Vision
+Content: Better digital worlds create better real systems. That is the path we are building.
+
+================================================================================
+INSIGHTS PAGE (/insights)
+================================================================================
+
+HERO SECTION:
+Badge: R and D Journal
+Title: R and D Journal
+Intro: Notes on simulation, sensors, and data for physical AI.
+
+Description: Technical articles and insights on synthetic data, physical AI, digital twins, and simulation technology.
+
+================================================================================
+GOVERNMENT PAGE (/government)
+================================================================================
+
+HERO SECTION:
+Title: Government
+Intro: Photon Echo is preparing for future collaboration that requires secure synthetic data and digital twin systems. Certifications and registrations are in progress. We will publish details as they are finalized.
+CTA: Start Your Project
+
+================================================================================
+INVESTORS PAGE (/investors)
+================================================================================
+
+HERO SECTION:
+Title: Investors
+Intro: Photon Echo builds virtual worlds and sensor simulations that generate synthetic training data for physical AI. Our focus is on practical pipelines that help teams train and validate models with speed and safety.
+CTA: Start Your Project
+
+MARKET VIEW:
+Heading: Market view
+• Growing demand for synthetic data in robotics, autonomy, and industrial systems
+• Clear need for accurate sensor simulation and repeatable data generation
+• Digital twins as a key extension for testing and monitoring
+
+CURRENT FOCUS:
+Heading: Current focus
+• Build high accuracy world building and sensor simulation workflows
+• Deliver clear dataset specifications and versioned generation scripts
+• Validate transfer with small real samples and targeted regeneration
+
+CALL TO ACTION:
+Heading: Call to action
+Content: We welcome conversations with partners interested in advancing Physical AI development.
+CTA: Start Your Project
+
+================================================================================
+CONTACT PAGE (/contact)
+================================================================================
+
+HERO SECTION:
+Title: Contact Photon Echo
+Intro: If you are building perception models, robotics systems, or AI tools that need realistic training data, we can help.
+
+GET IN TOUCH:
+Heading: Get In Touch
+Description: Ready to start your project? Send us your inquiry and we'll respond within one to two business days.
+
+Email: info@photonecho.dev
+Response Time: We typically respond to all inquiries within one to two business days
+
+PROJECT INQUIRY FORM:
+Heading: Project Inquiry Form
+Description: Tell us about your perception models, robotics systems, or AI training data needs.
+
+Form Fields:
+- Name (required)
+- Email (required)
+- Service Category:
+  * Digital Twin Development
+  * Physical AI Development
+  * Artificial Data Development
+  * Design Services
+  * Visualization Services
+  * Engineering & Industrial Design
+  * Government Contract Inquiry
+  * Multiple Services
+  * Strategic Consultation
+  * General Inquiry
+- Message (required): Describe your project goals, technical requirements, timeline, and any specific challenges you're facing...
+
+CTA Button: Start Your Project
+
+================================================================================
+PRIVACY POLICY PAGE (/privacy-policy)
+================================================================================
+
+HERO SECTION:
+Title: Privacy Policy
+Description: This Privacy Policy describes how we collect, use, disclose, and safeguard your information when you visit or interact with our website.
+
+CONTENT:
+1. Introduction
+2. Information We Collect
+3. How We Use Your Information
+4. Information Sharing and Disclosure
+5. Cookies and Tracking Technologies
+6. Data Security
+7. Your Rights and Choices
+8. Children's Privacy
+9. International Users
+10. Changes to This Privacy Policy
+11. Contact Us
+
+================================================================================
+END OF CONTENT DOCUMENT
+================================================================================
+
