@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import type { Metadata } from "next"
 
@@ -22,8 +23,8 @@ export default function MissionPage() {
 
       {/* Mission Statement Section */}
       <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
-        <div
-          className="container px-4 md:px-6 max-w-6xl mx-auto glassmorphism p-8 shadow-outer-shadow animate-fadeIn"
+        <Card
+          className="card-standard card-hover container px-4 md:px-6 max-w-6xl mx-auto p-8 animate-fadeIn"
           style={{ animationDelay: "0.2s" }}
         >
           <div className="grid gap-12 lg:grid-cols-2 items-center">
@@ -34,7 +35,7 @@ export default function MissionPage() {
               <p className="text-lg text-photon-200 leading-relaxed">We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built to serve the task.</p>
             </div>
             <div className="relative">
-              <div className="glassmorphism p-8 border border-photon-800">
+              <Card className="card-standard card-hover p-8">
                 <h3 className="text-2xl font-bold text-photon-100 mb-6">Focus areas</h3>
                 <ul className="text-lg text-photon-200 leading-relaxed list-disc pl-6">
                   <li>World building</li>
@@ -57,10 +58,10 @@ export default function MissionPage() {
                     <span className="text-photon-200">Commitment to client success</span>
                   </div>
                 </div>
-              </div>
+              </Card>
             </div>
           </div>
-        </div>
+        </Card>
       </section>
 
       {/* Our Approach Section */}
@@ -72,37 +73,49 @@ export default function MissionPage() {
           </div>
           
           <div className="grid gap-8 md:grid-cols-3">
-            <div className="glassmorphism p-6 text-center group card-lift-on-hover">
-              <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
-                <span className="text-2xl font-bold text-photon-500">1</span>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Technical Expertise</h3>
-              <p className="text-photon-200">Experience across engineering disciplines and design specialties.</p>
-            </div>
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
+                  <span className="text-2xl font-bold text-photon-500">1</span>
+                </div>
+                <CardTitle className="text-xl">Technical Expertise</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-photon-200">Experience across engineering disciplines and design specialties.</p>
+              </CardContent>
+            </Card>
 
-            <div className="glassmorphism p-6 text-center group card-lift-on-hover">
-              <div className="w-16 h-16 rounded-full bg-photon-600/20 flex items-center justify-center mb-4 mx-auto border border-photon-600/30 group-hover:border-photon-600 transition-all duration-300">
-                <span className="text-2xl font-bold text-photon-600">2</span>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Advanced Technology</h3>
-              <p className="text-photon-200">Latest design tools, simulation software, and visualization technologies to deliver superior results.</p>
-            </div>
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-600/20 flex items-center justify-center mb-4 mx-auto border border-photon-600/30">
+                  <span className="text-2xl font-bold text-photon-600">2</span>
+                </div>
+                <CardTitle className="text-xl">Advanced Technology</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-photon-200">Latest design tools, simulation software, and visualization technologies to deliver superior results.</p>
+              </CardContent>
+            </Card>
 
-            <div className="glassmorphism p-6 text-center group card-lift-on-hover">
-              <div className="w-16 h-16 rounded-full bg-photon-700/20 flex items-center justify-center mb-4 mx-auto border border-photon-700/30 group-hover:border-photon-700 transition-all duration-300">
-                <span className="text-2xl font-bold text-photon-700">3</span>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Security & Compliance</h3>
-              <p className="text-photon-200">Security and compliance practices for sensitive projects.</p>
-            </div>
+            <Card className="card-standard card-hover">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 rounded-full bg-photon-700/20 flex items-center justify-center mb-4 mx-auto border border-photon-700/30">
+                  <span className="text-2xl font-bold text-photon-700">3</span>
+                </div>
+                <CardTitle className="text-xl">Security & Compliance</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-photon-200">Security and compliance practices for sensitive projects.</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
       <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
-        <div
-          className="container px-4 md:px-6 max-w-3xl mx-auto glassmorphism p-8 shadow-outer-shadow animate-fadeIn"
+        <Card
+          className="card-standard card-hover container px-4 md:px-6 max-w-3xl mx-auto p-8 animate-fadeIn"
           style={{ animationDelay: "0.9s" }}
         >
           <div className="text-center mb-12">
@@ -165,7 +178,7 @@ export default function MissionPage() {
               </Button>
             </Link>
           </div>
-        </div>
+        </Card>
       </section>
     </div>
   )

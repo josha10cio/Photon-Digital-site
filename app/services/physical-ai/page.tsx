@@ -99,7 +99,7 @@ export default function PhysicalAIPage() {
             <h2 className="section-title mb-4">Physical AI FAQs</h2>
             <p className="text-lg text-photon-200">Common questions about scope, timelines, and requirements.</p>
           </div>
-          <div className="glassmorphism p-6 md:p-8 border border-photon-800/50">
+          <Card className="card-standard card-hover p-6 md:p-8">
             <div className="space-y-6">
               <div>
                 <h3 className="text-white font-semibold mb-2">What inputs do you need to start?</h3>
@@ -118,7 +118,7 @@ export default function PhysicalAIPage() {
               <p className="text-photon-300">Yes. We optimize models and pipelines for on device or on prem inference with low latency.</p>
               </div>
             </div>
-          </div>
+          </Card>
         </div>
       </section>
 
@@ -464,7 +464,7 @@ export default function PhysicalAIPage() {
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
+          <Card className="card-standard card-hover max-w-4xl mx-auto p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
               <BrainIcon className="w-6 h-6 text-photon-500" />
               <span className="text-photon-200 font-medium">Ready to Build Physical AI?</span>
@@ -492,7 +492,7 @@ export default function PhysicalAIPage() {
                 </Button>
               </Link>
             </div>
-          </div>
+          </Card>
         </div>
       </section>
     </div>

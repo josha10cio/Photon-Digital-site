@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Label } from "@/components/ui/label"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function ContactPageClient() {
   const [serviceInterested, setServiceInterested] = useState("")
@@ -59,21 +60,23 @@ export default function ContactPageClient() {
               Ready to start your project? Send us your inquiry and we'll respond within 24-48 hours.
             </p>
             
-            <div className="glassmorphism p-8 max-w-2xl mx-auto">
-              <div className="space-y-6">
-                <div className="border-b border-photon-800/50 pb-6">
-                  <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
-                  <a href="mailto:info@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
-                    info@photonecho.dev
-                  </a>
+            <Card className="card-standard card-hover max-w-2xl mx-auto">
+              <CardContent className="p-8">
+                <div className="space-y-6">
+                  <div className="border-b border-photon-800/50 pb-6">
+                    <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
+                    <a href="mailto:info@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
+                      info@photonecho.dev
+                    </a>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-xl font-semibold text-white mb-2">Response Time</h3>
+                    <p className="text-photon-300">We typically respond to all inquiries within 24-48 hours</p>
+                  </div>
                 </div>
-                
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Response Time</h3>
-                  <p className="text-photon-300">We typically respond to all inquiries within 24-48 hours</p>
-                </div>
-              </div>
-            </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -82,12 +85,13 @@ export default function ContactPageClient() {
       <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
         <div className="container px-4 md:px-6">
           {/* Contact Form */}
-          <div className="max-w-2xl mx-auto glassmorphism p-8 shadow-outer-shadow animate-fadeIn" style={{ animationDelay: "0.2s" }}>
-            <div className="text-center mb-8">
-              <h2 className="section-title">Project Inquiry Form</h2>
+          <Card className="card-standard card-hover max-w-2xl mx-auto animate-fadeIn" style={{ animationDelay: "0.2s" }}>
+            <CardHeader className="text-center">
+              <CardTitle className="section-title">Project Inquiry Form</CardTitle>
               <p className="mt-2 text-lg text-photon-200">Tell us about your design or engineering project.</p>
-            </div>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            </CardHeader>
+            <CardContent>
+              <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="space-y-2">
                   <Label htmlFor="name" className="text-photon-100">
@@ -151,14 +155,15 @@ export default function ContactPageClient() {
                   className="bg-photon-800 border-photon-700 text-white focus:ring-photon-500 focus:border-photon-500 glassmorphism shadow-inner-bevel"
                 />
               </div>
-              <Button
-                type="submit"
-                className="w-full px-8 py-3 text-lg bg-photon-500 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-blue animate-pulse-glow"
-              >
-                Start Your Project
-              </Button>
-            </form>
-          </div>
+                <Button
+                  type="submit"
+                  className="w-full px-8 py-3 text-lg bg-photon-500 hover:bg-photon-600 transition-all duration-300 shadow-lg hover:scale-105 icon-glow-blue animate-pulse-glow"
+                >
+                  Start Your Project
+                </Button>
+              </form>
+            </CardContent>
+          </Card>
 
 
         </div>

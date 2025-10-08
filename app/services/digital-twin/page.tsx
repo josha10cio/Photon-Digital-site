@@ -96,7 +96,7 @@ export default function DigitalTwinPage() {
             <h2 className="section-title mb-4">Digital Twin FAQs</h2>
             <p className="text-lg text-photon-200">Key questions about scope, integrations, and ROI.</p>
           </div>
-          <div className="glassmorphism p-6 md:p-8 border border-photon-800/50">
+          <Card className="card-standard card-hover p-6 md:p-8">
             <div className="space-y-6">
               <div>
                 <h3 className="text-white font-semibold mb-2">What data sources do you need?</h3>
@@ -115,7 +115,7 @@ export default function DigitalTwinPage() {
               <p className="text-photon-300">Cloud, on prem, or hybrid with secure connectivity and role based access.</p>
               </div>
             </div>
-          </div>
+          </Card>
         </div>
       </section>
 
@@ -415,7 +415,7 @@ export default function DigitalTwinPage() {
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
+          <Card className="card-standard card-hover max-w-4xl mx-auto p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
               <BoxIcon className="w-6 h-6 text-photon-400" />
               <span className="text-photon-200 font-medium">Ready to Build Your Digital Twin?</span>
@@ -443,7 +443,7 @@ export default function DigitalTwinPage() {
                 </Button>
               </Link>
             </div>
-          </div>
+          </Card>
         </div>
       </section>
     </div>

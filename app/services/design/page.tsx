@@ -204,7 +204,7 @@ export default function DesignServicesPage() {
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto glassmorphism p-8 md:p-12">
+          <Card className="card-standard card-hover max-w-4xl mx-auto p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-4">
               <span className="text-photon-200 font-medium">Ready to Start Your Design Project?</span>
             </div>
@@ -224,7 +224,7 @@ export default function DesignServicesPage() {
               </Link>
               
             </div>
-          </div>
+          </Card>
         </div>
       </section>
     </div>
