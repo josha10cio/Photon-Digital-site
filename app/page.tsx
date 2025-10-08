@@ -38,7 +38,7 @@ export default function HomePage() {
               Photon Echo creates accurate 3D environments and simulates sensors to produce high quality synthetic training data. This data helps physical AI systems see, decide, and act with confidence.
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
+          <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
             <Card className="card-standard card-hover">
               <CardHeader>
                 <CardTitle>Physical AI Development</CardTitle>

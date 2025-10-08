@@ -105,7 +105,7 @@ export default function GovernmentPage() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             <Card className="card-standard">
               <CardHeader>
                 <CardTitle className="text-xl">Defense & Security Design</CardTitle>

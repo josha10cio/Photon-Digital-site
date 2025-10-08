@@ -99,7 +99,7 @@ export default async function InsightsPage() {
                         .filter(article => article.featured)
                         .slice(0, 2)
                         .map((article) => (
-                          <Card key={article.slug} className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300 hover:scale-105">
+                          <Card key={article.slug} className="card-standard card-hover">
                             <CardHeader>
                               <div className="flex items-center gap-2 mb-2">
                                 <Badge className="bg-photon-700/20 text-photon-300 border-photon-700/30 text-xs">
@@ -146,9 +146,9 @@ export default async function InsightsPage() {
                 {/* All Articles */}
                 <div>
                   <h3 className="text-2xl font-semibold text-white mb-8">All Articles</h3>
-                  <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {articles.map((article) => (
-                      <Card key={article.slug} className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+                      <Card key={article.slug} className="card-standard card-hover">
                         <CardHeader>
                           <div className="flex items-center gap-2 mb-2">
                             <Badge className="bg-photon-700/20 text-photon-300 border-photon-700/30 text-xs">
@@ -203,7 +203,7 @@ export default async function InsightsPage() {
                 </div>
 
                 {/* Preview Cards */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                   <Card className="card-standard card-hover">
                     <CardHeader className="text-center">
                       <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">

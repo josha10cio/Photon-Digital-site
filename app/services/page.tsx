@@ -87,16 +87,16 @@ export default function SupportingServicesPage() {
             </p>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto mb-16">
+          <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
             <Card className="card-standard card-hover">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 rounded-full bg-photon-500/20 flex items-center justify-center">
                     <BrainIcon className="w-6 h-6 text-photon-500" />
                   </div>
-                    <CardTitle className="text-xl">Physical AI Development Support</CardTitle>
+                  <CardTitle className="text-xl">Physical AI Development Support</CardTitle>
                 </div>
-                </CardHeader>
+              </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-photon-200">
                   <li className="flex items-start gap-3">
@@ -124,9 +124,9 @@ export default function SupportingServicesPage() {
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 rounded-full bg-photon-400/20 flex items-center justify-center">
                     <BoxIcon className="w-6 h-6 text-photon-400" />
-                      </div>
-                    <CardTitle className="text-xl">Digital Twin Support</CardTitle>
-                    </div>
+                  </div>
+                  <CardTitle className="text-xl">Digital Twin Support</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-photon-200">
@@ -149,8 +149,8 @@ export default function SupportingServicesPage() {
                 </ul>
               </CardContent>
             </Card>
-                      </div>
-                    </div>
+          </div>
+        </div>
       </section>
 
       {/* Design Services Section */}
@@ -161,11 +161,11 @@ export default function SupportingServicesPage() {
               <div className="flex justify-center mb-6">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center">
                   <PenToolIcon className="w-8 h-8 text-photon-500" />
-                      </div>
-                    </div>
+                </div>
+              </div>
               <h2 className="section-title mb-4">Design Services</h2>
               <p className="text-lg text-photon-200 max-w-3xl mx-auto">Design solutions that support Physical AI and Digital Twin work with clear interfaces and accurate 3D models.</p>
-                  </div>
+            </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
               <Card className="card-standard card-hover">
@@ -253,12 +253,12 @@ export default function SupportingServicesPage() {
                 <div className="w-16 h-16 rounded-full bg-photon-700/20 flex items-center justify-center">
                   <MonitorIcon className="w-8 h-8 text-photon-700" />
                 </div>
-                    </div>
+              </div>
               <h2 className="section-title mb-4">Visualization Services</h2>
               <p className="text-lg text-photon-200 max-w-3xl mx-auto">
                 Advanced visualization solutions that make complex AI training processes and digital twin simulations accessible, engaging, and effective for training, demonstration, and analysis.
               </p>
-                  </div>
+            </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
               <Card className="card-standard card-hover">
@@ -323,18 +323,18 @@ export default function SupportingServicesPage() {
                   </ul>
                 </CardContent>
               </Card>
-                </div>
+            </div>
 
             <div className="text-center">
               <Link href="/contact">
                 <Button className="btn-primary px-8 py-3 text-lg font-semibold group animate-pulse-glow">
                   Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </Link>
-                </div>
-                    </div>
-                  </div>
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Engineering Services Section */}
@@ -345,11 +345,11 @@ export default function SupportingServicesPage() {
               <div className="flex justify-center mb-6">
                 <div className="w-16 h-16 rounded-full bg-photon-600/20 flex items-center justify-center">
                   <CogIcon className="w-8 h-8 text-photon-600" />
-                    </div>
-                  </div>
+                </div>
+              </div>
               <h2 className="section-title mb-4">Engineering Services</h2>
               <p className="text-lg text-photon-200 max-w-3xl mx-auto">Engineering solutions that make Physical AI systems and Digital Twins reliable and efficient.</p>
-                  </div>
+            </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
               <Card className="card-standard card-hover">
@@ -412,15 +412,15 @@ export default function SupportingServicesPage() {
                   </ul>
                 </CardContent>
               </Card>
-                  </div>
+            </div>
                   
             <div className="text-center">
               <Link href="/contact">
                 <Button className="btn-primary px-8 py-3 text-lg font-semibold group animate-pulse-glow">
                   Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </Link>
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -443,11 +443,11 @@ export default function SupportingServicesPage() {
             </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <CpuIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
-              </div>
+                  </div>
                   <CardTitle className="text-xl font-bold">Training Datasets</CardTitle>
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
@@ -464,11 +464,11 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <NetworkIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
-            </div>
+                  </div>
                   <CardTitle className="text-xl font-bold">Simulation Data</CardTitle>
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
@@ -485,11 +485,11 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-photon-900/50 border border-photon-800 text-white group glassmorphism hover:border-photon-600/50 transition-all duration-300">
+              <Card className="card-standard card-hover">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
-              </div>
+                  </div>
                   <CardTitle className="text-xl font-bold">Data Augmentation</CardTitle>
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>

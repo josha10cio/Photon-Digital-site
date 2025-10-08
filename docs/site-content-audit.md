@@ -172,3 +172,4 @@ FAQ (selected items mirror site copy).
 Notes:
 - Privacy Policy and Terms exist as standalone pages; review those pages directly for full legal copy.
 - Insights uses Markdown; no live articles included by design (placeholder removed). Add content to `content/insights/` to publish.
+

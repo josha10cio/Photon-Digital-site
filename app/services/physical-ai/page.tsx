@@ -187,7 +187,7 @@ export default function PhysicalAIPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <CameraIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -201,7 +201,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover card-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <BotIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -215,7 +215,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover card-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <ScanIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -229,7 +229,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover card-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <BrainIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -243,7 +243,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover card-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <ZapIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -257,7 +257,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover card-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <CogIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />

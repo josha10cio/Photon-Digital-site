@@ -69,3 +69,4 @@ This summarizes current pages, purpose, and CTAs for quick redlining.
 - [ ] CTAs appropriate for early leads
 - [ ] Legal/compliance additions needed?
 - [ ] Add per‑page OG images (optional)
+
