@@ -32,7 +32,7 @@ export default function MissionPage() {
               <h2 className="section-title">Why we exist</h2>
               <p className="text-lg text-photon-200 leading-relaxed">Collecting high quality real world data can be slow, costly, and limited by safety or privacy. Synthetic data provides scale and control without field risk.</p>
               <h2 className="section-title mt-8">How we work</h2>
-              <p className="text-lg text-photon-200 leading-relaxed">We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built to serve the task.</p>
+              <p className="text-lg text-photon-200 leading-relaxed">We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built for a clear learning objective.</p>
             </div>
             <div className="relative">
               <Card className="card-standard card-hover p-8">

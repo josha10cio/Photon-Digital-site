@@ -222,54 +222,25 @@ export default function DigitalTwinPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">What a Twin Provides</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Key capabilities and benefits of digital twin technology for system optimization.
-            </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <Card className="card-standard card-hover">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30">
-                  <MonitorIcon className="h-8 w-8 text-photon-400" />
-                </div>
-                <CardTitle className="text-xl font-bold">Real-time Simulation</CardTitle>
-                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
-              </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-photon-200 text-sm">
-                  Live virtual replicas with real-time dashboards and continuous system monitoring.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30">
-                  <ShieldIcon className="h-8 w-8 text-photon-400" />
-                </div>
-                <CardTitle className="text-xl font-bold">Safe Testing</CardTitle>
-                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
-              </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-photon-200 text-sm">
-                  Risk-free testing environment for changes and updates without impacting live systems.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30">
-                  <TrendingUpIcon className="h-8 w-8 text-photon-400" />
-                </div>
-                <CardTitle className="text-xl font-bold">Feedback Loops</CardTitle>
-                <div className="w-12 h-1 bg-photon-400 rounded-full mx-auto mt-2"></div>
-              </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-photon-200 text-sm">
-                  Continuous improvement through data-driven insights and training data enhancement.
-                </CardDescription>
+              <CardContent className="p-8">
+                <ul className="space-y-4 text-photon-200">
+                  <li className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
+                    <span>Real time simulation and dashboards</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
+                    <span>Safe testing for changes and updates</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-5 h-5 text-photon-400 mt-0.5 flex-shrink-0" />
+                    <span>Feedback loops that guide the next round of dataset generation</span>
+                  </li>
+                </ul>
               </CardContent>
             </Card>
           </div>
