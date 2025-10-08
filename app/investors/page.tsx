@@ -27,7 +27,7 @@ export default function InvestorsPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8 animate-fadeIn">Investors</h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Building the future of Physical AI and Digital Twin technology. We're creating the infrastructure that powers intelligent systems in the physical world.
+              Photon Echo builds virtual worlds and sensor simulations that generate synthetic training data for physical AI. Our focus is on practical pipelines that help teams train and validate models with speed and safety.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
@@ -41,190 +41,72 @@ export default function InvestorsPage() {
         </div>
       </section>
 
-      {/* Market Opportunity Section */}
+      {/* Market View Section */}
       <section className="w-full py-20 md:py-32 bg-photon-950">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Market Opportunity</h2>
-            <p className="text-lg text-photon-200 max-w-3xl mx-auto">
-              The Physical AI and Digital Twin market is experiencing explosive growth as industries accelerate their digital transformation.
-            </p>
+            <h2 className="section-title mb-4">Market view</h2>
           </div>
-
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center">
-                <TrendingUpIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
-                <CardTitle className="text-lg">Growing Market</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-photon-200 text-sm">Physical AI market projected to reach $100B+ by 2030</p>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center">
-                <TargetIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
-                <CardTitle className="text-lg">Strategic Focus</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-photon-200 text-sm">Targeting high-growth sectors: automotive, manufacturing, defense</p>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center">
-                <RocketIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
-                <CardTitle className="text-lg">Innovation Led</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-photon-200 text-sm">Proprietary technology for synthetic data and simulation</p>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader className="text-center">
-                <UsersIcon className="h-12 w-12 text-photon-500 mx-auto mb-4" />
-                <CardTitle className="text-lg">Expert Team</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-photon-200 text-sm">Deep expertise in AI, simulation, and enterprise software</p>
-              </CardContent>
-            </Card>
-          </div>
+          <Card className="card-standard card-hover max-w-4xl mx-auto p-8">
+            <ul className="space-y-4 text-photon-200">
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Growing demand for synthetic data in robotics, autonomy, and industrial systems</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Clear need for accurate sensor simulation and repeatable data generation</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Digital twins as a natural extension for testing and monitoring</span>
+              </li>
+            </ul>
+          </Card>
         </div>
       </section>
 
-      {/* Our Advantage Section */}
+      {/* Current Focus Section */}
       <section className="w-full py-20 md:py-32 bg-photon-900/30">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Our Competitive Advantage</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
-              Photon Echo combines cutting-edge technology with deep domain expertise to deliver unique value.
-            </p>
+            <h2 className="section-title mb-4">Current focus</h2>
           </div>
-
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="card-standard card-hover">
-              <CardHeader>
-                <CardTitle className="text-xl">Proprietary Technology</CardTitle>
-                <div className="w-12 h-1 bg-photon-500 rounded-full"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-photon-200 mb-4">
-                  Advanced synthetic data generation and sensor simulation platform built from the ground up.
-                </CardDescription>
-                <ul className="space-y-2 text-sm text-photon-300">
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Photorealistic 3D environments
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Multi-sensor simulation
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Real-time data generation
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader>
-                <CardTitle className="text-xl">Industry Partnerships</CardTitle>
-                <div className="w-12 h-1 bg-photon-700 rounded-full"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-photon-200 mb-4">
-                  Strategic relationships with leading organizations in autonomous systems and manufacturing.
-                </CardDescription>
-                <ul className="space-y-2 text-sm text-photon-300">
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Enterprise customers
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Government contracts
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Research collaborations
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-standard card-hover">
-              <CardHeader>
-                <CardTitle className="text-xl">Scalable Platform</CardTitle>
-                <div className="w-12 h-1 bg-photon-600 rounded-full"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-photon-200 mb-4">
-                  Cloud-native architecture designed to scale from prototypes to enterprise deployments.
-                </CardDescription>
-                <ul className="space-y-2 text-sm text-photon-300">
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Multi-tenant SaaS model
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    API-first design
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircleIcon className="h-4 w-4 text-photon-500" />
-                    Enterprise security
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
+          <Card className="card-standard card-hover max-w-4xl mx-auto p-8">
+            <ul className="space-y-4 text-photon-200">
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Build high accuracy world building and sensor simulation workflows</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Deliver clear dataset specifications and versioned generation scripts</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Validate transfer with small real samples and targeted regeneration</span>
+              </li>
+            </ul>
+          </Card>
         </div>
       </section>
 
-      {/* Vision Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="section-title mb-6">Our Vision</h2>
-            <p className="text-lg text-photon-200 leading-relaxed mb-8">
-              We're building the foundational infrastructure that will power the next generation of intelligent physical systems. 
-              From autonomous vehicles to smart factories, our technology enables AI to understand and interact with the real world.
-            </p>
-            <p className="text-lg text-photon-200 leading-relaxed">
-              As industries transition to AI-driven operations, synthetic data and digital twins become essential. 
-              Photon Echo is positioned at the intersection of these transformative technologies.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
+      {/* Call to Action Section */}
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container px-4 md:px-6 relative z-10">
           <Card className="card-standard card-hover max-w-4xl mx-auto p-8 md:p-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
-              Join Us in Building the Future
+              Call to action
             </h2>
             <p className="text-lg md:text-xl text-photon-100 max-w-2xl mx-auto mb-8">
-              We're seeking strategic partners and investors who share our vision for the future of Physical AI and Digital Twins.
+              We welcome conversations with partners who share this focus on practical physical AI.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="primary" size="xl">
                   <FileTextIcon className="mr-2 w-5 h-5" />
                   Request Information
-                </Button>
-              </Link>
-              <Link href="/mission">
-                <Button variant="outline" size="xl">
-                  Our Mission
                 </Button>
               </Link>
             </div>
