@@ -29,6 +29,8 @@ export function Header() {
   const navLinks = [
     { href: "/physical_ai", label: "Physical AI" },
     { href: "/digital_twin", label: "Digital Twin" },
+    { href: "/services", label: "Services Overview" },
+    { href: "/government", label: "Government" },
     { href: "/mission", label: "Mission" },
     { href: "/insights", label: "Insights" },
     { href: "/investors", label: "Investors" },
@@ -82,6 +84,11 @@ export function Header() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-photon-500 to-photon-700 transition-all duration-300 group-hover:w-full rounded-full"></span>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-photon-900 border-photon-800 text-white">
+              <DropdownMenuItem asChild>
+                <Link href="/services" className="cursor-pointer hover:bg-photon-800 font-semibold">
+                  Services Overview
+                </Link>
+              </DropdownMenuItem>
               {serviceLinks.map((link) => (
                 <DropdownMenuItem key={link.href} asChild>
                   <Link href={link.href} className="cursor-pointer hover:bg-photon-800">
@@ -145,6 +152,13 @@ export function Header() {
             {/* Services Section */}
             <div className="border-t border-photon-800/50 pt-4 mt-2">
               <div className="text-sm font-semibold text-photon-400 mb-2">Services</div>
+              <Link
+                href="/services"
+                className="block text-base font-medium text-white hover:text-photon-500 transition-colors py-2 pl-4 hover:scale-105 font-semibold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Services Overview
+              </Link>
               {serviceLinks.map((link) => (
                 <Link
                   key={link.href}
