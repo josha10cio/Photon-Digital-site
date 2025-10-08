@@ -23,7 +23,7 @@ async function getAllArticles() {
 
   const filenames = fs.readdirSync(articlesDirectory)
   const articles = filenames
-    .filter((name) => name.endsWith(".md"))
+    .filter((name) => name.endsWith(".md") && name !== "README.md")
     .map((filename) => {
       const filePath = path.join(articlesDirectory, filename)
       const fileContents = fs.readFileSync(filePath, "utf8")
@@ -39,6 +39,7 @@ async function getAllArticles() {
         tags: data.tags,
       }
     })
+    .filter((article) => article.title && article.date)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   return articles
