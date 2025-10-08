@@ -46,8 +46,7 @@ export default function VisualizationServicesPage() {
               Professional Visualization Services
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Transform complex concepts into clear, compelling visual communications through technical drawings, 
-              photorealistic renderings, animations, and interactive presentations.
+              Visualization turns complex training and twin activity into clear frames, previews, and interactive demos for inspection and communication.
             </p>
             <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">

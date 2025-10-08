@@ -46,8 +46,7 @@ export default function DesignServicesPage() {
               Professional Design Services
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              From initial concept sketches to complete visual identity systems, we deliver creative design solutions 
-              that combine aesthetic excellence with functional innovation.
+              Design supports simulation by creating 3D assets, interfaces, and review tools that make training and validation clear.
             </p>
             <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">

@@ -48,7 +48,7 @@ export default function EngineeringServicesPage() {
               Engineering & Industrial Design
             </h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Engineering and industrial design for product development, documentation, and manufacturing.
+              Engineering ensures mechanical accuracy, sensor specifications, and reliable integration across the training and twin stack.
             </p>
             <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
