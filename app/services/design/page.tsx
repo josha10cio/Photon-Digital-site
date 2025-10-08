@@ -51,7 +51,7 @@ export default function DesignServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
-                <Button variant="primary" size="xl" className=" px-10 py-4 text-lg font-medium group animate-pulse-glow">
+                <Button variant="primary" size="xl">
                   <PlayIcon className="mr-2 w-5 h-5" />
                   Start Your Project
                   <ArrowRightIcon className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -75,9 +75,9 @@ export default function DesignServicesPage() {
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">Design for visual communication and product development.</p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {/* Concept Design */}
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -99,7 +99,7 @@ export default function DesignServicesPage() {
             </Card>
 
             {/* 3D Modeling & CAD */}
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BoxIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -123,7 +123,7 @@ export default function DesignServicesPage() {
             {/* Removed UI/UX Design card per request */}
 
             {/* Branding & Graphics */}
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="card-standard card-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <PaletteIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
