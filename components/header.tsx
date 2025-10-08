@@ -39,7 +39,6 @@ export function Header() {
     { href: "/services/design", label: "Design Services" },
     { href: "/services/visualization", label: "Visualization Services" },
     { href: "/services/engineering", label: "Engineering Services" },
-    { href: "/services/artificial-data", label: "Artificial Data" },
   ]
 
   return (
