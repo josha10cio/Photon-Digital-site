@@ -29,9 +29,9 @@ export function Header() {
   const navLinks = [
     { href: "/physical_ai", label: "Physical AI" },
     { href: "/digital_twin", label: "Digital Twin" },
-    { href: "/workflow", label: "Workflow" },
     { href: "/mission", label: "Mission" },
     { href: "/insights", label: "Insights" },
+    { href: "/investors", label: "Investors" },
     { href: "/contact", label: "Contact" },
   ]
 
