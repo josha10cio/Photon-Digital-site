@@ -35,7 +35,12 @@ export function Header() {
     { href: "/contact", label: "Contact" },
   ]
 
-  const serviceLinks: never[] = []
+  const serviceLinks = [
+    { href: "/services/design", label: "Design Services" },
+    { href: "/services/visualization", label: "Visualization Services" },
+    { href: "/services/engineering", label: "Engineering Services" },
+    { href: "/services/artificial-data", label: "Artificial Data" },
+  ]
 
   return (
     <header
@@ -59,7 +64,7 @@ export function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
+          {navLinks.slice(0, 2).map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -70,7 +75,34 @@ export function Header() {
             </Link>
           ))}
           
-          {/* Services dropdown removed per new IA */}
+          {/* Services Dropdown */}
+          <DropdownMenu>
+            <DropdownMenuTrigger className="text-sm font-medium text-white hover:text-photon-500 transition-all duration-300 relative group tracking-wide flex items-center gap-1">
+              Services
+              <ChevronDownIcon className="h-4 w-4" />
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-photon-500 to-photon-700 transition-all duration-300 group-hover:w-full rounded-full"></span>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-photon-900 border-photon-800 text-white">
+              {serviceLinks.map((link) => (
+                <DropdownMenuItem key={link.href} asChild>
+                  <Link href={link.href} className="cursor-pointer hover:bg-photon-800">
+                    {link.label}
+                  </Link>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          {navLinks.slice(2).map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-sm font-medium text-white hover:text-photon-500 transition-all duration-300 hover:scale-105 relative group tracking-wide"
+            >
+              {link.label}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-photon-500 to-photon-700 transition-all duration-300 group-hover:w-full rounded-full"></span>
+            </Link>
+          ))}
         </nav>
 
         <div className="flex items-center gap-4">
@@ -100,7 +132,7 @@ export function Header() {
       {isMobileMenuOpen && (
         <div className="md:hidden glassmorphism border-t border-photon-800/50 py-4 px-4 animate-in slide-in-from-top-2 duration-300">
           <nav className="flex flex-col gap-4">
-            {navLinks.map((link) => (
+            {navLinks.slice(0, 2).map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -111,7 +143,31 @@ export function Header() {
               </Link>
             ))}
             
-            {/* Services subsection removed per new IA */}
+            {/* Services Section */}
+            <div className="border-t border-photon-800/50 pt-4 mt-2">
+              <div className="text-sm font-semibold text-photon-400 mb-2">Services</div>
+              {serviceLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="block text-base font-medium text-white hover:text-photon-500 transition-colors py-2 pl-4 hover:scale-105"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+            
+            {navLinks.slice(2).map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-base font-medium text-white hover:text-photon-500 transition-colors py-2 hover:scale-105"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
             
             <div className="relative mt-2">
               <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
