@@ -1,13 +1,35 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { TrendingUpIcon, TargetIcon, RocketIcon, UsersIcon, CheckCircleIcon, FileTextIcon } from "lucide-react"
+import { TrendingUpIcon, TargetIcon, RocketIcon, UsersIcon, CheckCircleIcon, FileTextIcon, CalendarIcon, MapIcon, ZapIcon } from "lucide-react"
 import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Investors",
-  description: "Building the future of Physical AI and Digital Twin technology.",
+  title: "Investors – Photon Echo",
+  description: "Learn about the market opportunity and growth strategy behind Photon Echo's Physical AI and synthetic data development.",
+  openGraph: {
+    title: "Investors – Photon Echo",
+    description: "Learn about the market opportunity and growth strategy behind Photon Echo's Physical AI and synthetic data development.",
+    url: "https://www.photonecho.dev/investors",
+    siteName: "Photon Echo",
+    images: [
+      {
+        url: "/echo_Logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Photon Echo Investors Page"
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Investors – Photon Echo",
+    description: "Explore Photon Echo's Physical AI investment opportunity.",
+    images: ["/echo_Logo.png"]
+  }
 }
 
 export default function InvestorsPage() {
@@ -27,17 +49,17 @@ export default function InvestorsPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8 animate-fadeIn">Invest in the Future of Physical AI</h1>
             <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
-              Photon Echo is building the infrastructure for AI-powered physical systems. We're seeking strategic investors who understand the massive opportunity in synthetic training data and digital twin technology.
+              Photon Echo builds the simulation and synthetic data infrastructure that will power the next generation of intelligent systems. We are seeking strategic partners who understand the value of synthetic data and digital twin technology in accelerating AI development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
               <Link href="/contact">
                 <Button variant="primary" size="xl">
-                  Request Investor Deck
+                  Request Investor Overview
                 </Button>
               </Link>
               <Link href="/contact">
                 <Button variant="secondary" size="xl">
-                  Schedule Meeting
+                  Schedule Investor Call
                 </Button>
               </Link>
             </div>
@@ -49,83 +71,149 @@ export default function InvestorsPage() {
       <section className="w-full py-20 md:py-32 bg-photon-950">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Market Opportunity</h2>
+            <h2 className="section-title mb-4">The Market Is Expanding Quickly</h2>
             <p className="text-lg text-photon-300 max-w-3xl mx-auto">
-              The synthetic data market is projected to reach $3.5B by 2028, driven by increasing AI adoption in physical systems.
+              The global market for synthetic data and simulation is growing rapidly as AI moves into physical environments. From robotics and manufacturing to defense and logistics, organizations are adopting simulation to train and validate intelligent systems.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="card-standard card-hover text-center">
               <CardContent className="p-6">
                 <TrendingUpIcon className="w-12 h-12 text-photon-500 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-white mb-2">$3.5B Market</h3>
-                <p className="text-photon-300">Synthetic data market growing 45% annually</p>
+                <h3 className="text-xl font-semibold text-white mb-2">$3.5B and Growing</h3>
+                <p className="text-photon-300">The synthetic data market is expected to exceed $3.5B by 2028 as demand for scalable AI training continues to rise.</p>
               </CardContent>
             </Card>
             <Card className="card-standard card-hover text-center">
               <CardContent className="p-6">
                 <TargetIcon className="w-12 h-12 text-photon-500 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-white mb-2">Clear Pain Point</h3>
-                <p className="text-photon-300">Real data is expensive, limited, and risky to collect</p>
+                <h3 className="text-xl font-semibold text-white mb-2">Critical Bottleneck</h3>
+                <p className="text-photon-300">Real world data is expensive, limited, and risky to collect. Simulation removes these barriers and allows rapid iteration.</p>
               </CardContent>
             </Card>
             <Card className="card-standard card-hover text-center">
               <CardContent className="p-6">
                 <RocketIcon className="w-12 h-12 text-photon-500 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-white mb-2">Early Stage</h3>
-                <p className="text-photon-300">First-mover advantage in specialized vertical</p>
+                <h3 className="text-xl font-semibold text-white mb-2">Emerging Standard</h3>
+                <p className="text-photon-300">Synthetic data and digital twins are becoming the default approach for developing physical AI models safely and efficiently.</p>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
 
-      {/* Investment Thesis Section */}
+      {/* Why Photon Echo Section */}
+      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Our Advantage</h2>
+            <p className="text-lg text-photon-300 max-w-3xl mx-auto">
+              Photon Echo focuses on creating precise digital worlds and sensor simulations that produce high quality training data for AI systems that must see, move, and decide in real environments.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <Card className="card-standard card-hover text-center">
+              <CardContent className="p-6">
+                <UsersIcon className="w-12 h-12 text-photon-500 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold text-white mb-2">Technical Depth</h3>
+                <p className="text-photon-300">Built by engineers and 3D specialists with experience in simulation, visualization, and machine learning.</p>
+              </CardContent>
+            </Card>
+            <Card className="card-standard card-hover text-center">
+              <CardContent className="p-6">
+                <ZapIcon className="w-12 h-12 text-photon-500 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold text-white mb-2">High Fidelity Approach</h3>
+                <p className="text-photon-300">Every asset, sensor, and dataset is designed for measurable accuracy and repeatability.</p>
+              </CardContent>
+            </Card>
+            <Card className="card-standard card-hover text-center">
+              <CardContent className="p-6">
+                <MapIcon className="w-12 h-12 text-photon-500 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold text-white mb-2">Scalable Model</h3>
+                <p className="text-photon-300">Data generation, validation, and scenario authoring delivered through a repeatable software pipeline.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Roadmap Section */}
+      <section className="w-full py-20 md:py-32 bg-photon-950">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title mb-4">Our Roadmap</h2>
+            <p className="text-lg text-photon-300 max-w-3xl mx-auto">
+              Photon Echo is building the foundation for scalable synthetic data generation and simulation infrastructure. The roadmap below outlines our near term milestones.
+            </p>
+          </div>
+          <Card className="card-standard card-hover max-w-4xl mx-auto">
+            <CardContent className="p-8">
+              <div className="overflow-x-auto">
+                <table className="w-full text-left">
+                  <thead>
+                    <tr className="border-b border-photon-800/50">
+                      <th className="pb-4 text-lg font-semibold text-white">Milestone</th>
+                      <th className="pb-4 text-lg font-semibold text-white">Focus</th>
+                    </tr>
+                  </thead>
+                  <tbody className="space-y-4">
+                    <tr className="border-b border-photon-800/30">
+                      <td className="py-4 text-photon-200 font-medium">Q1–Q2 2025</td>
+                      <td className="py-4 text-photon-300">Internal R&D environments and prototype datasets</td>
+                    </tr>
+                    <tr className="border-b border-photon-800/30">
+                      <td className="py-4 text-photon-200 font-medium">Q3 2025</td>
+                      <td className="py-4 text-photon-300">Pilot collaborations with robotics and industrial partners</td>
+                    </tr>
+                    <tr className="border-b border-photon-800/30">
+                      <td className="py-4 text-photon-200 font-medium">Q4 2025</td>
+                      <td className="py-4 text-photon-300">Scalable data generation and twin testing infrastructure</td>
+                    </tr>
+                    <tr>
+                      <td className="py-4 text-photon-200 font-medium">2026</td>
+                      <td className="py-4 text-photon-300">Early commercial engagements and refinement of data-as-a-service platform</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Why Invest Now Section */}
       <section className="w-full py-20 md:py-32 bg-photon-900/30">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Why Invest Now</h2>
+            <p className="text-lg text-photon-300 max-w-3xl mx-auto mb-8">
+              Physical AI represents a major shift in how machines learn. Companies that control the data and simulation infrastructure will shape that transformation.
+            </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <Card className="card-standard card-hover">
-              <CardContent className="p-8">
-                <UsersIcon className="w-12 h-12 text-photon-500 mb-4" />
-                <h3 className="text-2xl font-semibold text-white mb-4">Experienced Team</h3>
-                <p className="text-photon-300 mb-4">Deep expertise in simulation, AI, and enterprise software</p>
-                <ul className="space-y-2 text-photon-200">
-                  <li className="flex items-start gap-2">
-                    <CheckCircleIcon className="w-4 h-4 text-photon-500 mt-1 flex-shrink-0" />
-                    <span>Proven track record in AI and simulation</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircleIcon className="w-4 h-4 text-photon-500 mt-1 flex-shrink-0" />
-                    <span>Strong network in target industries</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-            <Card className="card-standard card-hover">
-              <CardContent className="p-8">
-                <FileTextIcon className="w-12 h-12 text-photon-500 mb-4" />
-                <h3 className="text-2xl font-semibold text-white mb-4">Clear Path to Revenue</h3>
-                <p className="text-photon-300 mb-4">B2B SaaS model with enterprise customers</p>
-                <ul className="space-y-2 text-photon-200">
-                  <li className="flex items-start gap-2">
-                    <CheckCircleIcon className="w-4 h-4 text-photon-500 mt-1 flex-shrink-0" />
-                    <span>Recurring revenue from simulation platforms</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircleIcon className="w-4 h-4 text-photon-500 mt-1 flex-shrink-0" />
-                    <span>High-value consulting and custom solutions</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
+          <Card className="card-standard card-hover max-w-4xl mx-auto p-8">
+            <ul className="space-y-4 text-photon-200">
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Expanding global demand for realistic training data</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Early leadership opportunity in a fast growing vertical</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Scalable and repeatable service model</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                <span>Experienced team with deep technical understanding of synthetic environments</span>
+              </li>
+            </ul>
+          </Card>
         </div>
       </section>
 
-      {/* Investment CTA Section */}
+      {/* Final CTA Section */}
       <section className="w-full py-20 md:py-32 bg-photon-gradient-hero text-white text-center overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container px-4 md:px-6 relative z-10">
@@ -134,12 +222,12 @@ export default function InvestorsPage() {
               Ready to Invest?
             </h2>
             <p className="text-lg md:text-xl text-photon-100 max-w-2xl mx-auto mb-8">
-              Join us in building the infrastructure for AI-powered physical systems. We're seeking strategic investors who understand the massive opportunity ahead.
+              Join us in building the infrastructure for intelligent physical systems. Photon Echo is now engaging with early strategic investors to accelerate development and scale synthetic data operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="primary" size="xl">
-                  Request Investor Deck
+                  Request Investor Overview
                 </Button>
               </Link>
               <Link href="/contact">
@@ -157,4 +245,3 @@ export default function InvestorsPage() {
     </div>
   )
 }
-
