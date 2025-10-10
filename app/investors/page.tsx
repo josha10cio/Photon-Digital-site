@@ -7,10 +7,10 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Investors – Photon Echo",
-  description: "Learn about the market opportunity and growth strategy behind Photon Echo's Physical AI and synthetic data development.",
+  description: "Explore Photon Echo’s early stage roadmap for synthetic data and simulation infrastructure powering Physical AI.",
   openGraph: {
     title: "Investors – Photon Echo",
-    description: "Learn about the market opportunity and growth strategy behind Photon Echo's Physical AI and synthetic data development.",
+    description: "Explore Photon Echo’s early stage roadmap for synthetic data and simulation infrastructure powering Physical AI.",
     url: "https://www.photonecho.dev/investors",
     siteName: "Photon Echo",
     images: [

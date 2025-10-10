@@ -21,7 +21,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Digital Twin Systems",
   description:
-    "Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real time system modeling and predictive analytics.",
+    "Develop virtual replicas used for simulation, testing, and validation to improve AI system performance and reliability.",
   keywords: [
     "digital twin",
     "real time simulation",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Digital Twin Systems – Photon Echo",
     description:
-      "Create intelligent virtual replicas for simulation, testing, and optimization with AI-powered analytics.",
+      "Develop virtual replicas used for simulation, testing, and validation to improve AI system performance and reliability.",
     url: "https://www.photonecho.dev/digital_twin",
     type: "article",
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Digital Twin Systems – Photon Echo",
     description:
-      "AI-powered virtual replicas for simulation, testing, optimization, and real time insights.",
+      "Develop virtual replicas used for simulation, testing, and validation to improve AI system performance and reliability.",
   },
 }
 

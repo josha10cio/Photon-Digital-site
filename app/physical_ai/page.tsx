@@ -23,9 +23,10 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Physical AI Development",
   description:
-    "Advanced Physical AI development services including computer vision, robotics integration, and autonomous systems. AI that understands and interacts with the physical world.",
+    "Development of simulation environments, sensors, and datasets that train AI to perceive, understand, and act in the real world.",
   keywords: [
     "Physical AI",
+    "synthetic data generation",
     "robotics integration",
     "computer vision",
     "sensor fusion",
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Physical AI Development – Photon Echo",
     description:
-      "Build AI systems that perceive, understand, and interact with the physical world through advanced perception, robotics, and autonomy.",
+      "Development of simulation environments, sensors, and datasets that train AI to perceive, understand, and act in the real world.",
     url: "https://www.photonecho.dev/physical_ai",
     type: "article",
   },
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Physical AI Development – Photon Echo",
     description:
-      "AI that bridges digital intelligence and physical reality: perception, robotics, autonomy.",
+      "Development of simulation environments, sensors, and datasets that train AI to perceive, understand, and act in the real world.",
   },
 }
 

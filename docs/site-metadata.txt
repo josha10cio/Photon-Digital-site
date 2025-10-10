@@ -51,27 +51,27 @@ Page Metadata
 
 /digital_twin (app/digital_twin/page.tsx)
 - title: Digital Twin Systems
-- description: Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real time system modeling and predictive analytics.
-- keywords: digital twin; real time simulation; predictive analytics; IoT integration; system modeling
+- description: Develop virtual replicas used for simulation, testing, and validation to improve AI system performance and reliability.
+- keywords: ["digital twin", "real time simulation", "predictive analytics", "IoT integration", "system modeling"]
 - openGraph: title Digital Twin Systems – Photon Echo; url /digital_twin; type article
 - twitter: summary_large_image; title Digital Twin Systems – Photon Echo
 
 /physical_ai (app/physical_ai/page.tsx)
 - title: Physical AI Development
-- description: Advanced Physical AI development services including computer vision, robotics integration, and autonomous systems. AI that understands and interacts with the physical world.
-- keywords: Physical AI; robotics integration; computer vision; sensor fusion; autonomous systems; edge computing
+- description: Development of simulation environments, sensors, and datasets that train AI to perceive, understand, and act in the real world.
+- keywords: ["Physical AI", "synthetic data generation", "robotics integration", "computer vision", "sensor fusion", "autonomous systems", "edge computing"]
 - openGraph: title Physical AI Development – Photon Echo; url /physical_ai; type article
 - twitter: summary_large_image; title Physical AI Development – Photon Echo
 
 /investors (app/investors/page.tsx)
 - title: Investors – Photon Echo
-- description: Learn about the market opportunity and growth strategy behind Photon Echo's Physical AI and synthetic data development.
+- description: Explore Photon Echo’s early stage roadmap for synthetic data and simulation infrastructure powering Physical AI.
 - openGraph: title Investors – Photon Echo; url /investors; type website; image /echo_Logo.png
 - twitter: summary_large_image; title Investors – Photon Echo; description Explore Photon Echo's Physical AI investment opportunity.
 
 /mission (app/mission/page.tsx)
-- title: Mission Photon Echo
-- description: We build virtual worlds and sensor simulations to power synthetic data for physical AI.
+- title: "Mission – Photon Echo",
+- description: "We build virtual worlds and sensor simulations that generate synthetic data for physical AI and real world intelligence.",
 
 /government (app/government/page.tsx)
 - title: Government

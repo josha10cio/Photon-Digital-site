@@ -36,7 +36,7 @@ Photon Echo — Plain Text Website Content (2025-10-10)
 - Summary: Synthetic datasets and data generation solutions that support Physical AI Development with realistic and diverse training data.
 
 /digital_twin
-- Badge: AI-Powered • Digital Twin Technology
+- Badge: Digital Twin Systems
 - Title: Digital Twin Systems
 - Intro: Digital twins extend the same simulation pipeline used for training into live testing and monitoring. They help teams validate models and track performance in realistic conditions.
 - What a Twin Provides:
@@ -114,12 +114,12 @@ Photon Echo — Plain Text Website Content (2025-10-10)
 
 /services/artificial-data
 - Title: Artificial Data Development
-- Claim: Generate high-quality synthetic datasets for AI training, testing, and validation. Overcome data limitations with privacy-safe artificial data.
+- Claim: Generate accurate and diverse synthetic datasets for AI training, testing, and validation. Overcome data limitations with privacy safe artificial data.
 - What is Artificial Data? Algorithmically generated data that mimics real-world statistics without sensitive information.
 
 /insights
 - Title: Insights & Research
-- Status: Insights Coming Soon — preparing case studies, technical guides, industry trends, and expert analysis.
+- Status: Insights Coming Soon — preparing case studies, technical guides, industry trends, and expert analysis. We are also developing research updates on synthetic data, simulation, and real world AI development.
 
 /privacy-policy
 - Title: Privacy Policy

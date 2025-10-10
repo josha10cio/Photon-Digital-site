@@ -6,8 +6,8 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Mission Photon Echo",
-  description: "We build virtual worlds and sensor simulations to power synthetic data for physical AI.",
+  title: "Mission – Photon Echo",
+  description: "We build virtual worlds and sensor simulations that generate synthetic data for physical AI and real world intelligence.",
 }
 
 export default function MissionPage() {

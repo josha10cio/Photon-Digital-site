@@ -35,15 +35,15 @@ Page SEO
 
 /digital_twin
 - Title: Digital Twin Systems – Photon Echo
-- Description: Create intelligent virtual replicas for simulation, testing, and optimization with AI-powered analytics.
-- Keywords: digital twin; real time simulation; predictive analytics; IoT integration; system modeling
+- Description: Create intelligent virtual replicas for simulation, testing, and optimization.
+- Keywords: digital twin, real time simulation, predictive analytics, IoT integration, system modeling
 - OG: type article; url /digital_twin; image /echo_Logo.png
 - Twitter: summary_large_image; title Digital Twin Systems – Photon Echo
 
 /physical_ai
 - Title: Physical AI Development – Photon Echo
-- Description: Build AI systems that perceive, understand, and interact with the physical world through advanced perception, robotics, and autonomy.
-- Keywords: Physical AI; robotics integration; computer vision; sensor fusion; autonomous systems; edge computing
+- Description: Build AI systems that perceive, understand, and interact with the physical world.
+- Keywords: Physical AI, synthetic data generation, robotics integration, computer vision, sensor fusion, autonomous systems, edge computing
 - OG: type article; url /physical_ai; image /echo_Logo.png
 - Twitter: summary_large_image; title Physical AI Development – Photon Echo
 
@@ -88,6 +88,6 @@ Page SEO
 - Title: Insights & Research
 - Description: Expert analysis, case studies, and technical knowledge on simulation, sensors, and data for physical AI.
 
-/sitemap.xml (public)
+- /sitemap.xml (public)
 - Includes: /, /services, /services/design, /services/visualization, /services/engineering, /services/artificial-data, /insights, /mission, /physical_ai, /digital_twin, /investors, /government, /contact, /privacy-policy, /terms
 - lastmod: 2025-10-08; changefreq: monthly/weekly; priorities set 0.3–1.0
