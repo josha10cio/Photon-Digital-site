@@ -1,0 +1,109 @@
+Photon Echo — Plain Text Metadata (2025-10-10)
+
+Global (app/layout.tsx)
+- metadataBase: https://www.photonecho.dev
+- title.default: Photon Echo Physical AI and Synthetic Data
+- title.template: %s - Photon Echo
+- icons: /favicon.png (icon, shortcut, apple)
+- other:
+  - robots: index, follow
+  - googlebot: index, follow
+  - last-modified: 2025-09-21
+- description: We build virtual worlds and simulated sensors to create synthetic training data for physical AI.
+- keywords (core 10):
+  Physical AI; Synthetic Data; Digital Twin; Sensor Simulation; AI Training Data; 3D Simulation; Robotics; Machine Learning Data; Edge Computing; Computer Vision
+- openGraph:
+  - title: Photon Echo Physical AI and Synthetic Data
+  - description: We build virtual worlds and simulated sensors to create synthetic training data for physical AI.
+  - url: https://www.photonecho.dev
+  - siteName: Photon Echo
+  - image: /echo_Logo.png (1200x630, alt: Photon Echo Physical AI and Synthetic Data)
+  - locale: en_US
+  - type: website
+- twitter:
+  - card: summary_large_image
+  - title: Photon Echo Physical AI and Synthetic Data
+  - description: We build virtual worlds and simulated sensors to create synthetic training data for physical AI.
+  - images: /echo_Logo.png
+- Structured Data (JSON-LD Organization):
+  - name: Photon Echo
+  - url: https://www.photonecho.dev
+  - logo: https://www.photonecho.dev/echo_Logo.png
+  - description: We build virtual worlds and simulated sensors to create synthetic training data for physical AI.
+  - foundingDate: 2025
+  - brand: Photon Echo
+  - areaServed: US
+  - address.country: US
+  - contactPoint: Business, email info@photonecho.dev, url /contact
+  - sameAs: LinkedIn, X
+  - services: Physical AI Development; Digital Twin Development; Synthetic Data Generation
+- Google Analytics: G-NNM54G5BCN (anonymize_ip: true)
+
+Page Metadata
+
+/home (app/page.tsx)
+- title: Photon Echo Physical AI and Synthetic Data
+- description: We build virtual worlds and simulated sensors that produce synthetic training data for physical AI systems.
+
+/services (app/services/page.tsx)
+- title: Physical AI Development & Digital Twins
+- description: Physical AI development and digital twins with simulation, sensors, and data.
+
+/digital_twin (app/digital_twin/page.tsx)
+- title: Digital Twin Systems
+- description: Advanced digital twin development services using AI powered virtual replicas for simulation, testing, and optimization. Real time system modeling and predictive analytics.
+- keywords: digital twin; real time simulation; predictive analytics; IoT integration; system modeling
+- openGraph: title Digital Twin Systems – Photon Echo; url /digital_twin; type article
+- twitter: summary_large_image; title Digital Twin Systems – Photon Echo
+
+/physical_ai (app/physical_ai/page.tsx)
+- title: Physical AI Development
+- description: Advanced Physical AI development services including computer vision, robotics integration, and autonomous systems. AI that understands and interacts with the physical world.
+- keywords: Physical AI; robotics integration; computer vision; sensor fusion; autonomous systems; edge computing
+- openGraph: title Physical AI Development – Photon Echo; url /physical_ai; type article
+- twitter: summary_large_image; title Physical AI Development – Photon Echo
+
+/investors (app/investors/page.tsx)
+- title: Investors – Photon Echo
+- description: Learn about the market opportunity and growth strategy behind Photon Echo's Physical AI and synthetic data development.
+- openGraph: title Investors – Photon Echo; url /investors; type website; image /echo_Logo.png
+- twitter: summary_large_image; title Investors – Photon Echo; description Explore Photon Echo's Physical AI investment opportunity.
+
+/mission (app/mission/page.tsx)
+- title: Mission Photon Echo
+- description: We build virtual worlds and sensor simulations to power synthetic data for physical AI.
+
+/government (app/government/page.tsx)
+- title: Government
+- description: Preparing for secure synthetic data and digital twin systems.
+
+/contact (app/contact/ContactPageClient.tsx)
+- Title within page only; no explicit Metadata export here.
+
+/services/design (app/services/design/page.tsx)
+- title: Design Services
+- description: Concept design, 3D modeling, CAD drawings, and branding.
+
+/services/visualization (app/services/visualization/page.tsx)
+- title: Visualization Services
+- description: Technical drawings, renderings, animations, and interactive demos for clear communication.
+
+/services/engineering (app/services/engineering/page.tsx)
+- title: Engineering & Industrial Design
+- description: Product engineering, documentation, and manufacturing support.
+
+/services/artificial-data (app/services/artificial-data/page.tsx)
+- title: Artificial Data Development Services
+- description: Synthetic data for AI training, testing, and validation. Privacy safe when real data is limited or sensitive.
+
+/insights (app/insights/page.tsx)
+- title: Insights & Research
+- description: Expert analysis, case studies, and technical knowledge on simulation, sensors, and data for physical AI.
+
+/privacy-policy (app/privacy-policy/page.tsx)
+- title: Privacy Policy
+- description: Read Photon Echo's Privacy Policy. Updated to reflect how we collect, use, and protect your data.
+
+/terms (app/terms/page.tsx)
+- title: Terms
+- description: Basic terms for Photon Digital LLC. Contact info@photonecho.dev. © 2025.

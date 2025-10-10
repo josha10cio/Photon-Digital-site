@@ -1,0 +1,93 @@
+Photon Echo — Plain Text SEO (2025-10-10)
+
+Global SEO
+- Robots: index, follow
+- Googlebot: index, follow
+- Canonical base: https://www.photonecho.dev
+- Global description: We build virtual worlds and simulated sensors to create synthetic training data for physical AI.
+- Core keywords (streamlined list of 10):
+  Physical AI; Synthetic Data; Digital Twin; Sensor Simulation; AI Training Data; 3D Simulation; Robotics; Machine Learning Data; Edge Computing; Computer Vision
+- Open Graph defaults:
+  - Title: Photon Echo Physical AI and Synthetic Data
+  - Description: We build virtual worlds and simulated sensors to create synthetic training data for physical AI.
+  - Image: /echo_Logo.png (1200x630)
+  - Type: website
+  - Locale: en_US
+- Twitter Card defaults:
+  - Card: summary_large_image
+  - Title: Photon Echo Physical AI and Synthetic Data
+  - Description: We build virtual worlds and simulated sensors to create synthetic training data for physical AI.
+  - Image: /echo_Logo.png
+- Structured Data (Organization): name Photon Echo; url https://www.photonecho.dev; logo /echo_Logo.png; foundingDate 2025; brand Photon Echo; areaServed US; contactPoint Business (info@photonecho.dev, /contact); services [Physical AI Development, Digital Twin Development, Synthetic Data Generation]
+- Analytics: GA4 G-NNM54G5BCN with anonymize_ip true
+
+Page SEO
+
+/home
+- Title: Photon Echo Physical AI and Synthetic Data
+- Description: We build virtual worlds and simulated sensors that produce synthetic training data for physical AI systems.
+- OG/Twitter: inherit global
+
+/services
+- Title: Physical AI Development & Digital Twins
+- Description: Physical AI development and digital twins with simulation, sensors, and data.
+- OG/Twitter: inherit global
+
+/digital_twin
+- Title: Digital Twin Systems – Photon Echo
+- Description: Create intelligent virtual replicas for simulation, testing, and optimization with AI-powered analytics.
+- Keywords: digital twin; real time simulation; predictive analytics; IoT integration; system modeling
+- OG: type article; url /digital_twin; image /echo_Logo.png
+- Twitter: summary_large_image; title Digital Twin Systems – Photon Echo
+
+/physical_ai
+- Title: Physical AI Development – Photon Echo
+- Description: Build AI systems that perceive, understand, and interact with the physical world through advanced perception, robotics, and autonomy.
+- Keywords: Physical AI; robotics integration; computer vision; sensor fusion; autonomous systems; edge computing
+- OG: type article; url /physical_ai; image /echo_Logo.png
+- Twitter: summary_large_image; title Physical AI Development – Photon Echo
+
+/investors
+- Title: Investors – Photon Echo
+- Description: Learn about the market opportunity and growth strategy behind Photon Echo's Physical AI and synthetic data development.
+- OG: type website; url /investors; image /echo_Logo.png
+- Twitter: summary_large_image; title Investors – Photon Echo
+
+/mission
+- Title: Mission Photon Echo
+- Description: We build virtual worlds and sensor simulations to power synthetic data for physical AI.
+- OG/Twitter: inherit global
+
+/government
+- Title: Government
+- Description: Preparing for secure synthetic data and digital twin systems.
+- OG/Twitter: inherit global
+
+/contact
+- Title: Contact Photon Echo (page content title)
+- Description: If you are building perception models, robotics systems, or AI tools that need realistic training data, we can help.
+- OG/Twitter: inherit global
+
+/services/design
+- Title: Design Services
+- Description: Concept design, 3D modeling, CAD drawings, and branding.
+
+/services/visualization
+- Title: Visualization Services
+- Description: Technical drawings, renderings, animations, and interactive demos for clear communication.
+
+/services/engineering
+- Title: Engineering & Industrial Design
+- Description: Product engineering, documentation, and manufacturing support.
+
+/services/artificial-data
+- Title: Artificial Data Development Services
+- Description: Synthetic data for AI training, testing, and validation. Privacy safe when real data is limited or sensitive.
+
+/insights
+- Title: Insights & Research
+- Description: Expert analysis, case studies, and technical knowledge on simulation, sensors, and data for physical AI.
+
+/sitemap.xml (public)
+- Includes: /, /services, /services/design, /services/visualization, /services/engineering, /services/artificial-data, /insights, /mission, /physical_ai, /digital_twin, /investors, /government, /contact, /privacy-policy, /terms
+- lastmod: 2025-10-08; changefreq: monthly/weekly; priorities set 0.3–1.0

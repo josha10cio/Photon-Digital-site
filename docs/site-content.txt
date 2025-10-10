@@ -1,0 +1,137 @@
+Photon Echo — Plain Text Website Content (2025-10-10)
+
+/home
+- Heading: Synthetic Data for Real World Intelligence
+- Intro: We build virtual worlds and sensor simulations that train AI to understand the physical world.
+- CTA: Start Your Project
+- What We Do:
+  - Physical AI Development: We build scenes, sensors, and scenarios that generate labeled data for perception and control tasks.
+  - Digital Twin Systems: We design live simulation and feedback loops that validate models and monitor performance after deployment.
+- Why Synthetic Data: Real world data can be limited, expensive, or sensitive. Synthetic data provides scale, coverage, and safety. By matching real conditions in simulation, teams can train models faster and reduce risk before field testing.
+
+/services
+- Badge: Physical AI Development • Digital Twin
+- Title: Physical AI and Digital Twins
+- Intro: We build virtual worlds and sensor simulations that produce synthetic training data. Digital twins use the same pipeline for testing and monitoring.
+- How we support your data loop:
+  - Design Services: 3D assets, interfaces, and review tools for simulation
+  - Visualization Services: previews, interactive demos, and dataset inspection
+  - Engineering Services: mechanical accuracy, sensor specs, and integration
+  - Artificial Data: targeted generation and data refinement for training and validation
+
+/services#design (Design section)
+- Title: Design Services
+- Summary: Design solutions that support Physical AI and Digital Twin work with clear interfaces and accurate 3D models.
+
+/services#visualization (Visualization section)
+- Title: Visualization Services
+- Summary: Advanced visualization solutions that make complex AI training processes and digital twin simulations accessible for training, demonstration, and analysis.
+
+/services#engineering (Engineering section)
+- Title: Engineering Services
+- Summary: Engineering solutions that make Physical AI systems and Digital Twins reliable and efficient.
+
+/services#artificial-data (Artificial Data section)
+- Title: Artificial Data Development
+- Summary: Synthetic datasets and data generation solutions that support Physical AI Development with realistic and diverse training data.
+
+/digital_twin
+- Badge: AI-Powered • Digital Twin Technology
+- Title: Digital Twin Systems
+- Intro: Digital twins extend the same simulation pipeline used for training into live testing and monitoring. They help teams validate models and track performance in realistic conditions.
+- What a Twin Provides:
+  - Real time simulation and dashboards
+  - Safe testing for changes and updates
+  - Feedback loops that guide the next round of dataset generation
+- Data Loop: Synthetic data trains the model. The twin tests the model. Results guide the next dataset generation.
+
+/physical_ai
+- Badge: Physical AI Development
+- Title: Physical AI Development
+- Intro: We develop simulation environments, sensors, and datasets that train AI to perceive and act in the physical world.
+- From Simulation to Dataset — Steps:
+  1) Build the World
+  2) Simulate Sensors
+  3) Generate Scenarios
+  4) Create Labeled Data
+  5) Validate and Refine
+- Why It Matters (highlights): High Coverage; Faster Iteration; Better Transfer
+
+/investors
+- Title: Invest in the Future of Physical AI
+- Intro: Photon Echo builds the simulation and synthetic data infrastructure that will power the next generation of intelligent systems. We are seeking strategic partners who understand the value of synthetic data and digital twin technology in accelerating AI development.
+- Market Opportunity (highlights):
+  - $3.5B and Growing: Demand for synthetic data is rising
+  - Critical Bottleneck: Real world data is expensive, limited, risky
+  - Emerging Standard: Synthetic data and digital twins are becoming default for physical AI
+- Our Advantage:
+  - Technical Depth: Experience in simulation, visualization, ML
+  - High Fidelity Approach: Measurable accuracy and repeatability
+  - Scalable Model: Repeatable software pipeline
+- Our Roadmap (narrative):
+  - Foundation: Building core tools, partnerships, and systems for precise growth
+  - Internal Development: Establishing simulation workflows and data generation environments for first research demonstrations; validating accuracy and reliability for real applications
+  - Partnerships: Forming technical partnerships with robotics and industrial teams to refine high fidelity world building, sensor simulation, and data labeling
+  - Scalability: Expanding into a scalable platform for synthetic data production and digital twin testing to deliver repeatable data generation services across industries
+- Why Invest Now (highlights):
+  - Expanding demand for realistic training data
+  - Early leadership opportunity in a fast growing vertical
+  - Scalable and repeatable service model
+  - Experienced team with deep technical understanding of synthetic environments
+- Final CTA: Ready to Invest? Request Investor Overview / Schedule Investor Call
+
+/government
+- Title: Government
+- Intro: Photon Echo is preparing for future collaboration that requires secure synthetic data and digital twin systems. Certifications and registrations are in progress. We will publish details as they are finalized.
+
+/mission
+- Title: Our Mission
+- Subheading: Building synthetic data for real world intelligence
+- Why we exist: Collecting high quality real world data can be slow, costly, and limited by safety or privacy. Synthetic data provides scale and control without field risk.
+- How we work: We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built for a clear learning objective.
+- Focus areas: World building; Sensor simulation; Scenario authoring; Dataset production; Validation
+- Vision: Better digital worlds create better real systems. That is the path we are building.
+
+/contact
+- Title: Contact Photon Echo
+- Intro: If you are building perception models, robotics systems, or AI tools that need realistic training data, we can help.
+- Get In Touch: Ready to start your project? Send us your inquiry and we'll respond within one to two business days.
+- Email: info@photonecho.dev
+- Project Inquiry Form: Name, Email, Service Category, Message
+- CTA: Start Your Project
+
+/services/design
+- Title: Design for Simulation and Visualization
+- Intro: Design supports simulation by creating 3D assets, interfaces, and review tools that make training and validation clear.
+
+/services/visualization
+- Title: Visualization for AI and Digital Twins
+- Intro: Visualization turns complex training and twin activity into clear frames, previews, and interactive demos for inspection and communication.
+
+/services/engineering
+- Title: Engineering for Simulation and Integration
+- Intro: Engineering ensures mechanical accuracy, sensor specifications, and reliable integration across the training and twin stack.
+
+/services/artificial-data
+- Title: Artificial Data Development
+- Claim: Generate high-quality synthetic datasets for AI training, testing, and validation. Overcome data limitations with privacy-safe artificial data.
+- What is Artificial Data? Algorithmically generated data that mimics real-world statistics without sensitive information.
+
+/insights
+- Title: Insights & Research
+- Status: Insights Coming Soon — preparing case studies, technical guides, industry trends, and expert analysis.
+
+/privacy-policy
+- Title: Privacy Policy
+- Summary: Describes how we collect, use, disclose, and safeguard information. Covers information types, legal basis, cookies, third-party providers, sharing, international transfers, retention, security, rights (EU/UK/California), children’s privacy, automated decision-making, changes, governing law, and contact.
+
+/terms
+- Title: Terms
+- Summary: Acceptance of terms, intellectual property, acceptable use, no warranties, limitation of liability, indemnification, third-party links, governing law, changes, and contact details.
+
+Header / Navigation (global)
+- Primary Links: Home, Services, Physical AI, Digital Twin, Mission, Investors, Insights, Government, Contact
+- Services dropdown: anchors to sections on /services (Design, Visualization, Engineering, Artificial Data)
+
+Footer (global)
+- Common links: Terms, Privacy Policy, Contact
