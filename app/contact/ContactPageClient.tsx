@@ -70,10 +70,6 @@ export default function ContactPageClient() {
                     </a>
                   </div>
                   
-                  <div>
-                    <h3 className="text-xl font-semibold text-white mb-2">Response Time</h3>
-                    <p className="text-photon-300">We typically respond to all inquiries within one to two business days</p>
-                  </div>
                 </div>
               </CardContent>
             </Card>
