@@ -62,14 +62,11 @@ export default function ContactPageClient() {
             
             <Card className="card-standard card-hover max-w-2xl mx-auto">
               <CardContent className="p-8">
-                <div className="space-y-6">
-                  <div className="border-b border-photon-800/50 pb-6">
-                    <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
-                    <a href="mailto:info@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
-                      info@photonecho.dev
-                    </a>
-                  </div>
-                  
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
+                  <a href="mailto:info@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
+                    info@photonecho.dev
+                  </a>
                 </div>
               </CardContent>
             </Card>
