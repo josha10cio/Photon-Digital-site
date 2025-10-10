@@ -142,42 +142,19 @@ export default function InvestorsPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Roadmap</h2>
+            <p className="text-lg text-photon-300 max-w-3xl mx-auto mb-6">
+              Photon Echo is in the early stage of building its foundation for scalable synthetic data generation and simulation infrastructure. Our focus is on developing the core tools, partnerships, and systems that will let us grow with precision.
+            </p>
+            <p className="text-lg text-photon-300 max-w-3xl mx-auto mb-6">
+              We are currently establishing internal simulation workflows and data generation environments to support our first research demonstrations. These efforts will validate the accuracy and reliability of our synthetic datasets and provide the groundwork for real world applications.
+            </p>
+            <p className="text-lg text-photon-300 max-w-3xl mx-auto mb-6">
+              The next phase centers on forming technical partnerships with robotics and industrial teams that are exploring physical AI data pipelines. Through these collaborations we will refine our approach to high fidelity world building, sensor simulation, and data labeling.
+            </p>
             <p className="text-lg text-photon-300 max-w-3xl mx-auto">
-              Photon Echo is building the foundation for scalable synthetic data generation and simulation infrastructure. The roadmap below outlines our near term milestones.
+              Once the foundation is proven, Photon Echo will expand these capabilities into a scalable platform for synthetic data production and digital twin testing. This will position us to deliver repeatable data generation services and support partners developing physical AI systems across multiple industries.
             </p>
           </div>
-          <Card className="card-standard card-hover max-w-4xl mx-auto">
-            <CardContent className="p-8">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left">
-                  <thead>
-                    <tr className="border-b border-photon-800/50">
-                      <th className="pb-4 text-lg font-semibold text-white">Milestone</th>
-                      <th className="pb-4 text-lg font-semibold text-white">Focus</th>
-                    </tr>
-                  </thead>
-                  <tbody className="space-y-4">
-                    <tr className="border-b border-photon-800/30">
-                      <td className="py-4 text-photon-200 font-medium">Q1–Q2 2025</td>
-                      <td className="py-4 text-photon-300">Internal R&D environments and prototype datasets</td>
-                    </tr>
-                    <tr className="border-b border-photon-800/30">
-                      <td className="py-4 text-photon-200 font-medium">Q3 2025</td>
-                      <td className="py-4 text-photon-300">Pilot collaborations with robotics and industrial partners</td>
-                    </tr>
-                    <tr className="border-b border-photon-800/30">
-                      <td className="py-4 text-photon-200 font-medium">Q4 2025</td>
-                      <td className="py-4 text-photon-300">Scalable data generation and twin testing infrastructure</td>
-                    </tr>
-                    <tr>
-                      <td className="py-4 text-photon-200 font-medium">2026</td>
-                      <td className="py-4 text-photon-300">Early commercial engagements and refinement of data-as-a-service platform</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
