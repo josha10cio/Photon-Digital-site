@@ -58,7 +58,7 @@ export default function TermsPage() {
 
           <h2>10. Contact</h2>
           <p>
-            Questions? Email <Link href="mailto:privacy@photonecho.dev">privacy@photonecho.dev</Link> or <Link href="mailto:info@photonecho.dev">info@photonecho.dev</Link>.
+            Questions? Email <Link href="mailto:info@photonecho.dev">info@photonecho.dev</Link>.
           </p>
         </div>
       </section>

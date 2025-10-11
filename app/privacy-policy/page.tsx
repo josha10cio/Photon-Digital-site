@@ -107,7 +107,7 @@ export default function PrivacyPolicyPage() {
             <li>Request a copy of your data in portable form.</li>
           </ul>
           <p>
-            To exercise your rights, email <Link href="mailto:privacy@photonecho.dev">privacy@photonecho.dev</Link> with the subject “Privacy Request.” We may verify your identity before responding.
+            To exercise your rights, email <Link href="mailto:info@photonecho.dev">info@photonecho.dev</Link> with the subject “Privacy Request.” We may verify your identity before responding.
           </p>
 
           <h2>13. California Privacy Rights (CCPA/CPRA)</h2>
