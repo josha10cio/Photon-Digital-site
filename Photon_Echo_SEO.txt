@@ -40,7 +40,7 @@ Organization Schema:
   },
   "sameAs": [
     "https://www.linkedin.com/company/photonecho/",
-    "https://x.com/photon_digital"
+    "https://x.com/EchoPhoton"
   ],
   "service": [
     {
@@ -312,7 +312,7 @@ SOCIAL MEDIA LINKS
 ================================================================================
 
 LinkedIn: https://www.linkedin.com/company/photonecho/
-Twitter/X: https://x.com/photon_digital
+Twitter/X: https://x.com/EchoPhoton
 
 ================================================================================
 CONTACT INFORMATION FOR SEO

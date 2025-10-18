@@ -123,7 +123,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 },
                 "sameAs": [
                   "https://www.linkedin.com/company/photonecho/",
-                  "https://x.com/photon_digital"
+                  "https://x.com/EchoPhoton"
                 ],
                 "service": [
                   {

@@ -43,7 +43,7 @@ export function Footer() {
             <LinkedinIcon className="h-5 w-5" />
           </Link>
           <Link
-            href="https://x.com/photon_digital"
+            href="https://x.com/EchoPhoton"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X (Twitter)"
