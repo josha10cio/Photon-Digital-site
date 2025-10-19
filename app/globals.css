@@ -463,6 +463,33 @@
     .icon-glow-indigo:hover {
       transform: scale(1.02);
     }
+
+    /* Mobile-only text alignment: force left alignment for a professional layout */
+    .text-center {
+      text-align: left !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    a,
+    small,
+    label,
+    blockquote,
+    figcaption,
+    dd,
+    .prose,
+    section,
+    header,
+    footer,
+    main,
+    .container {
+      text-align: left !important;
+    }
   }
 
   .font-light {
