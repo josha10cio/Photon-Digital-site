@@ -490,6 +490,20 @@
     .container {
       text-align: left !important;
     }
+
+    /* Center primary/action buttons on mobile while text stays left-aligned */
+    .btn-primary,
+    button,
+    .button,
+    a.button,
+    a.btn,
+    [role="button"] {
+      display: block;
+      width: fit-content;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      text-align: center !important;
+    }
   }
 
   .font-light {
