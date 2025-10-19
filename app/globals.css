@@ -513,6 +513,22 @@
       margin-right: auto !important;
       text-align: center !important;
     }
+
+    /* Force-center all buttons even when utility classes set inline-flex */
+    button,
+    button.inline-flex,
+    .btn,
+    .button,
+    a.btn,
+    [role="button"] {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      width: max-content;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      text-align: center !important;
+    }
   }
 
   .font-light {
