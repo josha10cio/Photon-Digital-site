@@ -41,7 +41,7 @@ export default function InsightsPage() {
       </section>
 
       {/* Content Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="max-w-4xl mx-auto text-center">

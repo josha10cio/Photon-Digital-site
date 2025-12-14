@@ -52,7 +52,7 @@ export default function PhysicalAIPage() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
-      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white overflow-hidden">
+      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-gray-900 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-photon-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
           <div
@@ -71,7 +71,7 @@ export default function PhysicalAIPage() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
               Physical AI Development
             </h1>
-            <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
+            <p className="text-lg md:text-xl text-gray-900 max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               We develop simulation environments, sensors, and datasets that train AI to perceive and act in the physical world.
             </p>
             <div className="flex justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
@@ -88,18 +88,18 @@ export default function PhysicalAIPage() {
       </section>
 
       {/* Physical AI Services Overview */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Physical AI Service Categories</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Physical AI Service Categories</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Advanced AI systems that perceive, understand, and interact with the physical world.
             </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {/* Computer Vision */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <EyeIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -121,7 +121,7 @@ export default function PhysicalAIPage() {
             </Card>
 
             {/* Robotics Integration */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BotIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -143,7 +143,7 @@ export default function PhysicalAIPage() {
             </Card>
 
             {/* Autonomous Systems */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <CogIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -168,7 +168,7 @@ export default function PhysicalAIPage() {
       </section>
 
       {/* Physical AI Process */}
-      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Physical AI Process</h2>
@@ -182,7 +182,7 @@ export default function PhysicalAIPage() {
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
                 <EyeIcon className="h-8 w-8 text-photon-500" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Analysis</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Analysis</h3>
               <p className="text-sm text-photon-300">Understanding requirements, environment, and constraints</p>
             </div>
 
@@ -190,7 +190,7 @@ export default function PhysicalAIPage() {
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
                 <CogIcon className="h-8 w-8 text-photon-500" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Design</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Design</h3>
               <p className="text-sm text-photon-300">Architecting AI systems and integration strategies</p>
             </div>
 
@@ -198,7 +198,7 @@ export default function PhysicalAIPage() {
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
                 <ZapIcon className="h-8 w-8 text-photon-500" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Development</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Development</h3>
               <p className="text-sm text-photon-300">Building and training AI models for physical interaction</p>
             </div>
 
@@ -206,7 +206,7 @@ export default function PhysicalAIPage() {
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
                 <CheckCircleIcon className="h-8 w-8 text-photon-500" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Testing</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Testing</h3>
               <p className="text-sm text-photon-300">Validating performance in real-world conditions</p>
             </div>
 
@@ -214,14 +214,14 @@ export default function PhysicalAIPage() {
               <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30 group-hover:border-photon-500 transition-all duration-300">
                 <TrendingUpIcon className="h-8 w-8 text-photon-500" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Deployment</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Deployment</h3>
               <p className="text-sm text-photon-300">Launching and optimizing in production environments</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">From Simulation to Dataset</h2>
@@ -231,7 +231,7 @@ export default function PhysicalAIPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5 max-w-7xl mx-auto">
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">1</span>
@@ -246,7 +246,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">2</span>
@@ -261,7 +261,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">3</span>
@@ -276,7 +276,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">4</span>
@@ -291,7 +291,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">5</span>
@@ -309,7 +309,7 @@ export default function PhysicalAIPage() {
         </div>
       </section>
 
-      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Why It Matters</h2>
@@ -319,7 +319,7 @@ export default function PhysicalAIPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <ShieldIcon className="h-8 w-8 text-photon-500" />
@@ -334,7 +334,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <ZapIcon className="h-8 w-8 text-photon-500" />
@@ -349,7 +349,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <TrendingUpIcon className="h-8 w-8 text-photon-500" />

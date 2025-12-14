@@ -78,33 +78,33 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* How We Support Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">How we support your data loop</h2>
-            <p className="text-lg text-photon-200 max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">How we support your data loop</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our supporting services help your Physical AI Development and Digital Twin projects with practical work at each stage.
             </p>
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardContent className="p-8">
-                <ul className="space-y-4 text-photon-200">
+                <ul className="space-y-4 text-gray-700">
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
                     <span><strong>Design Services:</strong> 3D assets, interfaces, and review tools for simulation</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
                     <span><strong>Visualization Services:</strong> previews, interactive demos, and dataset inspection</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
                     <span><strong>Engineering Services:</strong> mechanical accuracy, sensor specs, and integration</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-photon-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
                     <span><strong>Artificial Data:</strong> targeted generation and data refinement for training and validation</span>
                   </li>
                 </ul>
@@ -115,21 +115,21 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Design Services Section */}
-      <section id="design" className="w-full py-20 md:py-32 bg-photon-900">
+      <section id="design" className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <div className="flex justify-center mb-6">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center">
-                  <PenToolIcon className="w-8 h-8 text-photon-500" />
+                  <PenToolIcon className="w-8 h-8 text-blue-600" />
                 </div>
               </div>
-              <h2 className="section-title mb-4">Design Services</h2>
-              <p className="text-lg text-photon-200 max-w-3xl mx-auto">Design solutions that support Physical AI and Digital Twin work with clear interfaces and accurate 3D models.</p>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Design Services</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">Design solutions that support Physical AI and Digital Twin work with clear interfaces and accurate 3D models.</p>
             </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -138,10 +138,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Initial sketches, ideation sessions, and concept development for AI systems and digital twins.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• AI interface ideation</li>
                     <li>• Digital twin concept sketches</li>
                     <li>• User experience exploration</li>
@@ -150,19 +150,19 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
-                    <PaletteIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
+                    <PaletteIcon className="h-8 w-8 text-blue-600 group-hover:text-blue-700" />
                   </div>
                   <CardTitle className="text-xl font-bold">3D Modeling & CAD</CardTitle>
                   <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Precision 3D models and CAD drawings for physical AI systems and digital twin components.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• Physical AI hardware models</li>
                     <li>• Digital twin 3D assets</li>
                     <li>• Manufacturing-ready CAD</li>
@@ -171,7 +171,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -180,10 +180,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Interface design for AI training platforms and digital twin controls.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• AI training dashboards</li>
                     <li>• Digital twin controls</li>
                     <li>• Data visualization interfaces</li>
@@ -206,7 +206,7 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Visualization Services Section */}
-      <section id="visualization" className="w-full py-20 md:py-32 bg-photon-950">
+      <section id="visualization" className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
@@ -215,14 +215,14 @@ export default function SupportingServicesPage() {
                   <MonitorIcon className="w-8 h-8 text-photon-700" />
                 </div>
               </div>
-              <h2 className="section-title mb-4">Visualization Services</h2>
-              <p className="text-lg text-photon-200 max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Visualization Services</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Advanced visualization solutions that make complex AI training processes and digital twin simulations accessible, engaging, and effective for training, demonstration, and analysis.
               </p>
             </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <FileTextIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -231,10 +231,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Detailed schematics and technical documentation for AI systems and digital twin infrastructure.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• AI system schematics</li>
                     <li>• Digital twin architecture</li>
                     <li>• Network topology diagrams</li>
@@ -243,7 +243,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <PlayIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -252,10 +252,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Real time interactive demonstrations of AI training processes and digital twin simulations.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• AI training visualizations</li>
                     <li>• Digital twin interactions</li>
                     <li>• Real time data displays</li>
@@ -264,7 +264,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -273,10 +273,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Dynamic presentations and training materials for AI systems and digital twin demonstrations.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• Training presentations</li>
                     <li>• Stakeholder demos</li>
                     <li>• Progress visualizations</li>
@@ -299,7 +299,7 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Engineering Services Section */}
-      <section id="engineering" className="w-full py-20 md:py-32 bg-photon-900">
+      <section id="engineering" className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
@@ -308,12 +308,12 @@ export default function SupportingServicesPage() {
                   <CogIcon className="w-8 h-8 text-photon-600" />
                 </div>
               </div>
-              <h2 className="section-title mb-4">Engineering Services</h2>
-              <p className="text-lg text-photon-200 max-w-3xl mx-auto">Engineering solutions that make Physical AI systems and Digital Twins reliable and efficient.</p>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Engineering Services</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">Engineering solutions that make Physical AI systems and Digital Twins reliable and efficient.</p>
             </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <Settings2Icon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -322,10 +322,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Robust system design and architecture for AI training infrastructure and digital twin platforms.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• AI training infrastructure</li>
                     <li>• Digital twin architecture</li>
                     <li>• Scalability planning</li>
@@ -334,7 +334,7 @@ export default function SupportingServicesPage() {
               </CardContent>
             </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <WrenchIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -343,10 +343,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Physical hardware integration and sensor systems for AI training and digital twin data collection.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• Sensor integration</li>
                     <li>• Hardware optimization</li>
                     <li>• Data collection systems</li>
@@ -355,7 +355,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ClipboardListIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -364,8 +364,8 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">Documentation for AI systems and digital twin implementations and maintenance.</CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <CardDescription className="text-gray-600 text-sm mb-4">Documentation for AI systems and digital twin implementations and maintenance.</CardDescription>
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• System specifications</li>
                     <li>• Maintenance procedures</li>
                     <li>• User manuals</li>
@@ -388,7 +388,7 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Artificial Data Services Section */}
-      <section id="artificial-data" className="w-full py-20 md:py-32 bg-photon-950">
+      <section id="artificial-data" className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -397,14 +397,14 @@ export default function SupportingServicesPage() {
                   <DatabaseIcon className="w-8 h-8 text-photon-600" />
           </div>
               </div>
-              <h2 className="section-title mb-4">Artificial Data Development</h2>
-              <p className="text-lg text-photon-200 max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Artificial Data Development</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Synthetic datasets and data generation solutions that support Physical AI Development with realistic and diverse training data.
               </p>
             </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <CpuIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -413,10 +413,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Custom synthetic datasets tailored for Physical AI scenarios and applications.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• Physical world simulations</li>
                     <li>• Sensor data generation</li>
                     <li>• Edge case scenarios</li>
@@ -425,7 +425,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <NetworkIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -434,10 +434,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Realistic simulation data for digital twin validation and AI model testing.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• Digital twin test data</li>
                     <li>• Simulation scenarios</li>
                     <li>• Performance benchmarks</li>
@@ -446,7 +446,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="card-standard card-hover">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -455,10 +455,10 @@ export default function SupportingServicesPage() {
                   <div className="w-12 h-1 bg-photon-600 rounded-full mx-auto mt-2"></div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-photon-200 text-sm mb-4">
+                  <CardDescription className="text-gray-600 text-sm mb-4">
                     Advanced data augmentation techniques to enhance existing datasets and improve AI training outcomes.
                   </CardDescription>
-                  <ul className="text-xs text-photon-300 space-y-1">
+                  <ul className="text-xs text-gray-600 space-y-1">
                     <li>• Dataset enhancement</li>
                     <li>• Variant generation</li>
                     <li>• Quality improvement</li>
@@ -481,11 +481,11 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-900">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="section-title mb-6">Ready to get started</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto mb-8">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">Ready to get started</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
               Our supporting services help your Physical AI Development and Digital Twin projects. Share your goals and we will propose a practical plan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -508,7 +508,7 @@ export default function SupportingServicesPage() {
           <Button
             variant="outline"
             size="icon"
-            className="bg-photon-900/80 backdrop-blur-xl border border-photon-800/50 text-white hover:bg-photon-800/80 hover:border-photon-700/50 transition-all duration-300 hover:scale-110"
+            className="bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 hover:border-blue-300 transition-all duration-300 hover:scale-110 shadow-lg"
             aria-label="Back to top"
           >
             <ArrowUpIcon className="h-4 w-4" />

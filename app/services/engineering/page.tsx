@@ -64,7 +64,7 @@ export default function EngineeringServicesPage() {
       </section>
 
       {/* Engineering Services Overview */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Engineering Service Categories</h2>
@@ -162,7 +162,7 @@ export default function EngineeringServicesPage() {
       </section>
 
       {/* Engineering Process */}
-      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Engineering Process</h2>
@@ -222,7 +222,7 @@ export default function EngineeringServicesPage() {
       </section>
 
       {/* Engineering Capabilities */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Engineering Capabilities & Expertise</h2>

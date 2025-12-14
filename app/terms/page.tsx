@@ -18,7 +18,7 @@ export default function TermsPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-16 bg-photon-950 text-white">
+      <section className="w-full py-12 md:py-16 bg-white text-gray-900">
         <div className="container px-4 md:px-6 max-w-3xl mx-auto prose prose-invert">
           <h2>1. Acceptance of Terms</h2>
           <p>

@@ -71,7 +71,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* What is Artificial Data Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
             <div className="space-y-6">
@@ -127,7 +127,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* Core Services Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Artificial Data Services</h2>
@@ -225,7 +225,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* Data Types Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Synthetic Data Types</h2>
@@ -319,7 +319,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Artificial Data Applications</h2>
@@ -399,7 +399,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Benefits of Artificial Data</h2>

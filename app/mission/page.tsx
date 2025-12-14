@@ -22,7 +22,7 @@ export default function MissionPage() {
       </section>
 
       {/* Mission Statement Section */}
-      <section className="w-full py-16 md:py-24 bg-photon-950 text-white relative z-10">
+      <section className="w-full py-16 md:py-24 bg-white text-gray-900 relative z-10">
         <Card
           className="card-standard card-hover container px-4 md:px-6 max-w-6xl mx-auto p-8 animate-fadeIn"
           style={{ animationDelay: "0.2s" }}
@@ -65,7 +65,7 @@ export default function MissionPage() {
       </section>
 
       {/* Vision Section */}
-      <section className="w-full py-16 md:py-24 bg-photon-900/30 text-white relative z-10">
+      <section className="w-full py-16 md:py-24 bg-gray-50 text-gray-900 relative z-10">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto">
           <div className="text-center animate-fadeIn">
             <h2 className="section-title">Vision</h2>

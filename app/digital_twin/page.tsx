@@ -48,7 +48,7 @@ export default function DigitalTwinPage() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
-      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white overflow-hidden">
+      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-gray-900 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-photon-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
           <div
@@ -67,7 +67,7 @@ export default function DigitalTwinPage() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
               Digital Twin Systems
             </h1>
-            <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
+            <p className="text-lg md:text-xl text-gray-900 max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               Digital twins extend the same simulation pipeline used for training into live testing and monitoring. 
               They help teams validate models and track performance in realistic conditions.
             </p>
@@ -85,10 +85,10 @@ export default function DigitalTwinPage() {
       </section>
 
       {/* Digital Twin Services Overview */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Digital Twin Service Categories</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Digital Twin Service Categories</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
               Intelligent virtual replicas for simulation, testing, and optimization.
             </p>
@@ -96,7 +96,7 @@ export default function DigitalTwinPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {/* Real-time Simulation */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 mx-auto">
                   <ZapIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
@@ -118,7 +118,7 @@ export default function DigitalTwinPage() {
             </Card>
 
             {/* Predictive Analytics */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 mx-auto">
                   <TrendingUpIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
@@ -140,7 +140,7 @@ export default function DigitalTwinPage() {
             </Card>
 
             {/* IoT Integration */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-400 transition-all duration-300 group-hover:border-photon-300 mx-auto">
                   <NetworkIcon className="h-8 w-8 text-photon-400 group-hover:text-photon-300" />
@@ -165,10 +165,10 @@ export default function DigitalTwinPage() {
       </section>
 
       {/* Digital Twin Process */}
-      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Our Digital Twin Process</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Digital Twin Process</h2>
             <p className="text-lg text-photon-200 max-w-2xl mx-auto">
               A systematic approach to creating intelligent virtual replicas of physical systems.
             </p>
@@ -179,7 +179,7 @@ export default function DigitalTwinPage() {
               <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
                 <SettingsIcon className="h-8 w-8 text-photon-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Assessment</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Assessment</h3>
               <p className="text-sm text-photon-300">Analyzing system requirements and data sources</p>
             </div>
 
@@ -187,7 +187,7 @@ export default function DigitalTwinPage() {
               <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
                 <MonitorIcon className="h-8 w-8 text-photon-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Modeling</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Modeling</h3>
               <p className="text-sm text-photon-300">Creating accurate virtual representations</p>
             </div>
 
@@ -195,7 +195,7 @@ export default function DigitalTwinPage() {
               <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
                 <NetworkIcon className="h-8 w-8 text-photon-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Integration</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Integration</h3>
               <p className="text-sm text-photon-300">Connecting with IoT sensors and data streams</p>
             </div>
 
@@ -203,7 +203,7 @@ export default function DigitalTwinPage() {
               <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
                 <CpuIcon className="h-8 w-8 text-photon-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Analytics</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Analytics</h3>
               <p className="text-sm text-photon-300">Implementing AI-powered insights and predictions</p>
             </div>
 
@@ -211,21 +211,21 @@ export default function DigitalTwinPage() {
               <div className="w-16 h-16 rounded-full bg-photon-400/20 flex items-center justify-center mb-4 mx-auto border border-photon-400/30 group-hover:border-photon-400 transition-all duration-300">
                 <CheckCircleIcon className="h-8 w-8 text-photon-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Optimization</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Optimization</h3>
               <p className="text-sm text-photon-300">Continuous improvement and system enhancement</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">What a Twin Provides</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">What a Twin Provides</h2>
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardContent className="p-8">
                 <ul className="space-y-4 text-photon-200">
                   <li className="flex items-start gap-3">
@@ -247,7 +247,7 @@ export default function DigitalTwinPage() {
         </div>
       </section>
 
-      <section className="w-full py-16 md:py-24 bg-photon-900">
+      <section className="w-full py-16 md:py-24 bg-gray-50">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto">
           <h2 className="section-title mb-6">How this supports the data loop</h2>
           <p className="text-photon-200">

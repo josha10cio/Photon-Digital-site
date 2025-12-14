@@ -62,7 +62,7 @@ export default function VisualizationServicesPage() {
       </section>
 
       {/* Visualization Services Overview */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Visualization Service Categories</h2>
@@ -164,7 +164,7 @@ export default function VisualizationServicesPage() {
       </section>
 
       {/* Visualization Process */}
-      <section className="w-full py-20 md:py-32 bg-photon-900/30">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Visualization Process</h2>
@@ -218,7 +218,7 @@ export default function VisualizationServicesPage() {
       </section>
 
       {/* Technology & Tools */}
-      <section className="w-full py-20 md:py-32 bg-photon-950">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Advanced Visualization Technology</h2>
