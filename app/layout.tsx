@@ -78,8 +78,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${raleway.variable} font-sans antialiased bg-photon-950 relative min-h-screen flex flex-col`}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange forcedTheme="dark">
+      <body className={`${inter.variable} ${raleway.variable} font-sans antialiased bg-white relative min-h-screen flex flex-col`}>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange forcedTheme="light">
           <div className="flex flex-col min-h-screen w-full max-w-none mx-auto">
             <Header />
             <main className="flex-1 relative z-10 w-full">{children}</main>
@@ -87,14 +87,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
 
           {/* Chatbot removed per request */}
-
-          {/* Static Background - No Animation */}
-          <div className="fixed inset-0 z-0 pointer-events-none">
-            <div className="absolute inset-0 bg-gradient-to-br from-photon-950 via-photon-900 to-photon-800 opacity-50"></div>
-            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-photon-500 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
-            <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-photon-700 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
-            <div className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-photon-600 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
-          </div>
 
           {/* Structured Data */}
           <Script

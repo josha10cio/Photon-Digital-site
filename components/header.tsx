@@ -31,14 +31,14 @@ export function Header() {
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-500 ${
-        isScrolled ? "bg-photon-950/80 backdrop-blur-xl border-b border-photon-800/50 shadow-2xl" : "bg-transparent"
+        isScrolled ? "bg-white/95 backdrop-blur-xl border-b border-gray-200 shadow-lg" : "bg-white"
       }`}
     >
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg group">
           <div className="relative">
             <Image
-              src="/echo_Logo.png"
+              src="/echo3_Logo.png"
               alt="Photon Echo Logo"
               width={120}
               height={28}
@@ -54,10 +54,10 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-white hover:text-photon-500 transition-all duration-300 hover:scale-105 relative group tracking-wide"
+              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105 relative group tracking-wide"
             >
               {link.label}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-photon-500 to-photon-700 transition-all duration-300 group-hover:w-full rounded-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-blue-800 transition-all duration-300 group-hover:w-full rounded-full"></span>
             </Link>
           ))}
         </nav>
@@ -72,7 +72,7 @@ export function Header() {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden hover:scale-105 transition-all duration-300 icon-glow-blue"
+            className="md:hidden hover:scale-105 transition-all duration-300 text-gray-700 hover:text-blue-600"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle mobile menu"
           >
@@ -83,13 +83,13 @@ export function Header() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden glassmorphism border-t border-photon-800/50 py-4 px-4 animate-in slide-in-from-top-2 duration-300">
+        <div className="md:hidden bg-white border-t border-gray-200 py-4 px-4 animate-in slide-in-from-top-2 duration-300 shadow-lg">
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-base font-medium text-white hover:text-photon-500 transition-colors py-2 hover:scale-105"
+                className="text-base font-medium text-gray-700 hover:text-blue-600 transition-colors py-2 hover:scale-105"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.label}

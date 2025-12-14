@@ -9,25 +9,25 @@ import {
 export function Footer() {
   return (
     <footer
-      className="bg-photon-950 border-t border-photon-800 py-8 md:py-12 glassmorphism animate-fadeIn"
+      className="bg-white border-t border-gray-200 py-8 md:py-12 animate-fadeIn"
       style={{ animationDelay: "1.2s" }}
     >
       <div className="container flex flex-col items-center justify-between gap-6 px-4 md:flex-row md:px-6">
         <div className="flex items-center gap-2">
-          <Image src="/echo_Logo.png" alt="Photon Echo Logo" width={100} height={24} />
+          <Image src="/echo3_Logo.png" alt="Photon Echo Logo" width={100} height={24} />
           <span className="sr-only">Photon Echo</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-4 text-sm md:gap-6">
-          <Link href="/privacy-policy" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103">
+          <Link href="/privacy-policy" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103">
             Privacy Policy
           </Link>
-          <Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103">
+          <Link href="/terms" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103">
             Terms
           </Link>
-          <Link href="/contact" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103">
+          <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103">
             Contact
           </Link>
-          <Link href="mailto:info@photonecho.dev" className="text-muted-foreground hover:text-foreground transition-colors hover:scale-103 flex items-center gap-1">
+          <Link href="mailto:info@photonecho.dev" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103 flex items-center gap-1">
             <MailIcon className="h-4 w-4" />
             info@photonecho.dev
           </Link>
@@ -38,7 +38,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
+            className="text-gray-600 hover:text-blue-600 transition-colors"
           >
             <LinkedinIcon className="h-5 w-5" />
           </Link>
@@ -47,14 +47,14 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X (Twitter)"
-            className="text-muted-foreground hover:text-photon-500 transition-colors icon-glow-blue"
+            className="text-gray-600 hover:text-blue-600 transition-colors"
           >
             <XIcon className="h-5 w-5" />
           </Link>
           {/* GitHub removed per request */}
         </div>
       </div>
-      <div className="mt-8 text-center text-sm text-muted-foreground">
+      <div className="mt-8 text-center text-sm text-gray-600">
         &copy; {new Date().getFullYear()} Photon. All rights reserved.
       </div>
     </footer>

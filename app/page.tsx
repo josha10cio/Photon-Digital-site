@@ -33,67 +33,70 @@ export default function HomePage() {
         {/* Content - Right Aligned */}
         <div className="container relative z-10 px-4 md:px-6 lg:px-8">
           <div className="max-w-2xl ml-auto">
-            <p className="text-sm md:text-base font-medium text-[#60A5FA] mb-4 tracking-wider uppercase">
-              PHYSICAL AI INFRASTRUCTURE
-            </p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Simulation & Synthetic Data for <span className="text-[#3B82F6]">Physical AI</span>
-            </h1>
-            <p className="text-base md:text-lg lg:text-xl text-white mb-10 leading-relaxed max-w-xl">
-              Structured virtual environments and scenario-based data so autonomous technologies can be trained and evaluated safely, repeatably, and with better coverage than field collection alone.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/early-access">
-                <Button 
-                  variant="default" 
-                  size="lg"
-                  className="bg-[#3B82F6] hover:bg-[#2563EB] text-white px-8 py-6 text-base font-medium rounded-md"
-                >
-                  Request Early Access
-                  <ArrowRightIcon className="ml-2 h-5 w-5" />
-                </Button>
-              </Link>
-              <Link href="/contact">
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="bg-black/40 hover:bg-black/60 border-white/30 text-white px-8 py-6 text-base font-medium rounded-md backdrop-blur-sm"
-                >
-                  <PlayIcon className="mr-2 h-5 w-5" />
-                  View Demo
-                </Button>
-              </Link>
+            {/* Black opaque box with rounded corners */}
+            <div className="bg-black/80 backdrop-blur-sm rounded-2xl p-8 md:p-10 lg:p-12">
+              <p className="text-sm md:text-base font-medium text-[#60A5FA] mb-4 tracking-wider uppercase">
+                PHYSICAL AI INFRASTRUCTURE
+              </p>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                Simulation & Synthetic Data for <span className="text-[#3B82F6]">Physical AI</span>
+              </h1>
+              <p className="text-base md:text-lg lg:text-xl text-white mb-10 leading-relaxed max-w-xl">
+                Structured virtual environments and scenario-based data so autonomous technologies can be trained and evaluated safely, repeatably, and with better coverage than field collection alone.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/early-access">
+                  <Button 
+                    variant="default" 
+                    size="lg"
+                    className="bg-[#3B82F6] hover:bg-[#2563EB] text-white px-8 py-6 text-base font-medium rounded-md"
+                  >
+                    Request Early Access
+                    <ArrowRightIcon className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
+                <Link href="/contact">
+                  <Button 
+                    variant="outline" 
+                    size="lg"
+                    className="bg-black/40 hover:bg-black/60 border-white/30 text-white px-8 py-6 text-base font-medium rounded-md backdrop-blur-sm"
+                  >
+                    <PlayIcon className="mr-2 h-5 w-5" />
+                    View Demo
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* What We Do */}
-      <section className="w-full py-16 md:py-24 bg-photon-900 text-white">
+      <section className="w-full py-16 md:py-24 bg-white text-gray-900">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="section-title mb-4">What We Do</h2>
-            <p className="text-lg text-photon-200">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">What We Do</h2>
+            <p className="text-lg text-gray-600">
               Photon Echo creates accurate 3D environments and simulates sensors to produce high quality synthetic training data. This data helps physical AI systems see, decide, and act with confidence.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader>
-                <CardTitle>Physical AI Development</CardTitle>
+                <CardTitle className="text-gray-900">Physical AI Development</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-photon-200">
+                <CardDescription className="text-gray-600">
                   We build scenes, sensors, and scenarios that generate labeled data for perception and control tasks.
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card className="card-standard card-hover">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
               <CardHeader>
-                <CardTitle>Digital Twin Systems</CardTitle>
+                <CardTitle className="text-gray-900">Digital Twin Systems</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-photon-200">
+                <CardDescription className="text-gray-600">
                   We design live simulation and feedback loops that validate models and monitor performance after deployment.
                 </CardDescription>
               </CardContent>
@@ -103,10 +106,10 @@ export default function HomePage() {
       </section>
 
       {/* Why Synthetic Data */}
-      <section className="w-full py-16 md:py-24 bg-photon-950 text-white">
+      <section className="w-full py-16 md:py-24 bg-gray-50 text-gray-900">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto text-center">
-          <h2 className="section-title mb-4">Why Synthetic Data</h2>
-          <p className="text-lg text-photon-200">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Why Synthetic Data</h2>
+          <p className="text-lg text-gray-600">
             Real world data can be limited, expensive, or sensitive. Synthetic data provides scale, coverage, and safety. By matching real conditions in simulation, teams can train models faster and reduce risk before field testing.
           </p>
         </div>
