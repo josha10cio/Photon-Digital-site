@@ -19,7 +19,7 @@ export default function HomePage() {
         {/* Banner Image Background */}
         <div className="absolute inset-0 z-0">
           <Image
-            src={encodeURI("/Banner Image Data 01.png")}
+            src="/banner-image-data-01.png"
             alt="Military landscape with soldiers and wireframe military assets"
             fill
             priority
