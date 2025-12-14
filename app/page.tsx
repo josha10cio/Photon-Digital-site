@@ -34,7 +34,7 @@ export default function HomePage() {
         <div className="container relative z-10 px-4 md:px-6 lg:px-8">
           <div className="max-w-2xl ml-auto">
             {/* Black opaque box with rounded corners */}
-            <div className="bg-black/80 backdrop-blur-sm rounded-2xl p-8 md:p-10 lg:p-12">
+            <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 md:p-10 lg:p-12">
               <p className="text-sm md:text-base font-medium text-[#60A5FA] mb-4 tracking-wider uppercase">
                 PHYSICAL AI INFRASTRUCTURE
               </p>
