@@ -38,7 +38,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2 font-bold text-lg group">
           <div className="relative">
             <Image
-              src="/echo_Logo_Dark Grey.png"
+              src="/echo_Logo_Dark%20Grey.png"
               alt="Photon Echo Logo"
               width={120}
               height={28}
