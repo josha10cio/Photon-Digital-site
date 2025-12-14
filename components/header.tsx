@@ -54,17 +54,17 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105 relative group tracking-wide"
+              className="text-sm font-medium text-gray-700 hover:text-[#33bfff] transition-all duration-300 hover:scale-105 relative group tracking-wide"
             >
               {link.label}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-blue-800 transition-all duration-300 group-hover:w-full rounded-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#33bfff] transition-all duration-300 group-hover:w-full rounded-full"></span>
             </Link>
           ))}
         </nav>
 
         <div className="flex items-center gap-4">
           <Link href="/contact" className="hidden md:block">
-            <Button variant="default" className="bg-blue-600 hover:bg-blue-700 text-white">
+            <Button variant="default" className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white">
               Request Demo
             </Button>
           </Link>
@@ -72,7 +72,7 @@ export function Header() {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden hover:scale-105 transition-all duration-300 text-gray-700 hover:text-blue-600"
+            className="md:hidden hover:scale-105 transition-all duration-300 text-gray-700 hover:text-[#33bfff]"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle mobile menu"
           >
@@ -89,7 +89,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-base font-medium text-gray-700 hover:text-blue-600 transition-colors py-2 hover:scale-105"
+                className="text-base font-medium text-gray-700 hover:text-[#33bfff] transition-colors py-2 hover:scale-105"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.label}

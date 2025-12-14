@@ -35,7 +35,7 @@ export default function SupportingServicesPage() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
-      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white overflow-hidden">
+      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-[#272727] text-white overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-photon-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
           <div
@@ -88,23 +88,23 @@ export default function SupportingServicesPage() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardContent className="p-8">
                 <ul className="space-y-4 text-gray-700">
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-[#33bfff] mt-0.5 flex-shrink-0" />
                     <span><strong>Design Services:</strong> 3D assets, interfaces, and review tools for simulation</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-[#33bfff] mt-0.5 flex-shrink-0" />
                     <span><strong>Visualization Services:</strong> previews, interactive demos, and dataset inspection</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-[#33bfff] mt-0.5 flex-shrink-0" />
                     <span><strong>Engineering Services:</strong> mechanical accuracy, sensor specs, and integration</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircleIcon className="w-5 h-5 text-[#33bfff] mt-0.5 flex-shrink-0" />
                     <span><strong>Artificial Data:</strong> targeted generation and data refinement for training and validation</span>
                   </li>
                 </ul>
@@ -121,7 +121,7 @@ export default function SupportingServicesPage() {
             <div className="text-center mb-16">
               <div className="flex justify-center mb-6">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center">
-                  <PenToolIcon className="w-8 h-8 text-blue-600" />
+                  <PenToolIcon className="w-8 h-8 text-[#33bfff]" />
                 </div>
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Design Services</h2>
@@ -129,7 +129,7 @@ export default function SupportingServicesPage() {
             </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -150,10 +150,10 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
-                    <PaletteIcon className="h-8 w-8 text-blue-600 group-hover:text-blue-700" />
+                    <PaletteIcon className="h-8 w-8 text-[#33bfff] group-hover:text-[#2aa3d9]" />
                   </div>
                   <CardTitle className="text-xl font-bold">3D Modeling & CAD</CardTitle>
                   <div className="w-12 h-1 bg-photon-500 rounded-full mx-auto mt-2"></div>
@@ -171,7 +171,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -222,7 +222,7 @@ export default function SupportingServicesPage() {
             </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <FileTextIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -243,7 +243,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <PlayIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -264,7 +264,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -313,7 +313,7 @@ export default function SupportingServicesPage() {
             </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <Settings2Icon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -334,7 +334,7 @@ export default function SupportingServicesPage() {
               </CardContent>
             </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <WrenchIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -355,7 +355,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ClipboardListIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -404,7 +404,7 @@ export default function SupportingServicesPage() {
             </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <CpuIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -425,7 +425,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <NetworkIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -446,7 +446,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -508,7 +508,7 @@ export default function SupportingServicesPage() {
           <Button
             variant="outline"
             size="icon"
-            className="bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 hover:border-blue-300 transition-all duration-300 hover:scale-110 shadow-lg"
+            className="bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 hover:border-[#33bfff] transition-all duration-300 hover:scale-110 shadow-lg"
             aria-label="Back to top"
           >
             <ArrowUpIcon className="h-4 w-4" />

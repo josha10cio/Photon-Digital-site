@@ -18,16 +18,16 @@ export function Footer() {
           <span className="sr-only">Photon Echo</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-4 text-sm md:gap-6">
-          <Link href="/privacy-policy" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103">
+          <Link href="/privacy-policy" className="text-gray-600 hover:text-[#33bfff] transition-colors hover:scale-103">
             Privacy Policy
           </Link>
-          <Link href="/terms" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103">
+          <Link href="/terms" className="text-gray-600 hover:text-[#33bfff] transition-colors hover:scale-103">
             Terms
           </Link>
-          <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103">
+          <Link href="/contact" className="text-gray-600 hover:text-[#33bfff] transition-colors hover:scale-103">
             Contact
           </Link>
-          <Link href="mailto:info@photonecho.dev" className="text-gray-600 hover:text-blue-600 transition-colors hover:scale-103 flex items-center gap-1">
+          <Link href="mailto:info@photonecho.dev" className="text-gray-600 hover:text-[#33bfff] transition-colors hover:scale-103 flex items-center gap-1">
             <MailIcon className="h-4 w-4" />
             info@photonecho.dev
           </Link>
@@ -38,7 +38,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-gray-600 hover:text-blue-600 transition-colors"
+            className="text-gray-600 hover:text-[#33bfff] transition-colors"
           >
             <LinkedinIcon className="h-5 w-5" />
           </Link>
@@ -47,7 +47,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X (Twitter)"
-            className="text-gray-600 hover:text-blue-600 transition-colors"
+            className="text-gray-600 hover:text-[#33bfff] transition-colors"
           >
             <XIcon className="h-5 w-5" />
           </Link>

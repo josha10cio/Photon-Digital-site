@@ -173,7 +173,7 @@
 
   /* Brighter gradient for Photon theme */
   .bg-photon-gradient-hero {
-    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 25%, #60a5fa 50%, #7c3aed 75%, #a855f7 100%);
+    background: #272727;
   }
 
   .bg-photon-gradient-card {

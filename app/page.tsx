@@ -35,11 +35,11 @@ export default function HomePage() {
           <div className="max-w-2xl ml-auto">
             {/* Black opaque box with rounded corners */}
             <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 md:p-10 lg:p-12">
-              <p className="text-sm md:text-base font-medium text-[#60A5FA] mb-4 tracking-wider uppercase">
+              <p className="text-sm md:text-base font-medium text-[#33bfff] mb-4 tracking-wider uppercase">
                 PHYSICAL AI INFRASTRUCTURE
               </p>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                Simulation & Synthetic Data for <span className="text-[#3B82F6]">Physical AI</span>
+                Simulation & Synthetic Data for <span className="text-[#33bfff]">Physical AI</span>
               </h1>
               <p className="text-base md:text-lg lg:text-xl text-white mb-10 leading-relaxed max-w-xl">
                 Structured virtual environments and scenario-based data so autonomous technologies can be trained and evaluated safely, repeatably, and with better coverage than field collection alone.
@@ -49,7 +49,7 @@ export default function HomePage() {
                   <Button 
                     variant="default" 
                     size="lg"
-                    className="bg-[#3B82F6] hover:bg-[#2563EB] text-white px-8 py-6 text-base font-medium rounded-md"
+                    className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
                   >
                     Request Early Access
                     <ArrowRightIcon className="ml-2 h-5 w-5" />
@@ -81,7 +81,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
                 <CardTitle className="text-gray-900">Physical AI Development</CardTitle>
               </CardHeader>
@@ -91,7 +91,7 @@ export default function HomePage() {
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
                 <CardTitle className="text-gray-900">Digital Twin Systems</CardTitle>
               </CardHeader>
@@ -116,7 +116,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="w-full py-20 md:py-28 bg-photon-gradient-hero text-white text-center">
+      <section className="w-full py-20 md:py-28 bg-[#272727] text-white text-center">
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to get started</h2>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">Share your goals and we will propose a practical data plan.</p>

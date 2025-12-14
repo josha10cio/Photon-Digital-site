@@ -52,7 +52,7 @@ export default function PhysicalAIPage() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
-      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-gray-900 overflow-hidden">
+      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-[#272727] text-gray-900 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-photon-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
           <div
@@ -99,7 +99,7 @@ export default function PhysicalAIPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {/* Computer Vision */}
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <EyeIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -121,7 +121,7 @@ export default function PhysicalAIPage() {
             </Card>
 
             {/* Robotics Integration */}
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BotIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -143,7 +143,7 @@ export default function PhysicalAIPage() {
             </Card>
 
             {/* Autonomous Systems */}
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <CogIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -231,7 +231,7 @@ export default function PhysicalAIPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5 max-w-7xl mx-auto">
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">1</span>
@@ -246,7 +246,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">2</span>
@@ -261,7 +261,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">3</span>
@@ -276,7 +276,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">4</span>
@@ -291,7 +291,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <span className="text-2xl font-bold text-photon-500">5</span>
@@ -319,7 +319,7 @@ export default function PhysicalAIPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <ShieldIcon className="h-8 w-8 text-photon-500" />
@@ -334,7 +334,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <ZapIcon className="h-8 w-8 text-photon-500" />
@@ -349,7 +349,7 @@ export default function PhysicalAIPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full bg-photon-500/20 flex items-center justify-center mb-4 mx-auto border border-photon-500/30">
                   <TrendingUpIcon className="h-8 w-8 text-photon-500" />
@@ -368,7 +368,7 @@ export default function PhysicalAIPage() {
       </section>
 
 
-      <section className="w-full py-16 md:py-24 bg-photon-gradient-hero text-center">
+      <section className="w-full py-16 md:py-24 bg-[#272727] text-center">
         <div className="container px-4 md:px-6">
           <Link href="/contact"><Button variant="primary" size="xl">Start Your Project</Button></Link>
         </div>

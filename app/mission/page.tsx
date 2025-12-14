@@ -14,7 +14,7 @@ export default function MissionPage() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
-      <section className="w-full py-20 md:py-32 lg:py-48 bg-photon-gradient-hero text-white text-center animate-fadeIn">
+      <section className="w-full py-20 md:py-32 lg:py-48 bg-[#272727] text-white text-center animate-fadeIn">
         <div className="container px-4 md:px-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-tight">Our Mission</h1>
           <p className="mt-4 text-lg md:text-xl text-photon-100 max-w-3xl mx-auto">Building synthetic data for real world intelligence</p>
