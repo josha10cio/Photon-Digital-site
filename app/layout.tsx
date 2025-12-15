@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     template: "%s - Photon Echo",
   },
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   other: {
     'robots': 'index, follow',
