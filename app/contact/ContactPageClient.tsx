@@ -38,7 +38,7 @@ export default function ContactPageClient() {
   }
 
   return (
-    <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
+    <div className="flex flex-col min-h-[calc(100dvh-4rem)] bg-white">
       {/* Hero Section */}
       <section className="w-full py-20 md:py-32 lg:py-48 bg-[#272727] text-white text-center animate-fadeIn">
         <div className="container px-4 md:px-6">
@@ -55,16 +55,16 @@ export default function ContactPageClient() {
       <section className="w-full py-16 md:py-24 bg-white text-gray-900 relative z-10">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="section-title mb-6">Get In Touch</h2>
-            <p className="text-lg text-photon-200 mb-12 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">Get In Touch</h2>
+            <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
               Ready to start your project? Send us your inquiry and we'll respond within one to two business days.
             </p>
             
-            <Card className="card-standard card-hover max-w-2xl mx-auto">
+            <Card className="bg-[#272727] border border-gray-700 hover:border-[#33bfff] transition-all max-w-2xl mx-auto">
               <CardContent className="p-8">
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
-                  <a href="mailto:info@photonecho.dev" className="text-photon-400 hover:text-photon-300 transition-colors text-lg">
+                  <a href="mailto:info@photonecho.dev" className="text-[#33bfff] hover:text-[#2aa3d9] transition-colors text-lg">
                     info@photonecho.dev
                   </a>
                 </div>
@@ -78,17 +78,17 @@ export default function ContactPageClient() {
       <section className="w-full py-16 md:py-24 bg-white text-gray-900 relative z-10">
         <div className="container px-4 md:px-6">
           {/* Contact Form */}
-          <Card className="card-standard card-hover max-w-2xl mx-auto animate-fadeIn" style={{ animationDelay: "0.2s" }}>
+          <Card className="bg-[#272727] border border-gray-700 hover:border-[#33bfff] transition-all max-w-2xl mx-auto animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <CardHeader className="text-center">
-              <CardTitle className="section-title">Project Inquiry Form</CardTitle>
-              <p className="mt-2 text-lg text-photon-200">Tell us about your perception models, robotics systems, or AI training data needs.</p>
+              <CardTitle className="text-2xl font-bold text-white">Project Inquiry Form</CardTitle>
+              <p className="mt-2 text-lg text-gray-300">Tell us about your perception models, robotics systems, or AI training data needs.</p>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="space-y-2">
-                  <Label htmlFor="name" className="text-photon-100">
-                    Name <span className="text-red-500">*</span>
+                  <Label htmlFor="name" className="text-gray-200">
+                    Name <span className="text-red-400">*</span>
                   </Label>
                   <Input
                     id="name"
@@ -96,12 +96,12 @@ export default function ContactPageClient() {
                     type="text"
                     placeholder="Your Name"
                     required
-                    className="bg-photon-800 border-photon-700 text-white focus:ring-photon-500 focus:border-photon-500 glassmorphism shadow-inner-bevel"
+                    className="bg-gray-800 border-gray-600 text-white placeholder:text-gray-400 focus:ring-[#33bfff] focus:border-[#33bfff]"
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="email" className="text-photon-100">
-                    Email <span className="text-red-500">*</span>
+                  <Label htmlFor="email" className="text-gray-200">
+                    Email <span className="text-red-400">*</span>
                   </Label>
                   <Input
                     id="email"
@@ -109,19 +109,19 @@ export default function ContactPageClient() {
                     type="email"
                     placeholder="your@example.com"
                     required
-                    className="bg-photon-800 border-photon-700 text-white focus:ring-photon-500 focus:border-photon-500 glassmorphism shadow-inner-bevel"
+                    className="bg-gray-800 border-gray-600 text-white placeholder:text-gray-400 focus:ring-[#33bfff] focus:border-[#33bfff]"
                   />
                 </div>
               </div>
               <div className="space-y-2">
-                <Label htmlFor="service" className="text-photon-100">
+                <Label htmlFor="service" className="text-gray-200">
                   Service Category
                 </Label>
                 <Select value={serviceInterested} onValueChange={setServiceInterested}>
-                  <SelectTrigger className="w-full bg-photon-800 border-photon-700 text-white focus:ring-photon-500 focus:border-photon-500 glassmorphism shadow-inner-bevel">
+                  <SelectTrigger className="w-full bg-gray-800 border-gray-600 text-white focus:ring-[#33bfff] focus:border-[#33bfff]">
                     <SelectValue placeholder="Select service category" />
                   </SelectTrigger>
-                  <SelectContent className="bg-photon-900 border-photon-800 text-white glassmorphism shadow-outer-shadow">
+                  <SelectContent className="bg-gray-800 border-gray-600 text-white">
                     <SelectItem value="digital-twin">Digital Twin Development</SelectItem>
                     <SelectItem value="physical-ai">Physical AI Development</SelectItem>
                     <SelectItem value="artificial-data">Artificial Data Development</SelectItem>
@@ -136,8 +136,8 @@ export default function ContactPageClient() {
                 </Select>
               </div>
               <div className="space-y-2">
-                <Label htmlFor="message" className="text-photon-100">
-                  Message <span className="text-red-500">*</span>
+                <Label htmlFor="message" className="text-gray-200">
+                  Message <span className="text-red-400">*</span>
                 </Label>
                 <Textarea
                   id="message"
@@ -145,7 +145,7 @@ export default function ContactPageClient() {
                   placeholder="Describe your project goals, technical requirements, timeline, and any specific challenges you're facing..."
                   required
                   rows={6}
-                  className="bg-photon-800 border-photon-700 text-white focus:ring-photon-500 focus:border-photon-500 glassmorphism shadow-inner-bevel"
+                  className="bg-gray-800 border-gray-600 text-white placeholder:text-gray-400 focus:ring-[#33bfff] focus:border-[#33bfff]"
                 />
               </div>
                 <Button
@@ -159,8 +159,6 @@ export default function ContactPageClient() {
               </form>
             </CardContent>
           </Card>
-
-
         </div>
       </section>
     </div>
