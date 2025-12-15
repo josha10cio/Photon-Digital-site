@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function InvestorsPage() {
   return (
-    <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
+    <div className="flex flex-col min-h-[calc(100dvh-4rem)] bg-white">
       {/* Hero Section */}
       <section className="relative w-full py-20 md:py-32 lg:py-48 bg-[#272727] text-white overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
