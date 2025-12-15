@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Photon Echo",
     images: [
       {
-        url: "/echo_Logo.png",
+        url: "/echo_Update_Logo_Dark-Grey.png",
         width: 1200,
         height: 630,
         alt: "Photon Echo Investors Page"
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Investors – Photon Echo",
     description: "Explore Photon Echo's Physical AI investment opportunity.",
-    images: ["/echo_Logo.png"]
+    images: ["/echo_Update_Logo_Dark-Grey.png"]
   }
 }
 
