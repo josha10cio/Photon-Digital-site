@@ -55,7 +55,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mt-8 text-sm text-gray-600 w-full flex flex-col items-center gap-3">
-        <Image src="/photon_logo.png" alt="Photon Logo" width={80} height={20} />
+        <Image src="/photon_logo.png" alt="Photon Logo" width={53} height={13} />
         <span>&copy; {new Date().getFullYear()} Photon. All rights reserved.</span>
       </div>
     </footer>
