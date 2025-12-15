@@ -68,7 +68,7 @@ export default function InvestorsPage() {
       </section>
 
       {/* Market Opportunity Section */}
-      <section className="w-full py-20 md:py-32 bg-white">
+      <section className="w-full py-20 md:py-32 bg-white" style={{ backgroundColor: '#ffffff' }}>
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">The Market Is Expanding Quickly</h2>
@@ -103,7 +103,7 @@ export default function InvestorsPage() {
       </section>
 
       {/* Why Photon Echo Section */}
-      <section className="w-full py-20 md:py-32 bg-white">
+      <section className="w-full py-20 md:py-32 bg-white" style={{ backgroundColor: '#ffffff' }}>
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Advantage</h2>
@@ -138,7 +138,7 @@ export default function InvestorsPage() {
       </section>
 
       {/* Roadmap Section */}
-      <section className="w-full py-20 md:py-32 bg-white">
+      <section className="w-full py-20 md:py-32 bg-white" style={{ backgroundColor: '#ffffff' }}>
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Roadmap</h2>
@@ -159,7 +159,7 @@ export default function InvestorsPage() {
       </section>
 
       {/* Why Invest Now Section */}
-      <section className="w-full py-20 md:py-32 bg-white">
+      <section className="w-full py-20 md:py-32 bg-white" style={{ backgroundColor: '#ffffff' }}>
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Why Invest Now</h2>
