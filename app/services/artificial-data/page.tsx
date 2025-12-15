@@ -75,8 +75,8 @@ export default function ArtificialDataPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
             <div className="space-y-6">
-              <h2 className="section-title">What is Artificial Data?</h2>
-              <div className="space-y-4 text-photon-200">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">What is Artificial Data?</h2>
+              <div className="space-y-4 text-gray-600">
                 <p className="text-lg leading-relaxed">
                   Artificial or synthetic data is algorithmically generated information that mimics the statistical 
                   properties of real-world data without containing actual sensitive information. This revolutionary 
@@ -130,8 +130,8 @@ export default function ArtificialDataPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Artificial Data Services</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Artificial Data Services</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Comprehensive synthetic data generation across multiple data types and use cases.
             </p>
           </div>
@@ -228,8 +228,8 @@ export default function ArtificialDataPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Synthetic Data Types</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Synthetic Data Types</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Generate artificial data across various formats and domains for comprehensive AI training.
             </p>
           </div>
@@ -322,8 +322,8 @@ export default function ArtificialDataPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Artificial Data Applications</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Artificial Data Applications</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Solve real-world AI challenges with synthetic data across industries and applications.
             </p>
           </div>
@@ -402,8 +402,8 @@ export default function ArtificialDataPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Benefits of Artificial Data</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Benefits of Artificial Data</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Unlock AI potential while maintaining privacy, compliance, and cost efficiency.
             </p>
           </div>

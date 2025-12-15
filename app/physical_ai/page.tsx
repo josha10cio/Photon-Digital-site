@@ -171,8 +171,8 @@ export default function PhysicalAIPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Our Physical AI Process</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Physical AI Process</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               A systematic approach to building AI systems that interact with the physical world.
             </p>
           </div>
@@ -224,8 +224,8 @@ export default function PhysicalAIPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">From Simulation to Dataset</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">From Simulation to Dataset</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               A systematic approach to generating high-quality training data through simulation.
             </p>
           </div>
@@ -312,8 +312,8 @@ export default function PhysicalAIPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Why It Matters</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Why It Matters</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Key advantages of synthetic data generation for Physical AI development.
             </p>
           </div>

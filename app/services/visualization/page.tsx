@@ -65,8 +65,8 @@ export default function VisualizationServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Visualization Service Categories</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Visualization Service Categories</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Comprehensive visualization solutions for technical communication, marketing, and presentation needs.
             </p>
           </div>
@@ -167,8 +167,8 @@ export default function VisualizationServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Our Visualization Process</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Visualization Process</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               A systematic approach to creating impactful visual communications that clearly convey complex information.
             </p>
           </div>
@@ -221,8 +221,8 @@ export default function VisualizationServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Advanced Visualization Technology</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Advanced Visualization Technology</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Leveraging advanced tools and techniques for superior visual communication results.
             </p>
           </div>

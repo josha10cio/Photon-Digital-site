@@ -65,8 +65,8 @@ export default function DesignServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Design Service Categories</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Design for visual communication and product development.</p>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Design Service Categories</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Design for visual communication and product development.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
@@ -145,8 +145,8 @@ export default function DesignServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Our Design Process</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Design Process</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               A structured approach ensuring creative excellence and client satisfaction at every stage.
             </p>
           </div>

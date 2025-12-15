@@ -67,8 +67,8 @@ export default function EngineeringServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Engineering Service Categories</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Engineering and industrial design services for product development and manufacturing.</p>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Engineering Service Categories</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Engineering and industrial design services for product development and manufacturing.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
@@ -165,8 +165,8 @@ export default function EngineeringServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Our Engineering Process</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">A clear method for engineering work from requirements to production.</p>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Engineering Process</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">A clear method for engineering work from requirements to production.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-6 max-w-7xl mx-auto">
@@ -225,8 +225,8 @@ export default function EngineeringServicesPage() {
       <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title mb-4">Engineering Capabilities & Expertise</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">Capabilities across analysis, documentation, and production support.</p>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Engineering Capabilities & Expertise</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Capabilities across analysis, documentation, and production support.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">

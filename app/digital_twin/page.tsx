@@ -89,7 +89,7 @@ export default function DigitalTwinPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Digital Twin Service Categories</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Intelligent virtual replicas for simulation, testing, and optimization.
             </p>
           </div>
@@ -169,7 +169,7 @@ export default function DigitalTwinPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Digital Twin Process</h2>
-            <p className="text-lg text-photon-200 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               A systematic approach to creating intelligent virtual replicas of physical systems.
             </p>
           </div>
@@ -249,8 +249,8 @@ export default function DigitalTwinPage() {
 
       <section className="w-full py-16 md:py-24 bg-white">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-          <h2 className="section-title mb-6">How this supports the data loop</h2>
-          <p className="text-photon-200">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">How this supports the data loop</h2>
+          <p className="text-gray-600">
             Synthetic data trains the model. The twin tests the model in realistic conditions. Results guide the next round of dataset generation.
           </p>
         </div>

@@ -24,20 +24,20 @@ export default function MissionPage() {
       {/* Mission Statement Section */}
       <section className="w-full py-16 md:py-24 bg-white text-gray-900 relative z-10">
         <Card
-          className="card-standard card-hover container px-4 md:px-6 max-w-6xl mx-auto p-8 animate-fadeIn"
+          className="bg-[#272727] border border-gray-700 container px-4 md:px-6 max-w-6xl mx-auto p-8 animate-fadeIn"
           style={{ animationDelay: "0.2s" }}
         >
           <div className="grid gap-12 lg:grid-cols-2 items-center">
             <div className="space-y-8">
-              <h2 className="section-title">Why we exist</h2>
-              <p className="text-lg text-photon-200 leading-relaxed">Collecting high quality real world data can be slow, costly, and limited by safety or privacy. Synthetic data provides scale and control without field risk.</p>
-              <h2 className="section-title mt-8">How we work</h2>
-              <p className="text-lg text-photon-200 leading-relaxed">We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built for a clear learning objective.</p>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">Why we exist</h2>
+              <p className="text-lg text-gray-300 leading-relaxed">Collecting high quality real world data can be slow, costly, and limited by safety or privacy. Synthetic data provides scale and control without field risk.</p>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white mt-8">How we work</h2>
+              <p className="text-lg text-gray-300 leading-relaxed">We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built for a clear learning objective.</p>
             </div>
             <div className="relative">
-              <Card className="card-standard card-hover p-8">
-                <h3 className="text-2xl font-bold text-photon-100 mb-6">Focus areas</h3>
-                <ul className="text-lg text-photon-200 leading-relaxed list-disc pl-6">
+              <Card className="bg-gray-800 border border-gray-600 p-8">
+                <h3 className="text-2xl font-bold text-white mb-6">Focus areas</h3>
+                <ul className="text-lg text-gray-300 leading-relaxed list-disc pl-6">
                   <li>World building</li>
                   <li>Sensor simulation</li>
                   <li>Scenario authoring</li>
@@ -46,16 +46,16 @@ export default function MissionPage() {
                 </ul>
                 <div className="mt-6 space-y-4">
                   <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-photon-500 rounded-full"></div>
-                    <span className="text-photon-200">Excellence in technical execution</span>
+                    <div className="w-2 h-2 bg-[#33bfff] rounded-full"></div>
+                    <span className="text-gray-300">Excellence in technical execution</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-photon-500 rounded-full"></div>
-                    <span className="text-photon-200">Innovation through collaboration</span>
+                    <div className="w-2 h-2 bg-[#33bfff] rounded-full"></div>
+                    <span className="text-gray-300">Innovation through collaboration</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-photon-500 rounded-full"></div>
-                    <span className="text-photon-200">Commitment to client success</span>
+                    <div className="w-2 h-2 bg-[#33bfff] rounded-full"></div>
+                    <span className="text-gray-300">Commitment to client success</span>
                   </div>
                 </div>
               </Card>
@@ -68,8 +68,8 @@ export default function MissionPage() {
       <section className="w-full py-16 md:py-24 bg-white text-gray-900 relative z-10">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto">
           <div className="text-center animate-fadeIn">
-            <h2 className="section-title">Vision</h2>
-            <p className="mt-4 text-lg text-photon-200 max-w-2xl mx-auto">Better digital worlds create better real systems. That is the path we are building.</p>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">Vision</h2>
+            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Better digital worlds create better real systems. That is the path we are building.</p>
           </div>
         </div>
       </section>
