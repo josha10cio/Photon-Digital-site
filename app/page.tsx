@@ -83,20 +83,20 @@ export default function HomePage() {
           <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
             <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
-                <CardTitle className="text-gray-900">Physical AI Development</CardTitle>
+                <CardTitle className="text-xl font-bold text-white">Physical AI Development</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600">
+                <CardDescription className="text-photon-200">
                   We build scenes, sensors, and scenarios that generate labeled data for perception and control tasks.
                 </CardDescription>
               </CardContent>
             </Card>
             <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
-                <CardTitle className="text-gray-900">Digital Twin Systems</CardTitle>
+                <CardTitle className="text-xl font-bold text-white">Digital Twin Systems</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600">
+                <CardDescription className="text-photon-200">
                   We design live simulation and feedback loops that validate models and monitor performance after deployment.
                 </CardDescription>
               </CardContent>

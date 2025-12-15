@@ -88,7 +88,7 @@ export default function SupportingServicesPage() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardContent className="p-8">
                 <ul className="space-y-4 text-gray-700">
                   <li className="flex items-start gap-3">
@@ -115,7 +115,7 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Design Services Section */}
-      <section id="design" className="w-full py-20 md:py-32 bg-white">
+      <section id="design" className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
@@ -129,7 +129,7 @@ export default function SupportingServicesPage() {
             </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -150,7 +150,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <PaletteIcon className="h-8 w-8 text-[#33bfff] group-hover:text-[#2aa3d9]" />
@@ -171,7 +171,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                     <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -222,7 +222,7 @@ export default function SupportingServicesPage() {
             </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <FileTextIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -243,7 +243,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <PlayIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -264,7 +264,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -299,7 +299,7 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Engineering Services Section */}
-      <section id="engineering" className="w-full py-20 md:py-32 bg-white">
+      <section id="engineering" className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
@@ -313,7 +313,7 @@ export default function SupportingServicesPage() {
             </div>
                   
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <Settings2Icon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -334,7 +334,7 @@ export default function SupportingServicesPage() {
               </CardContent>
             </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <WrenchIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -355,7 +355,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ClipboardListIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -404,7 +404,7 @@ export default function SupportingServicesPage() {
             </div>
 
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <CpuIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -425,7 +425,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <NetworkIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -446,7 +446,7 @@ export default function SupportingServicesPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+              <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 transition-all duration-300 group-hover:border-photon-500 mx-auto">
                     <ZapIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -481,7 +481,7 @@ export default function SupportingServicesPage() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="w-full py-20 md:py-32 bg-white">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">Ready to get started</h2>

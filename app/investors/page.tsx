@@ -36,11 +36,19 @@ export default function InvestorsPage() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
       {/* Hero Section */}
-      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-white text-gray-900 overflow-hidden">
-        <div className="container px-4 md:px-6">
+      <section className="relative w-full py-20 md:py-32 lg:py-48 bg-[#272727] text-white overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-photon-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
+          <div
+            className="absolute top-1/3 right-1/4 w-96 h-96 bg-photon-700 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"
+            style={{ animationDelay: "2s" }}
+          ></div>
+        </div>
+
+        <div className="container relative z-10 px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8 animate-fadeIn">Invest in the Future of Physical AI</h1>
-            <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
+            <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
               Photon Echo builds the simulation and synthetic data infrastructure that will power the next generation of intelligent systems. We are seeking strategic partners who understand the value of synthetic data and digital twin technology in accelerating AI development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style={{ animationDelay: "0.6s" }}>
@@ -69,21 +77,21 @@ export default function InvestorsPage() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
               <CardContent className="p-6">
                 <TrendingUpIcon className="w-12 h-12 text-[#33bfff] mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">$3.5B and Growing</h3>
                 <p className="text-gray-600">The synthetic data market is expected to exceed $3.5B by 2028 as demand for scalable AI training continues to rise.</p>
               </CardContent>
             </Card>
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
               <CardContent className="p-6">
                 <TargetIcon className="w-12 h-12 text-[#33bfff] mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Critical Bottleneck</h3>
                 <p className="text-gray-600">Real world data is expensive, limited, and risky to collect. Simulation removes these barriers and allows rapid iteration.</p>
               </CardContent>
             </Card>
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
               <CardContent className="p-6">
                 <RocketIcon className="w-12 h-12 text-[#33bfff] mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Emerging Standard</h3>
@@ -95,7 +103,7 @@ export default function InvestorsPage() {
       </section>
 
       {/* Why Photon Echo Section */}
-      <section className="w-full py-20 md:py-32 bg-white">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Our Advantage</h2>
@@ -104,21 +112,21 @@ export default function InvestorsPage() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
               <CardContent className="p-6">
                 <UsersIcon className="w-12 h-12 text-[#33bfff] mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Technical Depth</h3>
                 <p className="text-gray-600">Built by engineers and 3D specialists with experience in simulation, visualization, and machine learning.</p>
               </CardContent>
             </Card>
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
               <CardContent className="p-6">
                 <ZapIcon className="w-12 h-12 text-[#33bfff] mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">High Fidelity Approach</h3>
                 <p className="text-gray-600">Every asset, sensor, and dataset is designed for measurable accuracy and repeatability.</p>
               </CardContent>
             </Card>
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
+            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all text-center">
               <CardContent className="p-6">
                 <MapIcon className="w-12 h-12 text-[#33bfff] mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Scalable Model</h3>
@@ -151,7 +159,7 @@ export default function InvestorsPage() {
       </section>
 
       {/* Why Invest Now Section */}
-      <section className="w-full py-20 md:py-32 bg-white">
+      <section className="w-full py-20 md:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Why Invest Now</h2>
@@ -159,7 +167,7 @@ export default function InvestorsPage() {
               Physical AI represents a major shift in how machines learn. Companies that control the data and simulation infrastructure will shape that transformation.
             </p>
           </div>
-          <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all max-w-4xl mx-auto p-8">
+          <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all max-w-4xl mx-auto p-8">
             <ul className="space-y-4 text-gray-700">
               <li className="flex items-start gap-3">
                 <CheckCircleIcon className="w-5 h-5 text-[#33bfff] mt-0.5 flex-shrink-0" />
@@ -183,13 +191,14 @@ export default function InvestorsPage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="w-full py-20 md:py-32 bg-white text-center overflow-hidden">
-        <div className="container px-4 md:px-6">
+      <section className="w-full py-20 md:py-32 bg-[#272727] text-white text-center overflow-hidden">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="container px-4 md:px-6 relative z-10">
           <Card className="card-standard card-hover max-w-4xl mx-auto p-8 md:p-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
               Ready to Invest?
             </h2>
-            <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
+            <p className="text-lg md:text-xl text-photon-100 max-w-2xl mx-auto mb-8">
               Join us in building the infrastructure for intelligent physical systems. Photon Echo is now engaging with early strategic investors to accelerate development and scale synthetic data operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -204,7 +213,7 @@ export default function InvestorsPage() {
                 </Button>
               </Link>
             </div>
-            <p className="text-sm text-gray-600 mt-6">
+            <p className="text-sm text-photon-200 mt-6">
               Confidential materials available to qualified investors
             </p>
           </Card>
