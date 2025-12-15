@@ -1,12 +1,11 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { ArrowRightIcon, CalendarIcon, UserIcon, EyeIcon } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Insights & Research",
+  title: "Insights – Photon Echo",
   description: "Expert analysis, case studies, and technical knowledge on simulation, sensors, and data for physical AI.",
 }
 
@@ -25,15 +24,10 @@ export default function InsightsPage() {
 
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="flex justify-center mb-6">
-              <Badge className="bg-photon-700/20 text-photon-100 border-photon-700/30 px-4 py-2 text-sm font-medium">
-                Insights & Research
-              </Badge>
-            </div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8 animate-fadeIn">
-              Insights & Research
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-8">
+              Insights
             </h1>
-            <p className="text-lg md:text-xl text-white max-w-3xl mx-auto font-light mb-12 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
+            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto font-light">
               Expert analysis, case studies, and technical knowledge on simulation, sensors, and data for physical AI.
             </p>
           </div>
@@ -46,54 +40,54 @@ export default function InsightsPage() {
           <div className="max-w-6xl mx-auto">
             <div className="max-w-4xl mx-auto text-center">
               <div className="mb-12">
-                <h2 className="text-3xl font-bold text-white mb-6">
-                  Insights Coming Soon
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                  Insights coming soon
                 </h2>
-                <p className="text-lg text-photon-200 max-w-2xl mx-auto mb-8">
-                  We're preparing valuable content including case studies, technical guides, industry trends, and expert analysis.
+                <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+                  We are preparing valuable content including case studies, technical guides, industry trends, and expert analysis.
                 </p>
               </div>
 
               {/* Preview Cards */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                <Card className="card-standard card-hover">
+                <Card className="bg-[#272727] border border-gray-700">
                   <CardHeader className="text-center">
-                    <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <EyeIcon className="h-6 w-6 text-photon-300" />
+                    <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-4">
+                      <EyeIcon className="h-6 w-6 text-[#33bfff]" />
                     </div>
-                    <CardTitle className="text-xl">Case Studies</CardTitle>
+                    <CardTitle className="text-xl text-white">Case studies</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-photon-200">
-                      Real-world examples of how we've solved complex design and engineering challenges.
+                    <CardDescription className="text-gray-300">
+                      Real world examples of how simulation and synthetic data support physical AI development.
                     </CardDescription>
                   </CardContent>
                 </Card>
 
-                <Card className="card-standard card-hover">
+                <Card className="bg-[#272727] border border-gray-700">
                   <CardHeader className="text-center">
-                    <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <UserIcon className="h-6 w-6 text-photon-300" />
+                    <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-4">
+                      <UserIcon className="h-6 w-6 text-[#33bfff]" />
                     </div>
-                    <CardTitle className="text-xl">Industry Trends</CardTitle>
+                    <CardTitle className="text-xl text-white">Industry trends</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-photon-200">
-                      Analysis of emerging technologies and trends in design, visualization, and engineering.
+                    <CardDescription className="text-gray-300">
+                      Analysis of emerging technologies and trends in physical AI, robotics, and autonomy.
                     </CardDescription>
                   </CardContent>
                 </Card>
 
-                <Card className="card-standard card-hover md:col-span-2 lg:col-span-1">
+                <Card className="bg-[#272727] border border-gray-700 md:col-span-2 lg:col-span-1">
                   <CardHeader className="text-center">
-                    <div className="w-12 h-12 bg-photon-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <CalendarIcon className="h-6 w-6 text-photon-300" />
+                    <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-4">
+                      <CalendarIcon className="h-6 w-6 text-[#33bfff]" />
                     </div>
-                    <CardTitle className="text-xl">Technical Guides</CardTitle>
+                    <CardTitle className="text-xl text-white">Technical guides</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-photon-200">
-                      Step-by-step guides and best practices for design and engineering processes.
+                    <CardDescription className="text-gray-300">
+                      Guides and best practices for simulation workflows and synthetic data pipelines.
                     </CardDescription>
                   </CardContent>
                 </Card>
@@ -101,14 +95,9 @@ export default function InsightsPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
-                  <Button variant="secondary" size="lg">
-                    Get Notified
+                  <Button variant="default" size="lg" className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white">
+                    Get notified
                     <ArrowRightIcon className="ml-2 w-5 h-5" />
-                  </Button>
-                </Link>
-                <Link href="/contact">
-                  <Button variant="outline" size="lg">
-                    Start Your Project
                   </Button>
                 </Link>
               </div>
