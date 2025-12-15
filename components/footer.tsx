@@ -54,8 +54,8 @@ export function Footer() {
           {/* GitHub removed per request */}
         </div>
       </div>
-      <div className="mt-8 text-center text-sm text-gray-600">
-        &copy; {new Date().getFullYear()} Photon. All rights reserved.
+      <div className="mt-8 text-sm text-gray-600 w-full flex justify-center">
+        <span>&copy; {new Date().getFullYear()} Photon. All rights reserved.</span>
       </div>
     </footer>
   )
