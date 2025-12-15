@@ -445,7 +445,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-20 md:py-32 bg-[#272727] text-white text-center overflow-hidden">
+      <section className="relative w-full py-20 md:py-32 bg-[#272727] text-white text-center overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container px-4 md:px-6 relative z-10">
           <Card className="card-standard card-hover max-w-4xl mx-auto p-8 md:p-12">
