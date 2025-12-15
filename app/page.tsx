@@ -70,33 +70,45 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* What We Do */}
-      <section className="w-full py-16 md:py-24 bg-white text-gray-900">
+      {/* Section 1: What Photon Echo Does */}
+      <section className="w-full py-16 md:py-24 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">What We Do</h2>
-            <p className="text-lg text-gray-600">
-              Photon Echo creates accurate 3D environments and simulates sensors to produce high quality synthetic training data. This data helps physical AI systems see, decide, and act with confidence.
-            </p>
+          <div className="grid gap-12 lg:grid-cols-2 items-start max-w-6xl mx-auto">
+            {/* Left Column - Text Content */}
+            <div className="text-left">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
+                What Photon Echo does
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Photon Echo builds simulation systems that model environments, behaviors, and interactions for physical AI. These systems produce structured simulation artifacts and datasets that support perception, decision, and control workflows without requiring raw sensor streams.
+              </p>
+            </div>
+
+            {/* Right Column - Placeholder for Image */}
+            <div className="bg-gray-100 rounded-lg min-h-[300px] flex items-center justify-center">
+              <span className="text-gray-400 text-sm">Image placeholder</span>
+            </div>
           </div>
-          <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+
+          {/* Cards Row */}
+          <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto mt-16">
+            <Card className="bg-[#272727] border border-gray-700 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-white">Physical AI Development</CardTitle>
+                <CardTitle className="text-xl font-bold text-white text-left">Physical AI simulation</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-photon-200">
-                  We build scenes, sensors, and scenarios that generate labeled data for perception and control tasks.
+                <CardDescription className="text-gray-300 text-left">
+                  We construct scenes, agents, and scenario variations that generate structured data for perception and control tasks. Teams can study specific conditions, edge cases, and behavior patterns before hardware is sent into the field.
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+            <Card className="bg-[#272727] border border-gray-700 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-white">Digital Twin Systems</CardTitle>
+                <CardTitle className="text-xl font-bold text-white text-left">Digital twin concepts</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-photon-200">
-                  We design live simulation and feedback loops that validate models and monitor performance after deployment.
+                <CardDescription className="text-gray-300 text-left">
+                  We use related simulation tools to explore digital twin style models that support testing and monitoring of physical systems. These twins focus on behavior and state and help bridge training and real world deployment.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -104,24 +116,79 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Synthetic Data */}
-      <section className="w-full py-16 md:py-24 bg-white text-gray-900">
-        <div className="container px-4 md:px-6 max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Why Synthetic Data</h2>
-          <p className="text-lg text-gray-600">
-            Real world data can be limited, expensive, or sensitive. Synthetic data provides scale, coverage, and safety. By matching real conditions in simulation, teams can train models faster and reduce risk before field testing.
-          </p>
+      {/* Section 2: Why Synthetic Data for Physical Systems */}
+      <section className="w-full py-16 md:py-24 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
+            {/* Left Column - Placeholder for Image */}
+            <div className="bg-gray-200 rounded-lg min-h-[350px] flex items-center justify-center order-2 lg:order-1">
+              <span className="text-gray-400 text-sm">Image placeholder</span>
+            </div>
+
+            {/* Right Column - Text Content */}
+            <div className="text-left order-1 lg:order-2">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
+                Why synthetic data for physical systems
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Collecting real world data in complex environments is slow and expensive and is often constrained by safety, privacy, or limited access. Synthetic data lets teams design scenarios on purpose, explore rare or risky events, and repeat them exactly when needed. When simulation is aligned with real conditions, physical AI teams can train and evaluate models faster while reducing field risk.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="w-full py-20 md:py-28 bg-[#272727] text-white text-center">
+      {/* Section 3: Who Photon Echo is For */}
+      <section className="w-full py-16 md:py-24 bg-white">
         <div className="container px-4 md:px-6">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to get started</h2>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">Share your goals and we will propose a practical data plan.</p>
-          <Link href="/contact">
-            <Button variant="primary" size="xl">Start Your Project</Button>
-          </Link>
+          <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
+            {/* Left Column - Text Content */}
+            <div className="text-left">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
+                Who Photon Echo is for
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Photon Echo supports organizations that build or evaluate physical AI systems. This includes robotics companies, industrial automation and inspection teams, advanced manufacturing groups, defense autonomy programs, and research organizations working in embodied AI.
+              </p>
+            </div>
+
+            {/* Right Column - Placeholder for Image */}
+            <div className="bg-gray-100 rounded-lg min-h-[350px] flex items-center justify-center">
+              <span className="text-gray-400 text-sm">Image placeholder</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA: Share Your Goals */}
+      <section className="w-full py-20 md:py-28 bg-[#272727]">
+        <div className="container px-4 md:px-6">
+          <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
+            {/* Left Column - Text Content */}
+            <div className="text-left">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
+                Share your goals
+              </h2>
+              <p className="text-lg text-gray-300 leading-relaxed mb-8">
+                Tell us about your physical AI work, the environments you care about, and the failure modes you want to understand. We can explore whether a pilot or collaboration around simulation and synthetic data makes sense.
+              </p>
+              <Link href="/contact">
+                <Button 
+                  variant="default" 
+                  size="lg"
+                  className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
+                >
+                  Contact Photon Echo
+                  <ArrowRightIcon className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+            </div>
+
+            {/* Right Column - Placeholder for Image */}
+            <div className="bg-gray-800 rounded-lg min-h-[300px] flex items-center justify-center">
+              <span className="text-gray-500 text-sm">Image placeholder</span>
+            </div>
+          </div>
         </div>
       </section>
     </div>
