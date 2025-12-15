@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { PlayIcon, ArrowRightIcon } from "lucide-react"
+import { ArrowRightIcon } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -45,13 +45,13 @@ export default function HomePage() {
                 Structured virtual environments and scenario-based data so autonomous technologies can be trained and evaluated safely, repeatably, and with better coverage than field collection alone.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/early-access">
+                <Link href="/investors">
                   <Button 
                     variant="default" 
                     size="lg"
                     className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
                   >
-                    Request Early Access
+                    Request Investor Overview
                     <ArrowRightIcon className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
@@ -61,8 +61,7 @@ export default function HomePage() {
                     size="lg"
                     className="bg-black/40 hover:bg-black/60 border-white/30 text-white px-8 py-6 text-base font-medium rounded-md backdrop-blur-sm"
                   >
-                    <PlayIcon className="mr-2 h-5 w-5" />
-                    View Demo
+                    Contact
                   </Button>
                 </Link>
               </div>

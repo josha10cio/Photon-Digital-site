@@ -60,9 +60,9 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link href="/contact" className="hidden md:block">
+          <Link href="/investors" className="hidden md:block">
             <Button variant="default" className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white">
-              Request Demo
+              Request Investor Overview
             </Button>
           </Link>
 
@@ -92,9 +92,9 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/contact" className="mt-2">
-              <Button variant="default" className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                Request Demo
+            <Link href="/investors" className="mt-2">
+              <Button variant="default" className="w-full bg-[#33bfff] hover:bg-[#2aa3d9] text-white">
+                Request Investor Overview
               </Button>
             </Link>
           </nav>
