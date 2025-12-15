@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     siteName: "Photon Echo",
     images: [
       {
-        url: "/echo_Update_Logo_Dark-Grey.png",
+        url: "/echo_Logo.png",
         width: 1200,
         height: 630,
         alt: "Photon Echo Physical AI and Synthetic Data",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Photon Echo Physical AI and Synthetic Data",
     description: "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
-    images: ["/echo_Update_Logo_Dark-Grey.png"],
+    images: ["/echo_Logo.png"],
   },
     generator: 'v0.app'
 }
@@ -98,7 +98,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "@type": "Organization",
                 "name": "Photon Echo",
                 "url": "https://www.photonecho.dev",
-                "logo": "https://www.photonecho.dev/echo_Update_Logo_Dark-Grey.png",
+                "logo": "https://www.photonecho.dev/echo_Logo.png",
                 "description": "We build virtual worlds and simulated sensors to create synthetic training data for physical AI.",
                 "foundingDate": "2025",
                 "brand": "Photon Echo",
