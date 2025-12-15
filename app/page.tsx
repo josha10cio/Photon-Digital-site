@@ -86,7 +86,6 @@ export default function HomePage() {
 
             {/* Right Column - Placeholder for Image */}
             <div className="bg-gray-100 rounded-lg min-h-[300px] flex items-center justify-center">
-              <span className="text-gray-400 text-sm">Image placeholder</span>
             </div>
           </div>
 
@@ -122,7 +121,6 @@ export default function HomePage() {
           <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
             {/* Left Column - Placeholder for Image */}
             <div className="bg-gray-200 rounded-lg min-h-[350px] flex items-center justify-center order-2 lg:order-1">
-              <span className="text-gray-400 text-sm">Image placeholder</span>
             </div>
 
             {/* Right Column - Text Content */}
@@ -154,7 +152,6 @@ export default function HomePage() {
 
             {/* Right Column - Placeholder for Image */}
             <div className="bg-gray-100 rounded-lg min-h-[350px] flex items-center justify-center">
-              <span className="text-gray-400 text-sm">Image placeholder</span>
             </div>
           </div>
         </div>
@@ -186,7 +183,6 @@ export default function HomePage() {
 
             {/* Right Column - Placeholder for Image */}
             <div className="bg-gray-800 rounded-lg min-h-[300px] flex items-center justify-center">
-              <span className="text-gray-500 text-sm">Image placeholder</span>
             </div>
           </div>
         </div>
