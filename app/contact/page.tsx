@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import ContactPageClient from "./ContactPageClient"
 
 export const metadata: Metadata = {
-  title: "Contact Us",
-  description: "Get in touch with Photon Echo for project inquiries, quotes, and consultations. CONCEPTS VISUALIZED and VALIDATED - forging bold ideas into unmatched products.",
+  title: "Contact – Photon Echo",
+  description: "Contact Photon Echo about physical AI, simulation, and synthetic data collaborations, pilots, and investor conversations.",
 }
 
 export default function ContactPage() {
