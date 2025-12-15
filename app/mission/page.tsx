@@ -65,7 +65,7 @@ export default function MissionPage() {
       </section>
 
       {/* Vision Section */}
-      <section className="w-full py-16 md:py-24 bg-gray-50 text-gray-900 relative z-10">
+      <section className="w-full py-16 md:py-24 bg-white text-gray-900 relative z-10">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto">
           <div className="text-center animate-fadeIn">
             <h2 className="section-title">Vision</h2>

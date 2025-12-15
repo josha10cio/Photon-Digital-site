@@ -127,7 +127,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* Core Services Section */}
-      <section className="w-full py-20 md:py-32 bg-gray-50">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Artificial Data Services</h2>
@@ -137,7 +137,7 @@ export default function ArtificialDataPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <DatabaseIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -151,7 +151,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <LayersIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -165,7 +165,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <SparklesIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -179,7 +179,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-600 mx-auto group-hover:border-photon-500 transition-colors">
                   <BarChartIcon className="h-8 w-8 text-photon-600 group-hover:text-photon-500" />
@@ -193,7 +193,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 mx-auto group-hover:border-photon-600 transition-colors">
                   <LockIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -207,7 +207,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 mx-auto group-hover:border-photon-400 transition-colors">
                   <RefreshCwIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -235,7 +235,7 @@ export default function ArtificialDataPage() {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <BarChartIcon className="h-6 w-6 text-photon-600" />
@@ -255,7 +255,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <CpuIcon className="h-6 w-6 text-photon-700" />
@@ -275,7 +275,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <ZapIcon className="h-6 w-6 text-photon-500" />
@@ -295,7 +295,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-3">
                   <TrendingUpIcon className="h-6 w-6 text-photon-600" />
@@ -319,7 +319,7 @@ export default function ArtificialDataPage() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="w-full py-20 md:py-32 bg-gray-50">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Artificial Data Applications</h2>
@@ -329,7 +329,7 @@ export default function ArtificialDataPage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-lg">Healthcare AI Training</CardTitle>
               </CardHeader>
@@ -340,7 +340,7 @@ export default function ArtificialDataPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-lg">Financial Model Testing</CardTitle>
               </CardHeader>

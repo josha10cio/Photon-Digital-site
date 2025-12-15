@@ -81,7 +81,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
-            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
                 <CardTitle className="text-gray-900">Physical AI Development</CardTitle>
               </CardHeader>
@@ -91,7 +91,7 @@ export default function HomePage() {
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card className="bg-gray-50 border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
+            <Card className="bg-[#272727] border border-gray-200 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
                 <CardTitle className="text-gray-900">Digital Twin Systems</CardTitle>
               </CardHeader>
@@ -106,7 +106,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Synthetic Data */}
-      <section className="w-full py-16 md:py-24 bg-gray-50 text-gray-900">
+      <section className="w-full py-16 md:py-24 bg-white text-gray-900">
         <div className="container px-4 md:px-6 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-4">Why Synthetic Data</h2>
           <p className="text-lg text-gray-600">

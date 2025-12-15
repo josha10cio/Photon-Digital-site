@@ -73,7 +73,7 @@ export default function VisualizationServicesPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
             {/* Technical Drawings */}
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <FileTextIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -95,7 +95,7 @@ export default function VisualizationServicesPage() {
             </Card>
 
             {/* Mockups & Renderings */}
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <ImageIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -117,7 +117,7 @@ export default function VisualizationServicesPage() {
             </Card>
 
             {/* Animations */}
-            <Card className="card-standard card-hover card-lift-on-hover">
+            <Card className="bg-[#272727] card-standard card-hover card-lift-on-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-700 transition-all duration-300 group-hover:border-photon-600 mx-auto">
                   <VideoIcon className="h-8 w-8 text-photon-700 group-hover:text-photon-600" />
@@ -164,7 +164,7 @@ export default function VisualizationServicesPage() {
       </section>
 
       {/* Visualization Process */}
-      <section className="w-full py-20 md:py-32 bg-gray-50">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Visualization Process</h2>
@@ -228,7 +228,7 @@ export default function VisualizationServicesPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-xl text-center">3D Rendering & Animation</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto"></div>
@@ -255,7 +255,7 @@ export default function VisualizationServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-xl text-center">Real time Visualization</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto"></div>
@@ -282,7 +282,7 @@ export default function VisualizationServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="card-standard">
+            <Card className="bg-[#272727] card-standard">
               <CardHeader>
                 <CardTitle className="text-xl text-center">Technical Documentation</CardTitle>
                 <div className="w-12 h-1 bg-photon-700 rounded-full mx-auto"></div>

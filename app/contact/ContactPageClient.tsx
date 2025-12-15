@@ -52,7 +52,7 @@ export default function ContactPageClient() {
       </section>
 
       {/* Contact Information Section */}
-      <section className="w-full py-16 md:py-24 bg-gray-50 text-gray-900 relative z-10">
+      <section className="w-full py-16 md:py-24 bg-white text-gray-900 relative z-10">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="section-title mb-6">Get In Touch</h2>

@@ -71,7 +71,7 @@ export default function DesignServicesPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {/* Concept Design */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-[#272727] card-standard card-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BrushIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -93,7 +93,7 @@ export default function DesignServicesPage() {
             </Card>
 
             {/* 3D Modeling & CAD */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-[#272727] card-standard card-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <BoxIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -117,7 +117,7 @@ export default function DesignServicesPage() {
             {/* Removed UI/UX Design card per request */}
 
             {/* Branding & Graphics */}
-            <Card className="card-standard card-hover">
+            <Card className="bg-[#272727] card-standard card-hover">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 border-2 border-photon-500 transition-all duration-300 group-hover:border-photon-400 mx-auto">
                   <PaletteIcon className="h-8 w-8 text-photon-500 group-hover:text-photon-400" />
@@ -142,7 +142,7 @@ export default function DesignServicesPage() {
       </section>
 
       {/* Design Process */}
-      <section className="w-full py-20 md:py-32 bg-gray-50">
+      <section className="w-full py-20 md:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="section-title mb-4">Our Design Process</h2>
