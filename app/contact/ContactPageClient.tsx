@@ -96,7 +96,7 @@ export default function ContactPageClient() {
                     type="text"
                     placeholder="Your Name"
                     required
-                    className="bg-gray-800 border-gray-600 text-white placeholder:text-gray-400 focus:ring-[#33bfff] focus:border-[#33bfff]"
+                    className="bg-white border-gray-300 text-gray-900 placeholder:text-gray-500 focus:ring-[#33bfff] focus:border-[#33bfff]"
                   />
                 </div>
                 <div className="space-y-2">
@@ -109,7 +109,7 @@ export default function ContactPageClient() {
                     type="email"
                     placeholder="your@example.com"
                     required
-                    className="bg-gray-800 border-gray-600 text-white placeholder:text-gray-400 focus:ring-[#33bfff] focus:border-[#33bfff]"
+                    className="bg-white border-gray-300 text-gray-900 placeholder:text-gray-500 focus:ring-[#33bfff] focus:border-[#33bfff]"
                   />
                 </div>
               </div>
@@ -118,10 +118,10 @@ export default function ContactPageClient() {
                   Service Category
                 </Label>
                 <Select value={serviceInterested} onValueChange={setServiceInterested}>
-                  <SelectTrigger className="w-full bg-gray-800 border-gray-600 text-white focus:ring-[#33bfff] focus:border-[#33bfff]">
+                  <SelectTrigger className="w-full bg-white border-gray-300 text-gray-900 focus:ring-[#33bfff] focus:border-[#33bfff]">
                     <SelectValue placeholder="Select service category" />
                   </SelectTrigger>
-                  <SelectContent className="bg-gray-800 border-gray-600 text-white">
+                  <SelectContent className="bg-white border-gray-300 text-gray-900">
                     <SelectItem value="digital-twin">Digital Twin Development</SelectItem>
                     <SelectItem value="physical-ai">Physical AI Development</SelectItem>
                     <SelectItem value="artificial-data">Artificial Data Development</SelectItem>
@@ -145,7 +145,7 @@ export default function ContactPageClient() {
                   placeholder="Describe your project goals, technical requirements, timeline, and any specific challenges you're facing..."
                   required
                   rows={6}
-                  className="bg-gray-800 border-gray-600 text-white placeholder:text-gray-400 focus:ring-[#33bfff] focus:border-[#33bfff]"
+                  className="bg-white border-gray-300 text-gray-900 placeholder:text-gray-500 focus:ring-[#33bfff] focus:border-[#33bfff]"
                 />
               </div>
                 <Button
