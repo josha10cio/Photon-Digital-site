@@ -27,20 +27,16 @@ export default function PhaseIPage() {
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
 
-        <div className="container relative z-10 px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
-            {/* Left Column - Text Content */}
-            <div className="text-left">
+        <div className="container relative z-10 px-4 md:px-6 lg:px-8">
+          <div className="max-w-2xl">
+            {/* Black opaque box with rounded corners */}
+            <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 md:p-10 lg:p-12">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8">
                 Phase I
               </h1>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
                 Phase I is a prototype of the Photon Echo simulation workflow. It connects environment construction, behavior modeling, dynamics, sensor level signal synthesis, scenario variation, labeling, and validation into one end to end pipeline for physical AI.
               </p>
-            </div>
-
-            {/* Right Column - Placeholder for Image */}
-            <div className="bg-gray-800 rounded-lg min-h-[300px] flex items-center justify-center">
             </div>
           </div>
         </div>
