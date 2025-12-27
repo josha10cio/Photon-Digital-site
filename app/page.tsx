@@ -84,8 +84,15 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Right Column - Placeholder for Image */}
-            <div className="bg-gray-100 rounded-lg min-h-[300px] flex items-center justify-center">
+            {/* Right Column - Image */}
+            <div className="relative rounded-lg min-h-[300px] overflow-hidden">
+              <Image
+                src="/what-photon-echo-does.png"
+                alt="Digital twin warehouse with autonomous robots and holographic overlays"
+                fill
+                className="object-cover rounded-lg"
+                quality={85}
+              />
             </div>
           </div>
 
@@ -103,7 +110,7 @@ export default function HomePage() {
             </Card>
             <Card className="bg-[#272727] border border-gray-700 hover:border-[#33bfff] hover:shadow-lg transition-all">
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-white text-left">Digital twin concepts</CardTitle>
+                <CardTitle className="text-xl font-bold text-white text-left">Digital twin development</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300 text-left">
