@@ -786,4 +786,4 @@
 
 ---
 
-*© 2025 Photon Echo. All rights reserved.*
+*© 2026 Photon Echo. All rights reserved.*

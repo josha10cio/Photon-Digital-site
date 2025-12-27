@@ -98,7 +98,7 @@ export default function HomePage() {
 
           {/* Cards Row */}
           <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto mt-16">
-            <Card className="bg-[#272727] border border-gray-700 hover:border-[#33bfff] hover:shadow-lg transition-all">
+            <Card className="bg-[#272727] border border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-white text-left">Physical AI simulation</CardTitle>
               </CardHeader>
@@ -108,7 +108,7 @@ export default function HomePage() {
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card className="bg-[#272727] border border-gray-700 hover:border-[#33bfff] hover:shadow-lg transition-all">
+            <Card className="bg-[#272727] border border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-white text-left">Digital twin development</CardTitle>
               </CardHeader>
@@ -126,8 +126,15 @@ export default function HomePage() {
       <section className="w-full py-16 md:py-24 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
-            {/* Left Column - Placeholder for Image */}
-            <div className="bg-gray-200 rounded-lg min-h-[350px] flex items-center justify-center order-2 lg:order-1">
+            {/* Left Column - Image */}
+            <div className="relative rounded-lg min-h-[350px] overflow-hidden order-2 lg:order-1">
+              <Image
+                src="/real-world-data-in-co02mplex-environments02.png"
+                alt="Real world data collection in complex environments"
+                fill
+                className="object-cover rounded-lg"
+                quality={85}
+              />
             </div>
 
             {/* Right Column - Text Content */}
@@ -157,8 +164,15 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Right Column - Placeholder for Image */}
-            <div className="bg-gray-100 rounded-lg min-h-[350px] flex items-center justify-center">
+            {/* Right Column - Image */}
+            <div className="relative rounded-lg min-h-[350px] overflow-hidden">
+              <Image
+                src="/real-world-data-in-co02mplex-environments.png"
+                alt="Physical AI systems in real world environments"
+                fill
+                className="object-cover rounded-lg"
+                quality={85}
+              />
             </div>
           </div>
         </div>
