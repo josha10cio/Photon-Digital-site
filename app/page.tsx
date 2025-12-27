@@ -129,7 +129,7 @@ export default function HomePage() {
             {/* Left Column - Image */}
             <div className="relative rounded-lg min-h-[350px] overflow-hidden order-2 lg:order-1">
               <Image
-                src="/real-world-data-in-complex-environments.png"
+                src="/real-world-data-in-co02mplex-environments.png"
                 alt="Real world data collection in complex environments"
                 fill
                 className="object-cover rounded-lg"
@@ -167,7 +167,7 @@ export default function HomePage() {
             {/* Right Column - Image */}
             <div className="relative rounded-lg min-h-[350px] overflow-hidden">
               <Image
-                src="/real-world-data-in-co02mplex-environments.png"
+                src="/real-world-data-in-complex-environments.png"
                 alt="Physical AI systems in real world environments"
                 fill
                 className="object-cover rounded-lg"
