@@ -181,37 +181,23 @@ export default function HomePage() {
       {/* Final CTA: Share Your Goals */}
       <section className="w-full py-20 md:py-28 bg-[#272727]">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
-            {/* Left Column - Text Content */}
-            <div className="text-left">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
-                Share your goals
-              </h2>
-              <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Tell us about your physical AI work, the environments you care about, and the failure modes you want to understand. We can explore whether a pilot or collaboration around simulation and synthetic data makes sense.
-              </p>
-              <Link href="/contact">
-                <Button 
-                  variant="default" 
-                  size="lg"
-                  className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
-                >
-                  Contact Photon Echo
-                  <ArrowRightIcon className="ml-2 h-5 w-5" />
-                </Button>
-              </Link>
-            </div>
-
-            {/* Right Column - Image */}
-            <div className="relative rounded-lg min-h-[300px] overflow-hidden">
-              <Image
-                src="/share-your-goals.png"
-                alt="Share your goals"
-                fill
-                className="object-cover rounded-lg"
-                quality={85}
-              />
-            </div>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
+              Share your goals
+            </h2>
+            <p className="text-lg text-gray-300 leading-relaxed mb-8">
+              Tell us about your physical AI work, the environments you care about, and the failure modes you want to understand. We can explore whether a pilot or collaboration around simulation and synthetic data makes sense.
+            </p>
+            <Link href="/contact">
+              <Button 
+                variant="default" 
+                size="lg"
+                className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
+              >
+                Contact Photon Echo
+                <ArrowRightIcon className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
