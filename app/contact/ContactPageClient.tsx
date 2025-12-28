@@ -1,5 +1,6 @@
 "use client"
 
+export default function ContactPageClient() {
   return (
     <div className="flex flex-col min-h-[calc(100dvh-4rem)] bg-white">
       {/* Hero Section */}
