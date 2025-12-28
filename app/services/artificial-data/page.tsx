@@ -124,40 +124,33 @@ export default function ArtificialDataPage() {
       {/* CTA Section */}
       <section className="w-full py-20 md:py-28 bg-[#272727]">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
-            {/* Left Column - Text Content */}
-            <div className="text-left">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
-                Explore artificial data for your work
-              </h2>
-              <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Tell us about your physical AI challenges and how simulation generated data might support your development and evaluation workflows.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact">
-                  <Button 
-                    variant="default" 
-                    size="lg"
-                    className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
-                  >
-                    Contact Photon Echo
-                    <ArrowRightIcon className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-                <Link href="/phase-i">
-                  <Button 
-                    variant="outline" 
-                    size="lg"
-                    className="border-white/30 text-white hover:bg-white/10 px-8 py-6 text-base font-medium rounded-md"
-                  >
-                    Learn more about Phase I
-                  </Button>
-                </Link>
-              </div>
-            </div>
-
-            {/* Right Column - Placeholder for Image */}
-            <div className="bg-gray-800 rounded-lg min-h-[250px] flex items-center justify-center">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
+              Explore artificial data for your work
+            </h2>
+            <p className="text-lg text-gray-300 leading-relaxed mb-8">
+              Tell us about your physical AI challenges and how simulation generated data might support your development and evaluation workflows.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/contact">
+                <Button 
+                  variant="default" 
+                  size="lg"
+                  className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
+                >
+                  Contact Photon Echo
+                  <ArrowRightIcon className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link href="/phase-i">
+                <Button 
+                  variant="outline" 
+                  size="lg"
+                  className="border-white/30 text-white hover:bg-white/10 px-8 py-6 text-base font-medium rounded-md"
+                >
+                  Learn more about Phase I
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
