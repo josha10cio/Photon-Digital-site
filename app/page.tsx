@@ -181,7 +181,7 @@ export default function HomePage() {
       {/* Final CTA: Share Your Goals */}
       <section className="w-full py-20 md:py-28 bg-[#272727]">
         <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
               Share your goals
             </h2>
