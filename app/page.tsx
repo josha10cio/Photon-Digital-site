@@ -202,8 +202,15 @@ export default function HomePage() {
               </Link>
             </div>
 
-            {/* Right Column - Placeholder for Image */}
-            <div className="bg-gray-800 rounded-lg min-h-[300px] flex items-center justify-center">
+            {/* Right Column - Image */}
+            <div className="relative rounded-lg min-h-[300px] overflow-hidden">
+              <Image
+                src="/share-your-goals.png"
+                alt="Share your goals"
+                fill
+                className="object-cover rounded-lg"
+                quality={85}
+              />
             </div>
           </div>
         </div>
