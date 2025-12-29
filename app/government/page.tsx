@@ -27,7 +27,7 @@ export default function GovernmentPage() {
               Government
             </h1>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              Photon Echo is preparing for future collaboration with government and public sector programs that need secure synthetic data and digital twin style systems for physical AI. Certifications and registrations are in progress and details will be shared as they are finalized.
+              Photon Echo engages with government and public sector programs exploring secure synthetic data and digital twin systems for physical AI. The company is registered for participation in federal research and assistance programs and is advancing readiness for program specific engagements.
             </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function GovernmentPage() {
             </h2>
             <div className="text-lg text-gray-600 leading-relaxed space-y-4 text-center">
               <p>Registered in SAM.gov and Research.gov</p>
-              <p>Eligible for federal assistance and research awards</p>
+              <p>Eligible to participate in federal assistance and research programs</p>
             </div>
           </div>
         </div>
@@ -69,9 +69,11 @@ export default function GovernmentPage() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6 text-center">
               Capabilities
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed text-center">
-              High level technical focus
-            </p>
+            <ul className="text-lg text-gray-600 leading-relaxed space-y-4 text-center list-none">
+              <li>Simulation based environment modeling</li>
+              <li>Synthetic data generation for perception and decision systems</li>
+              <li>Digital twin style representations for physical AI workflows</li>
+            </ul>
           </div>
         </div>
       </section>
