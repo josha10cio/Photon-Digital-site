@@ -74,6 +74,9 @@ export default function GovernmentPage() {
               <li>Synthetic data generation for perception and decision systems</li>
               <li>Digital twin style representations for physical AI workflows</li>
             </ul>
+            <p className="text-lg text-gray-600 leading-relaxed text-center mt-6">
+              Engagements are structured in alignment with program specific security, data handling, and compliance requirements.
+            </p>
           </div>
         </div>
       </section>
