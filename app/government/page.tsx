@@ -21,47 +21,73 @@ export default function GovernmentPage() {
           ></div>
         </div>
 
-        <div className="container relative z-10 px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
-            {/* Left Column - Text Content */}
-            <div className="text-left">
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8">
-                Government
-              </h1>
-              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Photon Echo is preparing for future collaboration with government and public sector programs that need secure synthetic data and digital twin style systems for physical AI. Certifications and registrations are in progress and details will be shared as they are finalized.
-              </p>
-            </div>
+        <div className="container relative z-10 px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8">
+              Government
+            </h1>
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+              Photon Echo is preparing for future collaboration with government and public sector programs that need secure synthetic data and digital twin style systems for physical AI. Certifications and registrations are in progress and details will be shared as they are finalized.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            {/* Right Column - Placeholder for Image */}
-            <div className="bg-gray-800 rounded-lg min-h-[300px] flex items-center justify-center">
+      {/* Section 1: Who this is for */}
+      <section className="w-full py-16 md:py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6 text-center">
+              Who this is for
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed text-center">
+              Federal agencies, research programs, and public sector partners
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 2: Registration status */}
+      <section className="w-full py-16 md:py-24 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6 text-center">
+              Registration status
+            </h2>
+            <div className="text-lg text-gray-600 leading-relaxed space-y-4 text-center">
+              <p>Registered in SAM.gov and Research.gov</p>
+              <p>Eligible for federal assistance and research awards</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section: Working with Government Partners */}
+      {/* Section 3: Capabilities */}
       <section className="w-full py-16 md:py-24 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-2 items-start max-w-6xl mx-auto">
-            {/* Left Column - Text Content */}
-            <div className="text-left">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
-                Working with government partners
-              </h2>
-              <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                We aim to support programs that
-              </p>
-              <ul className="text-lg text-gray-600 leading-relaxed space-y-4 list-disc pl-6">
-                <li>explore autonomy and robotics in safety critical environments</li>
-                <li>need controlled simulation for testing and validation</li>
-                <li>require careful handling of sensitive information and infrastructure constraints</li>
-              </ul>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6 text-center">
+              Capabilities
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed text-center">
+              High level technical focus
+            </p>
+          </div>
+        </div>
+      </section>
 
-            {/* Right Column - Placeholder for Image */}
-            <div className="bg-gray-100 rounded-lg min-h-[300px] flex items-center justify-center">
-            </div>
+      {/* Section 4: Contact */}
+      <section className="w-full py-16 md:py-24 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
+              Contact
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed mb-4">
+              <a href="mailto:info@photonecho.dev" className="text-[#33bfff] hover:text-[#2aa3d9] transition-colors">
+                info@photonecho.dev
+              </a>
+            </p>
           </div>
         </div>
       </section>
