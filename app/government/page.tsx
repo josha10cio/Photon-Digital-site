@@ -23,10 +23,13 @@ export default function GovernmentPage() {
               Photon Echo for government and defense programs
             </h1>
             <p className="text-base md:text-lg text-gray-300 max-w-3xl">
-              Photon Digital LLC provides defense focused 3D visualization and animation services
-              supporting government and defense programs. The company delivers clear and accurate
-              visual representations of complex systems to support research, development, training,
-              and decision making.
+              Photon Echo is a simulation and synthetic environment capability designed to support
+              research, development, and evaluation of physical and autonomous systems.
+            </p>
+            <p className="text-base md:text-lg text-gray-300 max-w-3xl mt-4">
+              The platform focuses on modeling environments, behaviors, and interactions to produce
+              structured simulation artifacts and datasets that support perception, decision, and
+              control workflows without reliance on raw sensor streams.
             </p>
           </div>
         </section>
