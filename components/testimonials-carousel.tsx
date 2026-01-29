@@ -14,7 +14,7 @@ export function TestimonialsCarousel() {
         "Photon's engineering team delivered exceptional technical documentation and CAD designs for our aerospace project. Their attention to detail and compliance expertise made the difference in securing our government contract.",
       author: "Sarah Mitchell",
       title: "VP Engineering, AeroSpace Dynamics",
-      avatar: "/placeholder.svg?height=80&width=80&text=SM",
+      avatar: "",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export function TestimonialsCarousel() {
         "The visualization services were outstanding. Photon created interactive Unreal Engine demos that helped our stakeholders understand complex manufacturing processes, leading to faster project approval.",
       author: "David Chen",
       title: "Operations Director, Advanced Manufacturing Corp",
-      avatar: "/placeholder.svg?height=80&width=80&text=DC",
+      avatar: "",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export function TestimonialsCarousel() {
         "Working with Photon on our medical device design was seamless. Their industrial design expertise and FDA compliance knowledge accelerated our path to market by months.",
       author: "Dr. Lisa Rodriguez",
       title: "Chief Medical Officer, BioTech Solutions",
-      avatar: "/placeholder.svg?height=80&width=80&text=LR",
+      avatar: "",
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ export function TestimonialsCarousel() {
         "Photon's government services team understood our security requirements perfectly. Their technical drawings and compliance documentation exceeded all government standards.",
       author: "Colonel James Wright",
       title: "Program Manager, Defense Systems",
-      avatar: "/placeholder.svg?height=80&width=80&text=JW",
+      avatar: "",
     },
   ]
 
@@ -80,13 +80,15 @@ export function TestimonialsCarousel() {
                     <CardContent className="text-center">
                       <p className="text-lg italic text-photon-100 mb-6">&quot;{testimonial.quote}&quot;</p>
                       <div className="flex flex-col items-center">
-                        <Image
-                          src={testimonial.avatar || "/placeholder.svg"}
-                          alt={testimonial.author}
-                          width={80}
-                          height={80}
-                          className="rounded-full object-cover mb-3 border-2 border-photon-700"
-                        />
+                        {testimonial.avatar ? (
+                          <Image
+                            src={testimonial.avatar}
+                            alt={testimonial.author}
+                            width={80}
+                            height={80}
+                            className="rounded-full object-cover mb-3 border-2 border-photon-700"
+                          />
+                        ) : null}
                         <h3 className="text-xl font-semibold text-photon-50">{testimonial.author}</h3>
                         <CardDescription className="text-photon-200">{testimonial.title}</CardDescription>
                       </div>

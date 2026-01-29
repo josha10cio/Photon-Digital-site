@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Hide any leftover placeholder images (safety net). Prefer removing them in components for layout. */
+img[src*="/placeholder."],
+img[src*="/placeholder-"],
+img[src*="placeholder.svg"],
+img[src*="placeholder.png"],
+img[src*="placeholder.jpg"],
+img[src*="placeholder.jpeg"],
+img[src*="placeholder.webp"] {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
