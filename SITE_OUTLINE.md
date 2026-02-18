@@ -4,7 +4,7 @@
 
 ### Main Navigation (Header)
 - **Logo**: ECHO (links to `/`)
-- **Links**: Phase I | Market | Investors | Early Access | FAQ | Contact
+- **Links**: Platform Build Phase | Market | Investors | Enterprise Pilot Program | FAQ | Contact
 - **Button**: Request Demo (links to `/contact`)
 
 ### Footer Links
@@ -23,36 +23,36 @@
 
 **Hero Section**:
 - **Small Header**: "PHYSICAL AI INFRASTRUCTURE"
-- **Main Headline**: "Simulation & Synthetic Data for **Physical AI**"
+- **Main Headline**: "Structured Synthetic Data and Validation Infrastructure for **Robotics Perception**"
 - **Description**: "Structured virtual environments and scenario-based data so autonomous technologies can be trained and evaluated safely, repeatably, and with better coverage than field collection alone."
 - **CTAs**: 
-  - "Request Early Access →" (links to `/early-access`)
+  - "Request Pilot Access →" (links to `/early-access`)
   - "▷ View Demo" (links to `/contact`)
 
 **What We Do Section**:
-- **Heading**: "What We Do"
+- **Heading**: "What Photon Echo does"
 - **Description**: "Photon Echo creates accurate 3D environments and simulates sensors to produce high quality synthetic training data. This data helps physical AI systems see, decide, and act with confidence."
 - **Cards**:
-  - **Physical AI Development**: "We build scenes, sensors, and scenarios that generate labeled data for perception and control tasks."
-  - **Digital Twin Systems**: "We design live simulation and feedback loops that validate models and monitor performance after deployment."
+  - **Physical AI Simulation**: "We construct scenes, agents, and scenario variations that generate structured data for perception and control tasks."
+  - **Digital Twin Development**: "We explore digital twin style models that support testing and monitoring of physical systems."
 
 **Why Synthetic Data Section**:
 - **Heading**: "Why Synthetic Data"
 - **Description**: "Real world data can be limited, expensive, or sensitive. Synthetic data provides scale, coverage, and safety. By matching real conditions in simulation, teams can train models faster and reduce risk before field testing."
 
 **CTA Section**:
-- **Heading**: "Ready to get started"
+- **Heading**: "Share your goals"
 - **Description**: "Share your goals and we will propose a practical data plan."
 - **Button**: "Start Your Project" (links to `/contact`)
 
 ---
 
-### 2. Phase I (`/phase-i`)
+### 2. Platform Build Phase (`/phase-i`)
 **URL**: `/phase-i`
 
 **Content**:
-- **Heading**: "Phase I"
-- **Description**: "Phase I content coming soon."
+- **Heading**: "Platform Build Phase"
+- **Description**: "Platform build phase content coming soon."
 - **CTA**: "Contact Us" (links to `/contact`)
 
 ---
@@ -71,7 +71,7 @@
 **URL**: `/investors`
 
 **Hero Section**:
-- **Heading**: "Invest in the Future of Physical AI"
+- **Heading**: "Invest in robotics perception infrastructure"
 - **Description**: "Photon Echo builds the simulation and synthetic data infrastructure that will power the next generation of intelligent systems. We are seeking strategic partners who understand the value of synthetic data and digital twin technology in accelerating AI development."
 - **CTAs**: 
   - "Request Investor Overview" (links to `/contact`)
@@ -103,7 +103,7 @@
 
 **Why Invest Now Section**:
 - **Heading**: "Why Invest Now"
-- **Description**: "Physical AI represents a major shift in how machines learn. Companies that control the data and simulation infrastructure will shape that transformation."
+- **Description**: "Robotics perception depends on reproducible validation infrastructure. Companies that control scenario libraries and benchmarking systems will shape deployment readiness."
 - **Bullet Points**:
   - Expanding global demand for realistic training data
   - Early leadership opportunity in a fast growing vertical
@@ -120,13 +120,13 @@
 
 ---
 
-### 5. Early Access (`/early-access`)
+### 5. Enterprise Pilot Program (`/early-access`)
 **URL**: `/early-access`
 
 **Content**:
-- **Heading**: "Early Access"
-- **Description**: "Request early access to our Physical AI infrastructure platform. Be among the first to experience our simulation and synthetic data capabilities."
-- **CTA**: "Request Early Access" (links to `/contact`)
+- **Heading**: "Enterprise Pilot Program"
+- **Description**: "Photon Echo engages selected robotics and industrial autonomy teams in structured pilot integrations focused on scenario library deployment and validation benchmarking workflows."
+- **CTA**: "Request Pilot Access" (links to `/contact`)
 
 ---
 
@@ -279,7 +279,7 @@
 ---
 
 ## Notes
-- All placeholder pages (Phase I, Market, FAQ) currently show "coming soon" messages
+- All placeholder pages (Platform Build Phase, Market, FAQ) currently show "coming soon" messages
 - Contact form functionality is implemented via API route at `/api/contact`
 - Insights are dynamically generated from markdown files in `content/insights/`
 - Logo used: `echo_Logo_Dark_Grey.png` (dark grey version for white background)

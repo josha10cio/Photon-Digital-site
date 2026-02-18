@@ -28,7 +28,7 @@ export default function MissionPage() {
                 Our mission
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-                Building synthetic data for real world intelligence
+                To build structured simulation and validation infrastructure that improves reliability and reproducibility in robotics perception systems.
               </p>
             </div>
 
@@ -49,7 +49,7 @@ export default function MissionPage() {
                 Why we exist
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Collecting high quality real world data is often slow and costly and is constrained by safety or privacy. Physical AI systems need exposure to situations that rarely occur in real life. Synthetic data provides scale and control without field risk and lets teams focus on the scenarios that matter most.
+                Robotics perception teams need reproducible validation coverage across environments that are difficult or unsafe to capture in the field. Structured simulation infrastructure supplies controlled scenarios, measurable variations, and repeatable benchmarks without relying on uncontrolled data capture cycles.
               </p>
             </div>
 
@@ -74,7 +74,7 @@ export default function MissionPage() {
                 How we work
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Photon Echo combines design, visualization, and engineering with modern simulation tools. Every environment, agent, and annotation is built around a clear learning or evaluation objective so simulation work stays tightly connected to real system performance.
+                Photon Echo builds simulator agnostic orchestration, scenario libraries, and dataset governance workflows. Every environment, agent, and annotation is tied to explicit evaluation objectives so validation results remain reproducible and comparable across model versions.
               </p>
             </div>
           </div>
@@ -91,11 +91,11 @@ export default function MissionPage() {
                 Focus areas
               </h2>
               <ul className="text-lg text-gray-600 leading-relaxed space-y-4 list-disc pl-6">
-                <li>World building for physical environments</li>
-                <li>Simulation of agents, sensors, and system dynamics inside those environments</li>
-                <li>Scenario authoring that targets specific questions and edge cases</li>
-                <li>Dataset production that yields structured artifacts suitable for training and evaluation</li>
-                <li>Validation work that compares simulation results against limited real samples whenever possible</li>
+                <li>Scenario library development for industrial and autonomous domains</li>
+                <li>Structured synthetic dataset generation with lineage tracking</li>
+                <li>Regression benchmarking across perception model versions</li>
+                <li>Perception validation analytics under controlled edge cases</li>
+                <li>Simulator agnostic orchestration for enterprise workflows</li>
               </ul>
             </div>
 
@@ -137,7 +137,7 @@ export default function MissionPage() {
               Vision
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              Better digital worlds create better real systems. Photon Echo exists to make those digital worlds practical and useful for the teams that build physical AI.
+              Reliable autonomy depends on reproducible validation infrastructure. Photon Echo builds the structured simulation systems that make perception evaluation consistent, scalable, and operationally useful.
             </p>
             <Link href="/contact">
               <Button 

@@ -8,10 +8,10 @@
 ## Site Structure Overview
 
 ### Primary Navigation (Header)
-- Phase I → `/phase-i`
+- Platform Build Phase → `/phase-i`
 - Market → `/market`
 - Investors → `/investors`
-- Early Access → `/early-access`
+- Enterprise Pilot Program → `/early-access`
 - FAQ → `/faq`
 - Contact → `/contact`
 - Request Demo (CTA Button) → `/contact`
@@ -30,45 +30,45 @@
 
 ### 1. Home Page
 **URL:** `/`  
-**Title:** Photon Echo Physical AI and Synthetic Data  
-**Description:** We build virtual worlds and simulated sensors that produce synthetic training data for physical AI systems.
+**Title:** Photon Echo Structured Synthetic Data Infrastructure  
+**Description:** Structured synthetic data and validation infrastructure for robotics perception teams operating in industrial and autonomous domains.
 
 #### Content:
 
 **Hero Section**
 - Badge: "PHYSICAL AI INFRASTRUCTURE"
-- Headline: "Simulation & Synthetic Data for Physical AI"
-- Subheadline: "Structured virtual environments and scenario-based data so autonomous technologies can be trained and evaluated safely, repeatably, and with better coverage than field collection alone."
+- Headline: "Structured Synthetic Data and Validation Infrastructure for Robotics Perception"
+- Subheadline: "Photon Echo builds simulation driven synthetic data systems, scenario libraries, and regression benchmarking infrastructure that allow robotics and autonomous systems teams to validate perception models with reproducibility and structured coverage."
 - CTA Buttons:
-  - "Request Early Access" → `/early-access`
-  - "View Demo" → `/contact`
+  - "Request Investor Overview" → `/investors`
+  - "Contact" → `/contact`
 
 **What We Do Section**
-- Section Title: "What We Do"
-- Description: "Photon Echo creates accurate 3D environments and simulates sensors to produce high quality synthetic training data. This data helps physical AI systems see, decide, and act with confidence."
+- Section Title: "What Photon Echo does"
+- Description: "Photon Echo provides: domain specific scenario libraries for industrial and autonomous environments, structured synthetic dataset generation with lineage tracking, regression benchmarking across model versions, perception validation analytics under controlled edge cases, and simulator agnostic orchestration pipelines."
 - Cards:
-  1. **Physical AI Development:** "We build scenes, sensors, and scenarios that generate labeled data for perception and control tasks."
-  2. **Digital Twin Systems:** "We design live simulation and feedback loops that validate models and monitor performance after deployment."
+  1. **Physical AI Simulation:** "We construct scenes, agents, and scenario variations that generate structured data for perception and control tasks."
+  2. **Digital Twin Development:** "We explore digital twin style models that support testing and monitoring of physical systems."
 
 **Why Synthetic Data Section**
 - Section Title: "Why Synthetic Data"
 - Description: "Real world data can be limited, expensive, or sensitive. Synthetic data provides scale, coverage, and safety. By matching real conditions in simulation, teams can train models faster and reduce risk before field testing."
 
 **CTA Section**
-- Headline: "Ready to get started"
-- Subheadline: "Share your goals and we will propose a practical data plan."
-- CTA Button: "Start Your Project" → `/contact`
+- Headline: "Share your goals"
+- Subheadline: "Tell us about your physical AI work, the environments you care about, and the failure modes you want to understand."
+- CTA Button: "Contact Photon Echo" → `/contact`
 
 ---
 
-### 2. Phase I
+### 2. Platform Build Phase
 **URL:** `/phase-i`  
-**Title:** Phase I – Photon Echo  
-**Description:** Phase I information for Photon Echo's Physical AI infrastructure development.
+**Title:** Platform Build Phase – Photon Echo  
+**Description:** Platform build phase information for Photon Echo's robotics perception infrastructure development.
 
 #### Content:
-- Headline: "Phase I"
-- Description: "Phase I content coming soon."
+- Headline: "Platform Build Phase"
+- Description: "Platform build phase content coming soon."
 - CTA Button: "Contact Us" → `/contact`
 
 ---
@@ -88,13 +88,13 @@
 ### 4. Investors
 **URL:** `/investors`  
 **Title:** Investors – Photon Echo  
-**Description:** Explore Photon Echo's early stage roadmap for synthetic data and simulation infrastructure powering Physical AI.
+**Description:** Overview of Photon Echo's structured synthetic data and validation infrastructure for robotics perception teams.
 
 #### Content:
 
 **Hero Section**
-- Headline: "Invest in the Future of Physical AI"
-- Description: "Photon Echo builds the simulation and synthetic data infrastructure that will power the next generation of intelligent systems. We are seeking strategic partners who understand the value of synthetic data and digital twin technology in accelerating AI development."
+- Headline: "Invest in robotics perception infrastructure"
+- Description: "Photon Echo is building structured synthetic data and validation infrastructure for robotics perception teams operating in industrial and autonomous domains. The platform enables reproducible model evaluation, regression benchmarking, and scenario driven coverage expansion beyond real world data constraints."
 - CTA Buttons:
   - "Request Investor Overview" → `/contact`
   - "Schedule Investor Call" → `/contact`
@@ -107,30 +107,29 @@
   3. **Emerging Standard:** "Synthetic data and digital twins are becoming the default approach for developing physical AI models safely and efficiently."
 
 **Our Advantage Section**
-- Description: "Photon Echo focuses on creating precise digital worlds and sensor simulations that produce high quality training data for AI systems that must see, move, and decide in real environments."
+- Description: "Photon Echo focuses on structured simulation artifacts, dataset governance, and regression benchmarking that keep perception validation reproducible across real environments."
 - Cards:
   1. **Technical Depth:** "Built by engineers and 3D specialists with experience in simulation, visualization, and machine learning."
   2. **High Fidelity Approach:** "Every asset, sensor, and dataset is designed for measurable accuracy and repeatability."
   3. **Scalable Model:** "Data generation, validation, and scenario authoring delivered through a repeatable software pipeline."
 
-**Our Roadmap Section**
+**Revenue model section**
 - Paragraphs:
-  - "Photon Echo is in the early stage of building its foundation for scalable synthetic data generation and simulation infrastructure. Our focus is on developing the core tools, partnerships, and systems that will let us grow with precision."
-  - "We are currently establishing internal simulation workflows and data generation environments to support our first research demonstrations. These efforts will validate the accuracy and reliability of our synthetic datasets and provide the groundwork for real world applications."
-  - "The next phase centers on forming technical partnerships with robotics and industrial teams that are exploring physical AI data pipelines. Through these collaborations we will refine our approach to high fidelity world building, sensor simulation, and data labeling."
-  - "Once the foundation is proven, Photon Echo will expand these capabilities into a scalable platform for synthetic data production and digital twin testing. This will position us to deliver repeatable data generation services and support partners developing physical AI systems across multiple industries."
+  - "Photon Echo operates under an enterprise licensing model providing scenario library subscriptions, validation infrastructure integration, benchmarking analytics modules, and custom domain environment extensions."
+  - "Licenses cover integration into existing ML workflows, dataset governance requirements, and validation benchmarking across operational environments."
+  - "Modules expand as scenario libraries and validation coverage grow across new domains, facilities, and autonomy programs."
 
 **Why Invest Now Section**
 - Description: "Physical AI represents a major shift in how machines learn. Companies that control the data and simulation infrastructure will shape that transformation."
 - Bullet Points:
   - Expanding global demand for realistic training data
   - Early leadership opportunity in a fast growing vertical
-  - Scalable and repeatable service model
+  - Enterprise licensing model with modular expansion
   - Experienced team with deep technical understanding of synthetic environments
 
 **Ready to Invest CTA Section**
 - Headline: "Ready to Invest?"
-- Description: "Join us in building the infrastructure for intelligent physical systems. Photon Echo is now engaging with early strategic investors to accelerate development and scale synthetic data operations."
+- Description: "Join us in building the infrastructure for intelligent physical systems. Photon Echo is engaging with strategic investors to expand validation infrastructure and scenario library coverage."
 - Note: "Confidential materials available to qualified investors"
 - CTA Buttons:
   - "Request Investor Overview" → `/contact`
@@ -138,15 +137,15 @@
 
 ---
 
-### 5. Early Access
+### 5. Enterprise Pilot Program
 **URL:** `/early-access`  
-**Title:** Early Access – Photon Echo  
-**Description:** Request early access to Photon Echo's Physical AI infrastructure and simulation platform.
+**Title:** Enterprise Pilot Program – Photon Echo  
+**Description:** Request access to the Photon Echo enterprise pilot program for validation infrastructure integration.
 
 #### Content:
-- Headline: "Early Access"
-- Description: "Request early access to our Physical AI infrastructure platform. Be among the first to experience our simulation and synthetic data capabilities."
-- CTA Button: "Request Early Access" → `/contact`
+- Headline: "Enterprise Pilot Program"
+- Description: "Photon Echo engages selected robotics and industrial autonomy teams in structured pilot integrations focused on scenario library deployment and validation benchmarking workflows."
+- CTA Button: "Request Pilot Access" → `/contact`
 
 ---
 
@@ -164,49 +163,49 @@
 **FAQ Questions & Answers:**
 
 1. **What is Photon Echo**
-   - Photon Echo is a simulation and synthetic data company focused on enabling Physical AI. It develops systems that model environments, behaviors, and interactions so that autonomous technologies can be trained and evaluated safely and efficiently before deployment.
+   - Photon Echo is a structured synthetic data and validation infrastructure company serving robotics perception teams and industrial autonomy operators. It builds simulation driven scenario libraries, dataset governance, and regression benchmarking workflows for reproducible evaluation.
 
 2. **What industry does Photon Echo focus on**
-   - Photon Echo works within the Physical AI and Embodied Autonomy space. The company develops simulation based systems that support robots and other autonomous technologies that need to perceive and interact with the physical world. These tools are designed for environments where high quality synthetic training data improves reliability, safety, and development speed.
+   - Photon Echo focuses on robotics perception, industrial autonomy, advanced manufacturing, and autonomous inspection systems. The platform supports enterprise teams that need reproducible validation in physical environments.
 
 3. **What problem does Photon Echo solve**
-   - Many real world scenarios are difficult, unsafe, or too expensive to capture at scale. Photon Echo provides simulation based tools that help teams explore variations, edge cases, and structured conditions that real environments cannot reliably offer.
+   - Real world data is incomplete, uncontrolled, and often too slow to collect. Photon Echo provides structured scenario coverage, controlled edge case simulation, and reproducible regression benchmarking to expand validation beyond field capture.
 
 4. **What types of data does Photon Echo produce**
-   - Photon Echo does not generate raw sensor streams such as vision, lidar, radar, or audio. Instead, it creates structured simulation based artifacts that describe environments, behaviors, interactions, and scenario conditions. These outputs are designed to be consistent and repeatable, enabling teams to explore variations and edge cases that are difficult or unsafe to capture in real world settings.
+   - Photon Echo does not generate raw sensor streams such as vision, lidar, radar, or audio. It produces structured synthetic datasets with scenario metadata, lineage tracking, and validation analytics that support repeatable evaluation workflows.
 
 5. **Who is Photon Echo built for**
-   - Photon Echo is designed for organizations developing or evaluating physical AI systems. This includes robotics companies, industrial automation and inspection teams, advanced manufacturing groups, defense autonomy programs, and research organizations working in embodied AI. The platform supports workflows that depend on high quality, structured simulation data.
+   - Photon Echo is designed for organizations developing or evaluating robotics perception systems. This includes robotics companies, industrial autonomy and inspection teams, advanced manufacturing groups, defense autonomy programs, and enterprise research organizations working in embodied AI.
 
 6. **What failure modes does Photon Echo address**
-   - Photon Echo focuses on failure modes that arise when real world data is incomplete, unsafe, expensive, or too rare to collect. These gaps can lead to unpredictable system behavior and limited test coverage. By providing controlled, simulation based scenarios, Photon Echo enables teams to examine and validate conditions that the real world cannot easily or safely provide.
+   - Photon Echo addresses gaps that arise when real world data is incomplete, unsafe, or too rare to collect. Controlled scenario libraries and regression benchmarks expose failure modes that field data cannot reliably provide.
 
 7. **How is Photon Echo's simulation approach different**
-   - Photon Echo emphasizes structured, behavior grounded simulation rather than visual rendering alone. The approach focuses on generating consistent, repeatable, and distribution aligned simulation artifacts that support high quality training and validation. The system is designed around the end to end workflow of creating and managing simulated data, allowing teams to explore variation and edge cases with clarity and control.
+   - Photon Echo emphasizes structured simulation artifacts, dataset governance, and regression benchmarking rather than visual rendering alone. The system is built around reproducible workflows that keep scenario coverage, outcomes, and model comparisons consistent over time.
 
 8. **Does Photon Echo replace real world data**
-   - No. Real world data remains essential, but it is often incomplete or limited. Photon Echo complements real data by generating controlled simulation based scenarios that improve coverage, reduce risk, and accelerate testing and validation.
+   - Photon Echo augments real world data by providing structured scenario coverage, controlled edge case simulation, and reproducible regression benchmarking. It does not replace field data collection but reduces dependency on uncontrolled data capture cycles.
 
 9. **Does Photon Echo use game engines**
-   - Photon Echo is not a game development tool and is not focused on entertainment style rendering. It emphasizes structured, behavior oriented simulation designed specifically for Physical AI workflows.
+   - Photon Echo is simulator agnostic and not a game development tool. It focuses on behavior grounded simulation that supports robotics perception validation workflows.
 
 10. **Is Photon Echo a software platform or a service**
-    - Photon Echo is currently in its foundational development stage. The long term direction is a platform that provides repeatable simulation workflows. Early offerings may include project based simulation work, scenario modeling, and validation support as the platform evolves.
+    - Photon Echo is a platform delivered through enterprise licensing and integration. Pilot engagements focus on scenario library deployment and validation benchmarking workflows.
 
 11. **Does Photon Echo support custom use cases**
-    - Photon Echo is designed to be adaptable to different physical AI applications. Custom use cases can be supported as long as they align with simulation based scenario modeling and structured environment generation.
+    - Custom domain environment extensions are available when they align with structured scenario libraries and validation requirements.
 
 12. **Can Photon Echo integrate with existing autonomy or robotics tools**
-    - Photon Echo's outputs are intended to complement existing development workflows. The system focuses on producing simulation based artifacts that can be incorporated into training, evaluation, or research pipelines. Specific integrations may depend on the tools or frameworks used.
+    - Photon Echo integrates with existing ML workflows by delivering structured datasets, benchmark results, and validation analytics in formats teams can incorporate into training and evaluation pipelines.
 
 13. **Is Photon Echo available for public use**
-    - Photon Echo is in early development and not yet widely available. Updates on availability, pilot programs, and partnership opportunities will be shared as the platform matures.
+    - Photon Echo is available through a selective enterprise pilot program and enterprise licensing roadmap.
 
 14. **How does Photon Echo handle proprietary customer data**
     - Photon Echo does not require raw proprietary sensor data to operate. If customer information is provided for scenario modeling or validation, it is handled confidentially and used only for the intended purpose.
 
 15. **Is Photon Echo available for collaboration or research partnerships**
-    - Photon Echo is open to partnerships with organizations working in Physical AI, robotics, autonomy research, and related fields. Collaboration opportunities may be available depending on project scope and alignment.
+    - Photon Echo engages in enterprise pilot integrations and infrastructure partnerships with robotics perception and industrial autonomy teams.
 
 **CTA Section**
 - Headline: "Still have questions?"
@@ -218,34 +217,34 @@
 ### 7. Contact
 **URL:** `/contact`  
 **Title:** Contact – Photon Echo  
-**Description:** Contact Photon Echo for Physical AI and synthetic data inquiries.
+**Description:** Contact Photon Echo about robotics perception validation infrastructure and enterprise pilot integrations.
 
 #### Content:
 
 **Hero Section**
 - Headline: "Contact Photon Echo"
-- Description: "If you are building perception models, robotics systems, or AI tools that need realistic training data, we can help."
+- Description: "If you are building perception models, robotics systems, or other physical AI tools that need realistic and controlled training data, reach out to discuss how simulation based data can support your work."
 
 **Get In Touch Section**
-- Description: "Ready to start your project? Send us your inquiry and we'll respond within one to two business days."
+- Description: "Tell us about your work and we will respond within one or two business days."
 - Email: info@photonecho.dev
 
 **Project Inquiry Form**
 - Form Title: "Project Inquiry Form"
-- Description: "Tell us about your perception models, robotics systems, or AI training data needs."
+- Description: "Tell us about your validation priorities, scenario coverage needs, and integration constraints."
 - Form Fields:
   - Name (required)
   - Email (required)
   - Service Category (dropdown):
-    - Digital Twin Development
-    - Physical AI Development
-    - Artificial Data Development
-    - Design Services
-    - Visualization Services
-    - Engineering & Industrial Design
-    - Government Contract Inquiry
-    - Multiple Services
-    - Strategic Consultation
+    - Scenario Library Development
+    - Synthetic Dataset Generation
+    - Validation Analytics
+    - Regression Benchmarking Systems
+    - Digital Twin Validation Extensions
+    - Simulator Agnostic Orchestration
+    - Enterprise Pilot Program
+    - Licensing & Procurement
+    - Multiple Modules
     - General Inquiry
   - Message (required)
 - Submit Button: "Start Your Project"
@@ -255,31 +254,31 @@
 ### 8. Mission
 **URL:** `/mission`  
 **Title:** Mission – Photon Echo  
-**Description:** We build virtual worlds and sensor simulations that generate synthetic data for physical AI and real world intelligence.
+**Description:** Mission and focus areas for structured simulation and validation infrastructure in robotics perception.
 
 #### Content:
 
 **Hero Section**
 - Headline: "Our Mission"
-- Subheadline: "Building synthetic data for real world intelligence"
+- Subheadline: "To build structured simulation and validation infrastructure that improves reliability and reproducibility in robotics perception systems."
 
 **Mission Statement Section**
-- **Why we exist:** "Collecting high quality real world data can be slow, costly, and limited by safety or privacy. Synthetic data provides scale and control without field risk."
-- **How we work:** "We combine design, visualization, and engineering with modern simulation tools. Every scene, sensor, and annotation is built for a clear learning objective."
+- **Why we exist:** "Robotics perception teams need reproducible validation coverage across environments that are difficult or unsafe to capture in the field. Structured simulation infrastructure supplies controlled scenarios, measurable variations, and repeatable benchmarks."
+- **How we work:** "Photon Echo builds simulator agnostic orchestration, scenario libraries, and dataset governance workflows tied to explicit evaluation objectives."
 - **Focus areas:**
-  - World building
-  - Sensor simulation
-  - Scenario authoring
-  - Dataset production
-  - Validation
+  - Scenario library development
+  - Structured synthetic dataset generation
+  - Regression benchmarking
+  - Perception validation analytics
+  - Simulator agnostic orchestration
 - **Values:**
   - Excellence in technical execution
-  - Innovation through collaboration
-  - Commitment to client success
+  - Collaboration with domain experts and partners
+  - Commitment to partner outcomes and long term reliability
 
 **Vision Section**
 - Headline: "Vision"
-- Description: "Better digital worlds create better real systems. That is the path we are building."
+- Description: "Reliable autonomy depends on reproducible validation infrastructure. Photon Echo builds the structured simulation systems that make perception evaluation consistent, scalable, and operationally useful."
 
 ---
 
@@ -743,7 +742,7 @@
 ## Internal Links Summary
 
 ### From Home Page:
-- `/early-access` (Request Early Access button)
+- `/early-access` (Request Pilot Access button)
 - `/contact` (View Demo button, Start Your Project button)
 
 ### From Header (all pages):
@@ -787,3 +786,4 @@
 ---
 
 *© 2026 Photon Echo. All rights reserved.*
+

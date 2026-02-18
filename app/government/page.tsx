@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Government & Defense | Photon Echo",
   description:
-    "Photon Digital LLC provides defense-focused 3D visualization, animation, and simulation services supporting government and defense programs.",
+    "Photon Digital LLC provides structured synthetic data and validation infrastructure supporting government and defense autonomy programs.",
 }
 
 export default function GovernmentPage() {
@@ -23,13 +23,13 @@ export default function GovernmentPage() {
               Photon Echo for government and defense programs
             </h1>
             <p className="text-base md:text-lg text-gray-300 max-w-3xl">
-              Photon Echo is a simulation and synthetic environment capability designed to support
-              research, development, and evaluation of physical and autonomous systems.
+              Photon Echo provides structured synthetic data and validation infrastructure for
+              robotics perception teams and autonomy operators in government programs.
             </p>
             <p className="text-base md:text-lg text-gray-300 max-w-3xl mt-4">
-              The platform focuses on modeling environments, behaviors, and interactions to produce
-              structured simulation artifacts and datasets that support perception, decision, and
-              control workflows without reliance on raw sensor streams.
+              The platform delivers scenario libraries, dataset governance, and regression
+              benchmarking workflows that enable reproducible evaluation without dependence on raw
+              sensor streams.
             </p>
           </div>
         </section>
@@ -78,26 +78,26 @@ export default function GovernmentPage() {
                 Core Capabilities
               </h2>
               <p className="text-gray-200 text-base md:text-lg">
-                Photon Echo is a simulation and synthetic environment capability designed to support
-                research, development, and evaluation of physical and autonomous systems. The
-                platform focuses on modeling environments, behaviors, and interactions to produce
-                structured simulation artifacts and datasets that support perception, decision, and
-                control workflows without reliance on raw sensor streams.
+                Photon Echo is a structured synthetic data and validation infrastructure provider for
+                robotics perception teams and industrial autonomy operators. The platform delivers
+                simulation driven scenario libraries, dataset lineage, and regression benchmarking to
+                support reproducible evaluation workflows.
               </p>
               <div className="mt-4">
                 <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-300 mb-2">
                   Capabilities include:
                 </h3>
                 <ul className="list-disc list-inside space-y-1 text-gray-200">
-                  <li>Synthetic environment generation for physical and autonomous systems</li>
-                  <li>Simulation of agent behavior, interactions, and environmental conditions</li>
-                  <li>Generation of structured simulation artifacts and datasets</li>
-                  <li>Support for perception, reasoning, and control system development</li>
-                  <li>Scenario based modeling for research and experimental evaluation</li>
+                  <li>Domain specific scenario library development for autonomy workflows</li>
+                  <li>Structured synthetic dataset generation with governance and lineage tracking</li>
+                  <li>Regression benchmarking across model versions and environment variations</li>
+                  <li>Perception validation analytics for controlled edge cases</li>
+                  <li>Simulator agnostic orchestration pipelines for enterprise teams</li>
                 </ul>
               </div>
               <p className="text-gray-200">
-                Photon Echo is intended for research, prototyping, and experimentation use cases.
+                Photon Echo is intended for enterprise validation workflows and long term operational
+                reliability.
               </p>
             </section>
 
@@ -127,13 +127,11 @@ export default function GovernmentPage() {
                 Differentiators
               </h2>
               <ul className="list-disc list-inside space-y-1 text-gray-200">
-                <li>
-                  Focus on structured simulation artifacts rather than raw sensor replication
-                </li>
-                <li>Designed to support early stage research and experimental workflows</li>
-                <li>Modular approach to environment, behavior, and interaction modeling</li>
-                <li>Supports iterative scenario development and evaluation</li>
-                <li>Aligned with SBIR, R&amp;D, and exploratory program needs</li>
+                <li>Structured simulation artifacts rather than raw sensor replication</li>
+                <li>Reproducible scenario based evaluation</li>
+                <li>Dataset governance and lineage tracking</li>
+                <li>Regression benchmarking infrastructure</li>
+                <li>Modular integration into existing ML workflows</li>
               </ul>
             </section>
 
@@ -146,16 +144,17 @@ export default function GovernmentPage() {
                 Development Status
               </h2>
               <p className="text-gray-200">
-                Photon Echo is under active development and is offered in support of:
+                Photon Echo is in platform build phase focused on enterprise validation
+                infrastructure for robotics and industrial autonomy systems.
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-200">
-                <li>Research and development engagements</li>
-                <li>SBIR Phase I and Phase II efforts</li>
-                <li>Pilot studies and proof of concept evaluations</li>
-                <li>Collaborative exploration with government and research partners</li>
+                <li>Scenario library deployment pilots</li>
+                <li>Validation infrastructure integration planning</li>
+                <li>Regression benchmarking workflow definition</li>
+                <li>Enterprise licensing and operational readiness</li>
               </ul>
               <p className="text-gray-200">
-                The capability is not marketed as a commercial off-the-shelf product.
+                The platform is delivered through enterprise licensing and integration agreements.
               </p>
             </section>
 

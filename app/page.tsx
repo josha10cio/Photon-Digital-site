@@ -7,8 +7,8 @@ import { ArrowRightIcon } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Photon Echo Physical AI and Synthetic Data",
-  description: "We build virtual worlds and simulated sensors that produce synthetic training data for physical AI systems.",
+  title: "Photon Echo Structured Synthetic Data Infrastructure",
+  description: "Structured synthetic data and validation infrastructure for robotics perception teams operating in industrial and autonomous domains.",
 }
 
 export default function HomePage() {
@@ -39,10 +39,10 @@ export default function HomePage() {
                 PHYSICAL AI INFRASTRUCTURE
               </p>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                Simulation & Synthetic Data for <span className="text-[#33bfff]">Physical AI</span>
+                Structured Synthetic Data and Validation Infrastructure for <span className="text-[#33bfff]">Robotics Perception</span>
               </h1>
               <p className="text-base md:text-lg lg:text-xl text-white mb-10 leading-relaxed max-w-xl">
-                Structured virtual environments and scenario-based data so autonomous technologies can be trained and evaluated safely, repeatably, and with better coverage than field collection alone.
+                Photon Echo builds simulation driven synthetic data systems, scenario libraries, and regression benchmarking infrastructure that allow robotics and autonomous systems teams to validate perception models with reproducibility and structured coverage.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/investors">
@@ -80,7 +80,7 @@ export default function HomePage() {
                 What Photon Echo does
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Photon Echo builds simulation systems that model environments, behaviors, and interactions for physical AI. These systems produce structured simulation artifacts and datasets that support perception, decision, and control workflows without requiring raw sensor streams.
+                Photon Echo provides: domain specific scenario libraries for industrial and autonomous environments, structured synthetic dataset generation with lineage tracking, regression benchmarking across model versions, perception validation analytics under controlled edge cases, and simulator agnostic orchestration pipelines.
               </p>
             </div>
 

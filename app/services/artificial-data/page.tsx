@@ -29,7 +29,7 @@ export default function ArtificialDataPage() {
                 Artificial data development
               </h1>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Artificial data development at Photon Echo is part of the simulation infrastructure for physical AI. It focuses on datasets that come from controlled virtual environments rather than synthetic records created from arbitrary tables. The goal is to supply structured scenario data that reflects how autonomous systems interact with the physical world.
+                Artificial data development at Photon Echo is a core infrastructure module. It supports scenario library development, synthetic dataset generation, validation analytics, regression benchmarking systems, and digital twin validation extensions for robotics perception workflows.
               </p>
             </div>
 
@@ -50,7 +50,7 @@ export default function ArtificialDataPage() {
                 What artificial data means in Photon Echo
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Artificial data in this context is information generated from simulation, shaped by real constraints and observations. Environments, behaviors, and events are designed to mirror selected real situations without exposing raw proprietary recordings. The emphasis is on structure, traceability, and the ability to rerun scenarios as needed.
+                Artificial data in this context is structured synthetic dataset generation shaped by real constraints and observations. Environments, behaviors, and events are designed to mirror selected conditions without exposing raw proprietary recordings, with lineage tracking and repeatable scenario execution.
               </p>
             </div>
 
@@ -80,19 +80,19 @@ export default function ArtificialDataPage() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircleIcon className="w-6 h-6 text-[#33bfff] mt-0.5 flex-shrink-0" />
-                  <span className="text-lg text-gray-600">providing structured scenario data when field collection is difficult or unsafe</span>
+                  <span className="text-lg text-gray-600">supporting scenario library development for industrial and autonomous environments</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircleIcon className="w-6 h-6 text-[#33bfff] mt-0.5 flex-shrink-0" />
-                  <span className="text-lg text-gray-600">letting teams study rare or extreme conditions on purpose</span>
+                  <span className="text-lg text-gray-600">delivering synthetic dataset generation with validation analytics and lineage control</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircleIcon className="w-6 h-6 text-[#33bfff] mt-0.5 flex-shrink-0" />
-                  <span className="text-lg text-gray-600">offering a consistent way to compare models under the same conditions</span>
+                  <span className="text-lg text-gray-600">enabling regression benchmarking systems across model versions and scenario variants</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircleIcon className="w-6 h-6 text-[#33bfff] mt-0.5 flex-shrink-0" />
-                  <span className="text-lg text-gray-600">creating a foundation that can be extended into digital twin style monitoring when needed</span>
+                  <span className="text-lg text-gray-600">providing digital twin validation extensions for monitoring and inspection workflows</span>
                 </li>
               </ul>
             </div>
@@ -110,7 +110,7 @@ export default function ArtificialDataPage() {
                 Place in the infrastructure roadmap
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Artificial data development is a core layer of the Photon Echo infrastructure. Phase I focuses on building the first end to end pipeline that can generate and validate this kind of data. Future phases will expand domains, refine behavior models, and deepen integration with existing autonomy and robotics tools.
+                Artificial data development is a core layer of the Photon Echo infrastructure. The platform build phase focuses on the first end to end pipeline that can generate and validate this data. Subsequent phases expand domains, refine behavior models, and deepen integration with existing autonomy and robotics tools.
               </p>
             </div>
 
@@ -148,7 +148,7 @@ export default function ArtificialDataPage() {
                   size="lg"
                   className="border-white/30 text-white hover:bg-white/10 px-8 py-6 text-base font-medium rounded-md"
                 >
-                  Learn more about Phase I
+                  Learn more about the platform build phase
                 </Button>
               </Link>
             </div>

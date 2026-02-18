@@ -7,55 +7,55 @@ import Link from "next/link"
 const faqItems = [
   {
     question: "What is Photon Echo?",
-    answer: "Photon Echo is a simulation and synthetic data company focused on enabling Physical AI. It develops systems that model environments, behaviors, and interactions so that autonomous technologies can be trained and evaluated safely and efficiently before deployment."
+    answer: "Photon Echo is a structured synthetic data and validation infrastructure company serving robotics perception teams and industrial autonomy operators. It builds simulation driven scenario libraries, dataset governance, and regression benchmarking workflows for reproducible evaluation."
   },
   {
     question: "What industry does Photon Echo focus on?",
-    answer: "Photon Echo works within the Physical AI and Embodied Autonomy space. The company develops simulation based systems that support robots and other autonomous technologies that need to perceive and interact with the physical world. These tools are designed for environments where high quality synthetic training data improves reliability, safety, and development speed."
+    answer: "Photon Echo focuses on robotics perception, industrial autonomy, advanced manufacturing, and autonomous inspection systems. The platform supports enterprise teams that need reproducible validation in physical environments."
   },
   {
     question: "What problem does Photon Echo solve?",
-    answer: "Many real world scenarios are difficult, unsafe, or too expensive to capture at scale. Photon Echo provides simulation based tools that help teams explore variations, edge cases, and structured conditions that real environments cannot reliably offer."
+    answer: "Real world data is incomplete, uncontrolled, and often too slow to collect. Photon Echo provides structured scenario coverage, controlled edge case simulation, and reproducible regression benchmarking to expand validation beyond field capture."
   },
   {
     question: "What types of data does Photon Echo produce?",
-    answer: "Photon Echo does not generate raw sensor streams such as vision, lidar, radar, or audio. Instead, it creates structured simulation based artifacts that describe environments, behaviors, interactions, and scenario conditions. These outputs are designed to be consistent and repeatable, enabling teams to explore variations and edge cases that are difficult or unsafe to capture in real world settings."
+    answer: "Photon Echo does not generate raw sensor streams such as vision, lidar, radar, or audio. It produces structured synthetic datasets with scenario metadata, lineage tracking, and validation analytics that support repeatable evaluation workflows."
   },
   {
     question: "Who is Photon Echo built for?",
-    answer: "Photon Echo is designed for organizations developing or evaluating physical AI systems. This includes robotics companies, industrial automation and inspection teams, advanced manufacturing groups, defense autonomy programs, and research organizations working in embodied AI. The platform supports workflows that depend on high quality, structured simulation data."
+    answer: "Photon Echo is designed for organizations developing or evaluating robotics perception systems. This includes robotics companies, industrial autonomy and inspection teams, advanced manufacturing groups, defense autonomy programs, and enterprise research organizations working in embodied AI."
   },
   {
     question: "What failure modes does Photon Echo address?",
-    answer: "Photon Echo focuses on failure modes that arise when real world data is incomplete, unsafe, expensive, or too rare to collect. These gaps can lead to unpredictable system behavior and limited test coverage. By providing controlled, simulation based scenarios, Photon Echo enables teams to examine and validate conditions that the real world cannot easily or safely provide."
+    answer: "Photon Echo addresses gaps that arise when real world data is incomplete, unsafe, or too rare to collect. Controlled scenario libraries and regression benchmarks expose failure modes that field data cannot reliably provide."
   },
   {
     question: "How is Photon Echo's simulation approach different?",
-    answer: "Photon Echo emphasizes structured, behavior grounded simulation rather than visual rendering alone. The approach focuses on generating consistent, repeatable, and distribution aligned simulation artifacts that support high quality training and validation. The system is designed around the end to end workflow of creating and managing simulated data, allowing teams to explore variation and edge cases with clarity and control."
+    answer: "Photon Echo emphasizes structured simulation artifacts, dataset governance, and regression benchmarking rather than visual rendering alone. The system is built around reproducible workflows that keep scenario coverage, outcomes, and model comparisons consistent over time."
   },
   {
-    question: "Does Photon Echo replace real world data?",
-    answer: "No. Real world data remains essential, but it is often incomplete or limited. Photon Echo complements real data by generating controlled simulation based scenarios that improve coverage, reduce risk, and accelerate testing and validation."
+    question: "Does Photon Echo replace real world data",
+    answer: "Photon Echo augments real world data by providing structured scenario coverage, controlled edge case simulation, and reproducible regression benchmarking. It does not replace field data collection but reduces dependency on uncontrolled data capture cycles."
   },
   {
     question: "Does Photon Echo use game engines?",
-    answer: "Photon Echo is not a game development tool and is not focused on entertainment style rendering. It emphasizes structured, behavior oriented simulation designed specifically for Physical AI workflows."
+    answer: "Photon Echo is simulator agnostic and not a game development tool. It focuses on behavior grounded simulation that supports robotics perception validation workflows."
   },
   {
     question: "Is Photon Echo a software platform or a service?",
-    answer: "Photon Echo is currently in its foundational development stage. The long term direction is a platform that provides repeatable simulation workflows. Early offerings may include project based simulation work, scenario modeling, and validation support as the platform evolves."
+    answer: "Photon Echo is a platform delivered through enterprise licensing and integration. Pilot engagements focus on scenario library deployment and validation benchmarking workflows."
   },
   {
     question: "Does Photon Echo support custom use cases?",
-    answer: "Photon Echo is designed to be adaptable to different physical AI applications. Custom use cases can be supported as long as they align with simulation based scenario modeling and structured environment generation."
+    answer: "Custom domain environment extensions are available when they align with structured scenario libraries and validation requirements."
   },
   {
     question: "Can Photon Echo integrate with existing autonomy or robotics tools?",
-    answer: "Photon Echo's outputs are intended to complement existing development workflows. The system focuses on producing simulation based artifacts that can be incorporated into training, evaluation, or research pipelines. Specific integrations may depend on the tools or frameworks used."
+    answer: "Photon Echo integrates with existing ML workflows by delivering structured datasets, benchmark results, and validation analytics in formats teams can incorporate into training and evaluation pipelines."
   },
   {
     question: "Is Photon Echo available for public use?",
-    answer: "Photon Echo is in early development and not yet widely available. Updates on availability, pilot programs, and partnership opportunities will be shared as the platform matures."
+    answer: "Photon Echo is available through a selective enterprise pilot program and enterprise licensing roadmap."
   },
   {
     question: "How does Photon Echo handle proprietary customer data?",
@@ -63,7 +63,7 @@ const faqItems = [
   },
   {
     question: "Is Photon Echo available for collaboration or research partnerships?",
-    answer: "Photon Echo is open to partnerships with organizations working in Physical AI, robotics, autonomy research, and related fields. Collaboration opportunities may be available depending on project scope and alignment."
+    answer: "Photon Echo engages in enterprise pilot integrations and infrastructure partnerships with robotics perception and industrial autonomy teams."
   }
 ]
 

@@ -4,8 +4,8 @@ import { ArrowRightIcon } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Phase I – Photon Echo",
-  description: "Phase I is the first demonstration of the Photon Echo simulation based data pipeline for physical AI.",
+  title: "Platform Build Phase – Photon Echo",
+  description: "The platform build phase is the first demonstration of the Photon Echo simulation based data pipeline for robotics perception.",
 }
 
 export default function PhaseIPage() {
@@ -32,27 +32,27 @@ export default function PhaseIPage() {
             {/* Black opaque box with rounded corners */}
             <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 md:p-10 lg:p-12">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8">
-                Phase I
+                Platform Build Phase
               </h1>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Phase I is a prototype of the Photon Echo simulation workflow. It connects environment construction, behavior modeling, dynamics, sensor level signal synthesis, scenario variation, labeling, and validation into one end to end pipeline for physical AI.
+                The platform build phase is the first demonstration of the Photon Echo simulation workflow. It connects environment construction, behavior modeling, dynamics, sensor level signal synthesis, scenario variation, labeling, and validation into one end to end pipeline for robotics perception.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section 1: Scope of Phase I */}
+      {/* Section 1: Scope of the platform build phase */}
       <section className="w-full py-16 md:py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="grid gap-12 lg:grid-cols-2 items-start max-w-6xl mx-auto">
             {/* Left Column - Text Content */}
             <div className="text-left">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
-                Scope of Phase I
+                Scope of the platform build phase
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Phase I focuses on a narrow but complete slice of the overall system.
+                The platform build phase focuses on a narrow but complete slice of the overall system.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">It includes</p>
               <ul className="text-lg text-gray-600 leading-relaxed space-y-3 list-disc pl-6">
@@ -106,7 +106,7 @@ export default function PhaseIPage() {
                 What partners can expect
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Partners in Phase I will see how simulation and structured artifacts move through the workflow from initial scene design to labeled data that is ready for training or evaluation. The emphasis is on clarity, traceability, and repeatable structure that can be scaled in later phases.
+                Partners in the platform build phase will see how simulation and structured artifacts move through the workflow from initial scene design to labeled data that is ready for training or evaluation. The emphasis is on clarity, traceability, and repeatable structure that can be scaled in later phases.
               </p>
             </div>
 
@@ -117,7 +117,7 @@ export default function PhaseIPage() {
         </div>
       </section>
 
-      {/* Section 4: Path Beyond Phase I */}
+      {/* Section 4: Path beyond the platform build phase */}
       <section className="w-full py-16 md:py-24 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
@@ -128,10 +128,10 @@ export default function PhaseIPage() {
             {/* Right Column - Text Content */}
             <div className="text-left order-1 lg:order-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
-                Path beyond Phase I
+                Path beyond the platform build phase
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Findings from Phase I will guide follow on work, including expanded domains, richer behavior models, and deeper integration into existing robotics and autonomy pipelines. The long term direction is a platform that provides repeatable simulation workflows and structured outputs, and Phase I is the foundation that proves the core ideas.
+                Findings from the platform build phase will guide follow on work, including expanded domains, richer behavior models, and deeper integration into existing robotics and autonomy pipelines. The long term direction is a platform that provides repeatable simulation workflows and structured outputs, and the platform build phase establishes the core infrastructure.
               </p>
             </div>
           </div>
@@ -143,10 +143,10 @@ export default function PhaseIPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
-              Explore Phase I
+              Explore the platform build phase
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              Learn more about how Phase I demonstrates the Photon Echo simulation workflow and how your organization can participate.
+              Learn more about how the platform build phase demonstrates the Photon Echo simulation workflow and how your organization can participate.
             </p>
             <Link href="/contact">
               <Button 
@@ -154,7 +154,7 @@ export default function PhaseIPage() {
                 size="lg"
                 className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
               >
-                Discuss Phase I collaboration
+                Discuss platform build collaboration
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
               </Button>
             </Link>
@@ -164,3 +164,6 @@ export default function PhaseIPage() {
     </div>
   )
 }
+
+
+

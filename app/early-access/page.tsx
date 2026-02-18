@@ -4,8 +4,8 @@ import { ArrowRightIcon } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Early Access – Photon Echo",
-  description: "Request a conversation about early pilots and collaboration around Photon Echo simulation and synthetic data systems.",
+  title: "Enterprise Pilot Program – Photon Echo",
+  description: "Request a conversation about the Photon Echo enterprise pilot program and validation infrastructure integration.",
 }
 
 export default function EarlyAccessPage() {
@@ -26,10 +26,10 @@ export default function EarlyAccessPage() {
             {/* Left Column - Text Content */}
             <div className="text-left">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8">
-                Early access
+                Enterprise Pilot Program
               </h1>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Photon Echo is opening a limited early access window for teams that want to explore pilots, scenario modeling, and validation work while Phase I is in progress. Early access is about collaboration that helps shape the infrastructure, not self service access to a finished product.
+                Photon Echo engages selected robotics and industrial autonomy teams in structured pilot integrations focused on scenario library deployment and validation benchmarking workflows.
               </p>
             </div>
 
@@ -47,13 +47,13 @@ export default function EarlyAccessPage() {
             {/* Left Column - Text Content */}
             <div className="text-left">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
-                What early access means
+                What the pilot program includes
               </h2>
               <ul className="text-lg text-gray-600 leading-relaxed space-y-4 list-disc pl-6">
-                <li>Review your physical AI goals and constraints</li>
-                <li>Identify a domain and set of scenarios where simulation based data could add value</li>
-                <li>Define a focused pilot scope that fits Phase I capabilities</li>
-                <li>Agree on what success would look like for both teams</li>
+                <li>Review your robotics perception goals and constraints</li>
+                <li>Identify a domain and scenario set where structured simulation adds value</li>
+                <li>Define a focused pilot scope aligned to platform build phase capabilities</li>
+                <li>Agree on measurable validation outcomes and success criteria</li>
               </ul>
             </div>
 
@@ -75,13 +75,13 @@ export default function EarlyAccessPage() {
             {/* Right Column - Text Content */}
             <div className="text-left order-1 lg:order-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-6">
-                Who early access is for
+                Who the pilot program is for
               </h2>
               <ul className="text-lg text-gray-600 leading-relaxed space-y-4 list-disc pl-6">
-                <li>Robotics and autonomy teams with active development programs</li>
-                <li>Industrial or manufacturing groups exploring new data workflows</li>
-                <li>Defense or government programs investigating simulation based validation</li>
-                <li>Research groups in embodied AI that want to test ideas with structured scenario data</li>
+                <li>Robotics perception teams with active validation roadmaps</li>
+                <li>Industrial autonomy groups deploying inspection or monitoring systems</li>
+                <li>Defense autonomy programs evaluating scenario based validation</li>
+                <li>Enterprise research teams operating reproducible evaluation pipelines</li>
               </ul>
             </div>
           </div>
@@ -93,10 +93,10 @@ export default function EarlyAccessPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-6">
-              Join early access
+              Join the pilot program
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              Tell us about your physical AI work and how simulation based data might fit your workflow. We can explore whether an early access collaboration makes sense.
+              Tell us about your validation priorities and how structured simulation might fit your workflow. We can determine whether an enterprise pilot integration is a fit.
             </p>
             <Link href="/contact">
               <Button 
@@ -104,7 +104,7 @@ export default function EarlyAccessPage() {
                 size="lg"
                 className="bg-[#33bfff] hover:bg-[#2aa3d9] text-white px-8 py-6 text-base font-medium rounded-md"
               >
-                Request early access
+                Request pilot access
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
               </Button>
             </Link>
@@ -114,3 +114,4 @@ export default function EarlyAccessPage() {
     </div>
   )
 }
+

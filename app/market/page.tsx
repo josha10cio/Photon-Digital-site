@@ -29,7 +29,7 @@ export default function MarketPage() {
                 Market
               </h1>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Physical AI is moving from research into deployed systems. Teams need reliable ways to explore complex environments, rare events, and safety critical edge cases before those systems touch the real world. Simulation driven synthetic data is becoming a central part of that stack.
+                The transition from experimental robotics to deployed autonomy requires reproducible validation systems. Photon Echo provides structured simulation infrastructure to support that transition. Teams need reliable ways to explore complex environments, rare events, and safety critical edge cases before systems touch the real world.
               </p>
             </div>
 
@@ -50,7 +50,7 @@ export default function MarketPage() {
                 Where Photon Echo fits
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Photon Echo sits at the intersection of simulation, structured data generation, and physical AI workflows. It concentrates on environments where machines see, move, and act in physical space instead of generating generic synthetic data across every domain.
+                Photon Echo sits at the intersection of simulation, structured data generation, and robotics perception workflows. It concentrates on industrial autonomy and autonomous inspection environments instead of producing generic synthetic data across every domain.
               </p>
             </div>
 
@@ -75,11 +75,11 @@ export default function MarketPage() {
                 Segments we focus on
               </h2>
               <ul className="text-lg text-gray-600 leading-relaxed space-y-4 list-disc pl-6">
-                <li>Robotics and autonomous platforms that operate in structured or semi structured environments</li>
-                <li>Industrial automation and inspection systems that monitor equipment and processes</li>
-                <li>Advanced manufacturing teams that want to test quality and safety in controlled scenarios</li>
-                <li>Defense and security programs working on autonomy, logistics, and sensing in complex environments</li>
-                <li>Research groups in embodied AI that need controlled, repeatable scenario data</li>
+                <li>Robotics perception teams operating in structured or semi structured environments</li>
+                <li>Industrial autonomy systems for facilities, logistics, and inspection</li>
+                <li>Advanced manufacturing programs that require controlled validation coverage</li>
+                <li>Autonomous inspection systems for infrastructure and industrial assets</li>
+                <li>Defense autonomy systems operating in complex environments</li>
               </ul>
             </div>
           </div>

@@ -20,10 +20,10 @@ export function Header() {
   }, [])
 
   const navLinks = [
-    { href: "/phase-i", label: "Phase I" },
+    { href: "/phase-i", label: "Platform Build" },
     { href: "/market", label: "Market" },
     { href: "/investors", label: "Investors" },
-    { href: "/early-access", label: "Early Access" },
+    { href: "/early-access", label: "Enterprise Pilot" },
     { href: "/faq", label: "FAQ" },
     { href: "/contact", label: "Contact" },
   ]

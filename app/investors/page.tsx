@@ -6,10 +6,10 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Investors – Photon Echo",
-  description: "Overview for investors and partners interested in Photon Echo and its simulation driven data systems for physical AI.",
+  description: "Overview for investors and partners interested in Photon Echo and its structured synthetic data and validation infrastructure.",
   openGraph: {
     title: "Investors – Photon Echo",
-    description: "Overview for investors and partners interested in Photon Echo and its simulation driven data systems for physical AI.",
+    description: "Overview for investors and partners interested in Photon Echo and its structured synthetic data and validation infrastructure.",
     url: "https://www.photonecho.dev/investors",
     siteName: "Photon Echo",
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Investors – Photon Echo",
-    description: "Overview for investors and partners interested in Photon Echo and its simulation driven data systems for physical AI.",
+    description: "Overview for investors and partners interested in Photon Echo and its structured synthetic data and validation infrastructure.",
     images: ["/echo_Update_Logo_Dark-Grey.png"]
   }
 }
@@ -49,10 +49,10 @@ export default function InvestorsPage() {
             {/* Left Column - Text Content */}
             <div className="text-left">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl leading-tight mb-8">
-                Invest in the future of physical AI
+                Invest in robotics perception infrastructure
               </h1>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-10">
-                Photon Echo is building simulation and synthetic data systems for physical AI and embodied autonomy. These systems focus on structured simulation artifacts and repeatable workflows so teams can explore the environments, interactions, and failure modes that matter most before real world deployment. Photon Echo is engaging with strategic partners who understand the role of simulation in scaling intelligent physical systems.
+                Photon Echo is building structured synthetic data and validation infrastructure for robotics perception teams operating in industrial and autonomous domains. The platform enables reproducible model evaluation, regression benchmarking, and scenario driven coverage expansion beyond real world data constraints.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact">
@@ -156,28 +156,28 @@ export default function InvestorsPage() {
               {/* Left Column - Text Content */}
               <div className="text-left">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-8">
-                  Our roadmap
+                  Revenue model
                 </h2>
                 
                 <div className="space-y-8">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Current work</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Enterprise licensing model</h3>
                     <p className="text-lg text-gray-600 leading-relaxed">
-                      Build internal simulation workflows and data generation environments for selected domains and produce early demonstration datasets that show structure and fidelity.
+                      Photon Echo operates under an enterprise licensing model providing: Scenario library subscriptions, Validation infrastructure integration, Benchmarking analytics modules, Custom domain environment extensions.
                     </p>
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Next steps</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Deployment scope</h3>
                     <p className="text-lg text-gray-600 leading-relaxed">
-                      Form technical collaborations with robotics and industrial teams that are exploring physical AI data pipelines. Refine world building, behavior models, and labeling standards together with real use cases.
+                      Licenses cover integration into existing ML workflows, dataset governance requirements, and validation benchmarking needs across operational environments.
                     </p>
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Future direction</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Expansion path</h3>
                     <p className="text-lg text-gray-600 leading-relaxed">
-                      Evolve these capabilities into a platform for structured simulation data and digital twin testing, with repeatable pipelines that can support many projects and partners.
+                      Modules expand as scenario libraries and validation coverage grow across new domains, facilities, and autonomy programs.
                     </p>
                   </div>
                 </div>

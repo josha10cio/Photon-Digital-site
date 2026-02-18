@@ -108,7 +108,7 @@ What is Physical AI? (copy):
 
 Technologies (cards): Computer Vision; Robotics Integration; Sensor Fusion; Decision Making; Edge Computing; Motion Planning — with descriptive copy per card (as on site).
 
-Applications (examples): Autonomous Vehicles; Industrial Automation; Security & Surveillance; Service Robotics — with descriptive copy per card.
+Applications (examples): Autonomous Vehicles; Industrial Automation; Safety & Monitoring; Service Robotics — with descriptive copy per card.
 
 Benefits (highlights): Real Time Intelligence; Enhanced Efficiency; Improved Safety; Adaptive Systems — with one‑line descriptions per item.
 
